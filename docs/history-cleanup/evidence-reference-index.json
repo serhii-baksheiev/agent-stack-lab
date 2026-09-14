@@ -1,0 +1,178 @@
+{
+  "at": "2026-09-14T12:50:47.808Z",
+  "branch": "spike/e-memory",
+  "filteredSourceSha": "57d2cd62be4a479cae724e0c96f67f9b8b48f4cd",
+  "normalization": "Commit references including scenarioSha and URLs are translated to cleaned identities. Original source execution timestamps/results remain historical, not reruns. Original bytes remain only in retained private local backup. Do not attribute pre-cleanup workflow runs to rewritten SHA.",
+  "files": [
+    {
+      "path": "spikes/e-memory/evidence/basic-setup/provenance.json",
+      "beforeSha256": "7c4627032f50ae89e7e82a544d32c339e752d32b3de44939b9d7e75e6b5f32a1",
+      "afterSha256": "d209d8bd733f43a935977ea7e39019119b23291c88af614879a49682e5afcf7e",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/basic-upgrade/provenance.json",
+      "beforeSha256": "baa1463653a1855b453a434500313a5516a16c92bb6725a7730841c7d95f57db",
+      "afterSha256": "9d117c5c51e3b1daa593cc04a1efb197de5c6a93818b36a14f3bf965b9de5a9d",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/basic/result.json",
+      "beforeSha256": "eee263bb939291e1450ab913b564c77fc25346727a95c182e427ee33c0eeb758",
+      "afterSha256": "aa2ad434c42b8351f58dd566928f304d63cb1cc3f1b0c420da42339919e40ecf",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/diagnostics/first-basic-preliminary.json",
+      "beforeSha256": "c860162194975f710f7b2507e30918e493332a7dd1836758ae0655f1f2772088",
+      "afterSha256": "f587ef2c8d9d4fbaf9a7d9aa41281daf31d1ea15f409b7cf8236ca866be78c7b",
+      "mappedCommits": [
+        {
+          "old": "be6b3354553d4c3ccf3098605128bf109dae0653",
+          "new": "078172639293ee219755056e6885fb1195aae1d4"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/diagnostics/first-hosted-run.json",
+      "beforeSha256": "817bc704f99ebba683040093fb543965a478d75b6c7fc428772cabedceb82cb3",
+      "afterSha256": "f20e248b3aa96bd12ca25d5459ea0dc26e04be1f2f48abdd4f0b3fdcd61845ad",
+      "mappedCommits": [
+        {
+          "old": "be6b3354553d4c3ccf3098605128bf109dae0653",
+          "new": "078172639293ee219755056e6885fb1195aae1d4"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/diagnostics/run-history.json",
+      "beforeSha256": "fe53653e32348540feb78b311ac86b24ea831cfe52e3ef82ebbe10e531bd91d7",
+      "afterSha256": "fea53488c39896df8836af77969efa22a373252a6bdf913610d0f1a142df2590",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        },
+        {
+          "old": "9966ddd1b1365a357f17fa072a411162eb1d25cd",
+          "new": "b16cf9d38372ad09ca9f318887c045eae5d44fc2"
+        },
+        {
+          "old": "be6b3354553d4c3ccf3098605128bf109dae0653",
+          "new": "078172639293ee219755056e6885fb1195aae1d4"
+        },
+        {
+          "old": "c47b7ab51232d853322e7785ec2b848675a5e160",
+          "new": "4005730f3a3aed9073102cf991b5829501bd20be"
+        },
+        {
+          "old": "d43646a3d9d6fff8bc32fd64cdc15008dd1b3991",
+          "new": "0321797cd5790822033dc0ac0774291e02568eab"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/native-wiring/provenance.json",
+      "beforeSha256": "23e2a726f0255ad38169eb7e4f182e48456ed03012b60c62b82cb4effa1bc79e",
+      "afterSha256": "d81b716382aae5605adef2ce7de5d691a554beeeee7313a3383aff7b9a93c4a6",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/reference/provenance.json",
+      "beforeSha256": "b3fa721d6871a74c353a156cbec48e23c0ee318109b47acde490b5cc9fc37cc2",
+      "afterSha256": "2217007d603be2a3ac49042415ea1d89b66bbe30c3b42823891ada412febcda3",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/reference/windows-local/provenance.json",
+      "beforeSha256": "bfdf49e1899b751357184e67d375c66350553e344d7856d0efbe68f0afe78660",
+      "afterSha256": "1a2e069dffd7c41c4d47ccbdf42d857bfa05b81bd008188284a7de64dc8d78e2",
+      "mappedCommits": [
+        {
+          "old": "610c860dc05b7407e0fa8b67a820e8b0275955e8",
+          "new": "043104768b96bc0f9e41a7f093ace0f1b03b2a50"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/windows-basic-discovery/result.json",
+      "beforeSha256": "814e93cd4b6b3e45ea2a7c32321c85b7dfc0362e88f6156751c52d8bb317e690",
+      "afterSha256": "7256d363daeb41cbfaa12e69c5594f235c5679bc0248de805b67c1b3c28df230",
+      "mappedCommits": [
+        {
+          "old": "610c860dc05b7407e0fa8b67a820e8b0275955e8",
+          "new": "043104768b96bc0f9e41a7f093ace0f1b03b2a50"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/windows-basic-setup/provenance.json",
+      "beforeSha256": "75b78ba5d2770d8b99c9636358ebd3bf25248d2f09e72cf0ca6c87be63a2e735",
+      "afterSha256": "40f369f6fbac7c8159066f87cdade64fb9c65fb60d92ea5a3325a64657af7fba",
+      "mappedCommits": [
+        {
+          "old": "610c860dc05b7407e0fa8b67a820e8b0275955e8",
+          "new": "043104768b96bc0f9e41a7f093ace0f1b03b2a50"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/measurements.json",
+      "beforeSha256": "f24fff54729d9a65429e30d97f6190bb2d201e68b333b2bb55b7c7bbdd633e5c",
+      "afterSha256": "e4c4a078a96c0a67f4e3370fff818d23287cae93d4cedc41171223f3a0773925",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/report.md",
+      "beforeSha256": "99b872a24ae38df0dcf1cb33e700a4c617005ca2a02faa1247a96c4602c15990",
+      "afterSha256": "26c7efcceeca8cd9834b2e43c4c936bf8604a3e219208c509ece6dc03ca30ae1",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/review.md",
+      "beforeSha256": "33c0d7b2d435a3a804c4440c0adeaeafaaf8d10d492b31de42b7431bbe88cb51",
+      "afterSha256": "6edeb65b1653f0883c9701d7b28fca5a4cc4ec429a3afa2711f2aee2b5d3fb17",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    }
+  ]
+}

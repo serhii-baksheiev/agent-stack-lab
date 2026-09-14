@@ -42,5 +42,5 @@
   "platform": "linux",
   "scriptSha256": "44d206aea67f48030710c30c738b6a9474fba3a32ce486ef3ace3653686000ec",
   "serverSourceSha256": "e6a04d5457d2d7d3a8ba33bc8da891b212358dfe2f43548a5afec4ff259c4729",
-  "scenarioSha": "79c251fb55d0fdded2ee2307dfe0856dbfe08870"
+  "scenarioSha": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
 }

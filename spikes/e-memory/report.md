@@ -1,3 +1,5 @@
+> History cleanup: SHA references below use cleaned identities. Pre-cleanup workflow links and measurements are historical evidence, **not exact-head evidence** of the rewritten tree. See [provenance and reference index](../../docs/history-cleanup/README.md).
+
 # Spike E: local and shared memory
 
 ## Hypothesis
@@ -36,7 +38,7 @@ Reference graph tests use actual nine-tool MCP CRUD/search, repeated entity crea
 
 ## Measurements
 
-Canonical run [34839170081](https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34839170081), commit `79c251fb55d0fdded2ee2307dfe0856dbfe08870`: **153 passed / 16 failed / 14 unverified**, 221 complete command records and 34 validated snapshots. See [result.json](result.json), [measurements.json](measurements.json) and raw results. Basic's tiny literal alpha corpus and the reference server's four substring queries are not semantic retrieval or model-token benchmarks. Record response bytes rather than invented context-token savings.
+Canonical run [34839170081](https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34839170081), commit `bc7112c4c0d54bfa8596d052f7017ae1d521310a`: **153 passed / 16 failed / 14 unverified**, 221 complete command records and 34 validated snapshots. See [result.json](result.json), [measurements.json](measurements.json) and raw results. Basic's tiny literal alpha corpus and the reference server's four substring queries are not semantic retrieval or model-token benchmarks. Record response bytes rather than invented context-token savings.
 
 Basic stress accepted **12 of 16 appends** across eight rounds. Four requests returned structured `error` values about repeated content changes during indexing, despite outer `isError: false`; clients must inspect structured errors. All 12 acknowledged markers remained visible, both readers agreed, all 16 distinct-note controls passed and no projection check timed out. This supports explicit error handling, not blind retry or guaranteed concurrent success; retry idempotency was not established. The reference hosted trial acknowledged **96 writes and lost 39** (9/10/10/10 over four rounds), without reported write errors. Raw names and responses support this count. Its source performs read-modify-replace without a transaction lock across independent processes.
 

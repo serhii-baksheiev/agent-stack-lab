@@ -1,6 +1,6 @@
 {
   "run": "https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34836725034",
-  "commit": "be6b3354553d4c3ccf3098605128bf109dae0653",
+  "commit": "078172639293ee219755056e6885fb1195aae1d4",
   "outcome": "Basic domain collector completed; upgrade collector failed with ENOENT before uninstall; later reference/wiring steps skipped.",
   "classification": "Collector assumed slug filename notes/pinned-upgrade.md, while upstream returned actual file_path notes/Pinned upgrade.md. New collector uses returned path with containment assertion.",
   "relatedHardening": "Independent review tightened response validation, paired isolation with successful same-session reads, classified SQLite corruption, and required subprocess exit before copying database backup.",

@@ -28,7 +28,7 @@
   },
   "platform": "linux",
   "node": "v24.20.0",
-  "scenarioSha": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+  "scenarioSha": "bc7112c4c0d54bfa8596d052f7017ae1d521310a",
   "scriptSha256": "25899111c7770855e2596b4690fa116699c35d972f202612b89373f0a8d15ba4",
   "claimBoundary": "Native MCP registration metadata plus separate direct stdio liveness; no model recall or automatic harness discovery claim."
 }

@@ -1,3 +1,5 @@
+> History cleanup: SHA references below use cleaned identities. Pre-cleanup workflow links and measurements are historical evidence, **not exact-head evidence** of the rewritten tree. See [provenance and reference index](../../docs/history-cleanup/README.md).
+
 # Independent E review
 
 Root reciprocal review: read the delegated reference server collector, native wiring collector and async-aware stress collector and compared canonical raw tool responses/results. Verified explicit package prefixes, isolated native profiles, actual same-process storage races, acknowledgement-based loss counts, exact native note paths, bounded projection/read distinctions and all four Rig order results. Native sentinel responses contain actual successful content; weaker string predicates are not being accepted over error responses. No unresolved finding blocks this bounded evidence report. Native model invocation, durable race freedom and automatic retry safety are not established.
@@ -20,7 +22,7 @@ The report correctly limits uninstall evidence to tested Markdown bytes plus lat
 
 ## Canonical evidence review
 
-Reviewed imported run [34839170081](https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34839170081), scenario `79c251fb55d0fdded2ee2307dfe0856dbfe08870`. Executed `node scripts/validate-e-evidence.mjs`: 221 complete command records, 34 consistent snapshots, collector/probe hashes and ledger counts pass. Final aggregate is **153 passed / 16 failed / 14 unverified**. The report preserves negative and unverified outcomes rather than treating a green collector run as universal feature success.
+Reviewed imported run [34839170081](https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34839170081), scenario `bc7112c4c0d54bfa8596d052f7017ae1d521310a`. Executed `node scripts/validate-e-evidence.mjs`: 221 complete command records, 34 consistent snapshots, collector/probe hashes and ledger counts pass. Final aggregate is **153 passed / 16 failed / 14 unverified**. The report preserves negative and unverified outcomes rather than treating a green collector run as universal feature success.
 
 Basic stress accepted 12/16 appends; four responses had structured indexing errors despite outer `isError: false`. No acknowledged marker was absent at the final bounded reads, no reader disagreement or projection timeout occurred, and all distinct-note controls passed. This supports the report's requirement to inspect structured errors and its refusal to claim race freedom or safe blind retries. The reference's per-round acknowledged/persisted name sets support 39 absent writes out of 96 acknowledgements (9/10/10/10); Windows observations are kept separate. Review of these own-collector outputs is a consistency check; root independently reviewed those collectors and outputs.
 
