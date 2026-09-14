@@ -80,6 +80,12 @@ function request(method, params) {
     child.stdin.write(`${JSON.stringify({ id, method, params })}\n`);
   });
 }
+async function skillsList() {
+  // Windows Known Folder lookup can ignore child HOME/USERPROFILE overrides.
+  // Do not enumerate OS-profile skills; Linux hosted runs provide loader evidence.
+  if (process.platform === 'win32') return { data: [], unverified: 'Windows OS-profile discovery bypasses child home isolation; skills/list deliberately not called' };
+  return request('skills/list', { cwds: [fixture], forceReload: true });
+}
 async function completed(importId) {
   const deadline = Date.now() + 45000;
   while (Date.now() < deadline) {
@@ -131,7 +137,7 @@ try {
   result.initialize = await request('initialize', { clientInfo: { name: 'agent-stack-lab', version: '0.1.0' }, capabilities: { experimentalApi: true } });
   child.stdin.write(`${JSON.stringify({ method: 'initialized' })}\n`);
   if (inspect) {
-    result.skills = await request('skills/list', { cwds: [fixture], forceReload: true });
+    result.skills = await skillsList();
     result.hooks = await request('hooks/list', { cwds: [fixture] });
   } else {
   const detect = () => request('externalAgentConfig/detect', { includeHome: false, cwds: [fixture], maxSessions: 0, migrationSource: 'claude' });
@@ -153,7 +159,7 @@ try {
   }
   const second = await importItems('repeatImport');
   result.observations.repeatIdempotent = JSON.stringify(first) === JSON.stringify(second);
-  result.skills = await request('skills/list', { cwds: [fixture], forceReload: true });
+  result.skills = await skillsList();
   result.hooks = await request('hooks/list', { cwds: [fixture] });
   const prior = new Set(before.map(f => f.path));
   const generated = first.filter(f => !prior.has(f.path));
