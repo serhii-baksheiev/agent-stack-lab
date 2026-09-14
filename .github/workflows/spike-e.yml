@@ -25,6 +25,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - uses: actions/cache@v4
+        with:
+          path: .lab-runs/e-basic-tools/uv-cache
+          key: ${{ runner.os }}-uv0125-basic0232-0231-v1
       - name: Prepare isolated installer and native CLIs
         run: |
           mkdir -p .lab-runs/e-bootstrap .lab-runs/f-tools
@@ -36,6 +40,7 @@ jobs:
           npm ci --prefix "$PWD/.lab-runs/f-tools" --no-audit --no-fund
       - run: node scripts/spike-e-prepare-basic.mjs
       - run: node scripts/spike-e-basic.mjs
+      - run: node scripts/spike-e-basic-concurrency.mjs
       - run: node scripts/spike-e-basic-upgrade.mjs
       - run: node scripts/spike-e-reference-memory.mjs
       - run: node scripts/spike-e-native-wiring.mjs
