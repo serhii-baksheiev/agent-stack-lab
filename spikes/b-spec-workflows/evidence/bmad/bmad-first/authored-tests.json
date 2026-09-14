@@ -1,0 +1,13 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-bmad-lifecycle-1789382530950/bmad-first/tests/subscriptions.test.mjs"
+  ],
+  "cwd": ".lab-runs/b-bmad-lifecycle-1789382530950/bmad-first",
+  "startedAt": "2026-09-14T10:42:27.403Z",
+  "durationMs": 91,
+  "exitCode": 0,
+  "stdout": "✔ validation and boundary (1.4255ms)\n✔ duplicate identity (0.173131ms)\n✔ immutable creation (0.235555ms)\n✔ distinct and deterministic (0.823352ms)\n✔ restart (0.575137ms)\nℹ tests 5\nℹ suites 0\nℹ pass 5\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 57.738119\n",
+  "stderr": ""
+}

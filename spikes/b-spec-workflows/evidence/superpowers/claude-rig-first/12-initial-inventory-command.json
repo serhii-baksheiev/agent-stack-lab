@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "list",
+    "--json"
+  ],
+  "cwd": ".lab-runs/b-superpowers-native-claude-rig-first/repo",
+  "startedAt": "2026-09-14T10:43:01.197Z",
+  "durationMs": 182,
+  "exitCode": 0,
+  "stdout": "[\n  {\n    \"id\": \"superpowers@superpowers-lab\",\n    \"version\": \"6.2.0\",\n    \"scope\": \"project\",\n    \"enabled\": true,\n    \"installPath\": \"<LAB>/.lab-runs/b-superpowers-native-claude-rig-first/home/.claude/plugins/cache/superpowers-lab/superpowers/6.2.0\",\n    \"installedAt\": \"2026-09-14T10:43:01.146Z\",\n    \"lastUpdated\": \"2026-09-14T10:43:01.146Z\",\n    \"projectPath\": \"<LAB>/.lab-runs/b-superpowers-native-claude-rig-first/repo\"\n  }\n]\n",
+  "stderr": ""
+}

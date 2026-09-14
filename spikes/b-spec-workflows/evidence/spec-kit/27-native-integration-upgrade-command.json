@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/spec-kit-env/bin/specify",
+    "integration",
+    "upgrade",
+    "claude"
+  ],
+  "cwd": ".lab-runs/b-spec-kit-workflow/repo",
+  "startedAt": "2026-09-14T10:42:10.439Z",
+  "durationMs": 265,
+  "exitCode": 0,
+  "stdout": "⚠  18 shared infrastructure path(s) already exist and were not updated:\n    .specify/scripts/python/setup_tasks.py\n    .specify/scripts/python/common.py\n    .specify/scripts/python/create_new_feature.py\n    .specify/scripts/python/setup_plan.py\n    .specify/scripts/python/resolve_template.py\n    .specify/scripts/python/check_prerequisites.py\n    .specify/scripts/bash/check-prerequisites.sh\n    .specify/scripts/bash/common.sh\n    .specify/scripts/bash/setup-tasks.sh\n    .specify/scripts/bash/setup-plan.sh\n    .specify/scripts/bash/resolve-template.sh\n    .specify/scripts/bash/create-new-feature.sh\n    .specify/templates/checklist-template.md\n    .specify/templates/spec-template.md\n    .specify/templates/plan-template.md\n    .specify/templates/tasks-template.md\n    .specify/templates/constitution-template.md\n    .specify/.gitignore\nTo refresh shared infrastructure, run specify init --here --force or specify \nintegration upgrade --force.\nUpgrading integration: claude\nUpdated execute permissions on 6 script(s) recursively\n\n✓ Integration 'Claude Code' upgraded successfully\n",
+  "stderr": ""
+}

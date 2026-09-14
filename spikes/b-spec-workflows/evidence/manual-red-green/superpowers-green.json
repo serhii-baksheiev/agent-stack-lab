@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\nvm4w\\nodejs\\node.exe",
+    "--test",
+    "fixtures/b-workflow/superpowers/tests/subscriptions.test.mjs"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:27:42.424Z",
+  "durationMs": 1458,
+  "exitCode": 0,
+  "stdout": "✔ SP-1 returns normalized deterministic append without changing input (3.4395ms)\n✔ SP-2 caller serialization preserves identity (0.9573ms)\nℹ tests 2\nℹ suites 0\nℹ pass 2\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 1064.5657\n",
+  "stderr": ""
+}

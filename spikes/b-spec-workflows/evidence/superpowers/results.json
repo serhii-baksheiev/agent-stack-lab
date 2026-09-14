@@ -1,0 +1,260 @@
+[
+  {
+    "provider": "claude",
+    "order": "rig-first",
+    "secondExit": 0,
+    "changedBySecond": [
+      ".claude/settings.json"
+    ],
+    "initial": {
+      "installed": true,
+      "version": "6.2.0",
+      "manifestSha": "5e9f9b99d9d009ccbcdbce82644a5bf902691c39f152b79540b4542533fe53c3",
+      "skills": [
+        "brainstorming",
+        "dispatching-parallel-agents",
+        "executing-plans",
+        "finishing-a-development-branch",
+        "receiving-code-review",
+        "requesting-code-review",
+        "subagent-driven-development",
+        "systematic-debugging",
+        "test-driven-development",
+        "using-git-worktrees",
+        "using-superpowers",
+        "verification-before-completion",
+        "writing-plans",
+        "writing-skills"
+      ]
+    },
+    "repeatRig": 1,
+    "repeatNative": 0,
+    "dryExit": 0,
+    "dryReadOnly": true,
+    "rigUpgrade": 0,
+    "editsPreserved": true,
+    "deletedStaysRemoved": true,
+    "pluginUpgrade": 0,
+    "updated": {
+      "installed": true,
+      "version": "6.3.0",
+      "manifestSha": "d0d56f9f3a6adbf341d5d49850f63def17bfb7e9a39704b517745b2c554498c3",
+      "skills": [
+        "brainstorming",
+        "dispatching-parallel-agents",
+        "executing-plans",
+        "finishing-a-development-branch",
+        "receiving-code-review",
+        "requesting-code-review",
+        "subagent-driven-development",
+        "systematic-debugging",
+        "test-driven-development",
+        "using-git-worktrees",
+        "using-superpowers",
+        "verification-before-completion",
+        "writing-plans",
+        "writing-skills"
+      ]
+    },
+    "bundleUpdated": true,
+    "uninstall": 0,
+    "rigPreserved": true,
+    "settingsEditSurvives": true,
+    "final": {
+      "installed": false
+    },
+    "survivingRig": 0
+  },
+  {
+    "provider": "claude",
+    "order": "plugin-first",
+    "secondExit": 0,
+    "changedBySecond": [],
+    "initial": {
+      "installed": true,
+      "version": "6.2.0",
+      "manifestSha": "5e9f9b99d9d009ccbcdbce82644a5bf902691c39f152b79540b4542533fe53c3",
+      "skills": [
+        "brainstorming",
+        "dispatching-parallel-agents",
+        "executing-plans",
+        "finishing-a-development-branch",
+        "receiving-code-review",
+        "requesting-code-review",
+        "subagent-driven-development",
+        "systematic-debugging",
+        "test-driven-development",
+        "using-git-worktrees",
+        "using-superpowers",
+        "verification-before-completion",
+        "writing-plans",
+        "writing-skills"
+      ]
+    },
+    "repeatRig": 1,
+    "repeatNative": 0,
+    "dryExit": 0,
+    "dryReadOnly": true,
+    "rigUpgrade": 0,
+    "editsPreserved": true,
+    "deletedStaysRemoved": true,
+    "pluginUpgrade": 0,
+    "updated": {
+      "installed": true,
+      "version": "6.3.0",
+      "manifestSha": "d0d56f9f3a6adbf341d5d49850f63def17bfb7e9a39704b517745b2c554498c3",
+      "skills": [
+        "brainstorming",
+        "dispatching-parallel-agents",
+        "executing-plans",
+        "finishing-a-development-branch",
+        "receiving-code-review",
+        "requesting-code-review",
+        "subagent-driven-development",
+        "systematic-debugging",
+        "test-driven-development",
+        "using-git-worktrees",
+        "using-superpowers",
+        "verification-before-completion",
+        "writing-plans",
+        "writing-skills"
+      ]
+    },
+    "bundleUpdated": true,
+    "uninstall": 0,
+    "rigPreserved": true,
+    "settingsEditSurvives": true,
+    "final": {
+      "installed": false
+    },
+    "survivingRig": 0
+  },
+  {
+    "provider": "codex",
+    "order": "rig-first",
+    "secondExit": 0,
+    "changedBySecond": [],
+    "initial": {
+      "installed": true,
+      "version": "6.2.0",
+      "manifestSha": "5e9f9b99d9d009ccbcdbce82644a5bf902691c39f152b79540b4542533fe53c3",
+      "skills": [
+        "brainstorming",
+        "dispatching-parallel-agents",
+        "executing-plans",
+        "finishing-a-development-branch",
+        "receiving-code-review",
+        "requesting-code-review",
+        "subagent-driven-development",
+        "systematic-debugging",
+        "test-driven-development",
+        "using-git-worktrees",
+        "using-superpowers",
+        "verification-before-completion",
+        "writing-plans",
+        "writing-skills"
+      ]
+    },
+    "repeatRig": 1,
+    "repeatNative": 0,
+    "dryExit": 0,
+    "dryReadOnly": true,
+    "rigUpgrade": 0,
+    "editsPreserved": true,
+    "deletedStaysRemoved": true,
+    "pluginUpgrade": 0,
+    "updated": {
+      "installed": true,
+      "version": "6.3.0",
+      "manifestSha": "d0d56f9f3a6adbf341d5d49850f63def17bfb7e9a39704b517745b2c554498c3",
+      "skills": [
+        "brainstorming",
+        "dispatching-parallel-agents",
+        "executing-plans",
+        "finishing-a-development-branch",
+        "receiving-code-review",
+        "requesting-code-review",
+        "subagent-driven-development",
+        "systematic-debugging",
+        "test-driven-development",
+        "using-git-worktrees",
+        "using-superpowers",
+        "verification-before-completion",
+        "writing-plans",
+        "writing-skills"
+      ]
+    },
+    "bundleUpdated": true,
+    "uninstall": 0,
+    "rigPreserved": true,
+    "settingsEditSurvives": true,
+    "final": {
+      "installed": false
+    },
+    "survivingRig": 0
+  },
+  {
+    "provider": "codex",
+    "order": "plugin-first",
+    "secondExit": 0,
+    "changedBySecond": [],
+    "initial": {
+      "installed": true,
+      "version": "6.2.0",
+      "manifestSha": "5e9f9b99d9d009ccbcdbce82644a5bf902691c39f152b79540b4542533fe53c3",
+      "skills": [
+        "brainstorming",
+        "dispatching-parallel-agents",
+        "executing-plans",
+        "finishing-a-development-branch",
+        "receiving-code-review",
+        "requesting-code-review",
+        "subagent-driven-development",
+        "systematic-debugging",
+        "test-driven-development",
+        "using-git-worktrees",
+        "using-superpowers",
+        "verification-before-completion",
+        "writing-plans",
+        "writing-skills"
+      ]
+    },
+    "repeatRig": 1,
+    "repeatNative": 0,
+    "dryExit": 0,
+    "dryReadOnly": true,
+    "rigUpgrade": 0,
+    "editsPreserved": true,
+    "deletedStaysRemoved": true,
+    "pluginUpgrade": 0,
+    "updated": {
+      "installed": true,
+      "version": "6.3.0",
+      "manifestSha": "d0d56f9f3a6adbf341d5d49850f63def17bfb7e9a39704b517745b2c554498c3",
+      "skills": [
+        "brainstorming",
+        "dispatching-parallel-agents",
+        "executing-plans",
+        "finishing-a-development-branch",
+        "receiving-code-review",
+        "requesting-code-review",
+        "subagent-driven-development",
+        "systematic-debugging",
+        "test-driven-development",
+        "using-git-worktrees",
+        "using-superpowers",
+        "verification-before-completion",
+        "writing-plans",
+        "writing-skills"
+      ]
+    },
+    "bundleUpdated": true,
+    "uninstall": 0,
+    "rigPreserved": true,
+    "settingsEditSurvives": true,
+    "final": {
+      "installed": false
+    },
+    "survivingRig": 0
+  }
+]

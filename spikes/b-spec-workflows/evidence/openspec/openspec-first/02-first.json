@@ -1,0 +1,124 @@
+{
+  "files": {
+    ".agents/skills/.openspec-target": {
+      "size": 6,
+      "sha256": "243b0dc9b847e66c440dca985e10fe0ce9e29c379b018ddd5747ba8948f84cc8"
+    },
+    ".agents/skills/openspec-apply-change/SKILL.md": {
+      "size": 8423,
+      "sha256": "6a0268b61f270e6644dde8e763db495e59444619239140313445fb35f43055c0"
+    },
+    ".agents/skills/openspec-archive-change/SKILL.md": {
+      "size": 10731,
+      "sha256": "e42ada70c50762ace39c92980eedb511a70c9d9afc5b27416364b474fcf783a6"
+    },
+    ".agents/skills/openspec-explore/SKILL.md": {
+      "size": 19369,
+      "sha256": "fc957752fd96975165c3b21ebdb705d8617128039c092ffa853e276b36089b35"
+    },
+    ".agents/skills/openspec-propose/SKILL.md": {
+      "size": 14071,
+      "sha256": "89b4c1fee49fc94a59f0801376311544500fd3ff94da8c1b18578a5cf5172c6b"
+    },
+    ".agents/skills/openspec-sync-specs/SKILL.md": {
+      "size": 12554,
+      "sha256": "a06d2e32724cd78e9d470c84e7e1d5203dcd6c3373528b19975949fd9f2f75e5"
+    },
+    ".agents/skills/openspec-update-change/SKILL.md": {
+      "size": 7502,
+      "sha256": "6c882233107b51401cc29049b42bff8731d3ed85b20f48cf64d35d81fe9166d5"
+    },
+    ".claude/commands/opsx/apply.md": {
+      "size": 8039,
+      "sha256": "6e6c33442d74aca44bcbcbee71deccdc28efaa6c3484b5877d62bbbea460f315"
+    },
+    ".claude/commands/opsx/archive.md": {
+      "size": 11491,
+      "sha256": "ec3ebf753601ab1107a77e88decabc87b971e61896292ec7dfb252db51998c72"
+    },
+    ".claude/commands/opsx/explore.md": {
+      "size": 16442,
+      "sha256": "1772352a1917ab1bfc13a9aec289bd00ed02aded07c5997ecfbc109f162e2416"
+    },
+    ".claude/commands/opsx/propose.md": {
+      "size": 13792,
+      "sha256": "8a28d17caac11ca45e5197279f65623431bfc02e8151d106a2101fb013f95100"
+    },
+    ".claude/commands/opsx/sync.md": {
+      "size": 12377,
+      "sha256": "f2d9729161cd9f6f8abf813e91b52ec533e96acd7d8adf04b308c0b14d7db47a"
+    },
+    ".claude/commands/opsx/update.md": {
+      "size": 6661,
+      "sha256": "8cc619740136c8aef229844134afd3f5de818cce2aaa05a6f0ff3d2ebfbdcc87"
+    },
+    ".claude/skills/openspec-apply-change/SKILL.md": {
+      "size": 8178,
+      "sha256": "aa0ff6db53c670a33df77456beb9d7d924a5c7b30d2b70579ba1ca7e98e3b202"
+    },
+    ".claude/skills/openspec-archive-change/SKILL.md": {
+      "size": 10669,
+      "sha256": "fa48b6859f4bc78f8a7d7d546a1edac0f71daa8bf2fa52837f60c2a598fbf25c"
+    },
+    ".claude/skills/openspec-explore/SKILL.md": {
+      "size": 19321,
+      "sha256": "7b44fc013ea3a044d305d4a068026a1a0f0201d63879f8feca85c268772f8a8b"
+    },
+    ".claude/skills/openspec-propose/SKILL.md": {
+      "size": 14011,
+      "sha256": "5060f490a1ed0b27cc1f440ae26a7da480227a17b382e9fe8fac2b47e0536ac0"
+    },
+    ".claude/skills/openspec-sync-specs/SKILL.md": {
+      "size": 12497,
+      "sha256": "32f9c025ba00ace8751f05a6ffb05e6ad5481f55dad027863cb45ca187c58535"
+    },
+    ".claude/skills/openspec-update-change/SKILL.md": {
+      "size": 6828,
+      "sha256": "9ee8a317cde25c1d829a730a253df3064f2e3b76c6b93746ab5304c7267cdded"
+    },
+    "openspec/changes/archive/.gitkeep": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "openspec/config.yaml": {
+      "size": 922,
+      "sha256": "2a791b0ccc50e2c2ebbb3ba28692a4ad0e4b6ab94ed2151375ac404d7056e89a"
+    },
+    "openspec/specs/.gitkeep": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "count": 22,
+  "bytes": 213884,
+  "status": "?? .agents/skills/.openspec-target\n?? .agents/skills/openspec-apply-change/SKILL.md\n?? .agents/skills/openspec-archive-change/SKILL.md\n?? .agents/skills/openspec-explore/SKILL.md\n?? .agents/skills/openspec-propose/SKILL.md\n?? .agents/skills/openspec-sync-specs/SKILL.md\n?? .agents/skills/openspec-update-change/SKILL.md\n?? .claude/commands/opsx/apply.md\n?? .claude/commands/opsx/archive.md\n?? .claude/commands/opsx/explore.md\n?? .claude/commands/opsx/propose.md\n?? .claude/commands/opsx/sync.md\n?? .claude/commands/opsx/update.md\n?? .claude/skills/openspec-apply-change/SKILL.md\n?? .claude/skills/openspec-archive-change/SKILL.md\n?? .claude/skills/openspec-explore/SKILL.md\n?? .claude/skills/openspec-propose/SKILL.md\n?? .claude/skills/openspec-sync-specs/SKILL.md\n?? .claude/skills/openspec-update-change/SKILL.md\n?? openspec/changes/archive/.gitkeep\n?? openspec/config.yaml\n?? openspec/specs/.gitkeep\n",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/b-openspec-1789382552065/openspec-first",
+    "startedAt": "2026-09-14T10:42:48.073Z",
+    "durationMs": 4,
+    "exitCode": 0,
+    "stdout": "?? .agents/skills/.openspec-target\n?? .agents/skills/openspec-apply-change/SKILL.md\n?? .agents/skills/openspec-archive-change/SKILL.md\n?? .agents/skills/openspec-explore/SKILL.md\n?? .agents/skills/openspec-propose/SKILL.md\n?? .agents/skills/openspec-sync-specs/SKILL.md\n?? .agents/skills/openspec-update-change/SKILL.md\n?? .claude/commands/opsx/apply.md\n?? .claude/commands/opsx/archive.md\n?? .claude/commands/opsx/explore.md\n?? .claude/commands/opsx/propose.md\n?? .claude/commands/opsx/sync.md\n?? .claude/commands/opsx/update.md\n?? .claude/skills/openspec-apply-change/SKILL.md\n?? .claude/skills/openspec-archive-change/SKILL.md\n?? .claude/skills/openspec-explore/SKILL.md\n?? .claude/skills/openspec-propose/SKILL.md\n?? .claude/skills/openspec-sync-specs/SKILL.md\n?? .claude/skills/openspec-update-change/SKILL.md\n?? openspec/changes/archive/.gitkeep\n?? openspec/config.yaml\n?? openspec/specs/.gitkeep\n",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/b-openspec-1789382552065/openspec-first",
+    "startedAt": "2026-09-14T10:42:48.077Z",
+    "durationMs": 3,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "synthetic-rig",
+  "version": "0.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "synthetic-rig",
+      "version": "0.0.0",
+      "dependencies": {
+        "create-agent-rig": "file:package.tgz"
+      }
+    },
+    "node_modules/create-agent-rig": {
+      "version": "0.9.0",
+      "resolved": "file:package.tgz",
+      "integrity": "sha512-yqWpUwdpVKR7unoQy9Bh5UF3+ArCxXSxWaKS3YIuMsiIY+E2u91HeaaCdi8D9bv+Dp5+NSl+5L6uJRd91oHLQQ==",
+      "license": "MIT",
+      "bin": {
+        "create-agent-rig": "packages/cli/dist/index.js"
+      },
+      "engines": {
+        "node": ">=20"
+      }
+    }
+  }
+}

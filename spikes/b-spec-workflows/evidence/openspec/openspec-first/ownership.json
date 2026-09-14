@@ -1,0 +1,638 @@
+{
+  ".agents/skills/.openspec-target": {
+    "size": 6,
+    "sha256": "243b0dc9b847e66c440dca985e10fe0ce9e29c379b018ddd5747ba8948f84cc8",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".agents/skills/check-premises/SKILL.md": {
+    "size": 13783,
+    "sha256": "403f26470ec0a9c853aa69fe8a114fbc3dfb3bf6e6094eecb8a836f153aa1a37",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".agents/skills/loop/SKILL.md": {
+    "size": 64257,
+    "sha256": "e63e016a7d560dd9e89078e2440ca6713d315e697b6ffcf4516e93a338fe062a",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".agents/skills/new-invariant/SKILL.md": {
+    "size": 5071,
+    "sha256": "b15abfba29cd52b2fc29f30d63803bc0fc2741429c8faab21d2f907ee1ce0828",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".agents/skills/new-invariant/guard-invariant.example.mjs": {
+    "size": 3489,
+    "sha256": "0fec41841de1fc07f4da08d023fdda2906c62e3c71b22827c874f2809719b955",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".agents/skills/new-invariant/guard-invariant.example.test.mjs": {
+    "size": 3582,
+    "sha256": "7bef9179c5b56d280d462cf21fb2c38dc4cb759b671b114b3995aac93720caf8",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".agents/skills/openspec-apply-change/SKILL.md": {
+    "size": 8423,
+    "sha256": "6a0268b61f270e6644dde8e763db495e59444619239140313445fb35f43055c0",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".agents/skills/openspec-archive-change/SKILL.md": {
+    "size": 10731,
+    "sha256": "e42ada70c50762ace39c92980eedb511a70c9d9afc5b27416364b474fcf783a6",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".agents/skills/openspec-explore/SKILL.md": {
+    "size": 19369,
+    "sha256": "fc957752fd96975165c3b21ebdb705d8617128039c092ffa853e276b36089b35",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".agents/skills/openspec-propose/SKILL.md": {
+    "size": 14071,
+    "sha256": "89b4c1fee49fc94a59f0801376311544500fd3ff94da8c1b18578a5cf5172c6b",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".agents/skills/openspec-sync-specs/SKILL.md": {
+    "size": 12554,
+    "sha256": "a06d2e32724cd78e9d470c84e7e1d5203dcd6c3373528b19975949fd9f2f75e5",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".agents/skills/openspec-update-change/SKILL.md": {
+    "size": 7502,
+    "sha256": "6c882233107b51401cc29049b42bff8731d3ed85b20f48cf64d35d81fe9166d5",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".agents/skills/pr-ship/SKILL.md": {
+    "size": 26057,
+    "sha256": "dc1d9c02879e383448f2336ae6433f960f86e8f8efb4ab8ccf9a17a5f7f524c3",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".agents/skills/worktree-task/SKILL.md": {
+    "size": 3771,
+    "sha256": "1eedb9b3429f2d032181606924815dd8befbe7a79ba209655858fcdac189793c",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/.rig-manifest.json": {
+    "size": 9202,
+    "sha256": "b489228098d816fa59e23eb95556ead7ac1ed01ebd0c44810f1e7e1da41ac4c6",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".claude/agents/code-reviewer.md": {
+    "size": 4710,
+    "sha256": "f12cb04871578eca3c9c36a1c2d60f5ae15a0e9094ecfc7c704c341756de4e3e",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/agents/prose-reviewer.md": {
+    "size": 10189,
+    "sha256": "7aed3bfc955efc94bbeda3f866d25e2b253c88facaa2beed73939182a9f845b2",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/agents/security-scanner.md": {
+    "size": 3653,
+    "sha256": "7c0bc189521955f2d126bac0ff97ab4fa252b05067692a5a3bb6cda232ddfaa3",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/agents/test-writer.md": {
+    "size": 1727,
+    "sha256": "fce976938fdd1154641e405a557b67161daa34cf84de9ad35fa14287d13b7f9c",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/commands/opsx/apply.md": {
+    "size": 8039,
+    "sha256": "6e6c33442d74aca44bcbcbee71deccdc28efaa6c3484b5877d62bbbea460f315",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".claude/commands/opsx/archive.md": {
+    "size": 11491,
+    "sha256": "ec3ebf753601ab1107a77e88decabc87b971e61896292ec7dfb252db51998c72",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".claude/commands/opsx/explore.md": {
+    "size": 16442,
+    "sha256": "1772352a1917ab1bfc13a9aec289bd00ed02aded07c5997ecfbc109f162e2416",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".claude/commands/opsx/propose.md": {
+    "size": 13792,
+    "sha256": "8a28d17caac11ca45e5197279f65623431bfc02e8151d106a2101fb013f95100",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".claude/commands/opsx/sync.md": {
+    "size": 12377,
+    "sha256": "f2d9729161cd9f6f8abf813e91b52ec533e96acd7d8adf04b308c0b14d7db47a",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".claude/commands/opsx/update.md": {
+    "size": 6661,
+    "sha256": "8cc619740136c8aef229844134afd3f5de818cce2aaa05a6f0ff3d2ebfbdcc87",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".claude/hooks/block-no-verify.mjs": {
+    "size": 3430,
+    "sha256": "3d7bcbccd9a163f076bd1d8cc63021b7c8605d1cb1df24a3536db3e57c1d7630",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/hooks/gate-stop-dod.mjs": {
+    "size": 19705,
+    "sha256": "d2af03ed141fadd0b1e69b230b9277e8f03169757a8e2a679767653ab7828d9a",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/hooks/guard-bash.mjs": {
+    "size": 37103,
+    "sha256": "5ffaba69ffc9b6c39cd3c97c4f29b44627416d55793b50aa1a26ffe5efc45497",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/hooks/guard-rulebook.mjs": {
+    "size": 9814,
+    "sha256": "493ae58e54b055bd13ba992ee0dbfa2cb9ce9a3637ec345ab8d7cfff95831c60",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/hooks/guard-secret-file.mjs": {
+    "size": 9481,
+    "sha256": "5bf2896ec5e5f94fab20b52cd22418a4392778b40744602a087e320eeca3f688",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/hooks/guard-subagent-model.mjs": {
+    "size": 10046,
+    "sha256": "345cbd5f43171adb01cd46ad485fb61299f7135c00ff4217765993551aca3b38",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/hooks/inject-rules.mjs": {
+    "size": 9019,
+    "sha256": "860a5d4ba02b59971f80bf79a9081f48f11022d46fe66b0470f0abc4ed9633e4",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/hooks/lib/edit-input.mjs": {
+    "size": 23596,
+    "sha256": "6695698d2b38c79a12292601048dd0082a0cd18bf9e69c047d47679c2e6ecf67",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/hooks/lib/hook-input.mjs": {
+    "size": 8218,
+    "sha256": "3be3d4af4a25536d2a2bac0441a1370be7efafb5f8aa737b195bdce77db0091b",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/hooks/warn-subagent-routing.mjs": {
+    "size": 5113,
+    "sha256": "b95165243ebb60264c78b82ce01407669457fe33c0bf86ff2a5c117963c6bc6d",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/queue.json": {
+    "size": 27,
+    "sha256": "00671bfdd83326e7561f1ce955b7ad79dcf566faf2eae3684b4287af0d54c14c",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/rules/autonomy.md": {
+    "size": 10701,
+    "sha256": "532dc5cdffb1464fb68889628664b1e7e345272c806cf2ccb7a063c6a3a7f1bf",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/rules/invariants.md": {
+    "size": 15604,
+    "sha256": "ce90c1e697fdd444ca3fe2203d7991645f2c284c413ae187e4d6d6c618af52c9",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/rules/workflow.md": {
+    "size": 8388,
+    "sha256": "aa34a1eab572964b328ffa0044e96acb3e1c31491df0183460f06e5e6bba3b76",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/decision-router.mjs": {
+    "size": 57076,
+    "sha256": "8e9fe877949955e8f698701f969784b288bc95943c3bcea3bd4368db82e8e43e",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/detect-missed-gate.mjs": {
+    "size": 24524,
+    "sha256": "120ee3b90497b9023528a7f8b4e7f48c30a578fad62d94d55d1d280240e5e3a2",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/doctor.mjs": {
+    "size": 15626,
+    "sha256": "5154ad9abdcb37fea58b0da78fd71842c705774ffe48fd8050c302da17e73913",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/git-env.mjs": {
+    "size": 2463,
+    "sha256": "b022399f287cdce1bcb07329c0aab44bf99714b5f0515f274c962f41ea072b86",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/lib/claim-records.mjs": {
+    "size": 26002,
+    "sha256": "acb1d5702a826832977e7eb01b76c50cab19292528901f1b33693e561dbb0a24",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/lib/gate-coverage.mjs": {
+    "size": 13067,
+    "sha256": "1ef7f355071a747d8a8d9cd5e2072a19fe3d8c11a0e2a5f884d95a33fb95f12d",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/lib/revalidation-evidence.mjs": {
+    "size": 2067,
+    "sha256": "513369213374cf2c5415c7d5ea1f6d5c67300c77cec7af3e9190e710b156969f",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/lib/revalidation-points.mjs": {
+    "size": 1609,
+    "sha256": "b48e4959862906e279eca481f484f07a7fd4aa082f2778224a6574a7871bc9d8",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/lib/secrets.mjs": {
+    "size": 25128,
+    "sha256": "60fab2cc9f2028bccf6139e6a744406b4a86a9039d1367f3cef409902e9b327d",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/lib/shell-tools.mjs": {
+    "size": 4796,
+    "sha256": "402428f4b2c4e507652d775e43b26c1e0a74aadb2cedec3156ac186af17d667a",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/lib/verdict.mjs": {
+    "size": 20127,
+    "sha256": "51ef5185da289cfd883422e7ac51500e527a19c7780721af9cecf4f845a368f3",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/preflight.mjs": {
+    "size": 10480,
+    "sha256": "37eeb4bdb50d7f6b1427bd02ec9815f39ad9142f35691ffadd8c0b626c6cdb00",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/queue/as-of.mjs": {
+    "size": 2037,
+    "sha256": "d889888dd2004d53b544b870fdf97ccaba48c243e63f1222cac2a5ddee6dd407",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/queue/checkout.mjs": {
+    "size": 6787,
+    "sha256": "1b80b2abe4375e0d25868cf114543f0863c22ab02a3a0133f5155433aecdb835",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/queue/core.mjs": {
+    "size": 51541,
+    "sha256": "c9902da15d06de3e952352115db0288433520eae2caac1f70ee6e06753d1f444",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/queue/gate-rounds.mjs": {
+    "size": 10962,
+    "sha256": "deeb7a10772f906c7630bb3c295be1b61d7ebf0541b2a34debcb40c80e6d8f0e",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/queue/github-issues.mjs": {
+    "size": 14275,
+    "sha256": "b5349837d16de0966139f5b65e2800486592f1b24d7e87087c2b7212cead479d",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/queue/index.mjs": {
+    "size": 45807,
+    "sha256": "19a04cdbdfd936213cea3a9a00a583a060a4a8d0356d6a6922ae1c2f593f16f1",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/queue/jira.mjs": {
+    "size": 34175,
+    "sha256": "c2f2af8ac5eadd8d35a15bcdeffe585e32c6f99b4e6ab9ace0f9d7fd9d694943",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/queue/plan-md.mjs": {
+    "size": 24389,
+    "sha256": "816aec4cb84492370972f71813a9fec7c0309e5f501951a93620a37cb318ac39",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/queue/state.mjs": {
+    "size": 11355,
+    "sha256": "ff7e7a46eb71989c2a7be7bc3f77922b49ad9071b2dec49787d8b7be087edb5b",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/reconcile-external-prs.mjs": {
+    "size": 10572,
+    "sha256": "a326acd64ea19a50d093c91e711ad0234eb05c76d00066db5657c22f4355c190",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/revalidate.mjs": {
+    "size": 43496,
+    "sha256": "f756b7ccc2a4459e58b2125408de1f91372cd6093bf6f4ed14e26dc2eb4190fc",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/revalidation-report.mjs": {
+    "size": 7947,
+    "sha256": "fed627d2c8f0f5e6a4524b7015ac7a1cb5051a8c316ff4544af18be9c61eb163",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/run-journal.mjs": {
+    "size": 17841,
+    "sha256": "4511ff2c982750e20b576fd9eca8ec6c3b4ab81874a3109392418793b82cd5c4",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/run-state.mjs": {
+    "size": 31789,
+    "sha256": "c502cefafdc720d178de685e8372d2c140cb2663517c9d88b5345a9f0c50d0de",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/stop-flag.mjs": {
+    "size": 2997,
+    "sha256": "f6c2165f437e191c3e5781c1d6ad486888bcee9d9063562f4fc0c965869aa7b8",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/unattended-flag.mjs": {
+    "size": 21713,
+    "sha256": "88df83675b2dfc6da074b9117591f268c6ce1d319663ea0b6c6335e80e5ca9c9",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/scripts/verdict.mjs": {
+    "size": 8589,
+    "sha256": "adee6247553172d26962612c983f70ad42531eff4e4442a5c1c48a0a58c7eb42",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/settings.json": {
+    "size": 1703,
+    "sha256": "a13952579f1752862133a5746f2c0e8696b9548c2c18eb6ff0bb6a54772cea3c",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/skills/check-premises/SKILL.md": {
+    "size": 13783,
+    "sha256": "403f26470ec0a9c853aa69fe8a114fbc3dfb3bf6e6094eecb8a836f153aa1a37",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/skills/loop/SKILL.md": {
+    "size": 64257,
+    "sha256": "e63e016a7d560dd9e89078e2440ca6713d315e697b6ffcf4516e93a338fe062a",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/skills/new-invariant/SKILL.md": {
+    "size": 5071,
+    "sha256": "b15abfba29cd52b2fc29f30d63803bc0fc2741429c8faab21d2f907ee1ce0828",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/skills/new-invariant/guard-invariant.example.mjs": {
+    "size": 3489,
+    "sha256": "0fec41841de1fc07f4da08d023fdda2906c62e3c71b22827c874f2809719b955",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/skills/new-invariant/guard-invariant.example.test.mjs": {
+    "size": 3582,
+    "sha256": "7bef9179c5b56d280d462cf21fb2c38dc4cb759b671b114b3995aac93720caf8",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/skills/openspec-apply-change/SKILL.md": {
+    "size": 8178,
+    "sha256": "aa0ff6db53c670a33df77456beb9d7d924a5c7b30d2b70579ba1ca7e98e3b202",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".claude/skills/openspec-archive-change/SKILL.md": {
+    "size": 10669,
+    "sha256": "fa48b6859f4bc78f8a7d7d546a1edac0f71daa8bf2fa52837f60c2a598fbf25c",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".claude/skills/openspec-explore/SKILL.md": {
+    "size": 19321,
+    "sha256": "7b44fc013ea3a044d305d4a068026a1a0f0201d63879f8feca85c268772f8a8b",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".claude/skills/openspec-propose/SKILL.md": {
+    "size": 14011,
+    "sha256": "5060f490a1ed0b27cc1f440ae26a7da480227a17b382e9fe8fac2b47e0536ac0",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".claude/skills/openspec-sync-specs/SKILL.md": {
+    "size": 12497,
+    "sha256": "32f9c025ba00ace8751f05a6ffb05e6ad5481f55dad027863cb45ca187c58535",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".claude/skills/openspec-update-change/SKILL.md": {
+    "size": 6828,
+    "sha256": "9ee8a317cde25c1d829a730a253df3064f2e3b76c6b93746ab5304c7267cdded",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  ".claude/skills/pr-ship/SKILL.md": {
+    "size": 26057,
+    "sha256": "dc1d9c02879e383448f2336ae6433f960f86e8f8efb4ab8ccf9a17a5f7f524c3",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".claude/skills/worktree-task/SKILL.md": {
+    "size": 3771,
+    "sha256": "1eedb9b3429f2d032181606924815dd8befbe7a79ba209655858fcdac189793c",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".codex/agents/code-reviewer.toml": {
+    "size": 4880,
+    "sha256": "180c182cc909cc0b6c06cfa286f528f22b77189eee49cac067fdaaf2920f8bae",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".codex/agents/prose-reviewer.toml": {
+    "size": 10452,
+    "sha256": "7c37e4dbd94980bee16396d0d46d97c5079e295d3eed4b3ed8f98d701e57b10d",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".codex/agents/security-scanner.toml": {
+    "size": 3809,
+    "sha256": "b529f02056948ff0ca179c96d9d47962c9c8064feccb68d3c970e7b1a2513fc9",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".codex/agents/test-writer.toml": {
+    "size": 1794,
+    "sha256": "ec9e61b2c16c97ed26d5bdda2b0f715a41b80c0af549d0f2bbb96d6ca4c4d8d7",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".codex/hooks.json": {
+    "size": 12687,
+    "sha256": "f3eaf4a9a2c0af418a6ecf54b6d7d32065033909907ea237d51423c9129f44a7",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  ".rig/revalidation.json": {
+    "size": 177,
+    "sha256": "312b59f80fcbcf2897ef80fb54be236fb6b2b1745f705dae8e66c58f0bbd3099",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "AGENTS.md": {
+    "size": 11023,
+    "sha256": "26bf26f97a76937a4f8f152bd6d9139ab9692ca3e0891948d75c6fbeb5a631df",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "CLAUDE.md": {
+    "size": 11023,
+    "sha256": "26bf26f97a76937a4f8f152bd6d9139ab9692ca3e0891948d75c6fbeb5a631df",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "PLAN.md": {
+    "size": 1263,
+    "sha256": "6f07d57fef912d2038fbe5229f89c03b2ea757b273e03c2eb14e14ad58d8d3c4",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "docs/decisions/closing-a-task.md": {
+    "size": 4933,
+    "sha256": "650b379d2fc9e16dbb4113395ff08b8f96625069e21721133364191293fe3eea",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "docs/decisions/codex-adapter.md": {
+    "size": 8344,
+    "sha256": "46b68f9130d16a96278e03d0ddb14d99b678c5a239e4667aa79733e632e67505",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "docs/decisions/content-blind-revalidation.md": {
+    "size": 8952,
+    "sha256": "d640a152428ea4cc6a5f0a19be58e0d23f3a99c44b0ad0b72152ec7b48fe5bfd",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "docs/decisions/fail-open-guards.md": {
+    "size": 2341,
+    "sha256": "9408b59fdb7a0e93d8e6762bf5d76f1afd6d4b0942d9395155dab4cb42c1bf80",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "docs/decisions/gate-coverage.md": {
+    "size": 4527,
+    "sha256": "ce5f093c19a8f9de700541bc1ac9031391dca46906dad15eb589a0fb5a021533",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "docs/decisions/review-lanes.md": {
+    "size": 4455,
+    "sha256": "1ba78f5d928db0c288b4c3b818cdc25ae82c2524267d069030f9c71c4b38fd71",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "docs/decisions/run-directory.md": {
+    "size": 1945,
+    "sha256": "6128953b794bb0a3e5b4586d11d9ab8af8d0c37c7e19f556254d0e92a632363b",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "docs/decisions/spacing-rations-mechanisms.md": {
+    "size": 8270,
+    "sha256": "5894f8aa613fbbba0f125c871b2a91d9cc5bd9dd6a3fe4c8fd9d8a06aa8839b8",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "docs/decisions/stop-conditions-in-a-file.md": {
+    "size": 2181,
+    "sha256": "dc0c9f5988fc983eb5100a085e274691b1e88a3b54ab2797e00972c4d69d61c4",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "docs/decisions/subagent-routing.md": {
+    "size": 8273,
+    "sha256": "97bb882dd066a65a740780a836199ecef8887392c1ece02a92670ecf153988d3",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "docs/decisions/two-empty-endings.md": {
+    "size": 4227,
+    "sha256": "e771888074498adc2d52e1f50f222056fd95433c4bb9c7e8aa0f3a730da449bd",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "journal/README.md": {
+    "size": 4971,
+    "sha256": "6f9b3692bec078a875efad7afd5a80418b8e930f3dad0708e53a567baab888b8",
+    "rigClaims": true,
+    "changedBySecond": false
+  },
+  "openspec/changes/archive/.gitkeep": {
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  "openspec/config.yaml": {
+    "size": 922,
+    "sha256": "2a791b0ccc50e2c2ebbb3ba28692a4ad0e4b6ab94ed2151375ac404d7056e89a",
+    "rigClaims": false,
+    "changedBySecond": false
+  },
+  "openspec/specs/.gitkeep": {
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rigClaims": false,
+    "changedBySecond": false
+  }
+}

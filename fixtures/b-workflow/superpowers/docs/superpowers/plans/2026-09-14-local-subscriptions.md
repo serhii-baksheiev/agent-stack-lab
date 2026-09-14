@@ -22,18 +22,18 @@ TypeError for invalid email; no input mutation, I/O or hidden state.
 
 Files: create src/subscriptions.mjs and tests/subscriptions.test.mjs.
 
-- [ ] Write tests covering normalization, invalid values, frozen input, new ID and duplicate reuse.
-- [ ] Run tests with the explicit not-implemented stub; verify behavior failure.
-- [ ] Implement the minimal transition without dependencies.
-- [ ] Run the candidate tests and shared independent acceptance.
+- [x] Write tests covering normalization, invalid values, frozen input, new ID and duplicate reuse.
+- [x] Run tests with the explicit not-implemented stub; verify behavior failure.
+- [x] Implement the minimal transition without dependencies.
+- [x] Run the candidate tests and shared independent acceptance.
 
 ## Task SP-2: restart and review
 
 Depends on SP-1; B-R5/B-R6.
 
-- [ ] Verify serialized state in a fresh process.
-- [ ] Review requirement/task/code/test mapping and scope.
-- [ ] Update completion only from recorded verification.
+- [x] Verify serialized state in a fresh process.
+- [x] Review requirement/task/code/test mapping and scope.
+- [x] Update completion only from recorded verification.
 
 Traceability: B-R1/B-R2/B-R3/B-R4 → SP-1 → src/subscriptions.mjs → candidate tests
 and independent normalization/duplicate/immutability/determinism checks.

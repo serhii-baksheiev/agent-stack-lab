@@ -1,0 +1,19 @@
+{
+  "command": [
+    "npm",
+    "install",
+    "--prefix",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-openspec-1789382552065/rig",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund",
+    "--save-exact",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-openspec-1789382552065/rig/package.tgz"
+  ],
+  "cwd": ".lab-runs/b-openspec-1789382552065/rig",
+  "startedAt": "2026-09-14T10:42:38.412Z",
+  "durationMs": 708,
+  "exitCode": 0,
+  "stdout": "\nadded 1 package in 651ms\n",
+  "stderr": ""
+}

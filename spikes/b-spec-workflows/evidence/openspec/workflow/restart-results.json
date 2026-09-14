@@ -1,0 +1,14 @@
+{
+  "duplicateNewExit": 1,
+  "instructionsByteIdentical": true,
+  "filesUnchanged": true,
+  "applyState": "all_done",
+  "progress": {
+    "total": 4,
+    "complete": 4,
+    "remaining": 0
+  },
+  "nativeClaudeRun": false,
+  "artifactAuthor": "manual-load Codex",
+  "boardExport": "No board/issues export command in actual root help; JSON task instructions are data for a separate adapter, not an external board write."
+}

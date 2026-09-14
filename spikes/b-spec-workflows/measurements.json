@@ -1,0 +1,34 @@
+[
+  {
+    "candidate": "spec-kit",
+    "authoredFiles": 11,
+    "authoredBytes": 9244,
+    "governanceFiles": 9,
+    "governanceBytes": 7741,
+    "interpretation": "Manual trial output, not generated CLI output; layout/depth choices affect size."
+  },
+  {
+    "candidate": "bmad",
+    "authoredFiles": 10,
+    "authoredBytes": 15972,
+    "governanceFiles": 8,
+    "governanceBytes": 13626,
+    "interpretation": "Manual trial output, not generated CLI output; layout/depth choices affect size."
+  },
+  {
+    "candidate": "openspec",
+    "authoredFiles": 10,
+    "authoredBytes": 11570,
+    "governanceFiles": 8,
+    "governanceBytes": 8983,
+    "interpretation": "Manual trial output, not generated CLI output; layout/depth choices affect size."
+  },
+  {
+    "candidate": "superpowers",
+    "authoredFiles": 4,
+    "authoredBytes": 5298,
+    "governanceFiles": 2,
+    "governanceBytes": 3824,
+    "interpretation": "Manual trial output, not generated CLI output; layout/depth choices affect size."
+  }
+]

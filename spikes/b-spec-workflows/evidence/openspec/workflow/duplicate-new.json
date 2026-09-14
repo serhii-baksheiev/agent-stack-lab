@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-openspec-1789382552065/openspec/node_modules/@fission-ai/openspec/bin/openspec.js",
+    "new",
+    "change",
+    "local-subscriptions",
+    "--json"
+  ],
+  "cwd": ".lab-runs/b-openspec-1789382552065/workflow",
+  "startedAt": "2026-09-14T10:42:52.636Z",
+  "durationMs": 290,
+  "exitCode": 1,
+  "stdout": "{\n  \"change\": null,\n  \"status\": [\n    {\n      \"severity\": \"error\",\n      \"code\": \"change_error\",\n      \"message\": \"Change 'local-subscriptions' already exists at <LAB>/.lab-runs/b-openspec-1789382552065/workflow/openspec/changes/local-subscriptions\"\n    }\n  ]\n}\n",
+  "stderr": ""
+}

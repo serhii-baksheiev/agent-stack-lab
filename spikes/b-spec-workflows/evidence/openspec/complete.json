@@ -1,0 +1,51 @@
+{
+  "completed": true,
+  "workflowOnly": false,
+  "lifecycle": [
+    {
+      "order": "rig-first",
+      "changedBySecond": [],
+      "rigRepeat": 1,
+      "openspecRepeat": 0,
+      "openspecRepeatIdentical": true,
+      "rigDry": 0,
+      "rigDryReadOnly": true,
+      "rigUpgrade": 0,
+      "rigEditsPreserved": true,
+      "rigDeletedStaysRemoved": true,
+      "openspecUpdate": 0,
+      "openspecSkillEditPreserved": false,
+      "openspecMissingSkillRestored": true,
+      "rigSurvivesUpdate": true,
+      "deliveryConfig": 0,
+      "deliveryReconcile": 0,
+      "claudeSkillRemoved": true,
+      "rigSurvivesReconcile": true,
+      "survivorRig": 0,
+      "survivorSpec": 0
+    },
+    {
+      "order": "openspec-first",
+      "changedBySecond": [],
+      "rigRepeat": 1,
+      "openspecRepeat": 0,
+      "openspecRepeatIdentical": true,
+      "rigDry": 0,
+      "rigDryReadOnly": true,
+      "rigUpgrade": 0,
+      "rigEditsPreserved": true,
+      "rigDeletedStaysRemoved": true,
+      "openspecUpdate": 0,
+      "openspecSkillEditPreserved": false,
+      "openspecMissingSkillRestored": true,
+      "rigSurvivesUpdate": true,
+      "deliveryConfig": 0,
+      "deliveryReconcile": 0,
+      "claudeSkillRemoved": true,
+      "rigSurvivesReconcile": true,
+      "survivorRig": 0,
+      "survivorSpec": 0
+    }
+  ],
+  "workflowTestsPassed": true
+}

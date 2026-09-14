@@ -1,0 +1,7 @@
+{
+  "authorship": "Copied Codex-authored fixtures; native deterministic renderer/linter and Node tests only. No native model generation.",
+  "uvVersionExit": 0,
+  "rendererExit": 0,
+  "spineLintExit": 0,
+  "testsExit": 0
+}

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-openspec-1789382552065/openspec/node_modules/@fission-ai/openspec/bin/openspec.js",
+    "instructions",
+    "apply",
+    "--change",
+    "local-subscriptions",
+    "--json"
+  ],
+  "cwd": ".lab-runs/b-openspec-1789382552065/workflow",
+  "startedAt": "2026-09-14T10:42:56.725Z",
+  "durationMs": 304,
+  "exitCode": 0,
+  "stdout": "{\n  \"changeName\": \"local-subscriptions\",\n  \"changeDir\": \"<LAB>/.lab-runs/b-openspec-1789382552065/workflow/openspec/changes/local-subscriptions\",\n  \"schemaName\": \"spec-driven\",\n  \"contextFiles\": {\n    \"proposal\": [\n      \"<LAB>/.lab-runs/b-openspec-1789382552065/workflow/openspec/changes/local-subscriptions/proposal.md\"\n    ],\n    \"specs\": [\n      \"<LAB>/.lab-runs/b-openspec-1789382552065/workflow/openspec/changes/local-subscriptions/specs/local-subscriptions/spec.md\"\n    ],\n    \"design\": [\n      \"<LAB>/.lab-runs/b-openspec-1789382552065/workflow/openspec/changes/local-subscriptions/design.md\"\n    ],\n    \"tasks\": [\n      \"<LAB>/.lab-runs/b-openspec-1789382552065/workflow/openspec/changes/local-subscriptions/tasks.md\"\n    ]\n  },\n  \"progress\": {\n    \"total\": 4,\n    \"complete\": 4,\n    \"remaining\": 0\n  },\n  \"tasks\": [\n    {\n      \"id\": \"1\",\n      \"description\": \"1.1 Record brief, architecture and scenarios for B-R1 through B-R6; verify proposal.md, design.md and specs/local-subscriptions/spec.md against the common brief.\",\n      \"done\": true\n    },\n    {\n      \"id\": \"2\",\n      \"description\": \"2.1 Implement normalization, validation, duplicate lookup and immutable creation for B-R1 through B-R4; verify Node tests for invalid input, normalized identity and deterministic distinct IDs.\",\n      \"done\": true\n    },\n    {\n      \"id\": \"3\",\n      \"description\": \"2.2 Verify B-R5 serialization and fresh-import duplicate handling using the restart Node test.\",\n      \"done\": true\n    },\n    {\n      \"id\": \"4\",\n      \"description\": \"3.1 Record B-R6 traceability and review; verify each requirement has code or artifact and a check, run Node tests and OpenSpec strict validation/status in the collector.\",\n      \"done\": true\n    }\n  ],\n  \"state\": \"all_done\",\n  \"instruction\": \"All tasks are complete! This change is ready to be archived.\\nConsider running tests and reviewing the changes before archiving.\",\n  \"context\": \"Synthetic local subscriptions domain module, pure Node ESM, no dependencies.\\nFollow ../feature-brief.md B-R1 through B-R6. No real users or external services.\\nDesign context is fixtures/c-figma/design-context.json (synthetic, not live Figma).\\n\",\n  \"root\": {\n    \"path\": \"<LAB>/.lab-runs/b-openspec-1789382552065/workflow\",\n    \"source\": \"nearest\"\n  }\n}\n",
+  "stderr": ""
+}

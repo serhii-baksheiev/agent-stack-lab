@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-09-14T10:42:17.978Z",
+  "version": "6.12.0",
+  "license": "MIT",
+  "commit": "05bfbd46d00766ec88eb9b42e76be2c575d64d7b",
+  "dist": {
+    "shasum": "47c10878a3fa40d56f2adc16bd4c3eb1bd035388",
+    "tarball": "https://registry.npmjs.org/bmad-method/-/bmad-method-6.12.0.tgz",
+    "fileCount": 358,
+    "integrity": "sha512-gbbHo32TxCPwo4Yy70kqykFRwN5UdYqfnDKTsKAsF9m5qtLeoiCgEawj/LuzLBHLrYA0WTOyL/XWtXpgyDonMQ==",
+    "signatures": [
+      {
+        "sig": "MEUCICa1T/8sa2+fFs3G0DRMlZk1jgzmuE8VkjY6it+nI6duAiEA2uhuJCjjWZRePvVy7tKVLVSj0nCbvS6FrSpbNvnHQI0=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/bmad-method@6.12.0",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 3260666
+  },
+  "latest": "6.12.0",
+  "publishedAt": "2026-09-04T02:31:21.267Z",
+  "upstream": {
+    "sha": "05bfbd46d00766ec88eb9b42e76be2c575d64d7b",
+    "date": "2026-09-04T02:30:56Z",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/commit/05bfbd46d00766ec88eb9b42e76be2c575d64d7b"
+  },
+  "rig": {
+    "version": "0.9.0",
+    "license": "MIT",
+    "dist": {
+      "shasum": "4fae16bb6e6914264af34ba51631ff7432f31394",
+      "tarball": "https://registry.npmjs.org/create-agent-rig/-/create-agent-rig-0.9.0.tgz",
+      "fileCount": 270,
+      "integrity": "sha512-yqWpUwdpVKR7unoQy9Bh5UF3+ArCxXSxWaKS3YIuMsiIY+E2u91HeaaCdi8D9bv+Dp5+NSl+5L6uJRd91oHLQQ==",
+      "signatures": [
+        {
+          "sig": "MEYCIQCkVWfsY+dTRV7Nb2GGzXvlWOxOS1a9aWvsUfiTpX9mlwIhAPuRvaaFl8Ba/Dt8uiP4KnkPjBANr3PQTn4m+8vWwK7s",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIQCaigu2Msd0WUVlahHOng/QtEbWEMmQeuB9xGKtBNiWAwIgba+r4pks/kXXeOMrsBCdC7ZUO6Spv5ktIFwFdBbEb04=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 1894623
+    }
+  },
+  "platform": "linux",
+  "node": "v24.20.0",
+  "scriptSha256": "867b7cc67501a86a008674bea1ffb282985bbf68346db7233a566f8435ae8bce"
+}

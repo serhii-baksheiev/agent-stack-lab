@@ -1,0 +1,22 @@
+{
+  "stage": "repeat-closed",
+  "created": [],
+  "skipped": [
+    {
+      "id": "T001",
+      "number": 5,
+      "state": "closed"
+    },
+    {
+      "id": "T002",
+      "number": 6,
+      "state": "closed"
+    },
+    {
+      "id": "T003",
+      "number": 7,
+      "state": "closed"
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "uv",
+    "run",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-bmad-lifecycle-1789382530950/rig-first/.claude/skills/bmad-architecture/scripts/lint_spine.py",
+    "--workspace",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-bmad-lifecycle-1789382530950/rig-first/_bmad-output/specs/spec-subscriptions"
+  ],
+  "cwd": ".lab-runs/b-bmad-lifecycle-1789382530950/rig-first",
+  "startedAt": "2026-09-14T10:42:21.440Z",
+  "durationMs": 75,
+  "exitCode": 0,
+  "stdout": "{\n  \"ok\": true,\n  \"spine\": \"ARCHITECTURE-SPINE.md\",\n  \"total_findings\": 0,\n  \"by_severity\": {},\n  \"findings\": []\n}\n",
+  "stderr": ""
+}
