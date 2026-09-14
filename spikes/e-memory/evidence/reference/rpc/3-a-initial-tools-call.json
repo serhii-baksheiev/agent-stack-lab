@@ -1,0 +1,39 @@
+{
+  "label": "a-initial",
+  "method": "tools/call",
+  "params": {
+    "name": "create_relations",
+    "arguments": {
+      "relations": [
+        {
+          "from": "alpha-build",
+          "to": "alpha-style",
+          "relationType": "shares_project"
+        }
+      ]
+    }
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[\n  {\n    \"from\": \"alpha-build\",\n    \"to\": \"alpha-style\",\n    \"relationType\": \"shares_project\"\n  }\n]"
+        }
+      ],
+      "structuredContent": {
+        "relations": [
+          {
+            "from": "alpha-build",
+            "to": "alpha-style",
+            "relationType": "shares_project"
+          }
+        ]
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 4
+  },
+  "durationMs": 1,
+  "responseBytes": 301
+}

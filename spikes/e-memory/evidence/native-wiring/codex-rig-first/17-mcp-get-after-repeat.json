@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@openai/codex/bin/codex.js",
+    "mcp",
+    "get",
+    "synthetic-basic",
+    "--json"
+  ],
+  "cwd": ".lab-runs/e-native-wiring-1789386025736/codex-rig-first/repo",
+  "startedAt": "2026-09-14T11:41:02.463Z",
+  "durationMs": 36,
+  "exitCode": 0,
+  "stdout": "{\n  \"name\": \"synthetic-basic\",\n  \"enabled\": true,\n  \"disabled_reason\": null,\n  \"transport\": {\n    \"type\": \"stdio\",\n    \"command\": \"<LAB>/.lab-runs/e-basic-tools/venv/bin/bm\",\n    \"args\": [\n      \"mcp\",\n      \"--project\",\n      \"alpha\"\n    ],\n    \"env\": {\n      \"BASIC_MEMORY_AUTO_UPDATE\": \"false\",\n      \"BASIC_MEMORY_SEMANTIC_SEARCH_ENABLED\": \"false\",\n      \"HF_HUB_OFFLINE\": \"1\",\n      \"BASIC_MEMORY_FORCE_LOCAL\": \"true\",\n      \"PYTHONIOENCODING\": \"utf-8\",\n      \"BASIC_MEMORY_CONFIG_DIR\": \"<LAB>/.lab-runs/e-native-wiring-1789386025736/codex-rig-first/basic-config\",\n      \"BASIC_MEMORY_HOME\": \"<LAB>/.lab-runs/e-native-wiring-1789386025736/codex-rig-first/notes/default\",\n      \"BASIC_MEMORY_LOG_LEVEL\": \"ERROR\",\n      \"PYTHONUTF8\": \"1\",\n      \"BASIC_MEMORY_LOGFIRE_SEND_TO_LOGFIRE\": \"false\"\n    },\n    \"env_vars\": [],\n    \"cwd\": null\n  },\n  \"enabled_tools\": null,\n  \"disabled_tools\": null,\n  \"startup_timeout_sec\": null,\n  \"tool_timeout_sec\": null\n}\n",
+  "stderr": ""
+}

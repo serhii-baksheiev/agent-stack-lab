@@ -1,0 +1,31 @@
+{
+  "label": "a-restart",
+  "method": "tools/call",
+  "params": {
+    "name": "create_entities",
+    "arguments": {
+      "entities": [
+        {
+          "name": "corruption-probe",
+          "entityType": "test",
+          "observations": []
+        }
+      ]
+    }
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Expected property name or '}' in JSON at position 1 (line 1 column 2)"
+        }
+      ],
+      "isError": true
+    },
+    "jsonrpc": "2.0",
+    "id": 4
+  },
+  "durationMs": 4,
+  "responseBytes": 157
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@openai/codex/bin/codex.js",
+    "mcp",
+    "get",
+    "synthetic-basic",
+    "--json"
+  ],
+  "cwd": ".lab-runs/e-native-wiring-1789386025736/codex-mcp-first/repo",
+  "startedAt": "2026-09-14T11:41:21.515Z",
+  "durationMs": 37,
+  "exitCode": 1,
+  "stdout": "",
+  "stderr": "Error: No MCP server named 'synthetic-basic' found.\n"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\e-basic-tools\\venv\\Scripts\\bm.exe",
+    "project",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:59:19.278Z",
+  "durationMs": 13519,
+  "exitCode": 0,
+  "stdout": "                                                                               \r\n Usage: bm project [OPTIONS] COMMAND [ARGS]...                                 \r\n                                                                               \r\n Manage multiple Basic Memory projects                                         \r\n                                                                               \r\n┌─ Options ───────────────────────────────────────────────────────────────────┐\r\n│ --help          Show this message and exit.                                 │\r\n└─────────────────────────────────────────────────────────────────────────────┘\r\n┌─ Commands ──────────────────────────────────────────────────────────────────┐\r\n│ list       List Basic Memory projects from local and (when available)       │\r\n│            cloud.                                                           │\r\n│ add        Add a new project.                                               │\r\n│ remove     Remove a project.                                                │\r\n│ default    Set the default project used as fallback when no project is      │\r\n│            specified.                                                       │\r\n│ move       Move a local project to a new filesystem location.               │\r\n│ set-cloud  Set a project to cloud mode (route through cloud API).           │\r\n│ set-local  Revert a project to local mode (use in-process ASGI transport).  │\r\n│ ls         List files in a project.                                         │\r\n│ info       Display detailed information and statistics about the current    │\r\n│            project.                                                         │\r\n└─────────────────────────────────────────────────────────────────────────────┘\r\n\r\n",
+  "stderr": ""
+}

@@ -1,0 +1,702 @@
+{
+  "version": "0.23.2",
+  "scriptSha256": "dba59c48573f798eaac55eb600f3aa63a7f3630be7b1408580a45d2d52771e81",
+  "probeSha256": "982ea663696dc4f2ed815b7be5b1937b7c1880115e4db08cce49561232ebbaec",
+  "platform": "linux",
+  "node": "v24.20.0",
+  "runDirectory": ".lab-runs/e-basic-concurrency-1789385975824",
+  "rounds": [
+    {
+      "round": 0,
+      "startedAt": "2026-09-14T11:39:45.739Z",
+      "seedBytes": 14351,
+      "filePath": "same-note/Concurrent round 0.md",
+      "seedProjection": {
+        "converged": true,
+        "elapsedMs": 0,
+        "polls": 1,
+        "sha256": "d664f5d59a61715fbdc0aaa4f84d691ca07811ddb99090b0a0e97d5767ac4ab2",
+        "markers": [
+          "SYNTHETIC BASE\nSynthetic baseline padding."
+        ]
+      },
+      "finalProjection": {
+        "converged": true,
+        "elapsedMs": 0,
+        "polls": 1,
+        "sha256": "23889be766bf3698a58293a545ce25ee2d1680b6b545874f71b12276127d5493",
+        "markers": [
+          "SYNTHETIC_ROUND_0_WRITER_A_END",
+          "SYNTHETIC_ROUND_0_WRITER_B_END"
+        ]
+      },
+      "markers": [
+        "SYNTHETIC_ROUND_0_WRITER_A_END",
+        "SYNTHETIC_ROUND_0_WRITER_B_END"
+      ],
+      "acknowledged": [
+        "SYNTHETIC_ROUND_0_WRITER_A_END",
+        "SYNTHETIC_ROUND_0_WRITER_B_END"
+      ],
+      "retrieved": [
+        "SYNTHETIC_ROUND_0_WRITER_A_END",
+        "SYNTHETIC_ROUND_0_WRITER_B_END"
+      ],
+      "finalRetrieved": [
+        [
+          "SYNTHETIC_ROUND_0_WRITER_A_END",
+          "SYNTHETIC_ROUND_0_WRITER_B_END"
+        ],
+        [
+          "SYNTHETIC_ROUND_0_WRITER_A_END",
+          "SYNTHETIC_ROUND_0_WRITER_B_END"
+        ]
+      ],
+      "immediatelyMissingAcknowledgedMarkers": [],
+      "lostAcknowledgedMarkers": [],
+      "readersDisagree": false,
+      "writeErrors": [],
+      "distinctControls": [
+        {
+          "writer": 0,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 1,
+            "polls": 1,
+            "sha256": "c8e710a352ba109e63c9a87b4ac5dd00e8ab33bbd1842a6f541c897da2ba7d33",
+            "markers": [
+              "SYNTHETIC_DISTINCT_0_0_END"
+            ]
+          }
+        },
+        {
+          "writer": 1,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 1,
+            "polls": 1,
+            "sha256": "a45c3eb725b020638f928619f0145f073f5490c88401e7727b7f8712a1bda100",
+            "markers": [
+              "SYNTHETIC_DISTINCT_0_1_END"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "round": 1,
+      "startedAt": "2026-09-14T11:39:47.387Z",
+      "seedBytes": 14351,
+      "filePath": "same-note/Concurrent round 1.md",
+      "seedProjection": {
+        "converged": true,
+        "elapsedMs": 0,
+        "polls": 1,
+        "sha256": "e2b9be7376c58f5fa63872a6d07f6f62de0bf80bf8d60eff6f0d43926986fcbd",
+        "markers": [
+          "SYNTHETIC BASE\nSynthetic baseline padding."
+        ]
+      },
+      "finalProjection": {
+        "converged": true,
+        "elapsedMs": 0,
+        "polls": 1,
+        "sha256": "e6d1143657c7e54687825d6b8a587f3020ef19d9e2974d5858191ea5614f4955",
+        "markers": [
+          "SYNTHETIC_ROUND_1_WRITER_B_END"
+        ]
+      },
+      "markers": [
+        "SYNTHETIC_ROUND_1_WRITER_A_END",
+        "SYNTHETIC_ROUND_1_WRITER_B_END"
+      ],
+      "acknowledged": [
+        "SYNTHETIC_ROUND_1_WRITER_B_END"
+      ],
+      "retrieved": [
+        "SYNTHETIC_ROUND_1_WRITER_B_END"
+      ],
+      "finalRetrieved": [
+        [
+          "SYNTHETIC_ROUND_1_WRITER_B_END"
+        ],
+        [
+          "SYNTHETIC_ROUND_1_WRITER_B_END"
+        ]
+      ],
+      "immediatelyMissingAcknowledgedMarkers": [],
+      "lostAcknowledgedMarkers": [],
+      "readersDisagree": false,
+      "writeErrors": [
+        {
+          "writer": 0,
+          "isError": false,
+          "payload": {
+            "title": null,
+            "permalink": null,
+            "file_path": null,
+            "checksum": null,
+            "operation": "append",
+            "fileCreated": false,
+            "error": "Note content changed repeatedly while indexing same-note/Concurrent round 1.md"
+          }
+        }
+      ],
+      "distinctControls": [
+        {
+          "writer": 0,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 0,
+            "polls": 1,
+            "sha256": "fdd8c22b3e16cdcaf78bbaaaa866288af9f70ed79200a3dc262dc5ab9d2ba4c8",
+            "markers": [
+              "SYNTHETIC_DISTINCT_1_0_END"
+            ]
+          }
+        },
+        {
+          "writer": 1,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 1,
+            "polls": 1,
+            "sha256": "c9353963d19e32e753f6dabeb20e642e2bfe1706b31f982a7ae4e206a696d874",
+            "markers": [
+              "SYNTHETIC_DISTINCT_1_1_END"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "startedAt": "2026-09-14T11:39:48.305Z",
+      "seedBytes": 14351,
+      "filePath": "same-note/Concurrent round 2.md",
+      "seedProjection": {
+        "converged": true,
+        "elapsedMs": 1,
+        "polls": 1,
+        "sha256": "337b904a99b80f67f4b16a99ae2157272cacdb448976ed4e3c78a54f5f9198a7",
+        "markers": [
+          "SYNTHETIC BASE\nSynthetic baseline padding."
+        ]
+      },
+      "finalProjection": {
+        "converged": true,
+        "elapsedMs": 0,
+        "polls": 1,
+        "sha256": "a492b5a603508c34723e38825f312f835944b41809311d8d3b915bc503e5f0c0",
+        "markers": [
+          "SYNTHETIC_ROUND_2_WRITER_B_END"
+        ]
+      },
+      "markers": [
+        "SYNTHETIC_ROUND_2_WRITER_A_END",
+        "SYNTHETIC_ROUND_2_WRITER_B_END"
+      ],
+      "acknowledged": [
+        "SYNTHETIC_ROUND_2_WRITER_B_END"
+      ],
+      "retrieved": [
+        "SYNTHETIC_ROUND_2_WRITER_B_END"
+      ],
+      "finalRetrieved": [
+        [
+          "SYNTHETIC_ROUND_2_WRITER_B_END"
+        ],
+        [
+          "SYNTHETIC_ROUND_2_WRITER_B_END"
+        ]
+      ],
+      "immediatelyMissingAcknowledgedMarkers": [],
+      "lostAcknowledgedMarkers": [],
+      "readersDisagree": false,
+      "writeErrors": [
+        {
+          "writer": 0,
+          "isError": false,
+          "payload": {
+            "title": null,
+            "permalink": null,
+            "file_path": null,
+            "checksum": null,
+            "operation": "append",
+            "fileCreated": false,
+            "error": "Note content changed repeatedly while indexing same-note/Concurrent round 2.md"
+          }
+        }
+      ],
+      "distinctControls": [
+        {
+          "writer": 0,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 0,
+            "polls": 1,
+            "sha256": "2cd05cffb51fc208199b79aec0e907d46d483944809a32c68b4eeda18427f89b",
+            "markers": [
+              "SYNTHETIC_DISTINCT_2_0_END"
+            ]
+          }
+        },
+        {
+          "writer": 1,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 1,
+            "polls": 1,
+            "sha256": "9c0944f1e315af27e554774b2c6447c70db49d011cb696131fded06052b2a2c0",
+            "markers": [
+              "SYNTHETIC_DISTINCT_2_1_END"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "startedAt": "2026-09-14T11:39:49.284Z",
+      "seedBytes": 14351,
+      "filePath": "same-note/Concurrent round 3.md",
+      "seedProjection": {
+        "converged": true,
+        "elapsedMs": 2,
+        "polls": 1,
+        "sha256": "6c3ac618aa9084fb21eff86b9822b9f249509ce6feffa3cf14aa152694957c28",
+        "markers": [
+          "SYNTHETIC BASE\nSynthetic baseline padding."
+        ]
+      },
+      "finalProjection": {
+        "converged": true,
+        "elapsedMs": 0,
+        "polls": 1,
+        "sha256": "b221f379b041e306e8f12f2ba5bc9344cc3b86df6466bec578bbc5a99b87ff70",
+        "markers": [
+          "SYNTHETIC_ROUND_3_WRITER_A_END",
+          "SYNTHETIC_ROUND_3_WRITER_B_END"
+        ]
+      },
+      "markers": [
+        "SYNTHETIC_ROUND_3_WRITER_A_END",
+        "SYNTHETIC_ROUND_3_WRITER_B_END"
+      ],
+      "acknowledged": [
+        "SYNTHETIC_ROUND_3_WRITER_A_END",
+        "SYNTHETIC_ROUND_3_WRITER_B_END"
+      ],
+      "retrieved": [
+        "SYNTHETIC_ROUND_3_WRITER_A_END",
+        "SYNTHETIC_ROUND_3_WRITER_B_END"
+      ],
+      "finalRetrieved": [
+        [
+          "SYNTHETIC_ROUND_3_WRITER_A_END",
+          "SYNTHETIC_ROUND_3_WRITER_B_END"
+        ],
+        [
+          "SYNTHETIC_ROUND_3_WRITER_A_END",
+          "SYNTHETIC_ROUND_3_WRITER_B_END"
+        ]
+      ],
+      "immediatelyMissingAcknowledgedMarkers": [],
+      "lostAcknowledgedMarkers": [],
+      "readersDisagree": false,
+      "writeErrors": [],
+      "distinctControls": [
+        {
+          "writer": 0,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 0,
+            "polls": 1,
+            "sha256": "4760beb0b7602669eb8f92bc72be20fb45d8e24b8e0383d4a68568bcdf0e19b8",
+            "markers": [
+              "SYNTHETIC_DISTINCT_3_0_END"
+            ]
+          }
+        },
+        {
+          "writer": 1,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 0,
+            "polls": 1,
+            "sha256": "bcf7eb0a1a40295f3f20af61e814fa50899937cc5162b91bdb17a7fd6e8a5067",
+            "markers": [
+              "SYNTHETIC_DISTINCT_3_1_END"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "startedAt": "2026-09-14T11:39:50.222Z",
+      "seedBytes": 14351,
+      "filePath": "same-note/Concurrent round 4.md",
+      "seedProjection": {
+        "converged": true,
+        "elapsedMs": 0,
+        "polls": 1,
+        "sha256": "37ac32530ebb2e87b276daddc47861b4de97e5a1e541bdd1f62d054d8953d315",
+        "markers": [
+          "SYNTHETIC BASE\nSynthetic baseline padding."
+        ]
+      },
+      "finalProjection": {
+        "converged": true,
+        "elapsedMs": 0,
+        "polls": 1,
+        "sha256": "cb8a5238e7d336b661adb9986635259fb6535f069bcc40790b1a2947308df9ed",
+        "markers": [
+          "SYNTHETIC_ROUND_4_WRITER_A_END",
+          "SYNTHETIC_ROUND_4_WRITER_B_END"
+        ]
+      },
+      "markers": [
+        "SYNTHETIC_ROUND_4_WRITER_A_END",
+        "SYNTHETIC_ROUND_4_WRITER_B_END"
+      ],
+      "acknowledged": [
+        "SYNTHETIC_ROUND_4_WRITER_A_END",
+        "SYNTHETIC_ROUND_4_WRITER_B_END"
+      ],
+      "retrieved": [
+        "SYNTHETIC_ROUND_4_WRITER_A_END",
+        "SYNTHETIC_ROUND_4_WRITER_B_END"
+      ],
+      "finalRetrieved": [
+        [
+          "SYNTHETIC_ROUND_4_WRITER_A_END",
+          "SYNTHETIC_ROUND_4_WRITER_B_END"
+        ],
+        [
+          "SYNTHETIC_ROUND_4_WRITER_A_END",
+          "SYNTHETIC_ROUND_4_WRITER_B_END"
+        ]
+      ],
+      "immediatelyMissingAcknowledgedMarkers": [],
+      "lostAcknowledgedMarkers": [],
+      "readersDisagree": false,
+      "writeErrors": [],
+      "distinctControls": [
+        {
+          "writer": 0,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 0,
+            "polls": 1,
+            "sha256": "0a7a6c521b184a95ee7aa3f5eaa2049c5f3fae71d4b425326839beab39f5c764",
+            "markers": [
+              "SYNTHETIC_DISTINCT_4_0_END"
+            ]
+          }
+        },
+        {
+          "writer": 1,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 0,
+            "polls": 1,
+            "sha256": "a2986d9bf84959f0019c347fbe10441167208aba21af2e30ca1cfc3b97176af0",
+            "markers": [
+              "SYNTHETIC_DISTINCT_4_1_END"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "startedAt": "2026-09-14T11:39:51.124Z",
+      "seedBytes": 14351,
+      "filePath": "same-note/Concurrent round 5.md",
+      "seedProjection": {
+        "converged": true,
+        "elapsedMs": 0,
+        "polls": 1,
+        "sha256": "5a5a9736ac4fc097db8e11491c7afc818d64a1931ca74ee858351c3054fd9df3",
+        "markers": [
+          "SYNTHETIC BASE\nSynthetic baseline padding."
+        ]
+      },
+      "finalProjection": {
+        "converged": true,
+        "elapsedMs": 0,
+        "polls": 1,
+        "sha256": "1eae29d57cb8bfe44b513c23cb85dd56a248087111679e3e3740c5bf7fb51c6e",
+        "markers": [
+          "SYNTHETIC_ROUND_5_WRITER_A_END",
+          "SYNTHETIC_ROUND_5_WRITER_B_END"
+        ]
+      },
+      "markers": [
+        "SYNTHETIC_ROUND_5_WRITER_A_END",
+        "SYNTHETIC_ROUND_5_WRITER_B_END"
+      ],
+      "acknowledged": [
+        "SYNTHETIC_ROUND_5_WRITER_A_END",
+        "SYNTHETIC_ROUND_5_WRITER_B_END"
+      ],
+      "retrieved": [
+        "SYNTHETIC_ROUND_5_WRITER_A_END",
+        "SYNTHETIC_ROUND_5_WRITER_B_END"
+      ],
+      "finalRetrieved": [
+        [
+          "SYNTHETIC_ROUND_5_WRITER_A_END",
+          "SYNTHETIC_ROUND_5_WRITER_B_END"
+        ],
+        [
+          "SYNTHETIC_ROUND_5_WRITER_A_END",
+          "SYNTHETIC_ROUND_5_WRITER_B_END"
+        ]
+      ],
+      "immediatelyMissingAcknowledgedMarkers": [],
+      "lostAcknowledgedMarkers": [],
+      "readersDisagree": false,
+      "writeErrors": [],
+      "distinctControls": [
+        {
+          "writer": 0,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 0,
+            "polls": 1,
+            "sha256": "94bfc3c42bd0aa3747bece384858ec792195d98c2db00cedeca5c616609806a7",
+            "markers": [
+              "SYNTHETIC_DISTINCT_5_0_END"
+            ]
+          }
+        },
+        {
+          "writer": 1,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 0,
+            "polls": 1,
+            "sha256": "0f03df6df8c6736359ec6c5ad63fd2339f4cf7537023d7e4a11dfec80d8a61c5",
+            "markers": [
+              "SYNTHETIC_DISTINCT_5_1_END"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "startedAt": "2026-09-14T11:39:51.916Z",
+      "seedBytes": 14351,
+      "filePath": "same-note/Concurrent round 6.md",
+      "seedProjection": {
+        "converged": true,
+        "elapsedMs": 0,
+        "polls": 1,
+        "sha256": "debd1b88bd014a6160df22477fbf2710775e85c557248a654007404998a4fd4a",
+        "markers": [
+          "SYNTHETIC BASE\nSynthetic baseline padding."
+        ]
+      },
+      "finalProjection": {
+        "converged": true,
+        "elapsedMs": 1,
+        "polls": 1,
+        "sha256": "6caea94cbff9665b617848bae2417cc786f6cb614bfa800ca3ea1922dbe7ad2d",
+        "markers": [
+          "SYNTHETIC_ROUND_6_WRITER_B_END"
+        ]
+      },
+      "markers": [
+        "SYNTHETIC_ROUND_6_WRITER_A_END",
+        "SYNTHETIC_ROUND_6_WRITER_B_END"
+      ],
+      "acknowledged": [
+        "SYNTHETIC_ROUND_6_WRITER_B_END"
+      ],
+      "retrieved": [
+        "SYNTHETIC_ROUND_6_WRITER_B_END"
+      ],
+      "finalRetrieved": [
+        [
+          "SYNTHETIC_ROUND_6_WRITER_B_END"
+        ],
+        [
+          "SYNTHETIC_ROUND_6_WRITER_B_END"
+        ]
+      ],
+      "immediatelyMissingAcknowledgedMarkers": [],
+      "lostAcknowledgedMarkers": [],
+      "readersDisagree": false,
+      "writeErrors": [
+        {
+          "writer": 0,
+          "isError": false,
+          "payload": {
+            "title": null,
+            "permalink": null,
+            "file_path": null,
+            "checksum": null,
+            "operation": "append",
+            "fileCreated": false,
+            "error": "Note content changed repeatedly while indexing same-note/Concurrent round 6.md"
+          }
+        }
+      ],
+      "distinctControls": [
+        {
+          "writer": 0,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 0,
+            "polls": 1,
+            "sha256": "74495f6a3a2cc30b49a44fd576dcde49e75a40e7f9e4e4b9a5195d9316476faa",
+            "markers": [
+              "SYNTHETIC_DISTINCT_6_0_END"
+            ]
+          }
+        },
+        {
+          "writer": 1,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 0,
+            "polls": 1,
+            "sha256": "94453e421c891d735b6eb15c4c84a7a60c1db58f0992cd549e48dee3b1a675f0",
+            "markers": [
+              "SYNTHETIC_DISTINCT_6_1_END"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "startedAt": "2026-09-14T11:39:52.759Z",
+      "seedBytes": 14351,
+      "filePath": "same-note/Concurrent round 7.md",
+      "seedProjection": {
+        "converged": true,
+        "elapsedMs": 0,
+        "polls": 1,
+        "sha256": "df40b25ed0e1c1b364c106a8ada0c6042dea7513f53bb4ed616c9565276af75f",
+        "markers": [
+          "SYNTHETIC BASE\nSynthetic baseline padding."
+        ]
+      },
+      "finalProjection": {
+        "converged": true,
+        "elapsedMs": 0,
+        "polls": 1,
+        "sha256": "b826f91cdb46182f85b7d288ab67e62f1b0e0dd2ce93557b3f873c3c1e90157c",
+        "markers": [
+          "SYNTHETIC_ROUND_7_WRITER_B_END"
+        ]
+      },
+      "markers": [
+        "SYNTHETIC_ROUND_7_WRITER_A_END",
+        "SYNTHETIC_ROUND_7_WRITER_B_END"
+      ],
+      "acknowledged": [
+        "SYNTHETIC_ROUND_7_WRITER_B_END"
+      ],
+      "retrieved": [
+        "SYNTHETIC_ROUND_7_WRITER_B_END"
+      ],
+      "finalRetrieved": [
+        [
+          "SYNTHETIC_ROUND_7_WRITER_B_END"
+        ],
+        [
+          "SYNTHETIC_ROUND_7_WRITER_B_END"
+        ]
+      ],
+      "immediatelyMissingAcknowledgedMarkers": [],
+      "lostAcknowledgedMarkers": [],
+      "readersDisagree": false,
+      "writeErrors": [
+        {
+          "writer": 0,
+          "isError": false,
+          "payload": {
+            "title": null,
+            "permalink": null,
+            "file_path": null,
+            "checksum": null,
+            "operation": "append",
+            "fileCreated": false,
+            "error": "Note content changed repeatedly while indexing same-note/Concurrent round 7.md"
+          }
+        }
+      ],
+      "distinctControls": [
+        {
+          "writer": 0,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 0,
+            "polls": 1,
+            "sha256": "741b7bc8d364d5885d5a374332d9e38d565a9d2f3491f83355644d7c6a8f2519",
+            "markers": [
+              "SYNTHETIC_DISTINCT_7_0_END"
+            ]
+          }
+        },
+        {
+          "writer": 1,
+          "acknowledged": true,
+          "readable": true,
+          "projection": {
+            "converged": true,
+            "elapsedMs": 0,
+            "polls": 1,
+            "sha256": "e0ce24f20226af404d6db8a203e0bd7b970c6e7042d1a1b80216bb05ac610bb0",
+            "markers": [
+              "SYNTHETIC_DISTINCT_7_1_END"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "method": "8 rounds; two reused independent MCP processes. Each round seeds one approximately 14KB note, sends two append requests together, checks MCP-visible state immediately after both acknowledgements and through both readers after a bounded 15-second Markdown projection poll; seed and distinct-note projection polls have the same bound. No write serialization or backend modification.",
+  "scope": "Observation of this schedule/fixture only; passing rounds do not establish race freedom. lostAcknowledgedMarkers means absent through both MCP readers at the bounded final observation, not proven permanent loss. Projection timeouts are separate.",
+  "totalAcknowledgedAppends": 12,
+  "totalLostAcknowledgedMarkers": 0,
+  "roundsWithLoss": 0,
+  "allDistinctControlsPass": true,
+  "projectionTimeouts": 0,
+  "roundsWithReaderDisagreement": 0
+}

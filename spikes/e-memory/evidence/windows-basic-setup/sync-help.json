@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\e-basic-tools\\venv\\Scripts\\bm.exe",
+    "sync",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:59:43.366Z",
+  "durationMs": 7059,
+  "exitCode": 2,
+  "stdout": "",
+  "stderr": "Usage: bm [OPTIONS] COMMAND [ARGS]...\r\nTry 'bm --help' for help.\r\n┌─ Error ─────────────────────────────────────────────────────────────────────┐\r\n│ No such command 'sync'.                                                     │\r\n└─────────────────────────────────────────────────────────────────────────────┘\r\n"
+}

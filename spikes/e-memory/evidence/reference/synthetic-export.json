@@ -1,0 +1,34 @@
+{
+  "entities": [
+    {
+      "name": "alpha-build",
+      "entityType": "decision",
+      "observations": [
+        "Project alpha uses node --test for synthetic subscription checks.",
+        "Synthetic shared checkout identity: alpha-local.",
+        "SYNTHETIC_NOT_A_SECRET_E_REFERENCE_CANARY"
+      ]
+    },
+    {
+      "name": "alpha-style",
+      "entityType": "convention",
+      "observations": [
+        "Project alpha uses two-space indentation."
+      ]
+    },
+    {
+      "name": "beta-build",
+      "entityType": "decision",
+      "observations": [
+        "Project beta uses unittest for synthetic Python checks."
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from": "alpha-build",
+      "to": "alpha-style",
+      "relationType": "shares_project"
+    }
+  ]
+}

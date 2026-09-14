@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-09-14",
+  "sourceMethod": "Official web pages opened, not search snippets alone; no personal memory read.",
+  "sources": [
+    {"requested":"https://developers.openai.com/codex/memories","resolved":"https://learn.chatgpt.com/docs/customization/memories?surface=app","finding":"Local Codex generated memories, off by default, background extraction, chat controls, generated storage under CODEX_HOME."},
+    {"requested":"https://developers.openai.com/codex/config-reference","resolved":"https://learn.chatgpt.com/docs/config-file/config-reference","finding":"Memory generation/use, idle/rate-limit/age controls and extraction/consolidation model settings."},
+    {"requested":"https://code.claude.com/docs/en/memory","resolved":"https://code.claude.com/docs/en/memory","finding":"Machine-local auto memory, repository worktree sharing, 200-line/25KB entrypoint load bound, trusted settings for directory override."}
+  ],
+  "executionBoundary": "Native CLI features/help and MCP registration can be measured without inference; native memory generation/recall remain unverified."
+}

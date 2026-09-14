@@ -1,0 +1,10 @@
+{
+  "runs": [
+    {"id":34836725034,"commit":"be6b3354553d4c3ccf3098605128bf109dae0653","classification":"Upgrade collector assumed slug filename; actual native filename preserves title case. Failed before uninstall. Corrected to returned file_path."},
+    {"id":34837265437,"commit":"9966ddd1b1365a357f17fa072a411162eb1d25cd","classification":"Successful earlier full run without expanded stress. Reference lost44 of96 acknowledgements; excluded from final canonical counts."},
+    {"id":34837744747,"commit":"c47b7ab51232d853322e7785ec2b848675a5e160","classification":"Stress collector read Markdown immediately after acknowledged database write; ENOENT reflects async projection. Revised to MCP reads and bounded projection observations; duplicate alpha search result preserved separately."},
+    {"id":34839063438,"commit":"d43646a3d9d6fff8bc32fd64cdc15008dd1b3991","classification":"Cancelled during preparation after independent review found weak absence and error predicates; no accepted canonical behavior results."},
+    {"id":34839170081,"commit":"79c251fb55d0fdded2ee2307dfe0856dbfe08870","classification":"Successful final canonical run; negative domain outcomes retained. Diagnostic redaction predicate reclassified from raw evidence/source without rerunning."}
+  ],
+  "policy":"No blind retry of identical unexplained flaky experiment; Windows discovery and earlier hosted runs excluded from canonical counts."
+}

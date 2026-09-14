@@ -1,0 +1,32 @@
+{
+  "label": "default-b",
+  "method": "tools/call",
+  "params": {
+    "name": "read_graph",
+    "arguments": {}
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"entities\": [\n    {\n      \"name\": \"default-path-canary\",\n      \"entityType\": \"test\",\n      \"observations\": []\n    }\n  ],\n  \"relations\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "entities": [
+          {
+            "name": "default-path-canary",
+            "entityType": "test",
+            "observations": []
+          }
+        ],
+        "relations": []
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 2
+  },
+  "durationMs": 16,
+  "responseBytes": 359
+}

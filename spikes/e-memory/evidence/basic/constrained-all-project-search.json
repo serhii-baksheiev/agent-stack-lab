@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "{\"results\":[{\"title\":\"Orchid deploy\",\"type\":\"entity\",\"score\":-9.570027659039477e-7,\"entity\":\"alpha/notes/orchid-deploy\",\"external_id\":\"efd656ee-f361-45a0-a33e-d336ad49a778\",\"permalink\":\"alpha/notes/orchid-deploy\",\"content\":\"ORCHID_ALPHA_DEPLOY: use port 4101.\",\"file_path\":\"notes/Orchid deploy.md\",\"updated_at\":\"2026-09-14T11:38:47.258086Z\",\"metadata\":{\"note_type\":\"note\"},\"entity_id\":1},{\"title\":\"Orchid tests\",\"type\":\"entity\",\"score\":-9.570027659039477e-7,\"entity\":\"alpha/notes/orchid-tests\",\"external_id\":\"afb9343d-79f7-4cf6-9ccd-ce10a8beed29\",\"permalink\":\"alpha/notes/orchid-tests\",\"content\":\"ORCHID_ALPHA_TESTS: run synthetic tests.\",\"file_path\":\"notes/Orchid tests.md\",\"updated_at\":\"2026-09-14T11:38:47.350432Z\",\"metadata\":{\"note_type\":\"note\"},\"entity_id\":2}],\"current_page\":1,\"page_size\":10,\"total\":2,\"total_is_exact\":true,\"has_more\":false}",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": {
+      "results": [
+        {
+          "title": "Orchid deploy",
+          "type": "entity",
+          "score": -9.570027659039477e-7,
+          "entity": "alpha/notes/orchid-deploy",
+          "external_id": "efd656ee-f361-45a0-a33e-d336ad49a778",
+          "permalink": "alpha/notes/orchid-deploy",
+          "content": "ORCHID_ALPHA_DEPLOY: use port 4101.",
+          "file_path": "notes/Orchid deploy.md",
+          "updated_at": "2026-09-14T11:38:47.258086Z",
+          "metadata": {
+            "note_type": "note"
+          },
+          "entity_id": 1
+        },
+        {
+          "title": "Orchid tests",
+          "type": "entity",
+          "score": -9.570027659039477e-7,
+          "entity": "alpha/notes/orchid-tests",
+          "external_id": "afb9343d-79f7-4cf6-9ccd-ce10a8beed29",
+          "permalink": "alpha/notes/orchid-tests",
+          "content": "ORCHID_ALPHA_TESTS: run synthetic tests.",
+          "file_path": "notes/Orchid tests.md",
+          "updated_at": "2026-09-14T11:38:47.350432Z",
+          "metadata": {
+            "note_type": "note"
+          },
+          "entity_id": 2
+        }
+      ],
+      "current_page": 1,
+      "page_size": 10,
+      "total": 2,
+      "total_is_exact": true,
+      "has_more": false
+    }
+  }
+}

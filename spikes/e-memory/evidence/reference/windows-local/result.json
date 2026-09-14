@@ -1,0 +1,308 @@
+{
+  "candidate": "official MCP reference memory",
+  "version": "2026.8.31",
+  "protocolHandshake": {
+    "protocolVersion": "2025-03-26",
+    "capabilities": {
+      "tools": {
+        "listChanged": true
+      },
+      "resources": {
+        "listChanged": true,
+        "subscribe": true
+      }
+    },
+    "serverInfo": {
+      "name": "memory-server",
+      "version": "0.6.3"
+    }
+  },
+  "handshakeReportsPackageVersion": false,
+  "tools": [
+    "create_entities",
+    "create_relations",
+    "add_observations",
+    "delete_entities",
+    "delete_observations",
+    "delete_relations",
+    "read_graph",
+    "search_nodes",
+    "open_nodes"
+  ],
+  "repeatedEntityCreationAddsNone": true,
+  "restartExact": true,
+  "explicitSeparatePathIsolated": true,
+  "sameAbsolutePathDifferentCheckoutShared": true,
+  "wrongProjectPathLeaks": true,
+  "projectIsolationIsAuthorization": false,
+  "defaultPathSharedAcrossCwd": true,
+  "canaryStoredUnredacted": true,
+  "queries": [
+    {
+      "query": "node --test",
+      "expected": [
+        "alpha-build"
+      ],
+      "returned": [
+        "alpha-build"
+      ],
+      "precision": 1,
+      "recall": 1,
+      "bytes": 886,
+      "durationMs": 10
+    },
+    {
+      "query": "alpha",
+      "expected": [
+        "alpha-build",
+        "alpha-style"
+      ],
+      "returned": [
+        "alpha-build",
+        "alpha-style"
+      ],
+      "precision": 1,
+      "recall": 1,
+      "bytes": 1175,
+      "durationMs": 11
+    },
+    {
+      "query": "unittest",
+      "expected": [
+        "beta-build"
+      ],
+      "returned": [
+        "beta-build"
+      ],
+      "precision": 1,
+      "recall": 1,
+      "bytes": 449,
+      "durationMs": 10
+    },
+    {
+      "query": "nonexistent synthetic fact",
+      "expected": [],
+      "returned": [],
+      "precision": 1,
+      "recall": 1,
+      "bytes": 136,
+      "durationMs": 7
+    }
+  ],
+  "exportImportExact": true,
+  "corruption": {
+    "readReturnsError": true,
+    "writeReturnsError": true,
+    "corruptBytesPreserved": true,
+    "backupRestoreExact": true
+  },
+  "concurrentWriters": [
+    {
+      "round": 0,
+      "attempted": 24,
+      "acknowledged": 22,
+      "persisted": 17,
+      "lostAcknowledgedWrites": 5,
+      "writeErrors": 2,
+      "acknowledgedNames": [
+        "a-0",
+        "b-0",
+        "a-1",
+        "b-1",
+        "a-2",
+        "a-3",
+        "b-2",
+        "a-4",
+        "a-5",
+        "b-3",
+        "a-6",
+        "b-4",
+        "a-8",
+        "b-5",
+        "a-9",
+        "a-10",
+        "b-7",
+        "a-11",
+        "b-8",
+        "b-9",
+        "b-10",
+        "b-11"
+      ],
+      "persistedNames": [
+        "a-0",
+        "b-0",
+        "a-1",
+        "a-2",
+        "b-2",
+        "a-4",
+        "a-5",
+        "a-6",
+        "b-4",
+        "b-5",
+        "a-9",
+        "a-10",
+        "a-11",
+        "b-8",
+        "b-9",
+        "b-10",
+        "b-11"
+      ]
+    },
+    {
+      "round": 1,
+      "attempted": 24,
+      "acknowledged": 18,
+      "persisted": 12,
+      "lostAcknowledgedWrites": 6,
+      "writeErrors": 6,
+      "acknowledgedNames": [
+        "a-0",
+        "b-0",
+        "a-1",
+        "b-1",
+        "b-2",
+        "a-3",
+        "b-3",
+        "a-4",
+        "b-5",
+        "a-6",
+        "b-6",
+        "a-7",
+        "a-8",
+        "b-8",
+        "b-9",
+        "b-10",
+        "a-11",
+        "b-11"
+      ],
+      "persistedNames": [
+        "b-0",
+        "b-1",
+        "b-2",
+        "b-3",
+        "a-4",
+        "b-5",
+        "b-6",
+        "a-7",
+        "b-8",
+        "b-9",
+        "b-10",
+        "b-11"
+      ]
+    },
+    {
+      "round": 2,
+      "attempted": 24,
+      "acknowledged": 21,
+      "persisted": 14,
+      "lostAcknowledgedWrites": 7,
+      "writeErrors": 3,
+      "acknowledgedNames": [
+        "a-0",
+        "b-1",
+        "a-2",
+        "b-2",
+        "a-3",
+        "b-3",
+        "a-4",
+        "b-4",
+        "a-5",
+        "b-5",
+        "a-6",
+        "b-6",
+        "a-7",
+        "b-7",
+        "a-8",
+        "b-8",
+        "b-9",
+        "a-10",
+        "b-10",
+        "a-11",
+        "b-11"
+      ],
+      "persistedNames": [
+        "a-0",
+        "b-1",
+        "b-2",
+        "b-3",
+        "a-4",
+        "b-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8",
+        "b-8",
+        "a-10",
+        "a-11",
+        "b-11"
+      ]
+    },
+    {
+      "round": 3,
+      "attempted": 24,
+      "acknowledged": 22,
+      "persisted": 14,
+      "lostAcknowledgedWrites": 8,
+      "writeErrors": 2,
+      "acknowledgedNames": [
+        "a-0",
+        "a-1",
+        "b-1",
+        "a-2",
+        "b-2",
+        "b-3",
+        "a-4",
+        "b-4",
+        "a-5",
+        "b-5",
+        "a-6",
+        "b-6",
+        "a-7",
+        "b-7",
+        "a-8",
+        "b-8",
+        "a-9",
+        "b-9",
+        "a-10",
+        "b-10",
+        "a-11",
+        "b-11"
+      ],
+      "persistedNames": [
+        "a-0",
+        "b-1",
+        "b-2",
+        "b-3",
+        "a-4",
+        "b-4",
+        "b-5",
+        "b-6",
+        "b-7",
+        "b-8",
+        "b-9",
+        "b-10",
+        "a-11",
+        "b-11"
+      ]
+    }
+  ],
+  "deletion": {
+    "entityRemoved": true,
+    "relatedEdgesRemoved": true,
+    "otherEntitiesRemain": true
+  },
+  "packageRemoval": {
+    "entryRemoved": true,
+    "externalDataPreserved": true,
+    "defaultPackageLocalDataRemoved": true
+  },
+  "offline": "No network API in server source; all protocol calls local stdio. Network isolation not enforced in this run.",
+  "unverified": [
+    "native model recall/extraction",
+    "concurrent safety beyond measured rounds",
+    "crash/power-loss durability",
+    "authenticated project access boundary",
+    "automatic server cross-version data migration"
+  ],
+  "localEvidenceCorrection": "Concurrent acknowledged-loss summary corrected from existing raw MCP response names; no additional server run. Hosted script applies corrected calculation."
+}

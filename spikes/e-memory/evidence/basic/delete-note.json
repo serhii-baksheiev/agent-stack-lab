@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "{\"deleted\":true,\"title\":\"Garden\",\"permalink\":\"alpha/notes/garden\",\"file_path\":\"notes/Garden.md\"}",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": {
+      "deleted": true,
+      "title": "Garden",
+      "permalink": "alpha/notes/garden",
+      "file_path": "notes/Garden.md"
+    }
+  }
+}

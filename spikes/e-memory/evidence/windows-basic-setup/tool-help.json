@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\e-basic-tools\\venv\\Scripts\\bm.exe",
+    "tool",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:59:32.799Z",
+  "durationMs": 5076,
+  "exitCode": 0,
+  "stdout": "                                                                               \r\n Usage: bm tool [OPTIONS] COMMAND [ARGS]...                                    \r\n                                                                               \r\n Access to MCP tools via CLI                                                   \r\n                                                                               \r\n┌─ Options ───────────────────────────────────────────────────────────────────┐\r\n│ --help          Show this message and exit.                                 │\r\n└─────────────────────────────────────────────────────────────────────────────┘\r\n┌─ Commands ──────────────────────────────────────────────────────────────────┐\r\n│ write-note       Create or update a markdown note. Content can be provided  │\r\n│                  via --content or stdin.                                    │\r\n│ read-note        Read a markdown note from the knowledge base.              │\r\n│ delete-note      Delete a note or directory from the knowledge base.        │\r\n│ edit-note        Edit an existing markdown note using                       │\r\n│                  append/prepend/find_replace/replace_section.               │\r\n│ build-context    Get context needed to continue a discussion.               │\r\n│ recent-activity  Get recent activity across the knowledge base.             │\r\n│ search-notes     Search across all content in the knowledge base.           │\r\n│ list-projects    List all available projects with their status (JSON        │\r\n│                  output).                                                   │\r\n│ list-workspaces  List available cloud workspaces (JSON output).             │\r\n│ schema-validate  Validate notes against their schemas (JSON output).        │\r\n│ schema-infer     Infer schema from existing notes of a type (JSON output).  │\r\n│ schema-diff      Show drift between schema and actual usage (JSON output).  │\r\n└─────────────────────────────────────────────────────────────────────────────┘\r\n\r\n",
+  "stderr": ""
+}

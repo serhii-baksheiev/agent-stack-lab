@@ -1,0 +1,13 @@
+{
+  "command": [
+    "git",
+    "init",
+    "-q"
+  ],
+  "cwd": ".lab-runs/e-native-wiring-1789386025736/codex-rig-first/repo",
+  "startedAt": "2026-09-14T11:40:56.889Z",
+  "durationMs": 4,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": ""
+}

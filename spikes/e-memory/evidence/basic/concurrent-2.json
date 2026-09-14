@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "# Created note\nproject: alpha\nfile_path: concurrent/Concurrent 2.md\npermalink: alpha/concurrent/concurrent-2\nchecksum: unknown\n\n[Session: Using project 'alpha']",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": "# Created note\nproject: alpha\nfile_path: concurrent/Concurrent 2.md\npermalink: alpha/concurrent/concurrent-2\nchecksum: unknown\n\n[Session: Using project 'alpha']"
+  }
+}

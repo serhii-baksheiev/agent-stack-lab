@@ -1,0 +1,12 @@
+{
+  "command": [
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\e-basic-tools\\venv\\Scripts\\bm.exe",
+    "--version"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:58:57.765Z",
+  "durationMs": 11831,
+  "exitCode": 0,
+  "stdout": "Basic Memory version: 0.23.2\r\n",
+  "stderr": ""
+}

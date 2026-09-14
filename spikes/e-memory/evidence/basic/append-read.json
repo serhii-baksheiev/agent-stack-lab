@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "---\ntitle: Shared append\ntype: note\npermalink: alpha/notes/shared-append\n---\n\nBASE\nWRITER_B\nWRITER_A",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": "---\ntitle: Shared append\ntype: note\npermalink: alpha/notes/shared-append\n---\n\nBASE\nWRITER_B\nWRITER_A"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "# Created note\nproject: alpha\nfile_path: notes/Shared append.md\npermalink: alpha/notes/shared-append\nchecksum: unknown\n\n[Session: Using project 'alpha']",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": "# Created note\nproject: alpha\nfile_path: notes/Shared append.md\npermalink: alpha/notes/shared-append\nchecksum: unknown\n\n[Session: Using project 'alpha']"
+  }
+}

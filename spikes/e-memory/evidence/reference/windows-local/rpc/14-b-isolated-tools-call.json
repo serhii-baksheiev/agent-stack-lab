@@ -1,0 +1,26 @@
+{
+  "label": "b-isolated",
+  "method": "tools/call",
+  "params": {
+    "name": "read_graph",
+    "arguments": {}
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"entities\": [],\n  \"relations\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "entities": [],
+        "relations": []
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 2
+  },
+  "durationMs": 16,
+  "responseBytes": 170
+}

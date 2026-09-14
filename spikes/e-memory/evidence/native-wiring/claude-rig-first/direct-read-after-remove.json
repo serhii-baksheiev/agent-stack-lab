@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "---\ntitle: Wiring sentinel\ntype: note\npermalink: alpha/synthetic/wiring-sentinel\n---\n\nSYNTHETIC_WIRING_PRESERVE",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": "---\ntitle: Wiring sentinel\ntype: note\npermalink: alpha/synthetic/wiring-sentinel\n---\n\nSYNTHETIC_WIRING_PRESERVE"
+  }
+}

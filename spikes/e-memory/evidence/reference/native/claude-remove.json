@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "mcp",
+    "remove",
+    "synthetic-reference",
+    "--scope",
+    "project"
+  ],
+  "cwd": ".lab-runs/e-reference-1789386017392/native-registration",
+  "startedAt": "2026-09-14T11:40:25.142Z",
+  "durationMs": 260,
+  "exitCode": 0,
+  "stdout": "Removed MCP server synthetic-reference from project config\nFile modified: <LAB>/.lab-runs/e-reference-1789386017392/native-registration/.mcp.json\n",
+  "stderr": ""
+}

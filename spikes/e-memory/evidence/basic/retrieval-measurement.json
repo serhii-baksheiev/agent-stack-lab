@@ -1,0 +1,16 @@
+{
+  "responseBytes": 1918,
+  "query": "ORCHID",
+  "expectedPermalinks": [
+    "alpha/notes/orchid-deploy",
+    "alpha/notes/orchid-tests"
+  ],
+  "returnedPermalinks": [
+    "alpha/notes/orchid-deploy",
+    "alpha/notes/orchid-tests"
+  ],
+  "precision": 1,
+  "recall": 1,
+  "rawResponse": "retrieval.json",
+  "semanticSearchEnabled": false
+}

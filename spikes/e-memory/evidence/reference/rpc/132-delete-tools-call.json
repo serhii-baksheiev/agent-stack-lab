@@ -1,0 +1,30 @@
+{
+  "label": "delete",
+  "method": "tools/call",
+  "params": {
+    "name": "delete_entities",
+    "arguments": {
+      "entityNames": [
+        "alpha-build"
+      ]
+    }
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Entities deleted successfully"
+        }
+      ],
+      "structuredContent": {
+        "success": true,
+        "message": "Entities deleted successfully"
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 3
+  },
+  "durationMs": 1,
+  "responseBytes": 181
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "uv",
+    "pip",
+    "uninstall",
+    "--python",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-upgrade-1789385995331/venv/bin/python",
+    "basic-memory"
+  ],
+  "cwd": ".lab-runs/e-basic-upgrade-1789385995331",
+  "startedAt": "2026-09-14T11:40:13.087Z",
+  "durationMs": 20,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": "Using Python 3.12.14 environment at: venv\nUninstalled 1 package in 12ms\n - basic-memory==0.23.2 (from file://<LAB>/.lab-runs/e-basic-upgrade-1789385995331/basic_memory-0.23.2-py3-none-any.whl)\n"
+}

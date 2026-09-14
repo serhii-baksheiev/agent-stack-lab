@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\f-tools\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+    "mcp",
+    "add",
+    "--help"
+  ],
+  "cwd": ".lab-runs/e-reference-native-inspect",
+  "startedAt": "2026-09-14T10:58:54.070Z",
+  "durationMs": 1032,
+  "exitCode": 0,
+  "stdout": "Usage: claude mcp add [options] <name> <commandOrUrl> [args...]\n\nAdd an MCP server to Claude Code.\n\nExamples:\n  # Add HTTP server:\n  claude mcp add --transport http sentry https://mcp.sentry.dev/mcp\n\n  # Add HTTP server with headers:\n  claude mcp add --transport http corridor https://app.corridor.dev/api/mcp\n--header \"Authorization: Bearer ...\"\n\n  # Add stdio server with environment variables:\n  claude mcp add my-server -e API_KEY=xxx -- npx my-mcp-server\n\n  # Add stdio server with subprocess flags:\n  claude mcp add my-server -- my-command --some-flag arg1\n\nOptions:\n  --callback-port <port>       Fixed port for OAuth callback (for servers\n                               requiring pre-registered redirect URIs)\n  --client-id <clientId>       OAuth client ID for HTTP/SSE servers\n  --client-secret              Prompt for OAuth client secret (or set\n                               MCP_CLIENT_SECRET env var)\n  -e, --env <env...>           Set environment variables (e.g. -e KEY=value)\n  -H, --header <header...>     Set headers for HTTP/SSE servers (e.g. -H\n                               \"X-Api-Key: abc123\" -H \"X-Custom: value\")\n  -h, --help                   Display help for command\n  -s, --scope <scope>          Configuration scope (local, user, or project)\n                               (default: \"local\")\n  -t, --transport <transport>  Transport type (stdio, sse, http). Defaults to\n                               stdio if not specified.\n",
+  "stderr": ""
+}

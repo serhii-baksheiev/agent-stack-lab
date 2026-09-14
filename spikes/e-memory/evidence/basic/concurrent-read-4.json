@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "---\ntitle: Concurrent 4\ntype: note\npermalink: alpha/concurrent/concurrent-4\n---\n\nCONCURRENT_4",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": "---\ntitle: Concurrent 4\ntype: note\npermalink: alpha/concurrent/concurrent-4\n---\n\nCONCURRENT_4"
+  }
+}

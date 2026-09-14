@@ -1,0 +1,983 @@
+[
+  {
+    "scenario": "Basic: native diagnostics provides exact package version",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: native diagnostics redacts synthetic config key",
+    "status": "unverified",
+    "evidence": "basic/result.json",
+    "note": "Raw false retained: collector incorrectly expected a retained key; native source drops it. No captured loaded-input bytes; exact canary ingestion remains unverified."
+  },
+  {
+    "scenario": "Basic: write alpha Orchid deploy",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: write alpha Orchid tests",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: write alpha Garden",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: write beta Orchid deploy",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: shared memory visible to independent new process and worktree",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: explicit project separation",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: search returns exactly expected alpha notes",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: constrained server prevents beta read",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: constrained all-project search remains alpha-only",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: constrained all-project search has no duplicate results",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: constrained absolute path does not expose beta content",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: path traversal rejected",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: no escaped note created",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: canary write/read probe succeeds",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: memory automatically redacts supplied canary",
+    "status": "failed",
+    "evidence": "basic/result.json",
+    "note": "Plaintext canary is synthetic; this is not a detector benchmark for valid credential formats."
+  },
+  {
+    "scenario": "Basic: concurrent independent-note writes all acknowledge",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: concurrent note 0 survives",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: concurrent note 1 survives",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: concurrent note 2 survives",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: concurrent note 3 survives",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: concurrent note 4 survives",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: concurrent note 5 survives",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: concurrent note 6 survives",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: concurrent note 7 survives",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: concurrent same-note appends both survive",
+    "status": "passed",
+    "evidence": "basic/result.json",
+    "note": {
+      "acknowledged": [
+        true,
+        true
+      ]
+    }
+  },
+  {
+    "scenario": "Basic: restart persists note",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: native note deletion",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: short permalink remains valid after project rename",
+    "status": "failed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: Markdown export/import preserves content using file identity",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: corruption surfaces a classified database error",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: backup restores readable notes",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: native doctor completes",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic: network namespace offline read",
+    "status": "passed",
+    "evidence": "basic/result.json"
+  },
+  {
+    "scenario": "Basic diagnostics has no synthetic config canary exposure",
+    "status": "passed",
+    "evidence": "basic/native-diagnostics.json",
+    "note": "Observed output absence; not a generic redaction benchmark."
+  },
+  {
+    "scenario": "Basic lifecycle: currentVersionVerified",
+    "status": "passed",
+    "evidence": "basic-upgrade/result.json"
+  },
+  {
+    "scenario": "Basic lifecycle: upgradePreservedNote",
+    "status": "passed",
+    "evidence": "basic-upgrade/result.json"
+  },
+  {
+    "scenario": "Basic lifecycle: uninstallRemovedEntrypoint",
+    "status": "passed",
+    "evidence": "basic-upgrade/result.json"
+  },
+  {
+    "scenario": "Basic lifecycle: uninstallPreservedData",
+    "status": "passed",
+    "evidence": "basic-upgrade/result.json"
+  },
+  {
+    "scenario": "Basic lifecycle: reinstallReadsData",
+    "status": "passed",
+    "evidence": "basic-upgrade/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 0 all appends acknowledged",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 0 preserves acknowledged markers",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json",
+    "note": "Bounded final MCP observations, not proof of permanent durable loss."
+  },
+  {
+    "scenario": "Basic same-note round 0 readers agree",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 0 projection converges",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note controls round 0",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note projections round 0",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 1 all appends acknowledged",
+    "status": "failed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 1 preserves acknowledged markers",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json",
+    "note": "Bounded final MCP observations, not proof of permanent durable loss."
+  },
+  {
+    "scenario": "Basic same-note round 1 readers agree",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 1 projection converges",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note controls round 1",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note projections round 1",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 2 all appends acknowledged",
+    "status": "failed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 2 preserves acknowledged markers",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json",
+    "note": "Bounded final MCP observations, not proof of permanent durable loss."
+  },
+  {
+    "scenario": "Basic same-note round 2 readers agree",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 2 projection converges",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note controls round 2",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note projections round 2",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 3 all appends acknowledged",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 3 preserves acknowledged markers",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json",
+    "note": "Bounded final MCP observations, not proof of permanent durable loss."
+  },
+  {
+    "scenario": "Basic same-note round 3 readers agree",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 3 projection converges",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note controls round 3",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note projections round 3",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 4 all appends acknowledged",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 4 preserves acknowledged markers",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json",
+    "note": "Bounded final MCP observations, not proof of permanent durable loss."
+  },
+  {
+    "scenario": "Basic same-note round 4 readers agree",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 4 projection converges",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note controls round 4",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note projections round 4",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 5 all appends acknowledged",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 5 preserves acknowledged markers",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json",
+    "note": "Bounded final MCP observations, not proof of permanent durable loss."
+  },
+  {
+    "scenario": "Basic same-note round 5 readers agree",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 5 projection converges",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note controls round 5",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note projections round 5",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 6 all appends acknowledged",
+    "status": "failed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 6 preserves acknowledged markers",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json",
+    "note": "Bounded final MCP observations, not proof of permanent durable loss."
+  },
+  {
+    "scenario": "Basic same-note round 6 readers agree",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 6 projection converges",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note controls round 6",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note projections round 6",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 7 all appends acknowledged",
+    "status": "failed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 7 preserves acknowledged markers",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json",
+    "note": "Bounded final MCP observations, not proof of permanent durable loss."
+  },
+  {
+    "scenario": "Basic same-note round 7 readers agree",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic same-note round 7 projection converges",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note controls round 7",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Basic distinct-note projections round 7",
+    "status": "passed",
+    "evidence": "basic-concurrency/result.json"
+  },
+  {
+    "scenario": "Reference: repeatedEntityCreationAddsNone",
+    "status": "passed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference: restartExact",
+    "status": "passed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference: explicitSeparatePathIsolated",
+    "status": "passed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference: sameAbsolutePathDifferentCheckoutShared",
+    "status": "passed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference: exportImportExact",
+    "status": "passed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference literal retrieval: node --test",
+    "status": "passed",
+    "evidence": "reference/result.json",
+    "note": {
+      "bytes": 886,
+      "corpus": "Three synthetic entities; not semantic retrieval."
+    }
+  },
+  {
+    "scenario": "Reference literal retrieval: alpha",
+    "status": "passed",
+    "evidence": "reference/result.json",
+    "note": {
+      "bytes": 1175,
+      "corpus": "Three synthetic entities; not semantic retrieval."
+    }
+  },
+  {
+    "scenario": "Reference literal retrieval: unittest",
+    "status": "passed",
+    "evidence": "reference/result.json",
+    "note": {
+      "bytes": 449,
+      "corpus": "Three synthetic entities; not semantic retrieval."
+    }
+  },
+  {
+    "scenario": "Reference literal retrieval: nonexistent synthetic fact",
+    "status": "passed",
+    "evidence": "reference/result.json",
+    "note": {
+      "bytes": 136,
+      "corpus": "Three synthetic entities; not semantic retrieval."
+    }
+  },
+  {
+    "scenario": "Reference default isolates different working directories",
+    "status": "failed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference wrong path cannot expose another project",
+    "status": "failed",
+    "evidence": "reference/result.json",
+    "note": "File selection is not authorization."
+  },
+  {
+    "scenario": "Reference automatically redacts supplied canary",
+    "status": "failed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference handshake reports package version",
+    "status": "failed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference corruption: readReturnsError",
+    "status": "passed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference corruption: writeReturnsError",
+    "status": "passed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference corruption: corruptBytesPreserved",
+    "status": "passed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference corruption: backupRestoreExact",
+    "status": "passed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference deletion: entityRemoved",
+    "status": "passed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference deletion: relatedEdgesRemoved",
+    "status": "passed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference deletion: otherEntitiesRemain",
+    "status": "passed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference concurrent round 0 retains acknowledged writes",
+    "status": "failed",
+    "evidence": "reference/result.json",
+    "note": {
+      "acknowledged": 24,
+      "lost": 9,
+      "writeErrors": 0
+    }
+  },
+  {
+    "scenario": "Reference concurrent round 1 retains acknowledged writes",
+    "status": "failed",
+    "evidence": "reference/result.json",
+    "note": {
+      "acknowledged": 24,
+      "lost": 10,
+      "writeErrors": 0
+    }
+  },
+  {
+    "scenario": "Reference concurrent round 2 retains acknowledged writes",
+    "status": "failed",
+    "evidence": "reference/result.json",
+    "note": {
+      "acknowledged": 24,
+      "lost": 10,
+      "writeErrors": 0
+    }
+  },
+  {
+    "scenario": "Reference concurrent round 3 retains acknowledged writes",
+    "status": "failed",
+    "evidence": "reference/result.json",
+    "note": {
+      "acknowledged": 24,
+      "lost": 10,
+      "writeErrors": 0
+    }
+  },
+  {
+    "scenario": "Reference package uninstall preserves explicit external data",
+    "status": "passed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference package uninstall preserves default data",
+    "status": "failed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference package entrypoint removed",
+    "status": "passed",
+    "evidence": "reference/result.json"
+  },
+  {
+    "scenario": "Reference native Claude/Codex registration/removal",
+    "status": "passed",
+    "evidence": "reference/native-registration.json"
+  },
+  {
+    "scenario": "claude rig-first rigDryExit",
+    "status": "passed",
+    "evidence": "native-wiring/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first rigUpgradeExit",
+    "status": "passed",
+    "evidence": "native-wiring/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first nativeGetAfterRigExit",
+    "status": "passed",
+    "evidence": "native-wiring/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first nativeRemovalExit",
+    "status": "passed",
+    "evidence": "native-wiring/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first survivingRigExit",
+    "status": "passed",
+    "evidence": "native-wiring/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first dryReadOnly",
+    "status": "passed",
+    "evidence": "native-wiring/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first sharedEditsPreserved",
+    "status": "passed",
+    "evidence": "native-wiring/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first deletedRigFilePreserved",
+    "status": "passed",
+    "evidence": "native-wiring/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first nativeConfigPreservedByRig",
+    "status": "passed",
+    "evidence": "native-wiring/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first dataSurvivesNativeRemoval",
+    "status": "passed",
+    "evidence": "native-wiring/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first native registration removed",
+    "status": "passed",
+    "evidence": "native-wiring/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first Rig files survive native removal",
+    "status": "passed",
+    "evidence": "native-wiring/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first native repeat preserves config",
+    "status": "passed",
+    "evidence": "native-wiring/claude-rig-first/native-repeat.json",
+    "note": {
+      "exitCode": 1
+    }
+  },
+  {
+    "scenario": "claude mcp-first rigDryExit",
+    "status": "passed",
+    "evidence": "native-wiring/claude-mcp-first"
+  },
+  {
+    "scenario": "claude mcp-first rigUpgradeExit",
+    "status": "passed",
+    "evidence": "native-wiring/claude-mcp-first"
+  },
+  {
+    "scenario": "claude mcp-first nativeGetAfterRigExit",
+    "status": "passed",
+    "evidence": "native-wiring/claude-mcp-first"
+  },
+  {
+    "scenario": "claude mcp-first nativeRemovalExit",
+    "status": "passed",
+    "evidence": "native-wiring/claude-mcp-first"
+  },
+  {
+    "scenario": "claude mcp-first survivingRigExit",
+    "status": "passed",
+    "evidence": "native-wiring/claude-mcp-first"
+  },
+  {
+    "scenario": "claude mcp-first dryReadOnly",
+    "status": "passed",
+    "evidence": "native-wiring/claude-mcp-first"
+  },
+  {
+    "scenario": "claude mcp-first sharedEditsPreserved",
+    "status": "passed",
+    "evidence": "native-wiring/claude-mcp-first"
+  },
+  {
+    "scenario": "claude mcp-first deletedRigFilePreserved",
+    "status": "passed",
+    "evidence": "native-wiring/claude-mcp-first"
+  },
+  {
+    "scenario": "claude mcp-first nativeConfigPreservedByRig",
+    "status": "passed",
+    "evidence": "native-wiring/claude-mcp-first"
+  },
+  {
+    "scenario": "claude mcp-first dataSurvivesNativeRemoval",
+    "status": "passed",
+    "evidence": "native-wiring/claude-mcp-first"
+  },
+  {
+    "scenario": "claude mcp-first native registration removed",
+    "status": "passed",
+    "evidence": "native-wiring/claude-mcp-first"
+  },
+  {
+    "scenario": "claude mcp-first Rig files survive native removal",
+    "status": "passed",
+    "evidence": "native-wiring/claude-mcp-first"
+  },
+  {
+    "scenario": "claude mcp-first native repeat preserves config",
+    "status": "passed",
+    "evidence": "native-wiring/claude-mcp-first/native-repeat.json",
+    "note": {
+      "exitCode": 1
+    }
+  },
+  {
+    "scenario": "codex rig-first rigDryExit",
+    "status": "passed",
+    "evidence": "native-wiring/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first rigUpgradeExit",
+    "status": "passed",
+    "evidence": "native-wiring/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first nativeGetAfterRigExit",
+    "status": "passed",
+    "evidence": "native-wiring/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first nativeRemovalExit",
+    "status": "passed",
+    "evidence": "native-wiring/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first survivingRigExit",
+    "status": "passed",
+    "evidence": "native-wiring/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first dryReadOnly",
+    "status": "passed",
+    "evidence": "native-wiring/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first sharedEditsPreserved",
+    "status": "passed",
+    "evidence": "native-wiring/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first deletedRigFilePreserved",
+    "status": "passed",
+    "evidence": "native-wiring/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first nativeConfigPreservedByRig",
+    "status": "passed",
+    "evidence": "native-wiring/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first dataSurvivesNativeRemoval",
+    "status": "passed",
+    "evidence": "native-wiring/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first native registration removed",
+    "status": "passed",
+    "evidence": "native-wiring/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first Rig files survive native removal",
+    "status": "passed",
+    "evidence": "native-wiring/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first native repeat preserves config",
+    "status": "passed",
+    "evidence": "native-wiring/codex-rig-first/native-repeat.json",
+    "note": {
+      "exitCode": 0
+    }
+  },
+  {
+    "scenario": "codex mcp-first rigDryExit",
+    "status": "passed",
+    "evidence": "native-wiring/codex-mcp-first"
+  },
+  {
+    "scenario": "codex mcp-first rigUpgradeExit",
+    "status": "passed",
+    "evidence": "native-wiring/codex-mcp-first"
+  },
+  {
+    "scenario": "codex mcp-first nativeGetAfterRigExit",
+    "status": "passed",
+    "evidence": "native-wiring/codex-mcp-first"
+  },
+  {
+    "scenario": "codex mcp-first nativeRemovalExit",
+    "status": "passed",
+    "evidence": "native-wiring/codex-mcp-first"
+  },
+  {
+    "scenario": "codex mcp-first survivingRigExit",
+    "status": "passed",
+    "evidence": "native-wiring/codex-mcp-first"
+  },
+  {
+    "scenario": "codex mcp-first dryReadOnly",
+    "status": "passed",
+    "evidence": "native-wiring/codex-mcp-first"
+  },
+  {
+    "scenario": "codex mcp-first sharedEditsPreserved",
+    "status": "passed",
+    "evidence": "native-wiring/codex-mcp-first"
+  },
+  {
+    "scenario": "codex mcp-first deletedRigFilePreserved",
+    "status": "passed",
+    "evidence": "native-wiring/codex-mcp-first"
+  },
+  {
+    "scenario": "codex mcp-first nativeConfigPreservedByRig",
+    "status": "passed",
+    "evidence": "native-wiring/codex-mcp-first"
+  },
+  {
+    "scenario": "codex mcp-first dataSurvivesNativeRemoval",
+    "status": "passed",
+    "evidence": "native-wiring/codex-mcp-first"
+  },
+  {
+    "scenario": "codex mcp-first native registration removed",
+    "status": "passed",
+    "evidence": "native-wiring/codex-mcp-first"
+  },
+  {
+    "scenario": "codex mcp-first Rig files survive native removal",
+    "status": "passed",
+    "evidence": "native-wiring/codex-mcp-first"
+  },
+  {
+    "scenario": "codex mcp-first native repeat preserves config",
+    "status": "passed",
+    "evidence": "native-wiring/codex-mcp-first/native-repeat.json",
+    "note": {
+      "exitCode": 0
+    }
+  },
+  {
+    "scenario": "Basic handshake reports package version",
+    "status": "failed",
+    "evidence": "basic/client-a-initialize.json"
+  },
+  {
+    "scenario": "Native Claude auto-memory extraction/recall",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Native Codex memory extraction/recall",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Existing custom Memory implementation behavior",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Private custom Memory data migration",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Authorization against a hostile same-OS-user process",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Semantic/embedding retrieval quality",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Abrupt power-loss durability",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Fully hash-locked cold offline dependency bootstrap",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Reference cross-version server data migration",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Reference exact Rig installation-order matrix",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Automatic recovery without an explicit backup",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Basic package redistribution approval",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Reference missing packaged license clearance",
+    "status": "unverified",
+    "evidence": "report.md"
+  }
+]

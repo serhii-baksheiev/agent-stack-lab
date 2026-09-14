@@ -1,0 +1,41 @@
+{
+  "label": "delete",
+  "method": "tools/call",
+  "params": {
+    "name": "read_graph",
+    "arguments": {}
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"entities\": [\n    {\n      \"name\": \"alpha-style\",\n      \"entityType\": \"convention\",\n      \"observations\": [\n        \"Project alpha uses two-space indentation.\"\n      ]\n    },\n    {\n      \"name\": \"beta-build\",\n      \"entityType\": \"decision\",\n      \"observations\": [\n        \"Project beta uses unittest for synthetic Python checks.\"\n      ]\n    }\n  ],\n  \"relations\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "entities": [
+          {
+            "name": "alpha-style",
+            "entityType": "convention",
+            "observations": [
+              "Project alpha uses two-space indentation."
+            ]
+          },
+          {
+            "name": "beta-build",
+            "entityType": "decision",
+            "observations": [
+              "Project beta uses unittest for synthetic Python checks."
+            ]
+          }
+        ],
+        "relations": []
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 4
+  },
+  "durationMs": 3,
+  "responseBytes": 772
+}

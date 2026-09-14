@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "---\ntitle: Orchid deploy\ntype: note\npermalink: alpha/notes/orchid-deploy\n---\n\nORCHID_ALPHA_DEPLOY: use port 4101.",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": "---\ntitle: Orchid deploy\ntype: note\npermalink: alpha/notes/orchid-deploy\n---\n\nORCHID_ALPHA_DEPLOY: use port 4101."
+  }
+}

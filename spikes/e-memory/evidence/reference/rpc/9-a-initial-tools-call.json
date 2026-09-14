@@ -1,0 +1,36 @@
+{
+  "label": "a-initial",
+  "method": "tools/call",
+  "params": {
+    "name": "search_nodes",
+    "arguments": {
+      "query": "unittest"
+    }
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"entities\": [\n    {\n      \"name\": \"beta-build\",\n      \"entityType\": \"decision\",\n      \"observations\": [\n        \"Project beta uses unittest for synthetic Python checks.\"\n      ]\n    }\n  ],\n  \"relations\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "entities": [
+          {
+            "name": "beta-build",
+            "entityType": "decision",
+            "observations": [
+              "Project beta uses unittest for synthetic Python checks."
+            ]
+          }
+        ],
+        "relations": []
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 10
+  },
+  "durationMs": 0,
+  "responseBytes": 484
+}

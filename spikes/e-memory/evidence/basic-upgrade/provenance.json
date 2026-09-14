@@ -1,0 +1,65 @@
+{
+  "packages": [
+    {
+      "version": "0.23.1",
+      "license": "AGPL-3.0-or-later",
+      "wheel": {
+        "comment_text": null,
+        "core-metadata": {
+          "sha256": "8b42f0077a21cd3c490c908ac5b4618f6597f42a151408463d38d865aebe58e4"
+        },
+        "digests": {
+          "blake2b_256": "a38d0a8060643695e5a5c0bd70edb333fddcdfcad6c82dae4d051804c6302c7f",
+          "md5": "1158edb4383f416b68885fc33a33100b",
+          "sha256": "d80dfc3e24f35f67144e1976e7c74373bebb4d2d19d5976579004e4ea8413df3"
+        },
+        "downloads": -1,
+        "filename": "basic_memory-0.23.1-py3-none-any.whl",
+        "has_sig": false,
+        "md5_digest": "1158edb4383f416b68885fc33a33100b",
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.12",
+        "size": 1399291,
+        "upload_time": "2026-08-25T17:49:11",
+        "upload_time_iso_8601": "2026-08-25T17:49:11.107756Z",
+        "url": "https://files.pythonhosted.org/packages/a3/8d/0a8060643695e5a5c0bd70edb333fddcdfcad6c82dae4d051804c6302c7f/basic_memory-0.23.1-py3-none-any.whl",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      "sha256Verified": true
+    },
+    {
+      "version": "0.23.2",
+      "license": "AGPL-3.0-or-later",
+      "wheel": {
+        "comment_text": null,
+        "core-metadata": {
+          "sha256": "c32d216de8555e4f31170bd7bddaaffa8ab39263bc2b211b5b382a6d9bcff8fb"
+        },
+        "digests": {
+          "blake2b_256": "c5935a2c9c5d8e67675c8a2c4d1976e28ed54e7d844abac7cc28c7a84ff181d6",
+          "md5": "d577ad5830cb0a9f836e13a17f41d993",
+          "sha256": "a1679a16319d8a7fb9c0486033551a47dedc0fbae7f5da81444eb3c4bf0ccecb"
+        },
+        "downloads": -1,
+        "filename": "basic_memory-0.23.2-py3-none-any.whl",
+        "has_sig": false,
+        "md5_digest": "d577ad5830cb0a9f836e13a17f41d993",
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.12",
+        "size": 1401216,
+        "upload_time": "2026-08-25T20:44:42",
+        "upload_time_iso_8601": "2026-08-25T20:44:42.142415Z",
+        "url": "https://files.pythonhosted.org/packages/c5/93/5a2c9c5d8e67675c8a2c4d1976e28ed54e7d844abac7cc28c7a84ff181d6/basic_memory-0.23.2-py3-none-any.whl",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      "sha256Verified": true
+    }
+  ],
+  "scriptSha256": "318e8f0341a0bff07711902e3bb8149b942d280ba8179f32c02bf0e4181eca71",
+  "scenarioSha": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+  "platform": "linux"
+}

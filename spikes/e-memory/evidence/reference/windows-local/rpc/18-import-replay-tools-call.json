@@ -1,0 +1,75 @@
+{
+  "label": "import-replay",
+  "method": "tools/call",
+  "params": {
+    "name": "create_entities",
+    "arguments": {
+      "entities": [
+        {
+          "name": "alpha-build",
+          "entityType": "decision",
+          "observations": [
+            "Project alpha uses node --test for synthetic subscription checks.",
+            "Synthetic shared checkout identity: alpha-local.",
+            "SYNTHETIC_NOT_A_SECRET_E_REFERENCE_CANARY"
+          ]
+        },
+        {
+          "name": "alpha-style",
+          "entityType": "convention",
+          "observations": [
+            "Project alpha uses two-space indentation."
+          ]
+        },
+        {
+          "name": "beta-build",
+          "entityType": "decision",
+          "observations": [
+            "Project beta uses unittest for synthetic Python checks."
+          ]
+        }
+      ]
+    }
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[\n  {\n    \"name\": \"alpha-build\",\n    \"entityType\": \"decision\",\n    \"observations\": [\n      \"Project alpha uses node --test for synthetic subscription checks.\",\n      \"Synthetic shared checkout identity: alpha-local.\",\n      \"SYNTHETIC_NOT_A_SECRET_E_REFERENCE_CANARY\"\n    ]\n  },\n  {\n    \"name\": \"alpha-style\",\n    \"entityType\": \"convention\",\n    \"observations\": [\n      \"Project alpha uses two-space indentation.\"\n    ]\n  },\n  {\n    \"name\": \"beta-build\",\n    \"entityType\": \"decision\",\n    \"observations\": [\n      \"Project beta uses unittest for synthetic Python checks.\"\n    ]\n  }\n]"
+        }
+      ],
+      "structuredContent": {
+        "entities": [
+          {
+            "name": "alpha-build",
+            "entityType": "decision",
+            "observations": [
+              "Project alpha uses node --test for synthetic subscription checks.",
+              "Synthetic shared checkout identity: alpha-local.",
+              "SYNTHETIC_NOT_A_SECRET_E_REFERENCE_CANARY"
+            ]
+          },
+          {
+            "name": "alpha-style",
+            "entityType": "convention",
+            "observations": [
+              "Project alpha uses two-space indentation."
+            ]
+          },
+          {
+            "name": "beta-build",
+            "entityType": "decision",
+            "observations": [
+              "Project beta uses unittest for synthetic Python checks."
+            ]
+          }
+        ]
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 2
+  },
+  "durationMs": 37,
+  "responseBytes": 1212
+}
