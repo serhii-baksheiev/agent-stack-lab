@@ -22,3 +22,5 @@ if (existsSync('spikes/c-figma/result.json')) await import('./validate-c-evidenc
 if (existsSync('spikes/b-spec-workflows/result.json')) await import('./validate-b-evidence.mjs');
 if (existsSync('spikes/e-memory/result.json')) await import('./validate-e-evidence.mjs');
 if (existsSync('spikes/d-team-orchestration/result.json')) await import('./validate-d-evidence.mjs');
+
+if (existsSync('docs/history-cleanup/evidence-reference-index.json')) await import('./validate-history-cleanup.mjs');
