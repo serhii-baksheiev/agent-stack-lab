@@ -1,4 +1,6 @@
-import {readFileSync,readdirSync,statSync} from 'node:fs';
+import {readFileSync,readdirSync,statSync,existsSync} from 'node:fs';
+import {spawnSync} from 'node:child_process';
+import {validateLiveEvidence} from './validate-d-live.mjs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 const base='spikes/d-team-orchestration',read=p=>JSON.parse(readFileSync(base+'/'+p,'utf8')),hash=p=>createHash('sha256').update(readFileSync(p)).digest('hex');
@@ -19,4 +21,7 @@ assert(read('evidence/board/cleanup.json').allClosed);assert.equal(read('evidenc
 const ledger=read('scenario-ledger.json'),result=read('result.json'),m=read('measurements.json');assert.equal(new Set(ledger.map(x=>x.scenario)).size,ledger.length);
 for(const [key,status]of [['scenariosPassed','passed'],['scenariosFailed','failed'],['scenariosUnverified','unverified']])assert.equal(result[key],ledger.filter(x=>x.status===status).length);
 assert.equal(m.commands,commands);assert.equal(m.snapshots,snapshots);assert.equal(m.apiCalls,apiCalls);assert(commands>30&&apiCalls>35&&snapshots===6);
-console.log(`PASS D: ${commands} complete commands, ${apiCalls} classified API requests, ${snapshots} snapshots; collector hashes and closed synthetic board artifacts verified.`);
+await import('./validate-d-live.test.mjs');
+const live=validateLiveEvidence(base+'/evidence/live-handoff');
+if(existsSync(base+'/live')){const t=spawnSync(process.execPath,['--test',base+'/live/**/*.test.mjs'],{encoding:'utf8'});assert.equal(t.status,0,'Live feature tests failed: '+t.stdout+t.stderr);}
+console.log(`PASS D: ${commands} complete commands, ${apiCalls} classified API requests, ${snapshots} snapshots; collector hashes and closed synthetic board artifacts verified. Live handoff evidence: ${live.status} (${live.commands} commands, ${live.apiCalls} API requests, ${live.passed} passed, ${live.failed} failed).`);
