@@ -29,7 +29,7 @@ for(const provider of ['claude','codex'])for(const order of ['rig-first','native
  mkdirSync(cwd,{recursive:true});mkdirSync(home,{recursive:true});cpSync(path.join(root,'fixtures/f-native/marketplace'),source,{recursive:true});
  const env={HOME:home,USERPROFILE:home,CODEX_HOME:path.join(home,'.codex'),CLAUDE_CONFIG_DIR:path.join(home,'.claude'),XDG_CONFIG_HOME:path.join(home,'.config'),XDG_DATA_HOME:path.join(home,'.local/share'),XDG_CACHE_HOME:path.join(home,'.cache'),APPDATA:path.join(home,'AppData/Roaming'),LOCALAPPDATA:path.join(home,'AppData/Local'),GIT_CONFIG_GLOBAL:path.join(home,'gitconfig'),GIT_CONFIG_NOSYSTEM:'1',DISABLE_AUTOUPDATER:'1',DISABLE_TELEMETRY:'1'};
  for(const key of Object.keys(process.env))if(/TOKEN|SECRET|PASSWORD|API_KEY|AUTH|^CODEX_|^CLAUDE_|^ANTHROPIC_|^OPENAI_/i.test(key)&&!(key in env))env[key]='';
- writeFileSync(env.GIT_CONFIG_GLOBAL,'');let n=0;
+ mkdirSync(env.CODEX_HOME,{recursive:true});mkdirSync(env.CLAUDE_CONFIG_DIR,{recursive:true});writeFileSync(env.GIT_CONFIG_GLOBAL,'');let n=0;
  const snap=name=>{const s=snapshot(cwd,ev+`/${String(n++).padStart(2,'0')}-${name}.json`,env);assert.equal(s.gitStatus.exitCode,0);assert.equal(s.gitDiff.exitCode,0);return s;};
  const cmd=(name,exe,args)=>{const r=run(exe,args,cwd,ev+`/${String(n++).padStart(2,'0')}-${name}-command.json`,env);assert.equal(r.error,undefined,`collector failure ${name}`);assert(Number.isInteger(r.exitCode));snap(name);return r;};
  const native=(name,args)=>provider==='codex'?cmd(name,process.execPath,[codex,...args]):cmd(name,claude,args);
