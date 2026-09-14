@@ -2,7 +2,7 @@
   "version": "0.23.2",
   "sourceCommit": "c0bd87c6d5a4a58034b1d6c8c5018e443b0bd048",
   "license": "AGPL-3.0-or-later",
-  "scenarioSha": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+  "scenarioSha": "bc7112c4c0d54bfa8596d052f7017ae1d521310a",
   "scriptSha256": "4b2931676813edd5c982438d6e5e6a1d8250444385cd2e989cda611ed8fc15a0",
   "runDirectory": ".lab-runs/e-basic-1789385912752",
   "node": "v24.20.0",

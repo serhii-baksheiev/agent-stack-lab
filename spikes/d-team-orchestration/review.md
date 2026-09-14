@@ -1,3 +1,5 @@
+> History cleanup: SHA references below use cleaned identities. Pre-cleanup workflow links and measurements are historical evidence, **not exact-head evidence** of the rewritten tree. See [provenance and reference index](../../docs/history-cleanup/README.md).
+
 # Independent D review
 
 Root reciprocal review: independently read the delegated source collector, extracted native query boundary, pinned source metadata and canonical command outputs. PostgreSQL mutation is guarded to the disposable synthetic service; only synthetic ORM tables are used. Upstream Symphony tests run unmodified from the pinned archive with isolated profiles and no model/board credentials. Canonical ExUnit10/0/42 and native PostgreSQL lock/rollback observations match the report. The initial counter defect and raw successful upstream output are preserved; corrected canonical run passes. This validates the bounded probes, not full deployment, multi-controller issue fencing or provider portability.
@@ -6,7 +8,7 @@ Reviewer: delegated Codex lab agent authoring ready-orchestrator source/query pr
 
 ## Board evidence
 
-Read `scripts/spike-d-board.mjs`, its result/cleanup evidence and report drafts. The preserved board collector SHA256 is `649a7798168e13058d76d6f57943aa3861cf98d90b2fe13c46313e182a71bb7e`, scenario `a86b2885742746b1dccb1c8763aa9351f79f9326`. Sixteen primitive checks include fifteen positive observations and one negative issue-CAS outcome. Cleanup directly verifies all three synthetic issues and all three PRs closed; retained fixture refs are disclosed.
+Read `scripts/spike-d-board.mjs`, its result/cleanup evidence and report drafts. The preserved board collector SHA256 is `649a7798168e13058d76d6f57943aa3861cf98d90b2fe13c46313e182a71bb7e`, scenario `9c408cf9e10bf16927933bf4f925dcf33c0ffcbe`. Sixteen primitive checks include fifteen positive observations and one negative issue-CAS outcome. Cleanup directly verifies all three synthetic issues and all three PRs closed; retained fixture refs are disclosed.
 
 The exact private repository guard constrains API mutations. Local worktree/commit changes stay in the synthetic fixture; only fixture branches are pushed, with no merge into master. Authentication stays with gh. No out-of-scope destructive mutation was found.
 
@@ -24,7 +26,7 @@ No unresolved board source-level finding blocks acceptance of these bounded obse
 
 ## Canonical aggregate review
 
-Canonical ready-orchestrator run [34841316242](https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34841316242), scenario `4fbe88909791bbf97632ccb4f4ce3047578cc0cd`, passes ten selected Symphony upstream tests with zero failures and 42 excluded. The first run's upstream tests also passed; only the collector substring predicate misread `10 tests` as `0 tests`. The corrected parser records executed/failure/excluded counts separately. This classified collector repair is disclosed and no board experiment was repeated.
+Canonical ready-orchestrator run [34841316242](https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34841316242), scenario `a1e37399383468b1ca80477d739146ca648568c6`, passes ten selected Symphony upstream tests with zero failures and 42 excluded. The first run's upstream tests also passed; only the collector substring predicate misread `10 tests` as `0 tests`. The corrected parser records executed/failure/excluded counts separately. This classified collector repair is disclosed and no board experiment was repeated.
 
 The PostgreSQL 17.11 probe demonstrates that a second transaction skips a row locked by the first, and that rollback releases it. It executes the unmodified native fetch AST against a synthetic ORM/table, so it does not establish full scheduler/dispatcher recovery or external issue/PR fencing. Root independently reviewed this reviewer's AST/query and native-test scope; this paragraph checks aggregate consistency rather than claiming self-review independence.
 

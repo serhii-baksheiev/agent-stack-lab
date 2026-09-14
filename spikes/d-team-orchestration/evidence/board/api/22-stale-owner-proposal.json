@@ -6,7 +6,7 @@
     "message": "{\"schema\":1,\"repository\":\"serhii-baksheiev/agent-stack-lab\",\"issue\":14,\"owner\":\"actor-a\",\"epoch\":1,\"event\":\"late-completion\",\"expiresAt\":1789387322123}",
     "tree": "010298c955bbf68324d94c293832cb9486e0487f",
     "parents": [
-      "78c0fdd165fa64c0318b4c78f2204997141277d8"
+      "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
     ]
   },
   "requestHeaders": [],
@@ -37,9 +37,9 @@
     "message": "{\"schema\":1,\"repository\":\"serhii-baksheiev/agent-stack-lab\",\"issue\":14,\"owner\":\"actor-a\",\"epoch\":1,\"event\":\"late-completion\",\"expiresAt\":1789387322123}",
     "parents": [
       {
-        "sha": "78c0fdd165fa64c0318b4c78f2204997141277d8",
-        "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/git/commits/78c0fdd165fa64c0318b4c78f2204997141277d8",
-        "html_url": "https://github.com/serhii-baksheiev/agent-stack-lab/commit/78c0fdd165fa64c0318b4c78f2204997141277d8"
+        "sha": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d",
+        "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/git/commits/3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d",
+        "html_url": "https://github.com/serhii-baksheiev/agent-stack-lab/commit/3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
       }
     ],
     "verification": {

@@ -1,0 +1,22 @@
+{
+  "at": "2026-09-14T12:48:06.227Z",
+  "historicalBranchBlobs": 2153,
+  "patternFindings": [],
+  "cacheProbes": [
+    {
+      "sha": "1c5d1cb85c23b6d4582e69ea985ef0d6860dda64",
+      "path": "spikes/b-spec-workflows/evidence/board-export/0-api.json",
+      "contentsApiReachable": true,
+      "nonemptyTempCredentialPresent": true,
+      "credentialValueSaved": false
+    },
+    {
+      "sha": "7bca478271b2eb8779af3e538955b96485ff7c17",
+      "path": "spikes/d-team-orchestration/evidence/board/api/0-privacy.json",
+      "contentsApiReachable": true,
+      "nonemptyTempCredentialPresent": true,
+      "credentialValueSaved": false
+    }
+  ],
+  "invalidation": "unverified"
+}

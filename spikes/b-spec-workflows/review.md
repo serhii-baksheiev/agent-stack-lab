@@ -1,3 +1,5 @@
+> History cleanup: SHA references below use cleaned identities. Pre-cleanup workflow links and measurements are historical evidence, **not exact-head evidence** of the rewritten tree. See [provenance and reference index](../../docs/history-cleanup/README.md).
+
 # Spike B evidence review
 
 Reviewed hosted run `34834437236` and imported evidence on 2026-09-14. Reviewer is the BMAD lab agent: independent of OpenSpec, Spec Kit, Superpowers, the shared acceptance runner and aggregate report author. BMAD lifecycle inspection is author verification; root independently reviewed its implementation/spec/spine and configured semantic lenses. No native Claude inference review is claimed.

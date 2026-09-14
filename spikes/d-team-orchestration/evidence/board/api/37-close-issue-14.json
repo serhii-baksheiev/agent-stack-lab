@@ -65,7 +65,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "Synthetic feature d-counter-1789386678212. Requirement D-R1/R2/R3. Stable task identity serhii-baksheiev/agent-stack-lab:d-counter-1789386678212:D-T3. No production task.\n\nSynthetic cooperative lease: lab/d-claim-1789386678212 @ 78c0fdd165fa64c0318b4c78f2204997141277d8; owner actor-a; epoch1. Issue remains task authority; this ref is claim metadata, not a queue.",
+    "body": "Synthetic feature d-counter-1789386678212. Requirement D-R1/R2/R3. Stable task identity serhii-baksheiev/agent-stack-lab:d-counter-1789386678212:D-T3. No production task.\n\nSynthetic cooperative lease: lab/d-claim-1789386678212 @ 3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d; owner actor-a; epoch1. Issue remains task authority; this ref is claim metadata, not a queue.",
     "closed_by": {
       "login": "serhii-baksheiev",
       "id": 22969597,

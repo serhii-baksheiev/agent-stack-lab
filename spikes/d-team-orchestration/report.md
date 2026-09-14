@@ -1,3 +1,5 @@
+> History cleanup: SHA references below use cleaned identities. Pre-cleanup workflow links and measurements are historical evidence, **not exact-head evidence** of the rewritten tree. See [provenance and reference index](../../docs/history-cleanup/README.md).
+
 # Spike D: team work and task ownership
 
 ## Hypothesis
@@ -14,7 +16,7 @@ GitHub REST API version **2026-03-10** is the real laboratory board. SaaS implem
 
 ## Test environment
 
-Actual board experiment on Windows Node24.18.0, source commit `a86b2885742746b1dccb1c8763aa9351f79f9326`; Git/gh version and command evidence identify the execution. Two independent gh subprocesses share one authorized account. Isolated synthetic Git repository and three linked worktrees under `.lab-runs` publish only fixture branches. Ready source/unit probes use isolated runtimes and synthetic tracker/database fixtures, not paid model or board traffic.
+Actual board experiment on Windows Node24.18.0, source commit `9c408cf9e10bf16927933bf4f925dcf33c0ffcbe`; Git/gh version and command evidence identify the execution. Two independent gh subprocesses share one authorized account. Isolated synthetic Git repository and three linked worktrees under `.lab-runs` publish only fixture branches. Ready source/unit probes use isolated runtimes and synthetic tracker/database fixtures, not paid model or board traffic.
 
 ## Rig baseline
 
@@ -44,7 +46,7 @@ The board collector records **15 positive checks and one negative board-CAS chec
 
 ## Measurements
 
-Overall ledger: **20 passed / 1 failed / 12 unverified**; 58 complete command records, 44 classified real GitHub API requests and six snapshots. Canonical ready-source run [34841316242](https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34841316242) uses commit `4fbe88909791bbf97632ccb4f4ce3047578cc0cd`. Counts combine bounded primitive/source checks, not an end-to-end production readiness score.
+Overall ledger: **20 passed / 1 failed / 12 unverified**; 58 complete command records, 44 classified real GitHub API requests and six snapshots. Canonical ready-source run [34841316242](https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34841316242) uses commit `a1e37399383468b1ca80477d739146ca648568c6`. Counts combine bounded primitive/source checks, not an end-to-end production readiness score.
 
 The issue response supplies an ETag, but both actual unsafe conditional PATCH requests return400 with an explicit unsupported-condition error. This is stronger evidence than assuming assignment updates are an atomic lock. [GitHub conditional-request contract](https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api).
 

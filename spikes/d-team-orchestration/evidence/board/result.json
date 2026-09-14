@@ -2,7 +2,7 @@
   "repository": "serhii-baksheiev/agent-stack-lab",
   "stamp": 1789386678212,
   "scriptSha256": "649a7798168e13058d76d6f57943aa3861cf98d90b2fe13c46313e182a71bb7e",
-  "scenarioSha": "a86b2885742746b1dccb1c8763aa9351f79f9326",
+  "scenarioSha": "9c408cf9e10bf16927933bf4f925dcf33c0ffcbe",
   "platform": "win32",
   "node": "v24.18.0",
   "checks": [
@@ -41,7 +41,7 @@
           200,
           422
         ],
-        "winner": "78c0fdd165fa64c0318b4c78f2204997141277d8"
+        "winner": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
       }
     },
     {

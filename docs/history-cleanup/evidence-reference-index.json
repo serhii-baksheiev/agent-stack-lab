@@ -1,0 +1,489 @@
+{
+  "at": "2026-09-14T12:51:07.067Z",
+  "branch": "spike/d-team-orchestration",
+  "filteredSourceSha": "3f1e4fb13ed074adf4e01be86dd6230e6eb06799",
+  "normalization": "Commit references including scenarioSha and URLs are translated to cleaned identities. Original source execution timestamps/results remain historical, not reruns. Original bytes remain only in retained private local backup. Do not attribute pre-cleanup workflow runs to rewritten SHA.",
+  "files": [
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/10-master-ref.json",
+      "beforeSha256": "5df133f1381541558d63c2d6d9f862456bc2b5f2fdc3452039d00e2174503436",
+      "afterSha256": "deb1a2a16270f7ef9f0f458a9bd749d814177a750c342131d5180bec839ddbbc",
+      "mappedCommits": [
+        {
+          "old": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+          "new": "3cf6d819289cd621d6fa7811a53a74d22fba4f79"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/11-master-commit.json",
+      "beforeSha256": "b6f4be3de360cf495c7687e8563461e6f2cc3dfc98b4e6fd3c258774efa3a341",
+      "afterSha256": "073d494805a5df19f939b8d70eb34ef799541b2e54b5946b10a35a4dc0f01a3d",
+      "mappedCommits": [
+        {
+          "old": "2f3c3166b3dc45b3526626a06aa9dd2589e98001",
+          "new": "57d2cd62be4a479cae724e0c96f67f9b8b48f4cd"
+        },
+        {
+          "old": "610c860dc05b7407e0fa8b67a820e8b0275955e8",
+          "new": "043104768b96bc0f9e41a7f093ace0f1b03b2a50"
+        },
+        {
+          "old": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+          "new": "3cf6d819289cd621d6fa7811a53a74d22fba4f79"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/12-lease-ref-create.json",
+      "beforeSha256": "946255a525724c4cee53c2791d5269cf8d0fb6e1872f15cb09d6e332079868eb",
+      "afterSha256": "7b457287307d65f03d1ef68ed0b57c8ba3117f9f9238ec38c6f97cab1a5887d7",
+      "mappedCommits": [
+        {
+          "old": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+          "new": "3cf6d819289cd621d6fa7811a53a74d22fba4f79"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/13-lease-propose-actor-a.json",
+      "beforeSha256": "c4970b541890a87bfee682a82d8e0ba406590f3e387f3bf7729d784ff52a5926",
+      "afterSha256": "697283045036ec8def917a35c53adf7a8ddb7d2324171c1aee6b8267eff1add2",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        },
+        {
+          "old": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+          "new": "3cf6d819289cd621d6fa7811a53a74d22fba4f79"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/14-lease-propose-actor-b.json",
+      "beforeSha256": "a11ae1c653fc6171250c54d86f122e15272d16067ac23d0713d48168a21b53c1",
+      "afterSha256": "1b4ab8a0cd214e86fca1503254b53ac600553bedabe6f1e06ae5681fbd77e726",
+      "mappedCommits": [
+        {
+          "old": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+          "new": "3cf6d819289cd621d6fa7811a53a74d22fba4f79"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/15-lease-claim-0.json",
+      "beforeSha256": "b6e3b0c44c216a3a1353ae55bcd8f2a6fd847ca014084c1134ca9fa99f98cb4e",
+      "afterSha256": "37474cfde9bc60d8f4097e0931189dccd0e2f7549e747de5deae299e19c9f7d2",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/17-lease-tip.json",
+      "beforeSha256": "602e3393f2c7aa5f245639cf10614f86146cbd878153a187edc93b5413fc50d9",
+      "afterSha256": "1506b8502069492c4626a8750e66c5927ee429624bb6027371b797844d5b9c8b",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/18-publish-claim-reference.json",
+      "beforeSha256": "6882a7b2f163cc0e4e8e4ffae7603fc356a5d37d7427d9a97d8d7dbfc637aa73",
+      "afterSha256": "08ca9a0e7928927b6e63e36accea6682d192abfc79b45aec0a58df6f959d57a9",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/19-replay-commit.json",
+      "beforeSha256": "c3bde02d42626bfea4fca4e4c06fa66d9fae6f5a4b0433e1f4e194112305d787",
+      "afterSha256": "a1d2206bad3a97714e1fb008f6b7838510b7ee73fda2f7cbff06d2cc649bf035",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        },
+        {
+          "old": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+          "new": "3cf6d819289cd621d6fa7811a53a74d22fba4f79"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/20-lease-reclaim-proposal.json",
+      "beforeSha256": "3d31fe0ff43ccac09e165fd39eb41fe0d2cec4d10633041670d8274d8c4fa9bc",
+      "afterSha256": "c70dcc07063529a9ef6c09239bd9382c1c2963a345249a87338fd5b946e88c5b",
+      "mappedCommits": [
+        {
+          "old": "4245eed7f8c1bce669da91134d7244b9037b38eb",
+          "new": "13d06668e415b34fc44124453da17e5dffaed8b9"
+        },
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/21-lease-reclaim.json",
+      "beforeSha256": "2902cbf74ce62b71e3ded9f3e8e5f61d5ed95346610424d11ee158a56cffe8dd",
+      "afterSha256": "f43493e0038c18ecaf28916401b3ca3a8fad3df04dfd57eaf420f7546cfa080a",
+      "mappedCommits": [
+        {
+          "old": "4245eed7f8c1bce669da91134d7244b9037b38eb",
+          "new": "13d06668e415b34fc44124453da17e5dffaed8b9"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/22-stale-owner-proposal.json",
+      "beforeSha256": "abfbc59ea7bd82565d8621f1cd8b2e37eb1f207e91c9ef32a4a039eb4c7ddd74",
+      "afterSha256": "54e73782371e82e0c895f2c800f56c764028d1139fc748c584177b4993966619",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/24-lease-final-tip.json",
+      "beforeSha256": "4000bda609ad2d135e6692274dca1f57a8fa7bbd1f2a4412254f3d987828a40b",
+      "afterSha256": "5413708797dd9d668f3c6e5f29027a0f6707ec8ca442d2a449615f530dabe8e2",
+      "mappedCommits": [
+        {
+          "old": "4245eed7f8c1bce669da91134d7244b9037b38eb",
+          "new": "13d06668e415b34fc44124453da17e5dffaed8b9"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/37-close-issue-14.json",
+      "beforeSha256": "54abe2a951f0ec6c662d3ce2f482c1f0429f6e78c0d7d9ad6c97ace312253c0a",
+      "afterSha256": "8854eb9a1176a68d3ee842b7fb32ecdf647a120575e1540a461e53e5db36355c",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/43-verify-closed-issue-14.json",
+      "beforeSha256": "d155bd75bb748c18e4451c08bcd2f9e12b9bfb441bacca8258ea67409c65622b",
+      "afterSha256": "3e485036190ee55f0802af507f07c9dc35d97d2c0716a9bec23aa9c71ef5bbcb",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/handoff.json",
+      "beforeSha256": "799eda2d62479483ea992a4ca50071534f79a04cb63384f88902bc6dcbdad9b8",
+      "afterSha256": "3662208e50ba14cfee897eaf9f7dd678df8f9c1152c1e16910287c5f7a9bda56",
+      "mappedCommits": [
+        {
+          "old": "4245eed7f8c1bce669da91134d7244b9037b38eb",
+          "new": "13d06668e415b34fc44124453da17e5dffaed8b9"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/restart-read.json",
+      "beforeSha256": "8892a6229367522ba6bc9b5268129d148a4b00875b88a8913b4d373bc03134bd",
+      "afterSha256": "da9fc105dd42977d7cbccf7640aa1dd1c7379d0b96aa2a3cba38ba5447f7ee3e",
+      "mappedCommits": [
+        {
+          "old": "4245eed7f8c1bce669da91134d7244b9037b38eb",
+          "new": "13d06668e415b34fc44124453da17e5dffaed8b9"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/result.json",
+      "beforeSha256": "739bb3838d7cdc37a4bead4bed60e81f65eebbe4d73f25449d76111488379284",
+      "afterSha256": "4e1877f375d528113652cd722658cdb5a73d89a02dc2d8458f71322d064d1e14",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        },
+        {
+          "old": "a86b2885742746b1dccb1c8763aa9351f79f9326",
+          "new": "9c408cf9e10bf16927933bf4f925dcf33c0ffcbe"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/diagnostics/first-hosted.json",
+      "beforeSha256": "cb77e75470b8a751a711d9b60541ee5f6b41747c9321df76262e2a12837a77ab",
+      "afterSha256": "c9d571972e5bbaf0a4c8241853685a774d326610eb24253fbca1f4dc5ba809bf",
+      "mappedCommits": [
+        {
+          "old": "7b9799b798797520a0f766e6d9dd64208bee06f1",
+          "new": "afe444c8d1b8bee6c778146eab96bf8d8d78311a"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/orchestrators/result.json",
+      "beforeSha256": "ca1b06c564668da07f62f4a487734c67f176b53b6385dd6ded7574c6e1842d7b",
+      "afterSha256": "b29f7a29467414ace342e0ab52d874ed2158361a4c6996731b34a183b1b3a6df",
+      "mappedCommits": [
+        {
+          "old": "4fbe88909791bbf97632ccb4f4ce3047578cc0cd",
+          "new": "a1e37399383468b1ca80477d739146ca648568c6"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/windows-orchestrators/result.json",
+      "beforeSha256": "61001b6815acf5f2b6b7d941b735d7c5e08aa1ddc14d6b66568284c8a8f68aec",
+      "afterSha256": "25acf99d7430c6c210453abb051fdb1ae581ddef9682ee9798cbcb4ea060cc0e",
+      "mappedCommits": [
+        {
+          "old": "a86b2885742746b1dccb1c8763aa9351f79f9326",
+          "new": "9c408cf9e10bf16927933bf4f925dcf33c0ffcbe"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/measurements.json",
+      "beforeSha256": "6487e37d9f43b4c1887d327d338c0b8ce2adccf0275c11f3f4d480db7fd62935",
+      "afterSha256": "c8bbec66724facb6bfb8ca2e28a6dea94e23b7ac67e492386f36a8d2ed1b6cb0",
+      "mappedCommits": [
+        {
+          "old": "4fbe88909791bbf97632ccb4f4ce3047578cc0cd",
+          "new": "a1e37399383468b1ca80477d739146ca648568c6"
+        },
+        {
+          "old": "a86b2885742746b1dccb1c8763aa9351f79f9326",
+          "new": "9c408cf9e10bf16927933bf4f925dcf33c0ffcbe"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/report.md",
+      "beforeSha256": "f2f6427d4d7a9e21afba4a3b883879cd20aaea3a1cf5c625f7e4af69bfbbb0de",
+      "afterSha256": "57b4bed5c163a3b6a5acc617cae194449248471ca5b702d30473dd78d3cacb14",
+      "mappedCommits": [
+        {
+          "old": "4fbe88909791bbf97632ccb4f4ce3047578cc0cd",
+          "new": "a1e37399383468b1ca80477d739146ca648568c6"
+        },
+        {
+          "old": "a86b2885742746b1dccb1c8763aa9351f79f9326",
+          "new": "9c408cf9e10bf16927933bf4f925dcf33c0ffcbe"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/review.md",
+      "beforeSha256": "d7ff45219ff4ca34b899882c0a2ad05ab5e1898fae6defd6e0f20b3dfe366968",
+      "afterSha256": "ae5113e78a13fcd6da4aead6c1aef20ad161074ae39298989cb3c35ed0bb9f74",
+      "mappedCommits": [
+        {
+          "old": "4fbe88909791bbf97632ccb4f4ce3047578cc0cd",
+          "new": "a1e37399383468b1ca80477d739146ca648568c6"
+        },
+        {
+          "old": "a86b2885742746b1dccb1c8763aa9351f79f9326",
+          "new": "9c408cf9e10bf16927933bf4f925dcf33c0ffcbe"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/scenario-ledger.json",
+      "beforeSha256": "49c316aa2fa09641cf4fb6e5ba082283cd86bc0be37f32e851fced525b61fd24",
+      "afterSha256": "0deb9408226718c5d2e467957fdd58375ea519dab29ccb669f3f487856717e83",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/basic-setup/provenance.json",
+      "beforeSha256": "7c4627032f50ae89e7e82a544d32c339e752d32b3de44939b9d7e75e6b5f32a1",
+      "afterSha256": "d209d8bd733f43a935977ea7e39019119b23291c88af614879a49682e5afcf7e",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/basic-upgrade/provenance.json",
+      "beforeSha256": "baa1463653a1855b453a434500313a5516a16c92bb6725a7730841c7d95f57db",
+      "afterSha256": "9d117c5c51e3b1daa593cc04a1efb197de5c6a93818b36a14f3bf965b9de5a9d",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/basic/result.json",
+      "beforeSha256": "eee263bb939291e1450ab913b564c77fc25346727a95c182e427ee33c0eeb758",
+      "afterSha256": "aa2ad434c42b8351f58dd566928f304d63cb1cc3f1b0c420da42339919e40ecf",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/diagnostics/first-basic-preliminary.json",
+      "beforeSha256": "c860162194975f710f7b2507e30918e493332a7dd1836758ae0655f1f2772088",
+      "afterSha256": "f587ef2c8d9d4fbaf9a7d9aa41281daf31d1ea15f409b7cf8236ca866be78c7b",
+      "mappedCommits": [
+        {
+          "old": "be6b3354553d4c3ccf3098605128bf109dae0653",
+          "new": "078172639293ee219755056e6885fb1195aae1d4"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/diagnostics/first-hosted-run.json",
+      "beforeSha256": "817bc704f99ebba683040093fb543965a478d75b6c7fc428772cabedceb82cb3",
+      "afterSha256": "f20e248b3aa96bd12ca25d5459ea0dc26e04be1f2f48abdd4f0b3fdcd61845ad",
+      "mappedCommits": [
+        {
+          "old": "be6b3354553d4c3ccf3098605128bf109dae0653",
+          "new": "078172639293ee219755056e6885fb1195aae1d4"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/diagnostics/run-history.json",
+      "beforeSha256": "fe53653e32348540feb78b311ac86b24ea831cfe52e3ef82ebbe10e531bd91d7",
+      "afterSha256": "fea53488c39896df8836af77969efa22a373252a6bdf913610d0f1a142df2590",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        },
+        {
+          "old": "9966ddd1b1365a357f17fa072a411162eb1d25cd",
+          "new": "b16cf9d38372ad09ca9f318887c045eae5d44fc2"
+        },
+        {
+          "old": "be6b3354553d4c3ccf3098605128bf109dae0653",
+          "new": "078172639293ee219755056e6885fb1195aae1d4"
+        },
+        {
+          "old": "c47b7ab51232d853322e7785ec2b848675a5e160",
+          "new": "4005730f3a3aed9073102cf991b5829501bd20be"
+        },
+        {
+          "old": "d43646a3d9d6fff8bc32fd64cdc15008dd1b3991",
+          "new": "0321797cd5790822033dc0ac0774291e02568eab"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/native-wiring/provenance.json",
+      "beforeSha256": "23e2a726f0255ad38169eb7e4f182e48456ed03012b60c62b82cb4effa1bc79e",
+      "afterSha256": "d81b716382aae5605adef2ce7de5d691a554beeeee7313a3383aff7b9a93c4a6",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/reference/provenance.json",
+      "beforeSha256": "b3fa721d6871a74c353a156cbec48e23c0ee318109b47acde490b5cc9fc37cc2",
+      "afterSha256": "2217007d603be2a3ac49042415ea1d89b66bbe30c3b42823891ada412febcda3",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/reference/windows-local/provenance.json",
+      "beforeSha256": "bfdf49e1899b751357184e67d375c66350553e344d7856d0efbe68f0afe78660",
+      "afterSha256": "1a2e069dffd7c41c4d47ccbdf42d857bfa05b81bd008188284a7de64dc8d78e2",
+      "mappedCommits": [
+        {
+          "old": "610c860dc05b7407e0fa8b67a820e8b0275955e8",
+          "new": "043104768b96bc0f9e41a7f093ace0f1b03b2a50"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/windows-basic-discovery/result.json",
+      "beforeSha256": "814e93cd4b6b3e45ea2a7c32321c85b7dfc0362e88f6156751c52d8bb317e690",
+      "afterSha256": "7256d363daeb41cbfaa12e69c5594f235c5679bc0248de805b67c1b3c28df230",
+      "mappedCommits": [
+        {
+          "old": "610c860dc05b7407e0fa8b67a820e8b0275955e8",
+          "new": "043104768b96bc0f9e41a7f093ace0f1b03b2a50"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/evidence/windows-basic-setup/provenance.json",
+      "beforeSha256": "75b78ba5d2770d8b99c9636358ebd3bf25248d2f09e72cf0ca6c87be63a2e735",
+      "afterSha256": "40f369f6fbac7c8159066f87cdade64fb9c65fb60d92ea5a3325a64657af7fba",
+      "mappedCommits": [
+        {
+          "old": "610c860dc05b7407e0fa8b67a820e8b0275955e8",
+          "new": "043104768b96bc0f9e41a7f093ace0f1b03b2a50"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/measurements.json",
+      "beforeSha256": "f24fff54729d9a65429e30d97f6190bb2d201e68b333b2bb55b7c7bbdd633e5c",
+      "afterSha256": "e4c4a078a96c0a67f4e3370fff818d23287cae93d4cedc41171223f3a0773925",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/report.md",
+      "beforeSha256": "99b872a24ae38df0dcf1cb33e700a4c617005ca2a02faa1247a96c4602c15990",
+      "afterSha256": "26c7efcceeca8cd9834b2e43c4c936bf8604a3e219208c509ece6dc03ca30ae1",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    },
+    {
+      "path": "spikes/e-memory/review.md",
+      "beforeSha256": "33c0d7b2d435a3a804c4440c0adeaeafaaf8d10d492b31de42b7431bbe88cb51",
+      "afterSha256": "6edeb65b1653f0883c9701d7b28fca5a4cc4ec429a3afa2711f2aee2b5d3fb17",
+      "mappedCommits": [
+        {
+          "old": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+          "new": "bc7112c4c0d54bfa8596d052f7017ae1d521310a"
+        }
+      ]
+    }
+  ]
+}

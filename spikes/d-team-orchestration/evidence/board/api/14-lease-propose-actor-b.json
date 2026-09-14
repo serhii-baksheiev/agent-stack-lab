@@ -6,7 +6,7 @@
     "message": "{\"schema\":1,\"repository\":\"serhii-baksheiev/agent-stack-lab\",\"issue\":14,\"owner\":\"actor-b\",\"epoch\":1,\"event\":\"claim-once\",\"expiresAt\":1789386721963}",
     "tree": "010298c955bbf68324d94c293832cb9486e0487f",
     "parents": [
-      "c30f2de2b9ac847978bcd1dce863998e583f9d7a"
+      "3cf6d819289cd621d6fa7811a53a74d22fba4f79"
     ]
   },
   "requestHeaders": [],
@@ -37,9 +37,9 @@
     "message": "{\"schema\":1,\"repository\":\"serhii-baksheiev/agent-stack-lab\",\"issue\":14,\"owner\":\"actor-b\",\"epoch\":1,\"event\":\"claim-once\",\"expiresAt\":1789386721963}",
     "parents": [
       {
-        "sha": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
-        "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/git/commits/c30f2de2b9ac847978bcd1dce863998e583f9d7a",
-        "html_url": "https://github.com/serhii-baksheiev/agent-stack-lab/commit/c30f2de2b9ac847978bcd1dce863998e583f9d7a"
+        "sha": "3cf6d819289cd621d6fa7811a53a74d22fba4f79",
+        "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/git/commits/3cf6d819289cd621d6fa7811a53a74d22fba4f79",
+        "html_url": "https://github.com/serhii-baksheiev/agent-stack-lab/commit/3cf6d819289cd621d6fa7811a53a74d22fba4f79"
       }
     ],
     "verification": {

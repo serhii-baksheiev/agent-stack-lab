@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-14T12:49:05.264Z",
+  "retainingRefs": [
+    "refs/pull/10/head",
+    "refs/pull/9/head"
+  ],
+  "pr11": {
+    "oldMergeBase": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+    "newMergeBase": "3cf6d819289cd621d6fa7811a53a74d22fba4f79",
+    "mergeBaseMapped": true,
+    "changedFiles": 147,
+    "diffIdenticalExceptSanitizedBMetadata": true,
+    "oldDiffSha256": "02d62679053289494102010b68a47b896374be6177f20bd73d1938e6265da599",
+    "newDiffSha256": "5118436b14abdfceda0866cc0fe8ae92754c2606626126c6b8edb28ad24caf17"
+  }
+}
