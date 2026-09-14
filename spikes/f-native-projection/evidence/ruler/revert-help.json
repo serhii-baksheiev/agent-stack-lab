@@ -1,0 +1,14 @@
+{
+  "command": [
+    "node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-ruler-package/node_modules/@intellectronica/ruler/dist/cli/index.js",
+    "revert",
+    "--help"
+  ],
+  "cwd": ".lab-runs/f-ruler-package",
+  "startedAt": "2026-09-14T09:51:54.364Z",
+  "durationMs": 169,
+  "exitCode": 0,
+  "stdout": "ruler revert\n\nRevert ruler configurations from supported AI agents\n\nOptions:\n      --version       Show version number                              [boolean]\n      --help          Show help                                        [boolean]\n      --project-root  Project root directory                  [string] [default:\n  \"<LAB>/.lab-runs/f-ruler-package\"]\n      --agents        Comma-separated list of agent identifiers: agentsmd,\n                      aider, amazonqcli, amp, antigravity, augmentcode, claude,\n                      cline, codex, copilot, crush, cursor, factory, firebase,\n                      firebender, gemini-cli, goose, jetbrains-ai, jules, junie,\n                      kilocode, kiro, mistral, opencode, openhands, pi, qwen,\n                      roo, trae, warp, windsurf, zed                    [string]\n      --config        Path to TOML configuration file                   [string]\n      --keep-backups  Keep backup files after revert  [boolean] [default: false]\n  -v, --verbose       Enable verbose logging          [boolean] [default: false]\n      --dry-run       Preview changes without writing files\n                                                      [boolean] [default: false]\n      --local-only    Only search for local .ruler directories, ignore global\n                      config                          [boolean] [default: false]\n",
+  "stderr": ""
+}

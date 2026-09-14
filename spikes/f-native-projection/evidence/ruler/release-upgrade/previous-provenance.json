@@ -1,0 +1,25 @@
+{
+  "version": "0.3.43",
+  "commit": "571d127f444f2f4b35455b6f36cdcdf6d4e2b024",
+  "license": "MIT",
+  "dist": {
+    "shasum": "20e2c3170992c7abd86326bd66a9e83ee2201f35",
+    "tarball": "https://registry.npmjs.org/@intellectronica/ruler/-/ruler-0.3.43.tgz",
+    "fileCount": 135,
+    "integrity": "sha512-/2WHKDN0UsV3yKWUfU7VhD7kR815p+GMeSbue0fMfbpZZv2PqMAwfmTMHA858mTEF2s9ejofNRJCZTenxB11lQ==",
+    "signatures": [
+      {
+        "sig": "MEYCIQDvZgZ+5sfKNfsyLa/L+Hw0g5FOcCvkFjVOJnCAmdLoqgIhAPceBqksOSVIyzq02vmTQ99Do74PUxG4qkuzA3/XsJD9",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@intellectronica%2fruler@0.3.43",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 490886
+  },
+  "checkedAt": "2026-09-14T09:51:58.262Z"
+}

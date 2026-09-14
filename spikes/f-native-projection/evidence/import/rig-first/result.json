@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "codexVersion": "0.154.0",
+  "startedAt": "2026-09-14T09:52:01.652Z",
+  "scenario": "synthetic Claude project import, repeat, user edit and deletion",
+  "authenticationUsed": false,
+  "status": "completed",
+  "observations": {
+    "repeatIdempotent": true,
+    "generatedFiles": [
+      ".agents/skills/lab-import/SKILL.md",
+      ".agents/skills/source-command-lab-command/SKILL.md",
+      ".codex/agents/lab-reviewer.toml",
+      ".codex/config.toml"
+    ],
+    "freshDetectEligibleItems": [],
+    "editedFile": "AGENTS.md",
+    "deletedFile": ".agents/skills/lab-import/SKILL.md",
+    "userEditPreserved": true,
+    "deletedStaysRemoved": true,
+    "sourceUpdated": false,
+    "rigDryRunReadOnly": true,
+    "rigPreservesEditedAgents": true,
+    "rigDeletedStaysRemoved": true,
+    "importedSkillsSurviveRigUpgrade": true,
+    "uninstall": "unverified: neither migration undo nor Rig native uninstall is exposed; no deletion simulated"
+  },
+  "errors": [],
+  "rigOrder": "rig-first",
+  "versionOutput": "codex-cli 0.154.0",
+  "rigInitialInstall": {
+    "args": [
+      "init"
+    ],
+    "exitCode": 0,
+    "error": null,
+    "stdout": "agent-rig init — process layer into <RUN>/repo\n\n  + .claude/rules/workflow.md\n  + .claude/rules/autonomy.md\n  + .claude/rules/invariants.md\n  + .claude/skills/new-invariant/SKILL.md\n  + .claude/skills/new-invariant/guard-invariant.example.mjs\n  + .claude/skills/new-invariant/guard-invariant.example.test.mjs\n  + .claude/agents/test-writer.md\n  + .claude/agents/code-reviewer.md\n  + .claude/agents/security-scanner.md\n  + .claude/agents/prose-reviewer.md\n  + .claude/hooks/block-no-verify.mjs\n  + .claude/hooks/guard-bash.mjs\n  + .claude/hooks/gate-stop-dod.mjs\n  + .claude/hooks/inject-rules.mjs\n  + .claude/hooks/guard-secret-file.mjs\n  + .claude/hooks/guard-rulebook.mjs\n  + .claude/hooks/guard-subagent-model.mjs\n  + .claude/hooks/warn-subagent-routing.mjs\n  + .claude/hooks/lib/edit-input.mjs\n  + .claude/hooks/lib/hook-input.mjs\n  + .claude/skills/pr-ship/SKILL.md\n  + .claude/skills/loop/SKILL.md\n  + .claude/skills/check-premises/SKILL.md\n  + .claude/skills/worktree-task/SKILL.md\n  + .agents/skills/new-invariant/SKILL.md\n  + .agents/skills/new-invariant/guard-invariant.example.mjs\n  + .agents/skills/new-invariant/guard-invariant.example.test.mjs\n  + .agents/skills/pr-ship/SKILL.md\n  + .agents/skills/loop/SKILL.md\n  + .agents/skills/check-premises/SKILL.md\n  + .agents/skills/worktree-task/SKILL.md\n  + .codex/agents/test-writer.toml\n  + .codex/agents/code-reviewer.toml\n  + .codex/agents/security-scanner.toml\n  + .codex/agents/prose-reviewer.toml\n  + .claude/scripts/detect-missed-gate.mjs\n  + .claude/scripts/decision-router.mjs\n  + .claude/scripts/reconcile-external-prs.mjs\n  + .claude/scripts/stop-flag.mjs\n  + .claude/scripts/unattended-flag.mjs\n  + .claude/scripts/git-env.mjs\n  + .claude/scripts/preflight.mjs\n  + .claude/scripts/doctor.mjs\n  + .claude/scripts/run-journal.mjs\n  + .claude/scripts/run-state.mjs\n  + .claude/scripts/verdict.mjs\n  + .claude/scripts/revalidate.mjs\n  + .claude/scripts/revalidation-report.mjs\n  + .claude/scripts/lib/gate-coverage.mjs\n  + .claude/scripts/lib/claim-records.mjs\n  + .claude/scripts/lib/revalidation-evidence.mjs\n  + .claude/scripts/lib/revalidation-points.mjs\n  + .claude/scripts/lib/verdict.mjs\n  + .claude/scripts/lib/secrets.mjs\n  + .claude/scripts/lib/shell-tools.mjs\n  + .claude/scripts/queue/core.mjs\n  + .claude/scripts/queue/plan-md.mjs\n  + .claude/scripts/queue/github-issues.mjs\n  + .claude/scripts/queue/jira.mjs\n  + .claude/scripts/queue/index.mjs\n  + .claude/scripts/queue/as-of.mjs\n  + .claude/scripts/queue/checkout.mjs\n  + .claude/scripts/queue/state.mjs\n  + .claude/scripts/queue/gate-rounds.mjs\n  + .claude/queue.json\n  + .rig/revalidation.json\n  + PLAN.md\n  + journal/README.md\n  + docs/decisions/gate-coverage.md\n  + docs/decisions/fail-open-guards.md\n  + docs/decisions/codex-adapter.md\n  + docs/decisions/subagent-routing.md\n  + docs/decisions/closing-a-task.md\n  + docs/decisions/content-blind-revalidation.md\n  + docs/decisions/review-lanes.md\n  + docs/decisions/run-directory.md\n  + docs/decisions/spacing-rations-mechanisms.md\n  + docs/decisions/stop-conditions-in-a-file.md\n  + docs/decisions/two-empty-endings.md\n  + CLAUDE.md\n  + AGENTS.md\n  + .claude/settings.json\n  + .codex/hooks.json\n\nInstalled 83 files.\n",
+    "stderr": ""
+  },
+  "initialize": {
+    "userAgent": "agent-stack-lab/0.154.0 (Ubuntu 24.4.0; x86_64) unknown (agent-stack-lab; 0.1.0)",
+    "codexHome": "<RUN>/home/.codex",
+    "platformFamily": "unix",
+    "platformOs": "linux"
+  },
+  "detect": {
+    "items": [
+      {
+        "itemType": "CONFIG",
+        "description": "Migrate <RUN>/repo/.claude/settings.json into <RUN>/repo/.codex/config.toml",
+        "cwd": "<RUN>/repo",
+        "details": null
+      },
+      {
+        "itemType": "SKILLS",
+        "description": "Migrate skills from <RUN>/repo/.claude/skills to <RUN>/repo/.agents/skills",
+        "cwd": "<RUN>/repo",
+        "details": {
+          "plugins": [],
+          "skills": [
+            {
+              "name": "lab-import"
+            }
+          ],
+          "sessions": [],
+          "mcpServers": [],
+          "hooks": [],
+          "subagents": [],
+          "commands": []
+        }
+      },
+      {
+        "itemType": "COMMANDS",
+        "description": "Migrate commands from <RUN>/repo/.claude/commands to <RUN>/repo/.agents/skills",
+        "cwd": "<RUN>/repo",
+        "details": {
+          "plugins": [],
+          "skills": [],
+          "sessions": [],
+          "mcpServers": [],
+          "hooks": [],
+          "subagents": [],
+          "commands": [
+            {
+              "name": "source-command-lab-command"
+            }
+          ]
+        }
+      },
+      {
+        "itemType": "SUBAGENTS",
+        "description": "Migrate subagents from <RUN>/repo/.claude/agents to <RUN>/repo/.codex/agents",
+        "cwd": "<RUN>/repo",
+        "details": {
+          "plugins": [],
+          "skills": [],
+          "sessions": [],
+          "mcpServers": [],
+          "hooks": [],
+          "subagents": [
+            {
+              "name": "lab-reviewer"
+            }
+          ],
+          "commands": []
+        }
+      }
+    ],
+    "connectors": []
+  },
+  "selectedItems": [
+    {
+      "itemType": "CONFIG",
+      "description": "Migrate <RUN>/repo/.claude/settings.json into <RUN>/repo/.codex/config.toml",
+      "cwd": "<RUN>/repo",
+      "details": null
+    },
+    {
+      "itemType": "SKILLS",
+      "description": "Migrate skills from <RUN>/repo/.claude/skills to <RUN>/repo/.agents/skills",
+      "cwd": "<RUN>/repo",
+      "details": {
+        "plugins": [],
+        "skills": [
+          {
+            "name": "lab-import"
+          }
+        ],
+        "sessions": [],
+        "mcpServers": [],
+        "hooks": [],
+        "subagents": [],
+        "commands": []
+      }
+    },
+    {
+      "itemType": "COMMANDS",
+      "description": "Migrate commands from <RUN>/repo/.claude/commands to <RUN>/repo/.agents/skills",
+      "cwd": "<RUN>/repo",
+      "details": {
+        "plugins": [],
+        "skills": [],
+        "sessions": [],
+        "mcpServers": [],
+        "hooks": [],
+        "subagents": [],
+        "commands": [
+          {
+            "name": "source-command-lab-command"
+          }
+        ]
+      }
+    },
+    {
+      "itemType": "SUBAGENTS",
+      "description": "Migrate subagents from <RUN>/repo/.claude/agents to <RUN>/repo/.codex/agents",
+      "cwd": "<RUN>/repo",
+      "details": {
+        "plugins": [],
+        "skills": [],
+        "sessions": [],
+        "mcpServers": [],
+        "hooks": [],
+        "subagents": [
+          {
+            "name": "lab-reviewer"
+          }
+        ],
+        "commands": []
+      }
+    }
+  ],
+  "firstImport": {
+    "importId": "a863b698-dd87-4f6e-818b-4d3cce2f95a9",
+    "itemTypeResults": [
+      {
+        "itemType": "CONFIG",
+        "successes": [
+          {
+            "itemType": "CONFIG",
+            "cwd": "<RUN>/repo",
+            "source": "<RUN>/repo/.claude/settings.json",
+            "target": "<RUN>/repo/.codex/config.toml",
+            "title": null
+          }
+        ],
+        "failures": []
+      },
+      {
+        "itemType": "SKILLS",
+        "successes": [
+          {
+            "itemType": "SKILLS",
+            "cwd": "<RUN>/repo",
+            "source": "lab-import",
+            "target": "lab-import",
+            "title": null
+          }
+        ],
+        "failures": []
+      },
+      {
+        "itemType": "SUBAGENTS",
+        "successes": [
+          {
+            "itemType": "SUBAGENTS",
+            "cwd": "<RUN>/repo",
+            "source": "lab-reviewer",
+            "target": "lab-reviewer",
+            "title": null
+          }
+        ],
+        "failures": []
+      },
+      {
+        "itemType": "COMMANDS",
+        "successes": [
+          {
+            "itemType": "COMMANDS",
+            "cwd": "<RUN>/repo",
+            "source": "source-command-lab-command",
+            "target": "source-command-lab-command",
+            "title": null
+          }
+        ],
+        "failures": []
+      }
+    ]
+  },
+  "repeatImport": {
+    "importId": "828947ff-7fe5-4b74-9f63-1d1b03f1c752",
+    "itemTypeResults": [
+      {
+        "itemType": "CONFIG",
+        "successes": [],
+        "failures": []
+      },
+      {
+        "itemType": "SKILLS",
+        "successes": [],
+        "failures": []
+      },
+      {
+        "itemType": "SUBAGENTS",
+        "successes": [],
+        "failures": []
+      },
+      {
+        "itemType": "COMMANDS",
+        "successes": [],
+        "failures": []
+      }
+    ]
+  },
+  "skills": {
+    "data": [
+      {
+        "cwd": "<RUN>/repo",
+        "skills": [
+          {
+            "name": "check-premises",
+            "description": "Check claims about the code before building on them, or before shipping them. Use after taking a queue item and before the failing test — whenever the item asserts something exists, is missing, is broken, or works a particular way. Use again before the gate, on the run's own prose, where a behaviour claim nothing backs is UNMEASURED.",
+            "path": "<RUN>/repo/.agents/skills/check-premises/SKILL.md",
+            "scope": "repo",
+            "enabled": true,
+            "pluginId": null
+          },
+          {
+            "name": "lab-import",
+            "description": "Synthetic import validation skill",
+            "path": "<RUN>/repo/.agents/skills/lab-import/SKILL.md",
+            "scope": "repo",
+            "enabled": true,
+            "pluginId": null
+          },
+          {
+            "name": "loop",
+            "description": "The unattended work driver. Picks the next queue item through the queue adapter, runs it under the autonomy rules, journals at checkpoints, and ends the session on a stated stop condition — never inventing work. Use at the start of every autonomous run and between tasks.",
+            "path": "<RUN>/repo/.agents/skills/loop/SKILL.md",
+            "scope": "repo",
+            "enabled": true,
+            "pluginId": null
+          },
+          {
+            "name": "new-invariant",
+            "description": "Turn a project rule into a mechanically enforced invariant — one stated rule, one PreToolUse hook that blocks its violation, one test for the hook. Use when a rule keeps being broken, when a review finding recurs, or when a post-mortem ends in \"nothing stopped us doing that\".",
+            "path": "<RUN>/repo/.agents/skills/new-invariant/SKILL.md",
+            "scope": "repo",
+            "enabled": true,
+            "pluginId": null
+          },
+          {
+            "name": "pr-ship",
+            "description": "The pre-merge gate. MUST run before a PR is opened or merged — runs the full check suite, fans out the reviewer gates, walks the DoD, and returns a SHIP / HOLD verdict with named blockers.",
+            "path": "<RUN>/repo/.agents/skills/pr-ship/SKILL.md",
+            "scope": "repo",
+            "enabled": true,
+            "pluginId": null
+          },
+          {
+            "name": "source-command-lab-command",
+            "description": "Migrated source command `lab-command`",
+            "path": "<RUN>/repo/.agents/skills/source-command-lab-command/SKILL.md",
+            "scope": "repo",
+            "enabled": true,
+            "pluginId": null
+          },
+          {
+            "name": "worktree-task",
+            "description": "Start and finish a task in its own git worktree — creation off the remote default branch, and the full cleanup after the merge. Use at the start of every implementation task and after every merge, and whenever two sessions might touch this repo at once.",
+            "path": "<RUN>/repo/.agents/skills/worktree-task/SKILL.md",
+            "scope": "repo",
+            "enabled": true,
+            "pluginId": null
+          },
+          {
+            "name": "imagegen",
+            "description": "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
+            "interface": {
+              "displayName": "Image Gen",
+              "shortDescription": "Generate or edit images for websites, games, and more",
+              "iconSmall": "<RUN>/home/.codex/skills/.system/imagegen/assets/imagegen-small.svg",
+              "iconLarge": "<RUN>/home/.codex/skills/.system/imagegen/assets/imagegen.png",
+              "iconSmallUrl": null,
+              "iconLargeUrl": null,
+              "brandColor": null,
+              "defaultPrompt": "Use $imagegen to make or edit an image for this project."
+            },
+            "path": "<RUN>/home/.codex/skills/.system/imagegen/SKILL.md",
+            "scope": "system",
+            "enabled": true,
+            "pluginId": null
+          },
+          {
+            "name": "openai-docs",
+            "description": "Use for Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, customization, automations, and self-knowledge—including 'you,' 'your,' 'this app,' or 'this coding agent' when they refer to Codex—and for OpenAI APIs/products and ChatGPT Work. Also use for model choice/migration, prompting, SDKs, Responses, Realtime, agents, evals, and Chat/Work/Codex comparisons. Do not use for generic app/software tasks that merely mention Codex.",
+            "shortDescription": "Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, and self-knowledge; OpenAI APIs and ChatGPT Work. 'You'/'this app' means Codex only.",
+            "interface": {
+              "displayName": "OpenAI Docs",
+              "shortDescription": "OpenAI and Codex docs for models, skills, tasks, and setup",
+              "iconSmall": "<RUN>/home/.codex/skills/.system/openai-docs/assets/openai-small.svg",
+              "iconLarge": "<RUN>/home/.codex/skills/.system/openai-docs/assets/openai.png",
+              "iconSmallUrl": null,
+              "iconLargeUrl": null,
+              "brandColor": null,
+              "defaultPrompt": "Use OpenAI Docs for official docs lookup, questions about Codex itself or Codex surfaces, model selection, model migration, and prompt-upgrade work."
+            },
+            "path": "<RUN>/home/.codex/skills/.system/openai-docs/SKILL.md",
+            "scope": "system",
+            "enabled": true,
+            "pluginId": null
+          },
+          {
+            "name": "plugin-creator",
+            "description": "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, valid manifest defaults, and personal-marketplace entries by default. Use when Codex needs to create a new personal plugin, add optional plugin structure, generate or update marketplace entries for plugin ordering and availability metadata, or update an existing local plugin during development with the CLI-driven cachebuster and reinstall flow.",
+            "interface": {
+              "displayName": "Plugin Creator",
+              "shortDescription": "Scaffold plugins and marketplace entries",
+              "iconSmall": "<RUN>/home/.codex/skills/.system/plugin-creator/assets/plugin-creator-small.svg",
+              "iconLarge": "<RUN>/home/.codex/skills/.system/plugin-creator/assets/plugin-creator.png",
+              "iconSmallUrl": null,
+              "iconLargeUrl": null,
+              "brandColor": null,
+              "defaultPrompt": "Use $plugin-creator to scaffold a valid plugin in the personal marketplace, then validate it before handing it back."
+            },
+            "path": "<RUN>/home/.codex/skills/.system/plugin-creator/SKILL.md",
+            "scope": "system",
+            "enabled": true,
+            "pluginId": null
+          },
+          {
+            "name": "review-agent",
+            "description": "Perform a read-only, defect-first review of a specified code change and return every actionable finding. Use when another agent delegates review of uncommitted changes, a base-branch diff, a commit, or custom review instructions.",
+            "interface": {
+              "displayName": "Review Agent",
+              "shortDescription": "Find actionable bugs in code changes",
+              "iconSmall": null,
+              "iconLarge": null,
+              "iconSmallUrl": null,
+              "iconLargeUrl": null,
+              "brandColor": null,
+              "defaultPrompt": "Use $review-agent to review the requested code changes and return actionable findings."
+            },
+            "path": "<RUN>/home/.codex/skills/.system/review-agent/SKILL.md",
+            "scope": "system",
+            "enabled": true,
+            "pluginId": null
+          },
+          {
+            "name": "skill-creator",
+            "description": "Create or update a Codex skill with appropriately scoped instructions and any needed supporting resources.",
+            "shortDescription": "Create or update a skill",
+            "interface": {
+              "displayName": "Skill Creator",
+              "shortDescription": "Create or update a skill",
+              "iconSmall": "<RUN>/home/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+              "iconLarge": "<RUN>/home/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+              "iconSmallUrl": null,
+              "iconLargeUrl": null,
+              "brandColor": null,
+              "defaultPrompt": null
+            },
+            "path": "<RUN>/home/.codex/skills/.system/skill-creator/SKILL.md",
+            "scope": "system",
+            "enabled": true,
+            "pluginId": null
+          },
+          {
+            "name": "skill-installer",
+            "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "interface": {
+              "displayName": "Skill Installer",
+              "shortDescription": "Install curated skills from openai/skills or other repos",
+              "iconSmall": "<RUN>/home/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+              "iconLarge": "<RUN>/home/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+              "iconSmallUrl": null,
+              "iconLargeUrl": null,
+              "brandColor": null,
+              "defaultPrompt": null
+            },
+            "path": "<RUN>/home/.codex/skills/.system/skill-installer/SKILL.md",
+            "scope": "system",
+            "enabled": true,
+            "pluginId": null
+          }
+        ],
+        "errors": []
+      }
+    ]
+  },
+  "hooks": {
+    "data": [
+      {
+        "cwd": "<RUN>/repo",
+        "hooks": [],
+        "warnings": [],
+        "errors": []
+      }
+    ]
+  },
+  "reimportAfterEdit": {
+    "importId": "24cbcda5-7ec4-45c6-b14f-9e21f7adcd3b",
+    "itemTypeResults": [
+      {
+        "itemType": "CONFIG",
+        "successes": [],
+        "failures": []
+      },
+      {
+        "itemType": "SKILLS",
+        "successes": [],
+        "failures": []
+      },
+      {
+        "itemType": "SUBAGENTS",
+        "successes": [],
+        "failures": []
+      },
+      {
+        "itemType": "COMMANDS",
+        "successes": [],
+        "failures": []
+      }
+    ]
+  },
+  "detectAfterEdits": {
+    "items": [],
+    "connectors": []
+  },
+  "rigRepeatInit": {
+    "args": [
+      "init"
+    ],
+    "exitCode": 1,
+    "error": null,
+    "stdout": "agent-rig init — process layer into <RUN>/repo\n\n  + .claude/rules/workflow.md\n  + .claude/rules/autonomy.md\n  + .claude/rules/invariants.md\n  + .claude/skills/new-invariant/SKILL.md\n  + .claude/skills/new-invariant/guard-invariant.example.mjs\n  + .claude/skills/new-invariant/guard-invariant.example.test.mjs\n  + .claude/agents/test-writer.md\n  + .claude/agents/code-reviewer.md\n  + .claude/agents/security-scanner.md\n  + .claude/agents/prose-reviewer.md\n  + .claude/hooks/block-no-verify.mjs\n  + .claude/hooks/guard-bash.mjs\n  + .claude/hooks/gate-stop-dod.mjs\n  + .claude/hooks/inject-rules.mjs\n  + .claude/hooks/guard-secret-file.mjs\n  + .claude/hooks/guard-rulebook.mjs\n  + .claude/hooks/guard-subagent-model.mjs\n  + .claude/hooks/warn-subagent-routing.mjs\n  + .claude/hooks/lib/edit-input.mjs\n  + .claude/hooks/lib/hook-input.mjs\n  + .claude/skills/pr-ship/SKILL.md\n  + .claude/skills/loop/SKILL.md\n  + .claude/skills/check-premises/SKILL.md\n  + .claude/skills/worktree-task/SKILL.md\n  + .agents/skills/new-invariant/SKILL.md\n  + .agents/skills/new-invariant/guard-invariant.example.mjs\n  + .agents/skills/new-invariant/guard-invariant.example.test.mjs\n  + .agents/skills/pr-ship/SKILL.md\n  + .agents/skills/loop/SKILL.md\n  + .agents/skills/check-premises/SKILL.md\n  + .agents/skills/worktree-task/SKILL.md\n  + .codex/agents/test-writer.toml\n  + .codex/agents/code-reviewer.toml\n  + .codex/agents/security-scanner.toml\n  + .codex/agents/prose-reviewer.toml\n  + .claude/scripts/detect-missed-gate.mjs\n  + .claude/scripts/decision-router.mjs\n  + .claude/scripts/reconcile-external-prs.mjs\n  + .claude/scripts/stop-flag.mjs\n  + .claude/scripts/unattended-flag.mjs\n  + .claude/scripts/git-env.mjs\n  + .claude/scripts/preflight.mjs\n  + .claude/scripts/doctor.mjs\n  + .claude/scripts/run-journal.mjs\n  + .claude/scripts/run-state.mjs\n  + .claude/scripts/verdict.mjs\n  + .claude/scripts/revalidate.mjs\n  + .claude/scripts/revalidation-report.mjs\n  + .claude/scripts/lib/gate-coverage.mjs\n  + .claude/scripts/lib/claim-records.mjs\n  + .claude/scripts/lib/revalidation-evidence.mjs\n  + .claude/scripts/lib/revalidation-points.mjs\n  + .claude/scripts/lib/verdict.mjs\n  + .claude/scripts/lib/secrets.mjs\n  + .claude/scripts/lib/shell-tools.mjs\n  + .claude/scripts/queue/core.mjs\n  + .claude/scripts/queue/plan-md.mjs\n  + .claude/scripts/queue/github-issues.mjs\n  + .claude/scripts/queue/jira.mjs\n  + .claude/scripts/queue/index.mjs\n  + .claude/scripts/queue/as-of.mjs\n  + .claude/scripts/queue/checkout.mjs\n  + .claude/scripts/queue/state.mjs\n  + .claude/scripts/queue/gate-rounds.mjs\n  + .claude/queue.json\n  + .rig/revalidation.json\n  + PLAN.md\n  + journal/README.md\n  + docs/decisions/gate-coverage.md\n  + docs/decisions/fail-open-guards.md\n  + docs/decisions/codex-adapter.md\n  + docs/decisions/subagent-routing.md\n  + docs/decisions/closing-a-task.md\n  + docs/decisions/content-blind-revalidation.md\n  + docs/decisions/review-lanes.md\n  + docs/decisions/run-directory.md\n  + docs/decisions/spacing-rations-mechanisms.md\n  + docs/decisions/stop-conditions-in-a-file.md\n  + docs/decisions/two-empty-endings.md\n  + CLAUDE.md\n  + AGENTS.md\n  + .claude/settings.json\n  + .codex/hooks.json\n\nAlready present (kept, not overwritten):\n  · .claude/rules/workflow.md\n  · .claude/rules/autonomy.md\n  · .claude/rules/invariants.md\n  · .claude/skills/new-invariant/SKILL.md\n  · .claude/skills/new-invariant/guard-invariant.example.mjs\n  · .claude/skills/new-invariant/guard-invariant.example.test.mjs\n  · .claude/agents/test-writer.md\n  · .claude/agents/code-reviewer.md\n  · .claude/agents/security-scanner.md\n  · .claude/agents/prose-reviewer.md\n  · .claude/hooks/block-no-verify.mjs\n  · .claude/hooks/guard-bash.mjs\n  · .claude/hooks/gate-stop-dod.mjs\n  · .claude/hooks/inject-rules.mjs\n  · .claude/hooks/guard-secret-file.mjs\n  · .claude/hooks/guard-rulebook.mjs\n  · .claude/hooks/guard-subagent-model.mjs\n  · .claude/hooks/warn-subagent-routing.mjs\n  · .claude/hooks/lib/edit-input.mjs\n  · .claude/hooks/lib/hook-input.mjs\n  · .claude/skills/pr-ship/SKILL.md\n  · .claude/skills/loop/SKILL.md\n  · .claude/skills/check-premises/SKILL.md\n  · .claude/skills/worktree-task/SKILL.md\n  · .agents/skills/new-invariant/SKILL.md\n  · .agents/skills/new-invariant/guard-invariant.example.mjs\n  · .agents/skills/new-invariant/guard-invariant.example.test.mjs\n  · .agents/skills/pr-ship/SKILL.md\n  · .agents/skills/loop/SKILL.md\n  · .agents/skills/check-premises/SKILL.md\n  · .agents/skills/worktree-task/SKILL.md\n  · .codex/agents/test-writer.toml\n  · .codex/agents/code-reviewer.toml\n  · .codex/agents/security-scanner.toml\n  · .codex/agents/prose-reviewer.toml\n  · .claude/scripts/detect-missed-gate.mjs\n  · .claude/scripts/decision-router.mjs\n  · .claude/scripts/reconcile-external-prs.mjs\n  · .claude/scripts/stop-flag.mjs\n  · .claude/scripts/unattended-flag.mjs\n  · .claude/scripts/git-env.mjs\n  · .claude/scripts/preflight.mjs\n  · .claude/scripts/doctor.mjs\n  · .claude/scripts/run-journal.mjs\n  · .claude/scripts/run-state.mjs\n  · .claude/scripts/verdict.mjs\n  · .claude/scripts/revalidate.mjs\n  · .claude/scripts/revalidation-report.mjs\n  · .claude/scripts/lib/gate-coverage.mjs\n  · .claude/scripts/lib/claim-records.mjs\n  · .claude/scripts/lib/revalidation-evidence.mjs\n  · .claude/scripts/lib/revalidation-points.mjs\n  · .claude/scripts/lib/verdict.mjs\n  · .claude/scripts/lib/secrets.mjs\n  · .claude/scripts/lib/shell-tools.mjs\n  · .claude/scripts/queue/core.mjs\n  · .claude/scripts/queue/plan-md.mjs\n  · .claude/scripts/queue/github-issues.mjs\n  · .claude/scripts/queue/jira.mjs\n  · .claude/scripts/queue/index.mjs\n  · .claude/scripts/queue/as-of.mjs\n  · .claude/scripts/queue/checkout.mjs\n  · .claude/scripts/queue/state.mjs\n  · .claude/scripts/queue/gate-rounds.mjs\n  · .claude/queue.json\n  · .rig/revalidation.json\n  · PLAN.md\n  · journal/README.md\n  · docs/decisions/gate-coverage.md\n  · docs/decisions/fail-open-guards.md\n  · docs/decisions/codex-adapter.md\n  · docs/decisions/subagent-routing.md\n  · docs/decisions/closing-a-task.md\n  · docs/decisions/content-blind-revalidation.md\n  · docs/decisions/review-lanes.md\n  · docs/decisions/run-directory.md\n  · docs/decisions/spacing-rations-mechanisms.md\n  · docs/decisions/stop-conditions-in-a-file.md\n  · docs/decisions/two-empty-endings.md\n  · CLAUDE.md\n  · AGENTS.md\n  · .claude/settings.json\n  · .codex/hooks.json\n",
+    "stderr": "This repo already has an CLAUDE.md. Refusing to overwrite it. Merge the agent-os map in by hand, or run create-agent-rig upgrade to refresh a rig.\n"
+  },
+  "rigDryRun": {
+    "args": [
+      "upgrade",
+      "--dry-run"
+    ],
+    "exitCode": 0,
+    "error": null,
+    "stdout": "agent-rig upgrade — init rig in <RUN>/repo\n  installed by 0.9.0\n  upgrading to 0.9.0\n\n  ! CLAUDE.md  — edited since it was installed\n      new version: <LAB>/.lab-runs/f-ruler-package/package/templates/agent-os/init/CLAUDE.md\n  ! AGENTS.md  — edited since it was installed\n      new version: <LAB>/.lab-runs/f-ruler-package/package/templates/agent-os/init/AGENTS.md\n  ! .claude/settings.json  — edited since it was installed — merge the entries below by hand\n\n  0 to replace, 0 new, 2 yours (kept), 1 wiring handed over, 80 already current\n\n!  .claude/settings.json was handed over rather than replaced — the reason is\n   on its line above. It is hook wiring, so it is never overwritten\n   without proof the rig wrote those exact bytes.\n   This version wires it like this; merge in what is missing:\n\n   {\n     \"env\": {\n       \"CLAUDE_CODE_SUBAGENT_MODEL\": \"claude-sonnet-5\"\n     },\n     \"hooks\": {\n       \"PreToolUse\": [\n         {\n           \"matcher\": \"Write|Edit|MultiEdit|NotebookEdit|apply_patch\",\n           \"hooks\": [\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/guard-secret-file.mjs\\\"\"\n             },\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/guard-rulebook.mjs\\\"\"\n             }\n           ]\n         },\n         {\n           \"matcher\": \"Bash|PowerShell\",\n           \"hooks\": [\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/block-no-verify.mjs\\\"\"\n             },\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/guard-bash.mjs\\\"\"\n             }\n           ]\n         },\n         {\n           \"matcher\": \"Agent\",\n           \"hooks\": [\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/guard-subagent-model.mjs\\\"\"\n             }\n           ]\n         }\n       ],\n       \"Stop\": [\n         {\n           \"hooks\": [\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/gate-stop-dod.mjs\\\"\",\n               \"timeout\": 900\n             }\n           ]\n         }\n       ],\n       \"SessionStart\": [\n         {\n           \"hooks\": [\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/inject-rules.mjs\\\"\"\n             },\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/warn-subagent-routing.mjs\\\"\"\n             }\n           ]\n         }\n       ]\n     }\n   }\n   \n\nDry run — nothing written.\n",
+    "stderr": ""
+  },
+  "rigUpgrade": {
+    "args": [
+      "upgrade",
+      "--yes"
+    ],
+    "exitCode": 0,
+    "error": null,
+    "stdout": "agent-rig upgrade — init rig in <RUN>/repo\n  installed by 0.9.0\n  upgrading to 0.9.0\n\n  - .claude/rules/autonomy.md  — installed by the rig, removed since — not restored\n  ! CLAUDE.md  — edited since it was installed\n      new version: <LAB>/.lab-runs/f-ruler-package/package/templates/agent-os/init/CLAUDE.md\n  ! AGENTS.md  — edited since it was installed\n      new version: <LAB>/.lab-runs/f-ruler-package/package/templates/agent-os/init/AGENTS.md\n  ! .claude/settings.json  — edited since it was installed — merge the entries below by hand\n\n  0 to replace, 0 new, 2 yours (kept), 1 you removed (left removed), 1 wiring handed over, 79 already current\n\n!  .claude/settings.json was handed over rather than replaced — the reason is\n   on its line above. It is hook wiring, so it is never overwritten\n   without proof the rig wrote those exact bytes.\n   This version wires it like this; merge in what is missing:\n\n   {\n     \"env\": {\n       \"CLAUDE_CODE_SUBAGENT_MODEL\": \"claude-sonnet-5\"\n     },\n     \"hooks\": {\n       \"PreToolUse\": [\n         {\n           \"matcher\": \"Write|Edit|MultiEdit|NotebookEdit|apply_patch\",\n           \"hooks\": [\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/guard-secret-file.mjs\\\"\"\n             },\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/guard-rulebook.mjs\\\"\"\n             }\n           ]\n         },\n         {\n           \"matcher\": \"Bash|PowerShell\",\n           \"hooks\": [\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/block-no-verify.mjs\\\"\"\n             },\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/guard-bash.mjs\\\"\"\n             }\n           ]\n         },\n         {\n           \"matcher\": \"Agent\",\n           \"hooks\": [\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/guard-subagent-model.mjs\\\"\"\n             }\n           ]\n         }\n       ],\n       \"Stop\": [\n         {\n           \"hooks\": [\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/gate-stop-dod.mjs\\\"\",\n               \"timeout\": 900\n             }\n           ]\n         }\n       ],\n       \"SessionStart\": [\n         {\n           \"hooks\": [\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/inject-rules.mjs\\\"\"\n             },\n             {\n               \"type\": \"command\",\n               \"command\": \"node \\\"$CLAUDE_PROJECT_DIR/.claude/hooks/warn-subagent-routing.mjs\\\"\"\n             }\n           ]\n         }\n       ]\n     }\n   }\n   \n\nWrote 0 files.\n",
+    "stderr": ""
+  },
+  "stderr": "\u001b[2m2026-09-14T09:52:01.928713Z\u001b[0m \u001b[31mERROR\u001b[0m \u001b[2mcodex_app_server\u001b[0m\u001b[2m:\u001b[0m Project-local config, hooks, and exec policies are disabled in the following folders until the project is trusted, but skills still load.\n    1. <RUN>/repo/.codex\n       To load project-local config, hooks, and exec policies, add <RUN>/repo as a trusted project in <RUN>/home/.codex/config.toml.\n\n\u001b[2m2026-09-14T09:52:01.928766Z\u001b[0m \u001b[31mERROR\u001b[0m \u001b[2mcodex_app_server\u001b[0m\u001b[2m:\u001b[0m Codex could not find bubblewrap on PATH. Install bubblewrap with your OS package manager. See the sandbox prerequisites: https://developers.openai.com/codex/concepts/sandboxing#prerequisites. Codex will use the bundled bubblewrap in the meantime.\n",
+  "finishedAt": "2026-09-14T09:52:02.438Z"
+}

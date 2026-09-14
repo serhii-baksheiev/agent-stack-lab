@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-09-14T09:51:51.059Z",
+  "version": "0.3.44",
+  "commit": "658d1bc168e3496015aa5c262361cce818fabcf9",
+  "license": "MIT",
+  "dist": {
+    "integrity": "sha512-OjJCdZleUQSLapy2HuLdDNpbyneArwYT9i9QP7mskrREPqBEB3JoDiZ8xded3Q7oA7/s5Pgn8Qo6UiGEsYZIVQ==",
+    "shasum": "c501664baae4739d9266757a7789f9592b2d1932",
+    "tarball": "https://registry.npmjs.org/@intellectronica/ruler/-/ruler-0.3.44.tgz",
+    "fileCount": 135,
+    "unpackedSize": 493764,
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@intellectronica%2fruler@0.3.44",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "signatures": [
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEUCIB/QFPrLJaaq0NVKcLI/Ndf6Bal4IuL6WZTXp5/PkenTAiEAyBQuPVQHgKPoN9ITqtRQqIp71UPw6OrOFp9C35V8hKY="
+      }
+    ]
+  },
+  "latest": "0.3.44",
+  "releasedAt": "2026-06-30T12:56:32.773Z",
+  "node": "v24.20.0",
+  "platform": "linux",
+  "scenarioSha": "e73a9b91d41cc76e9f7f88c0de8258559c092808",
+  "scriptSha256": "c34d50a1855663d506c4fcd34c486b497c415b88002546a02c45dea1167c19f5",
+  "source": "https://github.com/intellectronica/ruler/tree/658d1bc168e3496015aa5c262361cce818fabcf9"
+}

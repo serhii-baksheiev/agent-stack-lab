@@ -1,0 +1,9 @@
+{
+  "from": "0.3.43",
+  "to": "0.3.44",
+  "upgradeExit": 0,
+  "userOverridePreserved": false,
+  "deletedStaysRemoved": false,
+  "revertExit": 0,
+  "canonicalSourcePreserved": true
+}

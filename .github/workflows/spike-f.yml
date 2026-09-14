@@ -4,9 +4,14 @@ on:
     branches: [spike/f-native-projection]
     paths: ['scripts/spike-f*.mjs', 'fixtures/f-native/**', '.github/workflows/spike-f.yml']
   workflow_dispatch:
+    inputs:
+      runner:
+        description: 'Optional existing Linux self-hosted label; same scripts and assertions'
+        default: ubuntu-latest
+        type: string
 jobs:
   native:
-    runs-on: ubuntu-latest
+    runs-on: ${{ inputs.runner || 'ubuntu-latest' }}
     timeout-minutes: 15
     permissions:
       contents: read

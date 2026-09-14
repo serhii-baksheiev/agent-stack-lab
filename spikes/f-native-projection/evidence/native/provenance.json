@@ -1,0 +1,86 @@
+{
+  "packages": [
+    {
+      "name": "@openai/codex",
+      "version": "0.154.0",
+      "license": "Apache-2.0",
+      "dist": {
+        "shasum": "eb1ec011cca427c606ef6cd4814014e59a1c3d70",
+        "tarball": "https://registry.npmjs.org/@openai/codex/-/codex-0.154.0.tgz",
+        "fileCount": 3,
+        "integrity": "sha512-FV/x1OHXYv/ifjf3mXj9ThTTAWcUZN6cGIRQRhRxkKNOPuImu1WW0c8ev1vUkE9XGH90dEnYG1tBjIkxRikg0w==",
+        "signatures": [
+          {
+            "sig": "MEYCIQDRpG84Ly0XYkYhUObqKlYOHq13TScD5/uSwD+lhrcBawIhAIxoYbuh5tcA9p/ftyjuXzmIsiaYeIpAkQZK7b1TUvtm",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEUCIQDU28wyN3HB3LP0ggkCvCZ+jbkt4zfvzz4PyWcqExsm6wIgUuSCETOrHzE0h4Cj5re4CONu5MpmhsHgb6cNKGZix8c=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/@openai%2fcodex@0.154.0",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 13206
+      },
+      "released": "2026-09-09T22:40:10.746Z",
+      "checkedAt": "2026-09-14T09:52:03.516Z"
+    },
+    {
+      "name": "@anthropic-ai/claude-code",
+      "version": "2.1.270",
+      "license": "SEE LICENSE IN README.md",
+      "dist": {
+        "shasum": "6cba495abac4528f76fddf32acd46b016a0d48a6",
+        "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.270.tgz",
+        "fileCount": 7,
+        "integrity": "sha512-0zMkfIWQu7/SG56VP8r780HZWvrNShzK28AbAnhKRK0ns+ToGXPT0W8UqyZmZCUKAkJDd5//TrwSOhk1+hysiw==",
+        "signatures": [
+          {
+            "sig": "MEUCICswNn0ZCH6n8b+WSQFDOEk3QcOvuTFLZwQA0RkGt7r8AiEA514qgU8Z5E/KTJIyHGcXZv2L4B/pTejvTh1xjp/qnzI=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEUCIQDyCqb7ch5aX85hMjDSBfIBKo1hMTZ0y/DOzppaCb0AnwIgVVRgJIsRhWqYHNRPctMa/5aJSwpoNTt1q29sH6adZS4=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 184449
+      },
+      "released": "2026-09-12T18:52:44.937Z",
+      "checkedAt": "2026-09-14T09:52:03.718Z"
+    },
+    {
+      "name": "create-agent-rig",
+      "version": "0.9.0",
+      "license": "MIT",
+      "dist": {
+        "shasum": "4fae16bb6e6914264af34ba51631ff7432f31394",
+        "tarball": "https://registry.npmjs.org/create-agent-rig/-/create-agent-rig-0.9.0.tgz",
+        "fileCount": 270,
+        "integrity": "sha512-yqWpUwdpVKR7unoQy9Bh5UF3+ArCxXSxWaKS3YIuMsiIY+E2u91HeaaCdi8D9bv+Dp5+NSl+5L6uJRd91oHLQQ==",
+        "signatures": [
+          {
+            "sig": "MEYCIQCkVWfsY+dTRV7Nb2GGzXvlWOxOS1a9aWvsUfiTpX9mlwIhAPuRvaaFl8Ba/Dt8uiP4KnkPjBANr3PQTn4m+8vWwK7s",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+            "sig": "MEUCIQCaigu2Msd0WUVlahHOng/QtEbWEMmQeuB9xGKtBNiWAwIgba+r4pks/kXXeOMrsBCdC7ZUO6Spv5ktIFwFdBbEb04="
+          }
+        ],
+        "unpackedSize": 1894623
+      },
+      "released": "2026-09-14T03:40:12.365Z",
+      "checkedAt": "2026-09-14T09:52:03.871Z"
+    }
+  ],
+  "node": "v24.20.0",
+  "platform": "linux",
+  "scenarioSha": "e73a9b91d41cc76e9f7f88c0de8258559c092808",
+  "scriptSha256": "7fd358ac19e2d705e9175c36f85ad04611d2fc7d5ae822da4c96f32970c1fa5c"
+}

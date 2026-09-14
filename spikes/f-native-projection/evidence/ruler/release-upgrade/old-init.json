@@ -1,0 +1,13 @@
+{
+  "command": [
+    "node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-ruler-previous-package/node_modules/@intellectronica/ruler/dist/cli/index.js",
+    "init"
+  ],
+  "cwd": ".lab-runs/f-ruler-release-upgrade",
+  "startedAt": "2026-09-14T09:52:00.230Z",
+  "durationMs": 179,
+  "exitCode": 0,
+  "stdout": "[ruler] Created <LAB>/.lab-runs/f-ruler-release-upgrade/.ruler/AGENTS.md\n[ruler] Created <LAB>/.lab-runs/f-ruler-release-upgrade/.ruler/ruler.toml\n",
+  "stderr": ""
+}

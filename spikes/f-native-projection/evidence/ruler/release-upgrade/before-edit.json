@@ -1,0 +1,64 @@
+{
+  "files": {
+    ".agents/skills/lab-release/SKILL.md": {
+      "size": 95,
+      "sha256": "e7c9c83cfd66f676ee0d168d1a18a1c0cbc51c5734ac4b780b9e6f5589bc1a9e"
+    },
+    ".claude/skills/lab-release/SKILL.md": {
+      "size": 95,
+      "sha256": "e7c9c83cfd66f676ee0d168d1a18a1c0cbc51c5734ac4b780b9e6f5589bc1a9e"
+    },
+    ".ruler/AGENTS.md": {
+      "size": 53,
+      "sha256": "0b7e5d1fd0a87ff5a4780c0cd3a4d6e6e997362317afd10766fc67bf0885ca82"
+    },
+    ".ruler/ruler.toml": {
+      "size": 1542,
+      "sha256": "8d181aa53a78f22291afc34787541909a361044f9d84ed755b3cc4164af13eba"
+    },
+    ".ruler/skills/lab-release/SKILL.md": {
+      "size": 95,
+      "sha256": "e7c9c83cfd66f676ee0d168d1a18a1c0cbc51c5734ac4b780b9e6f5589bc1a9e"
+    },
+    "AGENTS.md": {
+      "size": 118,
+      "sha256": "9dd31b41522afd755334adf0b8dca9fb58871a863a3411cdf45397b567875be3"
+    },
+    "CLAUDE.md": {
+      "size": 90,
+      "sha256": "6354b4d526f84b2714491b8b6f57e70473b9d6a96dbfb39998e29c743a16163f"
+    }
+  },
+  "count": 7,
+  "bytes": 2088,
+  "status": "?? .agents/skills/lab-release/SKILL.md\n?? .claude/skills/lab-release/SKILL.md\n?? .ruler/AGENTS.md\n?? .ruler/ruler.toml\n?? .ruler/skills/lab-release/SKILL.md\n?? AGENTS.md\n?? CLAUDE.md\n",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/f-ruler-release-upgrade",
+    "startedAt": "2026-09-14T09:52:00.662Z",
+    "durationMs": 4,
+    "exitCode": 0,
+    "stdout": "?? .agents/skills/lab-release/SKILL.md\n?? .claude/skills/lab-release/SKILL.md\n?? .ruler/AGENTS.md\n?? .ruler/ruler.toml\n?? .ruler/skills/lab-release/SKILL.md\n?? AGENTS.md\n?? CLAUDE.md\n",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/f-ruler-release-upgrade",
+    "startedAt": "2026-09-14T09:52:00.666Z",
+    "durationMs": 3,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

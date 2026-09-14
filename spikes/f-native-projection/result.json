@@ -1,0 +1,23 @@
+{
+  "spike": "F",
+  "verdict": "ADAPT",
+  "confidence": "medium",
+  "candidate": "Native plugins with bounded Rig lifecycle compatibility; Codex import for migration",
+  "version": "Claude Code 2.1.270 / Codex 0.154.0 / Ruler 0.3.44",
+  "rigBaseline": "0.9.0",
+  "qualification": "conditional; per-provider upgrade and wiring gates apply",
+  "scenariosPassed": 65,
+  "scenariosFailed": 15,
+  "scenariosUnverified": 8,
+  "estimatedIntegrationDays": 5,
+  "estimatedAnnualMaintenanceDays": 6,
+  "estimateRangeDays": [
+    4,
+    7
+  ],
+  "annualEstimateRangeDays": [
+    4,
+    8
+  ],
+  "ledger": "scenario-ledger.json"
+}

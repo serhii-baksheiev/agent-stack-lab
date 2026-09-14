@@ -1,0 +1,44 @@
+{
+  "files": {
+    ".ruler/AGENTS.md": {
+      "size": 261,
+      "sha256": "d8b34a531af4fe50eeb8661cd33429bfe3f9a3d13d0be322a704efa868340d0b"
+    },
+    ".ruler/ruler.toml": {
+      "size": 1542,
+      "sha256": "8d181aa53a78f22291afc34787541909a361044f9d84ed755b3cc4164af13eba"
+    }
+  },
+  "count": 2,
+  "bytes": 1803,
+  "status": "?? .ruler/AGENTS.md\n?? .ruler/ruler.toml\n",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/f-ruler-ruler-first",
+    "startedAt": "2026-09-14T09:51:57.474Z",
+    "durationMs": 5,
+    "exitCode": 0,
+    "stdout": "?? .ruler/AGENTS.md\n?? .ruler/ruler.toml\n",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/f-ruler-ruler-first",
+    "startedAt": "2026-09-14T09:51:57.479Z",
+    "durationMs": 3,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "uninstall",
+    "lab-neutral@personal",
+    "--scope",
+    "project",
+    "--json"
+  ],
+  "cwd": ".lab-runs/f-native-claude-rig-first/repo",
+  "startedAt": "2026-09-14T09:52:06.572Z",
+  "durationMs": 188,
+  "exitCode": 0,
+  "stdout": "{\"command\":\"uninstall\",\"outcome\":\"ok\",\"plugin\":\"lab-neutral@personal\",\"pluginId\":\"lab-neutral@personal\",\"scope\":\"project\",\"keptData\":false,\"message\":\"Successfully uninstalled plugin: lab-neutral (scope: project)\"}\n",
+  "stderr": ""
+}

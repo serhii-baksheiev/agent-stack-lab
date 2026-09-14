@@ -1,0 +1,464 @@
+[
+  {
+    "scenario": "Ruler rig-first: both components install",
+    "status": "passed",
+    "evidence": "ruler/rig-first"
+  },
+  {
+    "scenario": "Ruler rig-first: immediate repeat is byte-idempotent",
+    "status": "failed",
+    "evidence": "ruler/rig-first"
+  },
+  {
+    "scenario": "Ruler rig-first: settled repeat is byte-idempotent",
+    "status": "passed",
+    "evidence": "ruler/rig-first"
+  },
+  {
+    "scenario": "Ruler rig-first: Rig dry-run read-only",
+    "status": "passed",
+    "evidence": "ruler/rig-first"
+  },
+  {
+    "scenario": "Ruler rig-first: Rig retains overrides",
+    "status": "passed",
+    "evidence": "ruler/rig-first"
+  },
+  {
+    "scenario": "Ruler rig-first: Rig retains deletion",
+    "status": "passed",
+    "evidence": "ruler/rig-first"
+  },
+  {
+    "scenario": "Ruler rig-first: Ruler dry-run read-only",
+    "status": "passed",
+    "evidence": "ruler/rig-first"
+  },
+  {
+    "scenario": "Ruler rig-first: canonical update propagates",
+    "status": "passed",
+    "evidence": "ruler/rig-first"
+  },
+  {
+    "scenario": "Ruler rig-first: generated skill edit retained",
+    "status": "failed",
+    "evidence": "ruler/rig-first"
+  },
+  {
+    "scenario": "Ruler rig-first: projected deletion retained",
+    "status": "failed",
+    "evidence": "ruler/rig-first"
+  },
+  {
+    "scenario": "Ruler rig-first: second component retains foreign-owned files",
+    "status": "failed",
+    "evidence": "ruler/rig-first"
+  },
+  {
+    "scenario": "Ruler rig-first: shared context edits retained",
+    "status": "failed",
+    "evidence": "ruler/rig-first"
+  },
+  {
+    "scenario": "Ruler rig-first: revert retains Rig-owned files",
+    "status": "failed",
+    "evidence": "ruler/rig-first"
+  },
+  {
+    "scenario": "Ruler rig-first: revert removes projected agents",
+    "status": "failed",
+    "evidence": "ruler/rig-first"
+  },
+  {
+    "scenario": "Ruler ruler-first: both components install",
+    "status": "failed",
+    "evidence": "ruler/ruler-first"
+  },
+  {
+    "scenario": "Ruler ruler-first: Rig refusal preserves bytes",
+    "status": "passed",
+    "evidence": "ruler/ruler-first"
+  },
+  {
+    "scenario": "Ruler real 0.3.43 to 0.3.44 upgrade executes",
+    "status": "passed",
+    "evidence": "ruler/release-upgrade/result.json"
+  },
+  {
+    "scenario": "Ruler release upgrade: userOverridePreserved",
+    "status": "failed",
+    "evidence": "ruler/release-upgrade/result.json"
+  },
+  {
+    "scenario": "Ruler release upgrade: deletedStaysRemoved",
+    "status": "failed",
+    "evidence": "ruler/release-upgrade/result.json"
+  },
+  {
+    "scenario": "Ruler release upgrade: canonicalSourcePreserved",
+    "status": "passed",
+    "evidence": "ruler/release-upgrade/result.json"
+  },
+  {
+    "scenario": "Codex import rig-first: RPC migration completes",
+    "status": "passed",
+    "evidence": "import/rig-first/result.json"
+  },
+  {
+    "scenario": "Codex import rig-first: repeatIdempotent",
+    "status": "passed",
+    "evidence": "import/rig-first/result.json"
+  },
+  {
+    "scenario": "Codex import rig-first: userEditPreserved",
+    "status": "passed",
+    "evidence": "import/rig-first/result.json"
+  },
+  {
+    "scenario": "Codex import rig-first: deletedStaysRemoved",
+    "status": "passed",
+    "evidence": "import/rig-first/result.json"
+  },
+  {
+    "scenario": "Codex import rig-first: sourceUpdated",
+    "status": "failed",
+    "evidence": "import/rig-first/result.json",
+    "note": "Migration replay is evaluated as an updater here; no source propagation is a failed updater property."
+  },
+  {
+    "scenario": "Codex rig-first: rigDryRunReadOnly",
+    "status": "passed",
+    "evidence": "import/rig-first/result.json"
+  },
+  {
+    "scenario": "Codex rig-first: rigPreservesEditedAgents",
+    "status": "passed",
+    "evidence": "import/rig-first/result.json"
+  },
+  {
+    "scenario": "Codex rig-first: rigDeletedStaysRemoved",
+    "status": "passed",
+    "evidence": "import/rig-first/result.json"
+  },
+  {
+    "scenario": "Codex rig-first: importedSkillsSurviveRigUpgrade",
+    "status": "passed",
+    "evidence": "import/rig-first/result.json"
+  },
+  {
+    "scenario": "Codex import rig-first: deterministic native migration undo",
+    "status": "unverified",
+    "evidence": "import/rig-first/result.json",
+    "note": "unverified: neither migration undo nor Rig native uninstall is exposed; no deletion simulated"
+  },
+  {
+    "scenario": "Codex import import-first: RPC migration completes",
+    "status": "passed",
+    "evidence": "import/import-first/result.json"
+  },
+  {
+    "scenario": "Codex import import-first: repeatIdempotent",
+    "status": "passed",
+    "evidence": "import/import-first/result.json"
+  },
+  {
+    "scenario": "Codex import import-first: userEditPreserved",
+    "status": "passed",
+    "evidence": "import/import-first/result.json"
+  },
+  {
+    "scenario": "Codex import import-first: deletedStaysRemoved",
+    "status": "passed",
+    "evidence": "import/import-first/result.json"
+  },
+  {
+    "scenario": "Codex import import-first: sourceUpdated",
+    "status": "failed",
+    "evidence": "import/import-first/result.json",
+    "note": "Migration replay is evaluated as an updater here; no source propagation is a failed updater property."
+  },
+  {
+    "scenario": "Codex import-first: Rig installs alongside imported anchors",
+    "status": "failed",
+    "evidence": "import/import-first/result.json"
+  },
+  {
+    "scenario": "Codex import-first: refusal preserves bytes",
+    "status": "passed",
+    "evidence": "import/import-first/result.json"
+  },
+  {
+    "scenario": "Codex import import-first: deterministic native migration undo",
+    "status": "unverified",
+    "evidence": "import/import-first/result.json",
+    "note": "unverified: neither migration undo nor Rig native uninstall is exposed; no deletion simulated"
+  },
+  {
+    "scenario": "Native claude rig-first: both components install",
+    "status": "passed",
+    "evidence": "native/claude-rig-first"
+  },
+  {
+    "scenario": "Native claude rig-first: installed synthetic skill executable works",
+    "status": "passed",
+    "evidence": "native/claude-rig-first",
+    "note": "Direct package script execution, not model-selected skill dispatch."
+  },
+  {
+    "scenario": "Native claude rig-first: marketplace refresh accepts local source",
+    "status": "passed",
+    "evidence": "native/claude-rig-first",
+    "note": "Codex Git-only refresh rejects local source; plugin add is tested separately as successful update route."
+  },
+  {
+    "scenario": "Native claude rig-first: dryReadOnly",
+    "status": "passed",
+    "evidence": "native/claude-rig-first"
+  },
+  {
+    "scenario": "Native claude rig-first: rigEditsPreserved",
+    "status": "passed",
+    "evidence": "native/claude-rig-first"
+  },
+  {
+    "scenario": "Native claude rig-first: deletedStaysRemoved",
+    "status": "passed",
+    "evidence": "native/claude-rig-first"
+  },
+  {
+    "scenario": "Native claude rig-first: functionalUpgrade",
+    "status": "passed",
+    "evidence": "native/claude-rig-first",
+    "note": "Requires executing version 1.0.1; a zero update exit alone is insufficient."
+  },
+  {
+    "scenario": "Native claude rig-first: rigPayloadPreserved",
+    "status": "passed",
+    "evidence": "native/claude-rig-first"
+  },
+  {
+    "scenario": "Native claude rig-first: userSettingsSurvive",
+    "status": "passed",
+    "evidence": "native/claude-rig-first"
+  },
+  {
+    "scenario": "Native claude rig-first: native uninstall removes inventory entry",
+    "status": "passed",
+    "evidence": "native/claude-rig-first"
+  },
+  {
+    "scenario": "Native claude rig-first: remaining Rig dry-run executes",
+    "status": "passed",
+    "evidence": "native/claude-rig-first"
+  },
+  {
+    "scenario": "Native claude native-first: both components install",
+    "status": "passed",
+    "evidence": "native/claude-native-first"
+  },
+  {
+    "scenario": "Native claude native-first: installed synthetic skill executable works",
+    "status": "passed",
+    "evidence": "native/claude-native-first",
+    "note": "Direct package script execution, not model-selected skill dispatch."
+  },
+  {
+    "scenario": "Native claude native-first: marketplace refresh accepts local source",
+    "status": "passed",
+    "evidence": "native/claude-native-first",
+    "note": "Codex Git-only refresh rejects local source; plugin add is tested separately as successful update route."
+  },
+  {
+    "scenario": "Native claude native-first: dryReadOnly",
+    "status": "passed",
+    "evidence": "native/claude-native-first"
+  },
+  {
+    "scenario": "Native claude native-first: rigEditsPreserved",
+    "status": "passed",
+    "evidence": "native/claude-native-first"
+  },
+  {
+    "scenario": "Native claude native-first: deletedStaysRemoved",
+    "status": "passed",
+    "evidence": "native/claude-native-first"
+  },
+  {
+    "scenario": "Native claude native-first: functionalUpgrade",
+    "status": "passed",
+    "evidence": "native/claude-native-first",
+    "note": "Requires executing version 1.0.1; a zero update exit alone is insufficient."
+  },
+  {
+    "scenario": "Native claude native-first: rigPayloadPreserved",
+    "status": "passed",
+    "evidence": "native/claude-native-first"
+  },
+  {
+    "scenario": "Native claude native-first: userSettingsSurvive",
+    "status": "passed",
+    "evidence": "native/claude-native-first"
+  },
+  {
+    "scenario": "Native claude native-first: native uninstall removes inventory entry",
+    "status": "passed",
+    "evidence": "native/claude-native-first"
+  },
+  {
+    "scenario": "Native claude native-first: remaining Rig dry-run executes",
+    "status": "passed",
+    "evidence": "native/claude-native-first"
+  },
+  {
+    "scenario": "Native codex rig-first: both components install",
+    "status": "passed",
+    "evidence": "native/codex-rig-first"
+  },
+  {
+    "scenario": "Native codex rig-first: installed synthetic skill executable works",
+    "status": "passed",
+    "evidence": "native/codex-rig-first",
+    "note": "Direct package script execution, not model-selected skill dispatch."
+  },
+  {
+    "scenario": "Native codex rig-first: marketplace refresh accepts local source",
+    "status": "failed",
+    "evidence": "native/codex-rig-first",
+    "note": "Codex Git-only refresh rejects local source; plugin add is tested separately as successful update route."
+  },
+  {
+    "scenario": "Native codex rig-first: dryReadOnly",
+    "status": "passed",
+    "evidence": "native/codex-rig-first"
+  },
+  {
+    "scenario": "Native codex rig-first: rigEditsPreserved",
+    "status": "passed",
+    "evidence": "native/codex-rig-first"
+  },
+  {
+    "scenario": "Native codex rig-first: deletedStaysRemoved",
+    "status": "passed",
+    "evidence": "native/codex-rig-first"
+  },
+  {
+    "scenario": "Native codex rig-first: functionalUpgrade",
+    "status": "passed",
+    "evidence": "native/codex-rig-first",
+    "note": "Requires executing version 1.0.1; a zero update exit alone is insufficient."
+  },
+  {
+    "scenario": "Native codex rig-first: rigPayloadPreserved",
+    "status": "passed",
+    "evidence": "native/codex-rig-first"
+  },
+  {
+    "scenario": "Native codex rig-first: userSettingsSurvive",
+    "status": "passed",
+    "evidence": "native/codex-rig-first"
+  },
+  {
+    "scenario": "Native codex rig-first: native uninstall removes inventory entry",
+    "status": "passed",
+    "evidence": "native/codex-rig-first"
+  },
+  {
+    "scenario": "Native codex rig-first: remaining Rig dry-run executes",
+    "status": "passed",
+    "evidence": "native/codex-rig-first"
+  },
+  {
+    "scenario": "Native codex native-first: both components install",
+    "status": "passed",
+    "evidence": "native/codex-native-first"
+  },
+  {
+    "scenario": "Native codex native-first: installed synthetic skill executable works",
+    "status": "passed",
+    "evidence": "native/codex-native-first",
+    "note": "Direct package script execution, not model-selected skill dispatch."
+  },
+  {
+    "scenario": "Native codex native-first: marketplace refresh accepts local source",
+    "status": "failed",
+    "evidence": "native/codex-native-first",
+    "note": "Codex Git-only refresh rejects local source; plugin add is tested separately as successful update route."
+  },
+  {
+    "scenario": "Native codex native-first: dryReadOnly",
+    "status": "passed",
+    "evidence": "native/codex-native-first"
+  },
+  {
+    "scenario": "Native codex native-first: rigEditsPreserved",
+    "status": "passed",
+    "evidence": "native/codex-native-first"
+  },
+  {
+    "scenario": "Native codex native-first: deletedStaysRemoved",
+    "status": "passed",
+    "evidence": "native/codex-native-first"
+  },
+  {
+    "scenario": "Native codex native-first: functionalUpgrade",
+    "status": "passed",
+    "evidence": "native/codex-native-first",
+    "note": "Requires executing version 1.0.1; a zero update exit alone is insufficient."
+  },
+  {
+    "scenario": "Native codex native-first: rigPayloadPreserved",
+    "status": "passed",
+    "evidence": "native/codex-native-first"
+  },
+  {
+    "scenario": "Native codex native-first: userSettingsSurvive",
+    "status": "passed",
+    "evidence": "native/codex-native-first"
+  },
+  {
+    "scenario": "Native codex native-first: native uninstall removes inventory entry",
+    "status": "passed",
+    "evidence": "native/codex-native-first"
+  },
+  {
+    "scenario": "Native codex native-first: remaining Rig dry-run executes",
+    "status": "passed",
+    "evidence": "native/codex-native-first"
+  },
+  {
+    "scenario": "Native hook execution and model/effort dispatch",
+    "status": "unverified",
+    "evidence": "report.md",
+    "note": "Loader metadata and script execution do not establish model dispatch or hook enforcement."
+  },
+  {
+    "scenario": "Desktop configuration sync as upgrade mechanism",
+    "status": "unverified",
+    "evidence": "report.md",
+    "note": "Documented surface, not executed in this CLI lab."
+  },
+  {
+    "scenario": "Native package cache user-edit and deletion policy",
+    "status": "unverified",
+    "evidence": "report.md",
+    "note": "No claim that disposable caches preserve user edits."
+  },
+  {
+    "scenario": "Rig uninstall while native package remains functional",
+    "status": "unverified",
+    "evidence": "report.md",
+    "note": "Rig 0.9.0 has no native uninstall; no generic remover is claimed here."
+  },
+  {
+    "scenario": "Cold offline native toolchain bootstrap",
+    "status": "unverified",
+    "evidence": "report.md",
+    "note": "Local source operation is not a network-isolated install of all dependencies."
+  },
+  {
+    "scenario": "Windows full native lifecycle",
+    "status": "unverified",
+    "evidence": "report.md",
+    "note": "Hosted Linux is primary lane."
+  }
+]

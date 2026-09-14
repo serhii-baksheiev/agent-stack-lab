@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-native-claude-rig-first/home/.claude/plugins/cache/personal/lab-neutral/1.0.1/scripts/probe.mjs",
+    "7"
+  ],
+  "cwd": ".lab-runs/f-native-claude-rig-first/repo",
+  "startedAt": "2026-09-14T09:52:06.535Z",
+  "durationMs": 25,
+  "exitCode": 0,
+  "stdout": "{\"version\":\"1.0.1\",\"input\":7,\"squared\":49}\n",
+  "stderr": ""
+}

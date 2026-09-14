@@ -1,0 +1,13 @@
+{
+  "command": [
+    "node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-ruler-package/node_modules/@intellectronica/ruler/dist/cli/index.js",
+    "--help"
+  ],
+  "cwd": ".lab-runs/f-ruler-package",
+  "startedAt": "2026-09-14T09:51:53.689Z",
+  "durationMs": 173,
+  "exitCode": 0,
+  "stdout": "ruler <command> [options]\n\nCommands:\n  ruler apply   Apply ruler configurations to supported AI agents\n  ruler init    Scaffold a .ruler directory with default files\n  ruler revert  Revert ruler configurations from supported AI agents\n\nOptions:\n  --version  Show version number                                       [boolean]\n  --help     Show help                                                 [boolean]\n",
+  "stderr": ""
+}

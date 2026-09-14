@@ -1,0 +1,20 @@
+{
+  "command": [
+    "node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-ruler-package/node_modules/@intellectronica/ruler/dist/cli/index.js",
+    "apply",
+    "--agents",
+    "claude,codex",
+    "--local-only",
+    "--no-mcp",
+    "--no-gitignore",
+    "--subagents",
+    "--dry-run"
+  ],
+  "cwd": ".lab-runs/f-ruler-rig-first",
+  "startedAt": "2026-09-14T09:51:56.266Z",
+  "durationMs": 204,
+  "exitCode": 0,
+  "stdout": "[ruler:dry-run] Applying rules for Claude Code...\n[ruler:dry-run] Applying rules for OpenAI Codex CLI...\nRuler apply completed successfully.\n",
+  "stderr": "[ruler:dry-run] Skills support is experimental and behavior may change in future releases.\n[ruler:dry-run] Subagents support is experimental and behavior may change in future releases.\n"
+}
