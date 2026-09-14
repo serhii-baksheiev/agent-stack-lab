@@ -1,0 +1,132 @@
+{
+  "label": "writer-1",
+  "method": "tools/call",
+  "params": {
+    "name": "read_graph",
+    "arguments": {}
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"entities\": [\n    {\n      \"name\": \"a-0\",\n      \"entityType\": \"race\",\n      \"observations\": [\n        \"Synthetic concurrent write\"\n      ]\n    },\n    {\n      \"name\": \"b-0\",\n      \"entityType\": \"race\",\n      \"observations\": [\n        \"Synthetic concurrent write\"\n      ]\n    },\n    {\n      \"name\": \"a-2\",\n      \"entityType\": \"race\",\n      \"observations\": [\n        \"Synthetic concurrent write\"\n      ]\n    },\n    {\n      \"name\": \"a-3\",\n      \"entityType\": \"race\",\n      \"observations\": [\n        \"Synthetic concurrent write\"\n      ]\n    },\n    {\n      \"name\": \"b-1\",\n      \"entityType\": \"race\",\n      \"observations\": [\n        \"Synthetic concurrent write\"\n      ]\n    },\n    {\n      \"name\": \"b-2\",\n      \"entityType\": \"race\",\n      \"observations\": [\n        \"Synthetic concurrent write\"\n      ]\n    },\n    {\n      \"name\": \"b-3\",\n      \"entityType\": \"race\",\n      \"observations\": [\n        \"Synthetic concurrent write\"\n      ]\n    },\n    {\n      \"name\": \"b-4\",\n      \"entityType\": \"race\",\n      \"observations\": [\n        \"Synthetic concurrent write\"\n      ]\n    },\n    {\n      \"name\": \"a-7\",\n      \"entityType\": \"race\",\n      \"observations\": [\n        \"Synthetic concurrent write\"\n      ]\n    },\n    {\n      \"name\": \"a-8\",\n      \"entityType\": \"race\",\n      \"observations\": [\n        \"Synthetic concurrent write\"\n      ]\n    },\n    {\n      \"name\": \"a-9\",\n      \"entityType\": \"race\",\n      \"observations\": [\n        \"Synthetic concurrent write\"\n      ]\n    },\n    {\n      \"name\": \"a-10\",\n      \"entityType\": \"race\",\n      \"observations\": [\n        \"Synthetic concurrent write\"\n      ]\n    },\n    {\n      \"name\": \"a-11\",\n      \"entityType\": \"race\",\n      \"observations\": [\n        \"Synthetic concurrent write\"\n      ]\n    },\n    {\n      \"name\": \"b-10\",\n      \"entityType\": \"race\",\n      \"observations\": [\n        \"Synthetic concurrent write\"\n      ]\n    },\n    {\n      \"name\": \"b-11\",\n      \"entityType\": \"race\",\n      \"observations\": [\n        \"Synthetic concurrent write\"\n      ]\n    }\n  ],\n  \"relations\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "entities": [
+          {
+            "name": "a-0",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          },
+          {
+            "name": "b-0",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          },
+          {
+            "name": "a-2",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          },
+          {
+            "name": "a-3",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          },
+          {
+            "name": "b-1",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          },
+          {
+            "name": "b-2",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          },
+          {
+            "name": "b-3",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          },
+          {
+            "name": "b-4",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          },
+          {
+            "name": "a-7",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          },
+          {
+            "name": "a-8",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          },
+          {
+            "name": "a-9",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          },
+          {
+            "name": "a-10",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          },
+          {
+            "name": "a-11",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          },
+          {
+            "name": "b-10",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          },
+          {
+            "name": "b-11",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          }
+        ],
+        "relations": []
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 14
+  },
+  "durationMs": 1,
+  "responseBytes": 3646
+}

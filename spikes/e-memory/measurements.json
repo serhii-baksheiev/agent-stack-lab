@@ -1,0 +1,290 @@
+{
+  "checkedAt": "2026-09-14",
+  "canonicalRun": "https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34839170081",
+  "scenarioSha": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+  "commands": 221,
+  "snapshots": 34,
+  "nonzero": [
+    {
+      "file": "spikes/e-memory/evidence/native-wiring/claude-mcp-first/16-mcp-add.json",
+      "exitCode": 1,
+      "output": "MCP server synthetic-basic already exists in .mcp.json\n"
+    },
+    {
+      "file": "spikes/e-memory/evidence/native-wiring/claude-mcp-first/19-rig-repeat.json",
+      "exitCode": 1,
+      "output": "agent-rig init — process layer into <LAB>/.lab-runs/e-native-wiring-1789386025736/claude-mcp-first/repo\n\n  + .claude/rules/workflow.md\n  + .claude/rules/autonomy.md\n  + .claude/rules/invariants.md\n  + .claude/skills/new-invariant/SKILL.md\n  + .claude/skills/new-invariant/guard-invariant.example.mjs\n  + .claude/skills/new-invariant/guard-invariant.example.test.mjs\n  + .claude/agents/test-writer.md\n"
+    },
+    {
+      "file": "spikes/e-memory/evidence/native-wiring/claude-mcp-first/29-mcp-get-removed.json",
+      "exitCode": 1,
+      "output": "No MCP server named \"synthetic-basic\". Run `claude mcp add` to add one.\n"
+    },
+    {
+      "file": "spikes/e-memory/evidence/native-wiring/claude-mcp-first/7-rig-upgrade-help.json",
+      "exitCode": 1,
+      "output": "Unknown option '--help'\n\nUsage: create-agent-rig <dir> [options]\n\nScaffolds a new project into <dir>: a Claude Code + Codex agent operating system\nplus a runnable code skeleton. Refuses to write into a non-empty directory.\n\nOptions\n  --target <name>   aws-serverless | node-service\n                    (interactive selection when omitted on a terminal;\n                    required when not a termina"
+    },
+    {
+      "file": "spikes/e-memory/evidence/native-wiring/claude-rig-first/16-mcp-add.json",
+      "exitCode": 1,
+      "output": "MCP server synthetic-basic already exists in .mcp.json\n"
+    },
+    {
+      "file": "spikes/e-memory/evidence/native-wiring/claude-rig-first/19-rig-repeat.json",
+      "exitCode": 1,
+      "output": "agent-rig init — process layer into <LAB>/.lab-runs/e-native-wiring-1789386025736/claude-rig-first/repo\n\n  + .claude/rules/workflow.md\n  + .claude/rules/autonomy.md\n  + .claude/rules/invariants.md\n  + .claude/skills/new-invariant/SKILL.md\n  + .claude/skills/new-invariant/guard-invariant.example.mjs\n  + .claude/skills/new-invariant/guard-invariant.example.test.mjs\n  + .claude/agents/test-writer.md\n"
+    },
+    {
+      "file": "spikes/e-memory/evidence/native-wiring/claude-rig-first/29-mcp-get-removed.json",
+      "exitCode": 1,
+      "output": "No MCP server named \"synthetic-basic\". Run `claude mcp add` to add one.\n"
+    },
+    {
+      "file": "spikes/e-memory/evidence/native-wiring/claude-rig-first/7-rig-upgrade-help.json",
+      "exitCode": 1,
+      "output": "Unknown option '--help'\n\nUsage: create-agent-rig <dir> [options]\n\nScaffolds a new project into <dir>: a Claude Code + Codex agent operating system\nplus a runnable code skeleton. Refuses to write into a non-empty directory.\n\nOptions\n  --target <name>   aws-serverless | node-service\n                    (interactive selection when omitted on a terminal;\n                    required when not a termina"
+    },
+    {
+      "file": "spikes/e-memory/evidence/native-wiring/codex-mcp-first/19-rig-repeat.json",
+      "exitCode": 1,
+      "output": "agent-rig init — process layer into <LAB>/.lab-runs/e-native-wiring-1789386025736/codex-mcp-first/repo\n\n  + .claude/rules/workflow.md\n  + .claude/rules/autonomy.md\n  + .claude/rules/invariants.md\n  + .claude/skills/new-invariant/SKILL.md\n  + .claude/skills/new-invariant/guard-invariant.example.mjs\n  + .claude/skills/new-invariant/guard-invariant.example.test.mjs\n  + .claude/agents/test-writer.md\n "
+    },
+    {
+      "file": "spikes/e-memory/evidence/native-wiring/codex-mcp-first/29-mcp-get-removed.json",
+      "exitCode": 1,
+      "output": "Error: No MCP server named 'synthetic-basic' found.\n"
+    },
+    {
+      "file": "spikes/e-memory/evidence/native-wiring/codex-mcp-first/7-rig-upgrade-help.json",
+      "exitCode": 1,
+      "output": "Unknown option '--help'\n\nUsage: create-agent-rig <dir> [options]\n\nScaffolds a new project into <dir>: a Claude Code + Codex agent operating system\nplus a runnable code skeleton. Refuses to write into a non-empty directory.\n\nOptions\n  --target <name>   aws-serverless | node-service\n                    (interactive selection when omitted on a terminal;\n                    required when not a termina"
+    },
+    {
+      "file": "spikes/e-memory/evidence/native-wiring/codex-rig-first/19-rig-repeat.json",
+      "exitCode": 1,
+      "output": "agent-rig init — process layer into <LAB>/.lab-runs/e-native-wiring-1789386025736/codex-rig-first/repo\n\n  + .claude/rules/workflow.md\n  + .claude/rules/autonomy.md\n  + .claude/rules/invariants.md\n  + .claude/skills/new-invariant/SKILL.md\n  + .claude/skills/new-invariant/guard-invariant.example.mjs\n  + .claude/skills/new-invariant/guard-invariant.example.test.mjs\n  + .claude/agents/test-writer.md\n "
+    },
+    {
+      "file": "spikes/e-memory/evidence/native-wiring/codex-rig-first/29-mcp-get-removed.json",
+      "exitCode": 1,
+      "output": "Error: No MCP server named 'synthetic-basic' found.\n"
+    },
+    {
+      "file": "spikes/e-memory/evidence/native-wiring/codex-rig-first/7-rig-upgrade-help.json",
+      "exitCode": 1,
+      "output": "Unknown option '--help'\n\nUsage: create-agent-rig <dir> [options]\n\nScaffolds a new project into <dir>: a Claude Code + Codex agent operating system\nplus a runnable code skeleton. Refuses to write into a non-empty directory.\n\nOptions\n  --target <name>   aws-serverless | node-service\n                    (interactive selection when omitted on a terminal;\n                    required when not a termina"
+    }
+  ],
+  "basicStress": {
+    "acknowledged": 12,
+    "missingAtFinalObservation": 0,
+    "projectionTimeouts": 0,
+    "readerDisagreements": 0,
+    "distinctControlsPass": true
+  },
+  "referenceStress": [
+    {
+      "round": 0,
+      "attempted": 24,
+      "acknowledged": 24,
+      "writeErrors": 0,
+      "persisted": 15,
+      "lostAcknowledgedWrites": 9,
+      "acknowledgedNames": [
+        "a-0",
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8",
+        "a-9",
+        "a-10",
+        "a-11",
+        "b-0",
+        "b-1",
+        "b-2",
+        "b-3",
+        "b-4",
+        "b-5",
+        "b-6",
+        "b-7",
+        "b-8",
+        "b-9",
+        "b-10",
+        "b-11"
+      ],
+      "persistedNames": [
+        "a-0",
+        "b-0",
+        "a-2",
+        "a-3",
+        "b-1",
+        "b-2",
+        "b-3",
+        "b-4",
+        "a-7",
+        "a-8",
+        "a-9",
+        "a-10",
+        "a-11",
+        "b-10",
+        "b-11"
+      ]
+    },
+    {
+      "round": 1,
+      "attempted": 24,
+      "acknowledged": 24,
+      "writeErrors": 0,
+      "persisted": 14,
+      "lostAcknowledgedWrites": 10,
+      "acknowledgedNames": [
+        "a-0",
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8",
+        "a-9",
+        "a-10",
+        "a-11",
+        "b-0",
+        "b-1",
+        "b-2",
+        "b-3",
+        "b-4",
+        "b-5",
+        "b-6",
+        "b-7",
+        "b-8",
+        "b-9",
+        "b-10",
+        "b-11"
+      ],
+      "persistedNames": [
+        "a-0",
+        "a-1",
+        "b-2",
+        "b-3",
+        "b-4",
+        "b-5",
+        "b-6",
+        "b-7",
+        "b-8",
+        "a-8",
+        "a-9",
+        "b-10",
+        "a-11",
+        "b-11"
+      ]
+    },
+    {
+      "round": 2,
+      "attempted": 24,
+      "acknowledged": 24,
+      "writeErrors": 0,
+      "persisted": 14,
+      "lostAcknowledgedWrites": 10,
+      "acknowledgedNames": [
+        "a-0",
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8",
+        "a-9",
+        "a-10",
+        "a-11",
+        "b-0",
+        "b-1",
+        "b-2",
+        "b-3",
+        "b-4",
+        "b-5",
+        "b-6",
+        "b-7",
+        "b-8",
+        "b-9",
+        "b-10",
+        "b-11"
+      ],
+      "persistedNames": [
+        "a-0",
+        "a-1",
+        "b-2",
+        "b-3",
+        "a-3",
+        "a-4",
+        "b-6",
+        "b-7",
+        "b-8",
+        "a-7",
+        "a-8",
+        "a-9",
+        "b-11",
+        "a-11"
+      ]
+    },
+    {
+      "round": 3,
+      "attempted": 24,
+      "acknowledged": 24,
+      "writeErrors": 0,
+      "persisted": 14,
+      "lostAcknowledgedWrites": 10,
+      "acknowledgedNames": [
+        "a-0",
+        "a-1",
+        "a-2",
+        "a-3",
+        "a-4",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8",
+        "a-9",
+        "a-10",
+        "a-11",
+        "b-0",
+        "b-1",
+        "b-2",
+        "b-3",
+        "b-4",
+        "b-5",
+        "b-6",
+        "b-7",
+        "b-8",
+        "b-9",
+        "b-10",
+        "b-11"
+      ],
+      "persistedNames": [
+        "a-0",
+        "b-1",
+        "b-2",
+        "a-2",
+        "b-3",
+        "b-4",
+        "b-5",
+        "a-5",
+        "a-6",
+        "a-7",
+        "a-8",
+        "a-9",
+        "b-11",
+        "a-11"
+      ]
+    }
+  ],
+  "qualification": "Only canonical Linux folders counted; separate Windows/failed-run diagnostics excluded. No native model recall or semantic benchmark."
+}

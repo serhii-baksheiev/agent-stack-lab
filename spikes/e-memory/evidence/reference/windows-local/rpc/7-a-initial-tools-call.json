@@ -1,0 +1,44 @@
+{
+  "label": "a-initial",
+  "method": "tools/call",
+  "params": {
+    "name": "search_nodes",
+    "arguments": {
+      "query": "node --test"
+    }
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"entities\": [\n    {\n      \"name\": \"alpha-build\",\n      \"entityType\": \"decision\",\n      \"observations\": [\n        \"Project alpha uses node --test for synthetic subscription checks.\",\n        \"Synthetic shared checkout identity: alpha-local.\",\n        \"SYNTHETIC_NOT_A_SECRET_E_REFERENCE_CANARY\"\n      ]\n    }\n  ],\n  \"relations\": [\n    {\n      \"from\": \"alpha-build\",\n      \"to\": \"alpha-style\",\n      \"relationType\": \"shares_project\"\n    }\n  ]\n}"
+        }
+      ],
+      "structuredContent": {
+        "entities": [
+          {
+            "name": "alpha-build",
+            "entityType": "decision",
+            "observations": [
+              "Project alpha uses node --test for synthetic subscription checks.",
+              "Synthetic shared checkout identity: alpha-local.",
+              "SYNTHETIC_NOT_A_SECRET_E_REFERENCE_CANARY"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from": "alpha-build",
+            "to": "alpha-style",
+            "relationType": "shares_project"
+          }
+        ]
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 8
+  },
+  "durationMs": 8,
+  "responseBytes": 920
+}

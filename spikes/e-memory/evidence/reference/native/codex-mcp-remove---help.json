@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@openai/codex/bin/codex.js",
+    "mcp",
+    "remove",
+    "--help"
+  ],
+  "cwd": ".lab-runs/e-reference-1789386017392/native-registration",
+  "startedAt": "2026-09-14T11:40:24.024Z",
+  "durationMs": 31,
+  "exitCode": 0,
+  "stdout": "Usage: codex mcp remove [OPTIONS] <NAME>\n\nArguments:\n  <NAME>\n          Name of the MCP server configuration to remove\n\nOptions:\n  -c, --config <key=value>\n          Override a configuration value that would otherwise be loaded from `~/.codex/config.toml`.\n          Use a dotted path (`foo.bar.baz`) to override nested values. The `value` portion is parsed\n          as TOML. If it fails to parse as TOML, the raw string is used as a literal.\n          \n          Examples: - `-c model=\"o3\"` - `-c 'sandbox_permissions=[\"disk-full-read-access\"]'` - `-c\n          shell_environment_policy.inherit=all`\n\n      --enable <FEATURE>\n          Enable a feature (repeatable). Equivalent to `-c features.<name>=true`\n\n      --disable <FEATURE>\n          Disable a feature (repeatable). Equivalent to `-c features.<name>=false`\n\n  -h, --help\n          Print help (see a summary with '-h')\n",
+  "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "mcp",
+    "get",
+    "--help"
+  ],
+  "cwd": ".lab-runs/e-native-wiring-1789386025736/claude-rig-first/repo",
+  "startedAt": "2026-09-14T11:40:26.070Z",
+  "durationMs": 97,
+  "exitCode": 0,
+  "stdout": "Usage: claude mcp get [options] <name>\n\nGet details about an MCP server. Unapproved .mcp.json servers are shown as ⏸\nPending approval and not connected to; approved servers are health-checked\nunless disabled for this project.\n\nOptions:\n  -h, --help  Display help for command\n",
+  "stderr": ""
+}

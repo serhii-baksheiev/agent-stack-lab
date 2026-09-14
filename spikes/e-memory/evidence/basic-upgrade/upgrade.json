@@ -1,0 +1,16 @@
+{
+  "command": [
+    "uv",
+    "pip",
+    "install",
+    "--python",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-upgrade-1789385995331/venv/bin/python",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-upgrade-1789385995331/basic_memory-0.23.2-py3-none-any.whl"
+  ],
+  "cwd": ".lab-runs/e-basic-upgrade-1789385995331",
+  "startedAt": "2026-09-14T11:40:08.478Z",
+  "durationMs": 73,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": "Using Python 3.12.14 environment at: venv\nResolved 167 packages in 18ms\nPrepared 1 package in 24ms\nUninstalled 1 package in 10ms\nInstalled 1 package in 6ms\n - basic-memory==0.23.1 (from file://<LAB>/.lab-runs/e-basic-upgrade-1789385995331/basic_memory-0.23.1-py3-none-any.whl)\n + basic-memory==0.23.2 (from file://<LAB>/.lab-runs/e-basic-upgrade-1789385995331/basic_memory-0.23.2-py3-none-any.whl)\n"
+}

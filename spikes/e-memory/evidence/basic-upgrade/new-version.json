@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-upgrade-1789385995331/venv/bin/bm",
+    "--version"
+  ],
+  "cwd": ".lab-runs/e-basic-upgrade-1789385995331",
+  "startedAt": "2026-09-14T11:40:08.551Z",
+  "durationMs": 319,
+  "exitCode": 0,
+  "stdout": "Basic Memory version: 0.23.2\n",
+  "stderr": ""
+}

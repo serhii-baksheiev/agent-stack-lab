@@ -1,0 +1,14 @@
+{
+  "command": [
+    "npm",
+    "prefix",
+    "--prefix",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\e-reference-1789383488754\\packages"
+  ],
+  "cwd": ".lab-runs/e-reference-1789383488754/packages",
+  "startedAt": "2026-09-14T10:58:08.772Z",
+  "durationMs": 4152,
+  "exitCode": 0,
+  "stdout": "<LAB>\\.lab-runs\\e-reference-1789383488754\\packages\n",
+  "stderr": ""
+}

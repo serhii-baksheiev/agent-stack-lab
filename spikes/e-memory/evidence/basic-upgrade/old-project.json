@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-upgrade-1789385995331/venv/bin/bm",
+    "project",
+    "add",
+    "alpha",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-upgrade-1789385995331/alpha",
+    "--local"
+  ],
+  "cwd": ".lab-runs/e-basic-upgrade-1789385995331",
+  "startedAt": "2026-09-14T11:39:58.662Z",
+  "durationMs": 5149,
+  "exitCode": 0,
+  "stdout": "Project 'alpha' added successfully\n",
+  "stderr": ""
+}

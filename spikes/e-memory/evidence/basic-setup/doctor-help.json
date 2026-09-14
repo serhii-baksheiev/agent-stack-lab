@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-tools/venv/bin/bm",
+    "doctor",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T11:38:25.312Z",
+  "durationMs": 815,
+  "exitCode": 0,
+  "stdout": "                                                                                \n Usage: bm doctor [OPTIONS]                                                     \n                                                                                \n Run local consistency checks to verify file/database indexing.                 \n                                                                                \n╭─ Options ────────────────────────────────────────────────────────────────────╮\n│ --local          Force local API routing (ignore cloud mode)                 │\n│ --cloud          Force cloud API routing                                     │\n│ --help           Show this message and exit.                                 │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n",
+  "stderr": ""
+}

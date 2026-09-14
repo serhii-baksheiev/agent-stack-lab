@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "mcp",
+    "remove",
+    "synthetic-basic",
+    "--scope",
+    "project"
+  ],
+  "cwd": ".lab-runs/e-native-wiring-1789386025736/claude-rig-first/repo",
+  "startedAt": "2026-09-14T11:40:38.066Z",
+  "durationMs": 136,
+  "exitCode": 0,
+  "stdout": "Removed MCP server synthetic-basic from project config\nFile modified: <LAB>/.lab-runs/e-native-wiring-1789386025736/claude-rig-first/repo/.mcp.json\n",
+  "stderr": ""
+}

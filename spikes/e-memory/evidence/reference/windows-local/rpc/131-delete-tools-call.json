@@ -1,0 +1,35 @@
+{
+  "label": "delete",
+  "method": "tools/call",
+  "params": {
+    "name": "delete_observations",
+    "arguments": {
+      "deletions": [
+        {
+          "entityName": "alpha-build",
+          "observations": [
+            "SYNTHETIC_NOT_A_SECRET_E_REFERENCE_CANARY"
+          ]
+        }
+      ]
+    }
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Observations deleted successfully"
+        }
+      ],
+      "structuredContent": {
+        "success": true,
+        "message": "Observations deleted successfully"
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 2
+  },
+  "durationMs": 21,
+  "responseBytes": 189
+}

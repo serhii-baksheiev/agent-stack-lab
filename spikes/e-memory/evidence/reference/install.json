@@ -1,0 +1,19 @@
+{
+  "command": [
+    "npm",
+    "install",
+    "--prefix",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-reference-1789386017392/packages",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund",
+    "--save-exact",
+    "./memory.tgz"
+  ],
+  "cwd": ".lab-runs/e-reference-1789386017392/packages",
+  "startedAt": "2026-09-14T11:40:17.621Z",
+  "durationMs": 4613,
+  "exitCode": 0,
+  "stdout": "\nadded 95 packages in 5s\n",
+  "stderr": ""
+}

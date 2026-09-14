@@ -1,0 +1,19 @@
+{
+  "command": [
+    "git",
+    "-c",
+    "user.name=Synthetic Lab",
+    "-c",
+    "user.email=lab@example.invalid",
+    "commit",
+    "--allow-empty",
+    "-m",
+    "synthetic"
+  ],
+  "cwd": ".lab-runs/e-native-wiring-1789386025736/claude-mcp-first/repo",
+  "startedAt": "2026-09-14T11:40:42.228Z",
+  "durationMs": 5,
+  "exitCode": 0,
+  "stdout": "[master (root-commit) 4791a04] synthetic\n",
+  "stderr": ""
+}

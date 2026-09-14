@@ -1,0 +1,25 @@
+{
+  "name": "read_note",
+  "args": {
+    "project": "alpha",
+    "identifier": "alpha/distinct/distinct-round-1-writer-1"
+  },
+  "response": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "text": "---\ntitle: Distinct round 1 writer 1\ntype: note\npermalink: alpha/distinct/distinct-round-1-writer-1\n---\n\nSYNTHETIC_DISTINCT_1_1_END",
+        "type": "text"
+      }
+    ],
+    "isError": false,
+    "structuredContent": {
+      "result": "---\ntitle: Distinct round 1 writer 1\ntype: note\npermalink: alpha/distinct/distinct-round-1-writer-1\n---\n\nSYNTHETIC_DISTINCT_1_1_END"
+    }
+  },
+  "durationMs": 63
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "npm",
+    "prefix",
+    "--prefix",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-reference-1789386017392/packages"
+  ],
+  "cwd": ".lab-runs/e-reference-1789386017392/packages",
+  "startedAt": "2026-09-14T11:40:17.393Z",
+  "durationMs": 61,
+  "exitCode": 0,
+  "stdout": "<LAB>/.lab-runs/e-reference-1789386017392/packages\n",
+  "stderr": ""
+}

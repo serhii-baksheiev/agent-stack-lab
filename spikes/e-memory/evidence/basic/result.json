@@ -1,0 +1,160 @@
+{
+  "version": "0.23.2",
+  "sourceCommit": "c0bd87c6d5a4a58034b1d6c8c5018e443b0bd048",
+  "license": "AGPL-3.0-or-later",
+  "scenarioSha": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+  "scriptSha256": "4b2931676813edd5c982438d6e5e6a1d8250444385cd2e989cda611ed8fc15a0",
+  "runDirectory": ".lab-runs/e-basic-1789385912752",
+  "node": "v24.20.0",
+  "platform": "linux",
+  "checks": [
+    {
+      "name": "native diagnostics provides exact package version",
+      "passed": true
+    },
+    {
+      "name": "native diagnostics redacts synthetic config key",
+      "passed": false
+    },
+    {
+      "name": "write alpha Orchid deploy",
+      "passed": true
+    },
+    {
+      "name": "write alpha Orchid tests",
+      "passed": true
+    },
+    {
+      "name": "write alpha Garden",
+      "passed": true
+    },
+    {
+      "name": "write beta Orchid deploy",
+      "passed": true
+    },
+    {
+      "name": "shared memory visible to independent new process and worktree",
+      "passed": true
+    },
+    {
+      "name": "explicit project separation",
+      "passed": true
+    },
+    {
+      "name": "search returns exactly expected alpha notes",
+      "passed": true
+    },
+    {
+      "name": "constrained server prevents beta read",
+      "passed": true
+    },
+    {
+      "name": "constrained all-project search remains alpha-only",
+      "passed": true
+    },
+    {
+      "name": "constrained all-project search has no duplicate results",
+      "passed": true
+    },
+    {
+      "name": "constrained absolute path does not expose beta content",
+      "passed": true
+    },
+    {
+      "name": "path traversal rejected",
+      "passed": true
+    },
+    {
+      "name": "no escaped note created",
+      "passed": true
+    },
+    {
+      "name": "canary write/read probe succeeds",
+      "passed": true
+    },
+    {
+      "name": "memory automatically redacts supplied canary",
+      "passed": false,
+      "detail": "Plaintext canary is synthetic; this is not a detector benchmark for valid credential formats."
+    },
+    {
+      "name": "concurrent independent-note writes all acknowledge",
+      "passed": true
+    },
+    {
+      "name": "concurrent note 0 survives",
+      "passed": true
+    },
+    {
+      "name": "concurrent note 1 survives",
+      "passed": true
+    },
+    {
+      "name": "concurrent note 2 survives",
+      "passed": true
+    },
+    {
+      "name": "concurrent note 3 survives",
+      "passed": true
+    },
+    {
+      "name": "concurrent note 4 survives",
+      "passed": true
+    },
+    {
+      "name": "concurrent note 5 survives",
+      "passed": true
+    },
+    {
+      "name": "concurrent note 6 survives",
+      "passed": true
+    },
+    {
+      "name": "concurrent note 7 survives",
+      "passed": true
+    },
+    {
+      "name": "concurrent same-note appends both survive",
+      "passed": true,
+      "detail": {
+        "acknowledged": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "name": "restart persists note",
+      "passed": true
+    },
+    {
+      "name": "native note deletion",
+      "passed": true
+    },
+    {
+      "name": "short permalink remains valid after project rename",
+      "passed": false
+    },
+    {
+      "name": "Markdown export/import preserves content using file identity",
+      "passed": true
+    },
+    {
+      "name": "corruption surfaces a classified database error",
+      "passed": true
+    },
+    {
+      "name": "backup restores readable notes",
+      "passed": true
+    },
+    {
+      "name": "native doctor completes",
+      "passed": true
+    },
+    {
+      "name": "network namespace offline read",
+      "passed": true
+    }
+  ],
+  "claimBoundary": "Direct independent MCP clients, not native model memory extraction or model recall."
+}

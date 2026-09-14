@@ -1,0 +1,14 @@
+{
+  "spike": "E",
+  "verdict": "ADAPT",
+  "confidence": "medium",
+  "candidate": "Native harness memory by default; optional Basic Memory local MCP; reject reference graph for shared concurrent writes",
+  "version": "Basic Memory0.23.2 @ c0bd87c6d5a4a58034b1d6c8c5018e443b0bd048; reference2026.8.31 @ a40bc270fb5ece62673f8a1196f57116d885c5eb",
+  "rigBaseline": "0.9.0",
+  "scenariosPassed": 153,
+  "scenariosFailed": 16,
+  "scenariosUnverified": 14,
+  "estimatedIntegrationDays": 3,
+  "estimatedAnnualMaintenanceDays": 3,
+  "qualification": "No custom memory engine justified. Optional Basic Memory remains bounded by observed concurrency/project-routing results and AGPL distribution decision; no unconditional native recall or migration claim."
+}

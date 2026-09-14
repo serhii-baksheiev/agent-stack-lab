@@ -1,0 +1,18 @@
+{
+  "command": [
+    "npm",
+    "uninstall",
+    "--prefix",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\e-reference-1789383488754\\packages",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund",
+    "@modelcontextprotocol/server-memory"
+  ],
+  "cwd": ".lab-runs/e-reference-1789383488754/packages",
+  "startedAt": "2026-09-14T10:59:05.648Z",
+  "durationMs": 9999,
+  "exitCode": 0,
+  "stdout": "\nremoved 95 packages in 4s\n",
+  "stderr": ""
+}

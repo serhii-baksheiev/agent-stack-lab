@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "{\"title\":\"Orchid deploy\",\"permalink\":\"beta/notes/orchid-deploy\",\"file_path\":\"notes/Orchid deploy.md\",\"checksum\":null,\"action\":\"created\"}",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": {
+      "title": "Orchid deploy",
+      "permalink": "beta/notes/orchid-deploy",
+      "file_path": "notes/Orchid deploy.md",
+      "checksum": null,
+      "action": "created"
+    }
+  }
+}

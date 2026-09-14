@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-tools/venv/bin/bm",
+    "tool",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T11:38:23.689Z",
+  "durationMs": 812,
+  "exitCode": 0,
+  "stdout": "                                                                                \n Usage: bm tool [OPTIONS] COMMAND [ARGS]...                                     \n                                                                                \n Access to MCP tools via CLI                                                    \n                                                                                \n╭─ Options ────────────────────────────────────────────────────────────────────╮\n│ --help          Show this message and exit.                                  │\n╰──────────────────────────────────────────────────────────────────────────────╯\n╭─ Commands ───────────────────────────────────────────────────────────────────╮\n│ write-note       Create or update a markdown note. Content can be provided   │\n│                  via --content or stdin.                                     │\n│ read-note        Read a markdown note from the knowledge base.               │\n│ delete-note      Delete a note or directory from the knowledge base.         │\n│ edit-note        Edit an existing markdown note using                        │\n│                  append/prepend/find_replace/replace_section.                │\n│ build-context    Get context needed to continue a discussion.                │\n│ recent-activity  Get recent activity across the knowledge base.              │\n│ search-notes     Search across all content in the knowledge base.            │\n│ list-projects    List all available projects with their status (JSON         │\n│                  output).                                                    │\n│ list-workspaces  List available cloud workspaces (JSON output).              │\n│ schema-validate  Validate notes against their schemas (JSON output).         │\n│ schema-infer     Infer schema from existing notes of a type (JSON output).   │\n│ schema-diff      Show drift between schema and actual usage (JSON output).   │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n",
+  "stderr": ""
+}

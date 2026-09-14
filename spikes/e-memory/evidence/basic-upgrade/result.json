@@ -1,0 +1,11 @@
+{
+  "old": "0.23.1",
+  "current": "0.23.2",
+  "currentVersionVerified": true,
+  "upgradePreservedNote": true,
+  "uninstallRemovedEntrypoint": true,
+  "uninstallPreservedData": true,
+  "reinstallReadsData": true,
+  "ownership": "Isolated venv package/entrypoint removed; transitive dependencies remain. User-owned Markdown and config/SQLite retained outside venv.",
+  "scriptSha256": "318e8f0341a0bff07711902e3bb8149b942d280ba8179f32c02bf0e4181eca71"
+}

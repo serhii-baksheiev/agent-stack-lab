@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "\n# Note Not Found in imported: \"notes/orchid-deploy\"\n\nI couldn't find an exact match for \"notes/orchid-deploy\", but I found some related notes:\n\n\n## 1. Orchid deploy\n- **Type**: entity\n- **Permalink**: alpha/notes/orchid-deploy\n\nYou can read this note with:\n```\nread_note(project=\"imported\", identifier=\"alpha/notes/orchid-deploy\")\n```\n\n\n## Try More Specific Lookup\nFor exact matches, try using the full permalink from one of the results above.\n\n## Search For More Results\nTo see more related content:\n```\nsearch_notes(project=\"imported\", query=\"notes/orchid-deploy\")\n```\n\n## Create New Note\nIf none of these match what you're looking for, consider creating a new note:\n```\nwrite_note(\n    project=\"imported\",\n    title=\"[Your title]\",\n    content=\"[Your content]\",\n    folder=\"notes\"\n)\n```\n",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": "\n# Note Not Found in imported: \"notes/orchid-deploy\"\n\nI couldn't find an exact match for \"notes/orchid-deploy\", but I found some related notes:\n\n\n## 1. Orchid deploy\n- **Type**: entity\n- **Permalink**: alpha/notes/orchid-deploy\n\nYou can read this note with:\n```\nread_note(project=\"imported\", identifier=\"alpha/notes/orchid-deploy\")\n```\n\n\n## Try More Specific Lookup\nFor exact matches, try using the full permalink from one of the results above.\n\n## Search For More Results\nTo see more related content:\n```\nsearch_notes(project=\"imported\", query=\"notes/orchid-deploy\")\n```\n\n## Create New Note\nIf none of these match what you're looking for, consider creating a new note:\n```\nwrite_note(\n    project=\"imported\",\n    title=\"[Your title]\",\n    content=\"[Your content]\",\n    folder=\"notes\"\n)\n```\n"
+  }
+}

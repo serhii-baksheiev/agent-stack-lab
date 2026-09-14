@@ -1,0 +1,34 @@
+{
+  "name": "write_note",
+  "args": {
+    "project": "alpha",
+    "title": "Distinct round 4 writer 1",
+    "directory": "distinct",
+    "content": "SYNTHETIC_DISTINCT_4_1_END",
+    "output_format": "json"
+  },
+  "response": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "text": "{\"title\":\"Distinct round 4 writer 1\",\"permalink\":\"alpha/distinct/distinct-round-4-writer-1\",\"file_path\":\"distinct/Distinct round 4 writer 1.md\",\"checksum\":null,\"action\":\"created\"}",
+        "type": "text"
+      }
+    ],
+    "isError": false,
+    "structuredContent": {
+      "result": {
+        "title": "Distinct round 4 writer 1",
+        "permalink": "alpha/distinct/distinct-round-4-writer-1",
+        "file_path": "distinct/Distinct round 4 writer 1.md",
+        "checksum": null,
+        "action": "created"
+      }
+    }
+  },
+  "durationMs": 50
+}

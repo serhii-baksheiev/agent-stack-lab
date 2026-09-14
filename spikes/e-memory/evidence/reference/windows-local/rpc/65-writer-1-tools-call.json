@@ -1,0 +1,43 @@
+{
+  "label": "writer-1",
+  "method": "tools/call",
+  "params": {
+    "name": "create_entities",
+    "arguments": {
+      "entities": [
+        {
+          "name": "a-7",
+          "entityType": "race",
+          "observations": [
+            "Synthetic concurrent write"
+          ]
+        }
+      ]
+    }
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[\n  {\n    \"name\": \"a-7\",\n    \"entityType\": \"race\",\n    \"observations\": [\n      \"Synthetic concurrent write\"\n    ]\n  }\n]"
+        }
+      ],
+      "structuredContent": {
+        "entities": [
+          {
+            "name": "a-7",
+            "entityType": "race",
+            "observations": [
+              "Synthetic concurrent write"
+            ]
+          }
+        ]
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 22
+  },
+  "durationMs": 10,
+  "responseBytes": 329
+}

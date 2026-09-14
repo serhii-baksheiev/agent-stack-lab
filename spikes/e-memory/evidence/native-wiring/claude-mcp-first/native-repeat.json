@@ -1,0 +1,8 @@
+{
+  "exitCode": 1,
+  "beforeConfigSha256": "2b2e67553ee06a93cb2bea416eb4a8427a368d7a2da44b43e7dd51bd38e221c6",
+  "afterConfigSha256": "2b2e67553ee06a93cb2bea416eb4a8427a368d7a2da44b43e7dd51bd38e221c6",
+  "configByteIdentical": true,
+  "getAfterRepeatExit": 0,
+  "interpretation": "Repeated native add may refuse or replace; outcome observed, not assumed successful."
+}

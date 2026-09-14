@@ -1,0 +1,41 @@
+{
+  "label": "a-initial",
+  "method": "tools/call",
+  "params": {
+    "name": "add_observations",
+    "arguments": {
+      "observations": [
+        {
+          "entityName": "alpha-build",
+          "contents": [
+            "SYNTHETIC_NOT_A_SECRET_E_REFERENCE_CANARY"
+          ]
+        }
+      ]
+    }
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[\n  {\n    \"entityName\": \"alpha-build\",\n    \"addedObservations\": [\n      \"SYNTHETIC_NOT_A_SECRET_E_REFERENCE_CANARY\"\n    ]\n  }\n]"
+        }
+      ],
+      "structuredContent": {
+        "results": [
+          {
+            "entityName": "alpha-build",
+            "addedObservations": [
+              "SYNTHETIC_NOT_A_SECRET_E_REFERENCE_CANARY"
+            ]
+          }
+        ]
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 5
+  },
+  "durationMs": 1,
+  "responseBytes": 344
+}

@@ -1,0 +1,35 @@
+{
+  "name": "edit_note",
+  "args": {
+    "project": "alpha",
+    "identifier": "alpha/same-note/concurrent-round-2",
+    "operation": "append",
+    "content": "\nSYNTHETIC_ROUND_2_WRITER_B_END\n",
+    "output_format": "json"
+  },
+  "response": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "text": "{\"title\":\"Concurrent round 2\",\"permalink\":\"alpha/same-note/concurrent-round-2\",\"file_path\":\"same-note/Concurrent round 2.md\",\"checksum\":null,\"operation\":\"append\",\"fileCreated\":false}",
+        "type": "text"
+      }
+    ],
+    "isError": false,
+    "structuredContent": {
+      "result": {
+        "title": "Concurrent round 2",
+        "permalink": "alpha/same-note/concurrent-round-2",
+        "file_path": "same-note/Concurrent round 2.md",
+        "checksum": null,
+        "operation": "append",
+        "fileCreated": false
+      }
+    }
+  },
+  "durationMs": 222
+}

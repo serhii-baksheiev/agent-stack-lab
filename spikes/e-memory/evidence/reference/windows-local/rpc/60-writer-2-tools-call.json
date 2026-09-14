@@ -1,0 +1,33 @@
+{
+  "label": "writer-2",
+  "method": "tools/call",
+  "params": {
+    "name": "create_entities",
+    "arguments": {
+      "entities": [
+        {
+          "name": "b-4",
+          "entityType": "race",
+          "observations": [
+            "Synthetic concurrent write"
+          ]
+        }
+      ]
+    }
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "EPERM: operation not permitted, rename 'C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\e-reference-1789383488754\\concurrent.jsonl.26d7150ee02aaba6550b99d35c521f41.tmp' -> 'C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\e-reference-1789383488754\\concurrent.jsonl'"
+        }
+      ],
+      "isError": true
+    },
+    "jsonrpc": "2.0",
+    "id": 18
+  },
+  "durationMs": 11,
+  "responseBytes": 393
+}
