@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/spec-kit-env/bin/specify",
+    "integration",
+    "upgrade",
+    "claude"
+  ],
+  "cwd": ".lab-runs/a-spec-first",
+  "startedAt": "2026-09-14T09:19:03.530Z",
+  "durationMs": 223,
+  "exitCode": 1,
+  "stdout": "⚠  1 file(s) have been modified since installation:\n    .claude/skills/speckit-analyze/SKILL.md\n\nUse --force to overwrite modified files, or resolve manually.\n",
+  "stderr": ""
+}

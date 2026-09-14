@@ -1,0 +1,40 @@
+{
+  "files": {
+    ".codex/hooks.json": {
+      "size": 60,
+      "sha256": "59e3663d0a65706a18d936a365032f2d3ba7cb218275f3d07b5654ec0e18e9d9"
+    }
+  },
+  "count": 1,
+  "bytes": 60,
+  "status": "?? .codex/hooks.json\n",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/a-collision-rig-individual-7",
+    "startedAt": "2026-09-14T09:19:10.374Z",
+    "durationMs": 2,
+    "exitCode": 0,
+    "stdout": "?? .codex/hooks.json\n",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/a-collision-rig-individual-7",
+    "startedAt": "2026-09-14T09:19:10.376Z",
+    "durationMs": 3,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

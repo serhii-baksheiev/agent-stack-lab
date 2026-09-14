@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/spec-kit-env/bin/specify",
+    "integration",
+    "uninstall",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T09:18:54.807Z",
+  "durationMs": 257,
+  "exitCode": 0,
+  "stdout": "                                                                                \n Usage: specify integration uninstall [OPTIONS] [key]                           \n                                                                                \n Uninstall an integration, safely preserving modified files.                    \n                                                                                \n╭─ Arguments ──────────────────────────────────────────────────────────────────╮\n│   key      <str>  Integration key to uninstall (default: current             │\n│                   integration)                                               │\n╰──────────────────────────────────────────────────────────────────────────────╯\n╭─ Options ────────────────────────────────────────────────────────────────────╮\n│ --force          Remove files even if modified                               │\n│ --help           Show this message and exit.                                 │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n",
+  "stderr": ""
+}

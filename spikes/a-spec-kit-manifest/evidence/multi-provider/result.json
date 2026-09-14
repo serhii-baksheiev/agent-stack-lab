@@ -1,0 +1,8 @@
+{
+  "path": "integration upgrade instead of repeat init",
+  "statusExit": 0,
+  "installedIntegrations": [
+    "codex"
+  ],
+  "codexRemainsRegistered": true
+}

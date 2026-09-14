@@ -1,0 +1,15 @@
+{
+  "command": [
+    "npx",
+    "--yes",
+    "create-agent-rig@0.9.0",
+    "init",
+    "--help"
+  ],
+  "cwd": ".lab-runs/baseline-090",
+  "startedAt": "2026-09-14T09:15:10.428Z",
+  "durationMs": 1404,
+  "exitCode": 1,
+  "stdout": "",
+  "stderr": "Unknown option '--help'\n\nUsage: create-agent-rig <dir> [options]\n\nScaffolds a new project into <dir>: a Claude Code + Codex agent operating system\nplus a runnable code skeleton. Refuses to write into a non-empty directory.\n\nOptions\n  --target <name>   aws-serverless | node-service\n                    (interactive selection when omitted on a terminal;\n                    required when not a terminal — default: aws-serverless)\n  --no-git          skip git init + the pristine-template baseline commit\n  --no-color        plain output (NO_COLOR is respected too)\n  --version         print the version (--version --json: the contract handshake,\n                    one JSON object with the name, version and contract version)\n  -h, --help        this text\n\nAlso: create-agent-rig init [--dry-run]\n  Install the process layer (rules, gates, stop rules — no architecture\n  assumptions) into the CURRENT existing repo. Refuses to clobber CLAUDE.md\n  or AGENTS.md.\n  --force is deprecated: it refuses and points at upgrade, which refreshes a\n  rig file by file. It is removed in 0.6.\n\nAlso: create-agent-rig upgrade [--dry-run] [--yes]\n  Bring the rig in the CURRENT repo up to this version. Replaces the files it\n  installed and you did not touch; everything else is reported, never merged.\n  Re-runs the subsystem manifest derivation when one exists (see setup).\n\nAlso: create-agent-rig setup --memory-root <checkout> [--memory-ref <sha>] [--dry-run]\n  Record the Memory executable in this machine's subsystem manifest\n  (~/.config/create-agent-rig/subsystems.json; %APPDATA% on Windows) from the\n  one declared root. Performs the --version --json handshake first and refuses\n  a foreign contract major with exit 4 before writing anything.\n\nAlso: create-agent-rig memory <doctor|load> [args…]\n  Run a Memory verb through the registered executable: the --version --json\n  handshake first (a foreign contract major exits 4 and the verb never runs),\n  then the verb and its arguments verbatim, Memory's answer passed through\n  unchanged. No manifest answers unsupported/absent (exit 0); an invalid\n  invocation exits 2.\n"
+}

@@ -1,0 +1,40 @@
+{
+  "files": {
+    ".claude/settings.json": {
+      "size": 269,
+      "sha256": "edbce950cdf940c5c113a21aad03921b10b0e8be86fb76ca387c630a636781c1"
+    }
+  },
+  "count": 1,
+  "bytes": 269,
+  "status": "?? .claude/settings.json\n",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/a-collision-spec-kit-individual-6",
+    "startedAt": "2026-09-14T09:19:12.462Z",
+    "durationMs": 3,
+    "exitCode": 0,
+    "stdout": "?? .claude/settings.json\n",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/a-collision-spec-kit-individual-6",
+    "startedAt": "2026-09-14T09:19:12.465Z",
+    "durationMs": 2,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

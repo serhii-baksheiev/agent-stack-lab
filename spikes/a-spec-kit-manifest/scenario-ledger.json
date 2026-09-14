@@ -1,0 +1,293 @@
+[
+  {
+    "scenario": "rig-first: first and second installs",
+    "status": "passed",
+    "evidence": "integration/rig-first"
+  },
+  {
+    "scenario": "rig-first: repeat init refuses existing Rig",
+    "status": "passed",
+    "evidence": "integration/rig-first"
+  },
+  {
+    "scenario": "rig-first: Rig dry-run read-only",
+    "status": "passed",
+    "evidence": "integration/rig-first"
+  },
+  {
+    "scenario": "rig-first: user edits retained",
+    "status": "passed",
+    "evidence": "integration/rig-first"
+  },
+  {
+    "scenario": "rig-first: Rig deliberate deletion retained",
+    "status": "passed",
+    "evidence": "integration/rig-first"
+  },
+  {
+    "scenario": "rig-first: Spec Kit deliberate deletion retained",
+    "status": "failed",
+    "evidence": "integration/rig-first",
+    "note": "Required Rig property; upstream deliberately recreates missing managed skill."
+  },
+  {
+    "scenario": "rig-first: Spec Kit modified upgrade refuses",
+    "status": "passed",
+    "evidence": "integration/rig-first"
+  },
+  {
+    "scenario": "rig-first: Spec uninstall retains Rig bytes",
+    "status": "passed",
+    "evidence": "integration/rig-first"
+  },
+  {
+    "scenario": "rig-first: Spec uninstall retains edited skill",
+    "status": "passed",
+    "evidence": "integration/rig-first"
+  },
+  {
+    "scenario": "rig-first: repeat init then Claude uninstall retains Codex registration",
+    "status": "failed",
+    "evidence": "integration/rig-first",
+    "note": "Observed missing integration state; preferred upgrade path tested separately."
+  },
+  {
+    "scenario": "rig-first: modified wiring blocks Rig removal prototype",
+    "status": "passed",
+    "evidence": "integration/rig-first"
+  },
+  {
+    "scenario": "rig-first: no natural second-component overwrite",
+    "status": "passed",
+    "evidence": "integration/rig-first",
+    "note": "Ubuntu core install only; see Windows wiring separately."
+  },
+  {
+    "scenario": "spec-first: first and second installs",
+    "status": "passed",
+    "evidence": "integration/spec-first"
+  },
+  {
+    "scenario": "spec-first: repeat init refuses existing Rig",
+    "status": "passed",
+    "evidence": "integration/spec-first"
+  },
+  {
+    "scenario": "spec-first: Rig dry-run read-only",
+    "status": "passed",
+    "evidence": "integration/spec-first"
+  },
+  {
+    "scenario": "spec-first: user edits retained",
+    "status": "passed",
+    "evidence": "integration/spec-first"
+  },
+  {
+    "scenario": "spec-first: Rig deliberate deletion retained",
+    "status": "passed",
+    "evidence": "integration/spec-first"
+  },
+  {
+    "scenario": "spec-first: Spec Kit deliberate deletion retained",
+    "status": "failed",
+    "evidence": "integration/spec-first",
+    "note": "Required Rig property; upstream deliberately recreates missing managed skill."
+  },
+  {
+    "scenario": "spec-first: Spec Kit modified upgrade refuses",
+    "status": "passed",
+    "evidence": "integration/spec-first"
+  },
+  {
+    "scenario": "spec-first: Spec uninstall retains Rig bytes",
+    "status": "passed",
+    "evidence": "integration/spec-first"
+  },
+  {
+    "scenario": "spec-first: Spec uninstall retains edited skill",
+    "status": "passed",
+    "evidence": "integration/spec-first"
+  },
+  {
+    "scenario": "spec-first: repeat init then Claude uninstall retains Codex registration",
+    "status": "failed",
+    "evidence": "integration/spec-first",
+    "note": "Observed missing integration state; preferred upgrade path tested separately."
+  },
+  {
+    "scenario": "spec-first: modified wiring blocks Rig removal prototype",
+    "status": "passed",
+    "evidence": "integration/spec-first"
+  },
+  {
+    "scenario": "spec-first: no natural second-component overwrite",
+    "status": "passed",
+    "evidence": "integration/spec-first",
+    "note": "Ubuntu core install only; see Windows wiring separately."
+  },
+  {
+    "scenario": "Offline warmed-cache two-install replay",
+    "status": "passed",
+    "evidence": "offline/result.json"
+  },
+  {
+    "scenario": "Offline full byte reproducibility",
+    "status": "failed",
+    "evidence": "offline/result.json"
+  },
+  {
+    "scenario": "Native upgrade then Claude uninstall retains Codex registration",
+    "status": "passed",
+    "evidence": "multi-provider/result.json"
+  },
+  {
+    "scenario": "Spec Kit actual 1.0.5 to 1.0.6 upgrade",
+    "status": "passed",
+    "evidence": "release-upgrade/result.json"
+  },
+  {
+    "scenario": "rig: retain preexisting AGENTS.md",
+    "status": "passed",
+    "evidence": "collisions/individual-results.json"
+  },
+  {
+    "scenario": "rig: retain preexisting CLAUDE.md",
+    "status": "passed",
+    "evidence": "collisions/individual-results.json"
+  },
+  {
+    "scenario": "rig: retain preexisting .claude/skills/check-premises/SKILL.md",
+    "status": "passed",
+    "evidence": "collisions/individual-results.json"
+  },
+  {
+    "scenario": "rig: retain preexisting .claude/skills/speckit-specify/SKILL.md",
+    "status": "passed",
+    "evidence": "collisions/individual-results.json"
+  },
+  {
+    "scenario": "rig: retain preexisting .claude/commands/speckit.specify.md",
+    "status": "passed",
+    "evidence": "collisions/individual-results.json"
+  },
+  {
+    "scenario": "rig: retain preexisting .claude/hooks/guard-bash.mjs",
+    "status": "passed",
+    "evidence": "collisions/individual-results.json"
+  },
+  {
+    "scenario": "rig: retain preexisting .claude/settings.json",
+    "status": "passed",
+    "evidence": "collisions/individual-results.json"
+  },
+  {
+    "scenario": "rig: retain preexisting .codex/hooks.json",
+    "status": "passed",
+    "evidence": "collisions/individual-results.json"
+  },
+  {
+    "scenario": "spec-kit: retain preexisting AGENTS.md",
+    "status": "passed",
+    "evidence": "collisions/individual-results.json",
+    "note": "Explicit --force bootstrap, not manifest-aware upgrade."
+  },
+  {
+    "scenario": "spec-kit: retain preexisting CLAUDE.md",
+    "status": "passed",
+    "evidence": "collisions/individual-results.json",
+    "note": "Explicit --force bootstrap, not manifest-aware upgrade."
+  },
+  {
+    "scenario": "spec-kit: retain preexisting .claude/skills/check-premises/SKILL.md",
+    "status": "passed",
+    "evidence": "collisions/individual-results.json",
+    "note": "Explicit --force bootstrap, not manifest-aware upgrade."
+  },
+  {
+    "scenario": "spec-kit: retain preexisting .claude/skills/speckit-specify/SKILL.md",
+    "status": "failed",
+    "evidence": "collisions/individual-results.json",
+    "note": "Explicit --force bootstrap, not manifest-aware upgrade."
+  },
+  {
+    "scenario": "spec-kit: retain preexisting .claude/commands/speckit.specify.md",
+    "status": "passed",
+    "evidence": "collisions/individual-results.json",
+    "note": "Explicit --force bootstrap, not manifest-aware upgrade."
+  },
+  {
+    "scenario": "spec-kit: retain preexisting .claude/hooks/guard-bash.mjs",
+    "status": "passed",
+    "evidence": "collisions/individual-results.json",
+    "note": "Explicit --force bootstrap, not manifest-aware upgrade."
+  },
+  {
+    "scenario": "spec-kit: retain preexisting .claude/settings.json",
+    "status": "passed",
+    "evidence": "collisions/individual-results.json",
+    "note": "Explicit --force bootstrap, not manifest-aware upgrade."
+  },
+  {
+    "scenario": "spec-kit: retain preexisting .codex/hooks.json",
+    "status": "passed",
+    "evidence": "collisions/individual-results.json",
+    "note": "Explicit --force bootstrap, not manifest-aware upgrade."
+  },
+  {
+    "scenario": "Bounded Rig removal preserves Spec Kit",
+    "status": "passed",
+    "evidence": "collisions/uninstall"
+  },
+  {
+    "scenario": "Upstream feature script executes after Rig removal",
+    "status": "passed",
+    "evidence": "collisions/uninstall/survivor-feature.json"
+  },
+  {
+    "scenario": "Windows rig-first: Rig retains exact settings ownership",
+    "status": "failed",
+    "evidence": "windows-wiring/results.json",
+    "note": "Semantic-equivalent CRLF still violates byte identity."
+  },
+  {
+    "scenario": "Windows spec-first: Rig retains exact settings ownership",
+    "status": "passed",
+    "evidence": "windows-wiring/results.json",
+    "note": "Semantic-equivalent CRLF still violates byte identity."
+  },
+  {
+    "scenario": "Windows bounded newline-only repair restores ownership",
+    "status": "passed",
+    "evidence": "windows-wiring/results.json"
+  },
+  {
+    "scenario": "Live Claude and Codex workflow execution",
+    "status": "unverified",
+    "evidence": "report.md",
+    "note": "Covered later in B; files/status are not model execution."
+  },
+  {
+    "scenario": "All optional Spec Kit extension ownership",
+    "status": "unverified",
+    "evidence": "report.md",
+    "note": "Core only; agent-context and events extensions need separate qualification."
+  },
+  {
+    "scenario": "Uncached offline bootstrap with hash-pinned Python closure",
+    "status": "unverified",
+    "evidence": "report.md",
+    "note": "Warm cache and resolved dependencies are recorded; closure not distributed."
+  },
+  {
+    "scenario": "Native complete Rig uninstall",
+    "status": "unverified",
+    "evidence": "report.md",
+    "note": "CLI has no uninstall; tested operation is a bounded lab adapter."
+  },
+  {
+    "scenario": "Exhaustive malicious path/symlink tests",
+    "status": "unverified",
+    "evidence": "report.md",
+    "note": "Guard implementation inspected, not a complete security certification."
+  }
+]

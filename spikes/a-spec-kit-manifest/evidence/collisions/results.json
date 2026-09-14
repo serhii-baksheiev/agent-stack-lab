@@ -1,0 +1,297 @@
+[
+  {
+    "scenario": "preexisting-collisions",
+    "tool": "rig",
+    "exitCode": 1,
+    "rows": [
+      {
+        "file": "AGENTS.md",
+        "preserved": true,
+        "exists": true,
+        "before": "b5e2f6a956e3b2fb52e8ad8687cdac737582f426330a06d7534720a122c8e57b",
+        "after": "b5e2f6a956e3b2fb52e8ad8687cdac737582f426330a06d7534720a122c8e57b"
+      },
+      {
+        "file": "CLAUDE.md",
+        "preserved": true,
+        "exists": true,
+        "before": "aaa86ebb61556fd19585718779b1ae0d6098b39666d5651d2d6b0a9a4625a4a8",
+        "after": "aaa86ebb61556fd19585718779b1ae0d6098b39666d5651d2d6b0a9a4625a4a8"
+      },
+      {
+        "file": ".claude/skills/check-premises/SKILL.md",
+        "preserved": true,
+        "exists": true,
+        "before": "5395759566fbca0857dbb9da1e84fe13342a1e53a5844077c115c9fa484a1fb2",
+        "after": "5395759566fbca0857dbb9da1e84fe13342a1e53a5844077c115c9fa484a1fb2"
+      },
+      {
+        "file": ".claude/skills/speckit-specify/SKILL.md",
+        "preserved": true,
+        "exists": true,
+        "before": "f20844efd96be66be2c305b91e683cdb5afb5d5cf6ec9a9eaf3732d86e448788",
+        "after": "f20844efd96be66be2c305b91e683cdb5afb5d5cf6ec9a9eaf3732d86e448788"
+      },
+      {
+        "file": ".claude/commands/speckit.specify.md",
+        "preserved": true,
+        "exists": true,
+        "before": "bb934296169bb25a26f7d87279dad5a492e09ca62b248c2e3d6543f8e80aca5e",
+        "after": "bb934296169bb25a26f7d87279dad5a492e09ca62b248c2e3d6543f8e80aca5e"
+      },
+      {
+        "file": ".claude/hooks/guard-bash.mjs",
+        "preserved": true,
+        "exists": true,
+        "before": "065434de23c5a7c6809dc2085bf4d4bc2a53ea1b7e13dedb09e22321f237364b",
+        "after": "065434de23c5a7c6809dc2085bf4d4bc2a53ea1b7e13dedb09e22321f237364b"
+      },
+      {
+        "file": ".claude/settings.json",
+        "preserved": true,
+        "exists": true,
+        "before": "edbce950cdf940c5c113a21aad03921b10b0e8be86fb76ca387c630a636781c1",
+        "after": "edbce950cdf940c5c113a21aad03921b10b0e8be86fb76ca387c630a636781c1"
+      },
+      {
+        "file": ".codex/hooks.json",
+        "preserved": true,
+        "exists": true,
+        "before": "59e3663d0a65706a18d936a365032f2d3ba7cb218275f3d07b5654ec0e18e9d9",
+        "after": "59e3663d0a65706a18d936a365032f2d3ba7cb218275f3d07b5654ec0e18e9d9"
+      }
+    ]
+  },
+  {
+    "scenario": "preexisting-collisions",
+    "tool": "spec-kit",
+    "exitCode": 0,
+    "rows": [
+      {
+        "file": "AGENTS.md",
+        "preserved": true,
+        "exists": true,
+        "before": "b5e2f6a956e3b2fb52e8ad8687cdac737582f426330a06d7534720a122c8e57b",
+        "after": "b5e2f6a956e3b2fb52e8ad8687cdac737582f426330a06d7534720a122c8e57b"
+      },
+      {
+        "file": "CLAUDE.md",
+        "preserved": true,
+        "exists": true,
+        "before": "aaa86ebb61556fd19585718779b1ae0d6098b39666d5651d2d6b0a9a4625a4a8",
+        "after": "aaa86ebb61556fd19585718779b1ae0d6098b39666d5651d2d6b0a9a4625a4a8"
+      },
+      {
+        "file": ".claude/skills/check-premises/SKILL.md",
+        "preserved": true,
+        "exists": true,
+        "before": "5395759566fbca0857dbb9da1e84fe13342a1e53a5844077c115c9fa484a1fb2",
+        "after": "5395759566fbca0857dbb9da1e84fe13342a1e53a5844077c115c9fa484a1fb2"
+      },
+      {
+        "file": ".claude/skills/speckit-specify/SKILL.md",
+        "preserved": false,
+        "exists": true,
+        "before": "f20844efd96be66be2c305b91e683cdb5afb5d5cf6ec9a9eaf3732d86e448788",
+        "after": "d4d93f2444355136e78bb533988aa2dd560dc4b258f4923f67b1a437e7de38f8"
+      },
+      {
+        "file": ".claude/commands/speckit.specify.md",
+        "preserved": true,
+        "exists": true,
+        "before": "bb934296169bb25a26f7d87279dad5a492e09ca62b248c2e3d6543f8e80aca5e",
+        "after": "bb934296169bb25a26f7d87279dad5a492e09ca62b248c2e3d6543f8e80aca5e"
+      },
+      {
+        "file": ".claude/hooks/guard-bash.mjs",
+        "preserved": true,
+        "exists": true,
+        "before": "065434de23c5a7c6809dc2085bf4d4bc2a53ea1b7e13dedb09e22321f237364b",
+        "after": "065434de23c5a7c6809dc2085bf4d4bc2a53ea1b7e13dedb09e22321f237364b"
+      },
+      {
+        "file": ".claude/settings.json",
+        "preserved": true,
+        "exists": true,
+        "before": "edbce950cdf940c5c113a21aad03921b10b0e8be86fb76ca387c630a636781c1",
+        "after": "edbce950cdf940c5c113a21aad03921b10b0e8be86fb76ca387c630a636781c1"
+      },
+      {
+        "file": ".codex/hooks.json",
+        "preserved": true,
+        "exists": true,
+        "before": "59e3663d0a65706a18d936a365032f2d3ba7cb218275f3d07b5654ec0e18e9d9",
+        "after": "59e3663d0a65706a18d936a365032f2d3ba7cb218275f3d07b5654ec0e18e9d9"
+      }
+    ]
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "rig",
+    "file": "AGENTS.md",
+    "exitCode": 1,
+    "preserved": true,
+    "exists": true,
+    "before": "b5e2f6a956e3b2fb52e8ad8687cdac737582f426330a06d7534720a122c8e57b",
+    "after": "b5e2f6a956e3b2fb52e8ad8687cdac737582f426330a06d7534720a122c8e57b"
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "rig",
+    "file": "CLAUDE.md",
+    "exitCode": 1,
+    "preserved": true,
+    "exists": true,
+    "before": "aaa86ebb61556fd19585718779b1ae0d6098b39666d5651d2d6b0a9a4625a4a8",
+    "after": "aaa86ebb61556fd19585718779b1ae0d6098b39666d5651d2d6b0a9a4625a4a8"
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "rig",
+    "file": ".claude/skills/check-premises/SKILL.md",
+    "exitCode": 0,
+    "preserved": true,
+    "exists": true,
+    "before": "5395759566fbca0857dbb9da1e84fe13342a1e53a5844077c115c9fa484a1fb2",
+    "after": "5395759566fbca0857dbb9da1e84fe13342a1e53a5844077c115c9fa484a1fb2"
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "rig",
+    "file": ".claude/skills/speckit-specify/SKILL.md",
+    "exitCode": 0,
+    "preserved": true,
+    "exists": true,
+    "before": "f20844efd96be66be2c305b91e683cdb5afb5d5cf6ec9a9eaf3732d86e448788",
+    "after": "f20844efd96be66be2c305b91e683cdb5afb5d5cf6ec9a9eaf3732d86e448788"
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "rig",
+    "file": ".claude/commands/speckit.specify.md",
+    "exitCode": 0,
+    "preserved": true,
+    "exists": true,
+    "before": "bb934296169bb25a26f7d87279dad5a492e09ca62b248c2e3d6543f8e80aca5e",
+    "after": "bb934296169bb25a26f7d87279dad5a492e09ca62b248c2e3d6543f8e80aca5e"
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "rig",
+    "file": ".claude/hooks/guard-bash.mjs",
+    "exitCode": 0,
+    "preserved": true,
+    "exists": true,
+    "before": "065434de23c5a7c6809dc2085bf4d4bc2a53ea1b7e13dedb09e22321f237364b",
+    "after": "065434de23c5a7c6809dc2085bf4d4bc2a53ea1b7e13dedb09e22321f237364b"
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "rig",
+    "file": ".claude/settings.json",
+    "exitCode": 0,
+    "preserved": true,
+    "exists": true,
+    "before": "edbce950cdf940c5c113a21aad03921b10b0e8be86fb76ca387c630a636781c1",
+    "after": "edbce950cdf940c5c113a21aad03921b10b0e8be86fb76ca387c630a636781c1"
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "rig",
+    "file": ".codex/hooks.json",
+    "exitCode": 0,
+    "preserved": true,
+    "exists": true,
+    "before": "59e3663d0a65706a18d936a365032f2d3ba7cb218275f3d07b5654ec0e18e9d9",
+    "after": "59e3663d0a65706a18d936a365032f2d3ba7cb218275f3d07b5654ec0e18e9d9"
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "spec-kit",
+    "file": "AGENTS.md",
+    "exitCode": 0,
+    "preserved": true,
+    "exists": true,
+    "before": "b5e2f6a956e3b2fb52e8ad8687cdac737582f426330a06d7534720a122c8e57b",
+    "after": "b5e2f6a956e3b2fb52e8ad8687cdac737582f426330a06d7534720a122c8e57b"
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "spec-kit",
+    "file": "CLAUDE.md",
+    "exitCode": 0,
+    "preserved": true,
+    "exists": true,
+    "before": "aaa86ebb61556fd19585718779b1ae0d6098b39666d5651d2d6b0a9a4625a4a8",
+    "after": "aaa86ebb61556fd19585718779b1ae0d6098b39666d5651d2d6b0a9a4625a4a8"
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "spec-kit",
+    "file": ".claude/skills/check-premises/SKILL.md",
+    "exitCode": 0,
+    "preserved": true,
+    "exists": true,
+    "before": "5395759566fbca0857dbb9da1e84fe13342a1e53a5844077c115c9fa484a1fb2",
+    "after": "5395759566fbca0857dbb9da1e84fe13342a1e53a5844077c115c9fa484a1fb2"
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "spec-kit",
+    "file": ".claude/skills/speckit-specify/SKILL.md",
+    "exitCode": 0,
+    "preserved": false,
+    "exists": true,
+    "before": "f20844efd96be66be2c305b91e683cdb5afb5d5cf6ec9a9eaf3732d86e448788",
+    "after": "d4d93f2444355136e78bb533988aa2dd560dc4b258f4923f67b1a437e7de38f8"
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "spec-kit",
+    "file": ".claude/commands/speckit.specify.md",
+    "exitCode": 0,
+    "preserved": true,
+    "exists": true,
+    "before": "bb934296169bb25a26f7d87279dad5a492e09ca62b248c2e3d6543f8e80aca5e",
+    "after": "bb934296169bb25a26f7d87279dad5a492e09ca62b248c2e3d6543f8e80aca5e"
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "spec-kit",
+    "file": ".claude/hooks/guard-bash.mjs",
+    "exitCode": 0,
+    "preserved": true,
+    "exists": true,
+    "before": "065434de23c5a7c6809dc2085bf4d4bc2a53ea1b7e13dedb09e22321f237364b",
+    "after": "065434de23c5a7c6809dc2085bf4d4bc2a53ea1b7e13dedb09e22321f237364b"
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "spec-kit",
+    "file": ".claude/settings.json",
+    "exitCode": 0,
+    "preserved": true,
+    "exists": true,
+    "before": "edbce950cdf940c5c113a21aad03921b10b0e8be86fb76ca387c630a636781c1",
+    "after": "edbce950cdf940c5c113a21aad03921b10b0e8be86fb76ca387c630a636781c1"
+  },
+  {
+    "scenario": "individual-preexisting-collision",
+    "tool": "spec-kit",
+    "file": ".codex/hooks.json",
+    "exitCode": 0,
+    "preserved": true,
+    "exists": true,
+    "before": "59e3663d0a65706a18d936a365032f2d3ba7cb218275f3d07b5654ec0e18e9d9",
+    "after": "59e3663d0a65706a18d936a365032f2d3ba7cb218275f3d07b5654ec0e18e9d9"
+  },
+  {
+    "scenario": "bounded-rig-uninstall",
+    "native": false,
+    "removed": 83,
+    "specFilesPreserved": 36,
+    "specCliStatusExit": 0,
+    "modifiedWiringRejected": true,
+    "limitation": "CLI status and owned bytes verified; no paid harness execution. Empty directories retained."
+  }
+]

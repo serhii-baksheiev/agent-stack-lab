@@ -1,0 +1,14 @@
+{
+  "command": [
+    "npx",
+    "--yes",
+    "create-agent-rig@0.9.0",
+    "--version"
+  ],
+  "cwd": ".lab-runs/baseline-090",
+  "startedAt": "2026-09-14T09:18:24.763Z",
+  "durationMs": 1117,
+  "exitCode": 0,
+  "stdout": "0.9.0\n",
+  "stderr": ""
+}

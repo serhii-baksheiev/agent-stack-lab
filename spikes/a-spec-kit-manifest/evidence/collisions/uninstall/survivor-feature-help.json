@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/spec-kit-env/bin/python",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/a-collision-uninstall/.specify/scripts/python/create_new_feature.py",
+    "--help"
+  ],
+  "cwd": ".lab-runs/a-collision-uninstall",
+  "startedAt": "2026-09-14T09:19:13.773Z",
+  "durationMs": 44,
+  "exitCode": 0,
+  "stdout": "Usage: <LAB>/.lab-runs/a-collision-uninstall/.specify/scripts/python/create_new_feature.py [--json] [--dry-run] [--allow-existing-branch] [--short-name <name>] [--number N] [--timestamp] <feature_description>\n\nOptions:\n  --json              Output in JSON format\n  --dry-run           Compute feature name and paths without creating directories or files\n  --allow-existing-branch  Reuse an existing feature directory if it already exists\n  --short-name <name> Provide a custom short name (2-4 words) for the feature\n  --number N          Prefer a feature number (auto-corrected if its specs prefix exists)\n  --timestamp         Use timestamp prefix (YYYYMMDD-HHMMSS) instead of sequential numbering\n  --help, -h          Show this help message\n\nExamples:\n  <LAB>/.lab-runs/a-collision-uninstall/.specify/scripts/python/create_new_feature.py 'Add user authentication system' --short-name 'user-auth'\n  <LAB>/.lab-runs/a-collision-uninstall/.specify/scripts/python/create_new_feature.py 'Implement OAuth2 integration for API' --number 5\n  <LAB>/.lab-runs/a-collision-uninstall/.specify/scripts/python/create_new_feature.py --timestamp --short-name 'user-auth' 'Add user authentication'\n",
+  "stderr": ""
+}

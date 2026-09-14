@@ -1,0 +1,15 @@
+{
+  "command": [
+    "tar",
+    "-xzf",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/registry-090/create-agent-rig-0.9.0.tgz",
+    "-C",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/a-collision-package"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T09:19:08.283Z",
+  "durationMs": 20,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": ""
+}

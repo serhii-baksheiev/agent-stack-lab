@@ -1,0 +1,20 @@
+{
+  "spike": "A",
+  "verdict": "ADAPT",
+  "confidence": "medium",
+  "candidate": "GitHub Spec Kit",
+  "version": "1.0.6",
+  "commit": "96c9bd657bfd5de0d651a6165084932b7304ac99",
+  "rigBaseline": "0.9.0",
+  "qualification": "conditional: Linux core lifecycle; Windows settings ownership conflict",
+  "scenariosPassed": 42,
+  "scenariosFailed": 7,
+  "scenariosUnverified": 5,
+  "estimatedIntegrationDays": 3,
+  "estimatedAnnualMaintenanceDays": 3,
+  "estimateRangeDays": [
+    2,
+    4
+  ],
+  "ledger": "scenario-ledger.json"
+}

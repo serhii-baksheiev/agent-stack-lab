@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/spec-kit-env/bin/specify",
+    "integration",
+    "status",
+    "--json"
+  ],
+  "cwd": ".lab-runs/a-release-upgrade",
+  "startedAt": "2026-09-14T09:19:08.014Z",
+  "durationMs": 219,
+  "exitCode": 0,
+  "stdout": "{\n  \"status\": \"ok\",\n  \"default_integration\": \"claude\",\n  \"installed_integrations\": [\n    \"claude\"\n  ],\n  \"recorded_installed_integrations\": [\n    \"claude\"\n  ],\n  \"manifest_checked_integrations\": [\n    \"claude\",\n    \"speckit\"\n  ],\n  \"multi_install_safe\": true,\n  \"shared_templates_target_alignment\": \"claude\",\n  \"missing_managed_files\": 0,\n  \"modified_managed_files\": 0,\n  \"invalid_manifest_paths\": 0,\n  \"unchecked_manifests\": 0,\n  \"manifests\": {\n    \"claude\": {\n      \"manifest\": \".specify/integrations/claude.manifest.json\",\n      \"readable\": true,\n      \"tracked_files\": 10,\n      \"missing_files\": [],\n      \"modified_files\": [],\n      \"invalid_files\": []\n    },\n    \"speckit\": {\n      \"manifest\": \".specify/integrations/speckit.manifest.json\",\n      \"readable\": true,\n      \"tracked_files\": 18,\n      \"missing_files\": [],\n      \"modified_files\": [],\n      \"invalid_files\": []\n    }\n  },\n  \"findings\": []\n}\n",
+  "stderr": ""
+}

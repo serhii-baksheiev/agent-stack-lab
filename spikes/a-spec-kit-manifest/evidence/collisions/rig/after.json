@@ -1,0 +1,68 @@
+{
+  "files": {
+    ".claude/commands/speckit.specify.md": {
+      "size": 52,
+      "sha256": "bb934296169bb25a26f7d87279dad5a492e09ca62b248c2e3d6543f8e80aca5e"
+    },
+    ".claude/hooks/guard-bash.mjs": {
+      "size": 31,
+      "sha256": "065434de23c5a7c6809dc2085bf4d4bc2a53ea1b7e13dedb09e22321f237364b"
+    },
+    ".claude/settings.json": {
+      "size": 269,
+      "sha256": "edbce950cdf940c5c113a21aad03921b10b0e8be86fb76ca387c630a636781c1"
+    },
+    ".claude/skills/check-premises/SKILL.md": {
+      "size": 89,
+      "sha256": "5395759566fbca0857dbb9da1e84fe13342a1e53a5844077c115c9fa484a1fb2"
+    },
+    ".claude/skills/speckit-specify/SKILL.md": {
+      "size": 95,
+      "sha256": "f20844efd96be66be2c305b91e683cdb5afb5d5cf6ec9a9eaf3732d86e448788"
+    },
+    ".codex/hooks.json": {
+      "size": 60,
+      "sha256": "59e3663d0a65706a18d936a365032f2d3ba7cb218275f3d07b5654ec0e18e9d9"
+    },
+    "AGENTS.md": {
+      "size": 52,
+      "sha256": "b5e2f6a956e3b2fb52e8ad8687cdac737582f426330a06d7534720a122c8e57b"
+    },
+    "CLAUDE.md": {
+      "size": 52,
+      "sha256": "aaa86ebb61556fd19585718779b1ae0d6098b39666d5651d2d6b0a9a4625a4a8"
+    }
+  },
+  "count": 8,
+  "bytes": 700,
+  "status": "?? .claude/commands/speckit.specify.md\n?? .claude/hooks/guard-bash.mjs\n?? .claude/settings.json\n?? .claude/skills/check-premises/SKILL.md\n?? .claude/skills/speckit-specify/SKILL.md\n?? .codex/hooks.json\n?? AGENTS.md\n?? CLAUDE.md\n",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/a-collision-rig",
+    "startedAt": "2026-09-14T09:19:09.161Z",
+    "durationMs": 4,
+    "exitCode": 0,
+    "stdout": "?? .claude/commands/speckit.specify.md\n?? .claude/hooks/guard-bash.mjs\n?? .claude/settings.json\n?? .claude/skills/check-premises/SKILL.md\n?? .claude/skills/speckit-specify/SKILL.md\n?? .codex/hooks.json\n?? AGENTS.md\n?? CLAUDE.md\n",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/a-collision-rig",
+    "startedAt": "2026-09-14T09:19:09.165Z",
+    "durationMs": 3,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

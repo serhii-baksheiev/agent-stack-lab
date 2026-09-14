@@ -1,0 +1,42 @@
+[
+  {
+    "order": "rig-first",
+    "firstExit": 0,
+    "secondExit": 0,
+    "rigRepeatInitExit": 1,
+    "rigDryExit": 0,
+    "dryReadOnly": true,
+    "rigUpgradeExit": 0,
+    "specEditedUpgradeExit": 1,
+    "editsPreserved": true,
+    "deletedStaysRemoved": true,
+    "specDeletedStaysRemoved": false,
+    "specUninstallExit": 0,
+    "rigSurvivesSpecUninstall": true,
+    "specSurvivingCodexStatusExit": 1,
+    "specSurvivingIntegrations": [],
+    "editedSpecSkillSurvives": true,
+    "rigUninstallBlockedOnModifiedWiring": true,
+    "naturalSecondComponentOverwrites": []
+  },
+  {
+    "order": "spec-first",
+    "firstExit": 0,
+    "secondExit": 0,
+    "rigRepeatInitExit": 1,
+    "rigDryExit": 0,
+    "dryReadOnly": true,
+    "rigUpgradeExit": 0,
+    "specEditedUpgradeExit": 1,
+    "editsPreserved": true,
+    "deletedStaysRemoved": true,
+    "specDeletedStaysRemoved": false,
+    "specUninstallExit": 0,
+    "rigSurvivesSpecUninstall": true,
+    "specSurvivingCodexStatusExit": 1,
+    "specSurvivingIntegrations": [],
+    "editedSpecSkillSurvives": true,
+    "rigUninstallBlockedOnModifiedWiring": true,
+    "naturalSecondComponentOverwrites": []
+  }
+]

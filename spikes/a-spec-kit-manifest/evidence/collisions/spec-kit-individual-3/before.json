@@ -1,0 +1,40 @@
+{
+  "files": {
+    ".claude/skills/speckit-specify/SKILL.md": {
+      "size": 95,
+      "sha256": "f20844efd96be66be2c305b91e683cdb5afb5d5cf6ec9a9eaf3732d86e448788"
+    }
+  },
+  "count": 1,
+  "bytes": 95,
+  "status": "?? .claude/skills/speckit-specify/SKILL.md\n",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/a-collision-spec-kit-individual-3",
+    "startedAt": "2026-09-14T09:19:11.494Z",
+    "durationMs": 2,
+    "exitCode": 0,
+    "stdout": "?? .claude/skills/speckit-specify/SKILL.md\n",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/a-collision-spec-kit-individual-3",
+    "startedAt": "2026-09-14T09:19:11.496Z",
+    "durationMs": 3,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

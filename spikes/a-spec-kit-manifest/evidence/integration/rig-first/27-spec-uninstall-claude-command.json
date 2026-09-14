@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/spec-kit-env/bin/specify",
+    "integration",
+    "uninstall",
+    "claude"
+  ],
+  "cwd": ".lab-runs/a-rig-first",
+  "startedAt": "2026-09-14T09:18:59.268Z",
+  "durationMs": 218,
+  "exitCode": 0,
+  "stdout": "\n✓ Integration 'Claude Code' uninstalled\n  Removed 9 file(s)\n\n⚠  1 modified file(s) were preserved:\n    .claude/skills/speckit-analyze/SKILL.md\n",
+  "stderr": ""
+}

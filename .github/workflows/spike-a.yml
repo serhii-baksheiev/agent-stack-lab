@@ -1,0 +1,50 @@
+name: Spike A experiments
+on:
+  push:
+    branches: [spike/a-spec-kit-manifest]
+    paths: ['scripts/baseline.mjs', 'scripts/spike-a*.mjs', 'scripts/lab-evidence.mjs', '.github/workflows/spike-a.yml']
+  workflow_dispatch:
+    inputs:
+      runner:
+        type: string
+        default: ubuntu-latest
+        description: Linux hosted or existing Linux self-hosted label; requires sudo unshare
+jobs:
+  baseline:
+    runs-on: ${{ inputs.runner || 'ubuntu-latest' }}
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node scripts/baseline.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: .github/workflows/spike-a.yml
+      - name: Install pinned Spec Kit into isolated environment
+        shell: bash
+        run: |
+          python -m venv .lab-runs/spec-kit-env
+          .lab-runs/spec-kit-env/bin/pip install 'git+https://github.com/github/spec-kit.git@96c9bd657bfd5de0d651a6165084932b7304ac99'
+          mkdir -p spikes/a-spec-kit-manifest/evidence/environment
+          .lab-runs/spec-kit-env/bin/pip freeze > spikes/a-spec-kit-manifest/evidence/environment/python-resolved.txt
+          .lab-runs/spec-kit-env/bin/pip inspect > spikes/a-spec-kit-manifest/evidence/environment/python-inspect.json
+          python -m venv .lab-runs/spec-kit-previous
+          .lab-runs/spec-kit-previous/bin/pip install 'git+https://github.com/github/spec-kit.git@a4e25ce6b96dc8e85f84206c6a54353fa9c5260b'
+      - run: node scripts/spike-a.mjs
+      - run: node scripts/spike-a-multi-provider.mjs
+      - run: node scripts/spike-a-release-upgrade.mjs
+      - run: node scripts/spike-a-collisions.mjs
+      - name: Offline replay with network namespace isolation
+        shell: bash
+        run: sudo --preserve-env=PATH unshare -n -- runuser -u "$(id -un)" -- node scripts/spike-a-offline.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: spike-a-evidence
+          path: spikes/a-spec-kit-manifest/evidence/

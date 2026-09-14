@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/spec-kit-env/bin/specify",
+    "integration",
+    "uninstall",
+    "claude"
+  ],
+  "cwd": ".lab-runs/a-multi-provider",
+  "startedAt": "2026-09-14T09:19:06.236Z",
+  "durationMs": 252,
+  "exitCode": 0,
+  "stdout": "\n✓ Integration 'Claude Code' uninstalled\n  Removed 10 file(s)\n",
+  "stderr": ""
+}

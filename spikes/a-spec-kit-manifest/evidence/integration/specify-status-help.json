@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/spec-kit-env/bin/specify",
+    "integration",
+    "status",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T09:18:55.064Z",
+  "durationMs": 257,
+  "exitCode": 0,
+  "stdout": "                                                                                \n Usage: specify integration status [OPTIONS]                                    \n                                                                                \n Report the current project's integration status without changing files.        \n                                                                                \n╭─ Options ────────────────────────────────────────────────────────────────────╮\n│ --json          Emit machine-readable integration status.                    │\n│ --help          Show this message and exit.                                  │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n",
+  "stderr": ""
+}

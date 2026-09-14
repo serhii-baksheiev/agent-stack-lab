@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/spec-kit-env/bin/specify",
+    "integration",
+    "upgrade",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T09:18:54.548Z",
+  "durationMs": 259,
+  "exitCode": 0,
+  "stdout": "                                                                                \n Usage: specify integration upgrade [OPTIONS] [key]                             \n                                                                                \n Upgrade an integration by reinstalling with diff-aware file handling.          \n                                                                                \n Compares manifest hashes to detect locally modified files and                  \n blocks the upgrade unless --force is used.                                     \n                                                                                \n╭─ Arguments ──────────────────────────────────────────────────────────────────╮\n│   key      <str>  Integration key to upgrade (default: current integration)  │\n╰──────────────────────────────────────────────────────────────────────────────╯\n╭─ Options ────────────────────────────────────────────────────────────────────╮\n│ --force                             Force upgrade even if files are modified │\n│ --script                     <str>  Script type: sh, ps, or py (default:     │\n│                                     from init-options.json or platform       │\n│                                     default)                                 │\n│ --integration-options        <str>  Options for the integration              │\n│ --help                              Show this message and exit.              │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n",
+  "stderr": ""
+}
