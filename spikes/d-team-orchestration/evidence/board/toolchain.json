@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-09-14T12:04:24.321Z",
+  "qualification": "Read-only local toolchain capture after board run; same workstation.",
+  "git": {
+    "command": [
+      "git",
+      "--version"
+    ],
+    "cwd": "",
+    "startedAt": "2026-09-14T12:04:24.323Z",
+    "durationMs": 260,
+    "exitCode": 0,
+    "stdout": "git version 2.49.0.windows.1\n",
+    "stderr": ""
+  },
+  "gh": {
+    "command": [
+      "gh",
+      "--version"
+    ],
+    "cwd": "",
+    "startedAt": "2026-09-14T12:04:24.583Z",
+    "durationMs": 320,
+    "exitCode": 0,
+    "stdout": "gh version 2.71.2 (2025-04-24)\nhttps://github.com/cli/cli/releases/tag/v2.71.2\n",
+    "stderr": ""
+  }
+}

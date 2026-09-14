@@ -1,0 +1,13 @@
+{
+  "command": [
+    "mix",
+    "local.hex",
+    "--force"
+  ],
+  "cwd": ".lab-runs/d-orchestrators-1789387427557/symphony-tests/elixir",
+  "startedAt": "2026-09-14T12:03:56.446Z",
+  "durationMs": 821,
+  "exitCode": 0,
+  "stdout": "* creating <LAB>/.lab-runs/d-orchestrator-cache/mix/archives/hex-2.5.1\n",
+  "stderr": ""
+}

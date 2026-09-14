@@ -149,6 +149,8 @@ Rig guards are wired. No evidence here authorizes blind shared-file replacement.
 
 ## Security findings
 
+Post-spike finding during D: the full repository metadata response in board-export evidence had persisted an API-supplied temporary clone credential. The current file and collector are now projected to safe proof fields, but B's published history/cache cleanup remains unresolved. See [security incidents](../../docs/security-incidents.md). Prior successful checks did not establish credential-free history.
+
 All feature data are synthetic; native subprocess profiles are isolated and no
 tokens, parent manifest contents, caches, payload checkouts or node_modules are
 tracked. GitHub requests use existing authenticated gh, with no credential output.

@@ -1,0 +1,25 @@
+{
+  "label": "issue-claim-1",
+  "method": "PATCH",
+  "endpoint": "repos/serhii-baksheiev/agent-stack-lab/issues/14",
+  "request": {
+    "body": "Synthetic feature d-counter-1789386678212. Requirement D-R1/R2/R3. Stable task identity serhii-baksheiev/agent-stack-lab:d-counter-1789386678212:D-T3. No production task.\n\nSynthetic claim owner=actor-b; event=issue-etag-race; expires=1789386726606"
+  },
+  "requestHeaders": [
+    "If-Match: W/\"1f7a89de172a255b441dde90bbdb638dae4ffd3456f0792ddb9b27dba5c96126\""
+  ],
+  "startedAt": "2026-09-14T11:51:36.625Z",
+  "durationMs": 2379,
+  "exitCode": 1,
+  "status": 400,
+  "responseHeaders": "HTTP/2.0 400 Bad Request\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\r\nContent-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com user-images.githubusercontent.com private-user-images.githubusercontent.com opengraph.githubassets.com repository-images.githubusercontent.com marketplace-screenshots.githubusercontent.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com explore-feed.github.com objects-origin.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com secured-user-images.githubusercontent.com private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/\r\nContent-Type: application/json\r\nDate: Mon, 14 Sep 2026 11:51:39 GMT\r\nReferrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin\r\nServer: github.com\r\nStrict-Transport-Security: max-age=31536000; includeSubdomains; preload\r\nVary: Accept-Encoding, Accept, X-Requested-With\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Github-Edge-Region: fra\r\nX-Github-Request-Id: 2FF2:EFD4:F453E5:ECEE79:6AA7DFCA\r\nX-Ratelimit-Limit: 5000\r\nX-Ratelimit-Remaining: 4991\r\nX-Ratelimit-Reset: 1789390232\r\nX-Ratelimit-Resource: core\r\nX-Ratelimit-Used: 9\r\nX-Xss-Protection: 0",
+  "data": {
+    "message": "Bad Request",
+    "documentation_url": "https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api#use-conditional-requests-if-appropriate",
+    "errors": [
+      "Conditional request headers are not allowed in unsafe requests unless supported by the endpoint"
+    ],
+    "status": "400"
+  },
+  "stderr": "gh: Bad Request (HTTP 400)\n"
+}

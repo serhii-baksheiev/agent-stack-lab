@@ -1,0 +1,14 @@
+{
+  "spike": "D",
+  "verdict": "ADAPT",
+  "confidence": "medium",
+  "candidate": "Native agents + external board + thin task/handoff skill; optional claim layer remains conditional, no Rig scheduler",
+  "version": "GitHub API2026-03-10; Symphony0.0.2; OpenHands Canvas1.18.0 / Automation1.11.1; Claude2.1.270 / Codex0.154.0",
+  "rigBaseline": "0.9.0",
+  "scenariosPassed": 20,
+  "scenariosFailed": 1,
+  "scenariosUnverified": 12,
+  "estimatedIntegrationDays": 3,
+  "estimatedAnnualMaintenanceDays": 3,
+  "qualification": "Primitive/source/unit observations, not a qualified end-to-end autonomous team. Optional production claim adapter estimated5–8 additional days,3–5 annual; no queue/framework built."
+}

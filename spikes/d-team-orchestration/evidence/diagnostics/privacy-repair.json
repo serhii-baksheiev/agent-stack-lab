@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-09-14T12:13:38.493Z",
+  "originalBoardCollectorSha256": "649a7798168e13058d76d6f57943aa3861cf98d90b2fe13c46313e182a71bb7e",
+  "repairedBoardCollectorSha256": "50def217e7f9211e4f3d01ccb62ce20cc92a003e8ee69ab415c2828c1a74b5d0",
+  "helperSha256": "db3f33554415adf6bc1ea26822b23344835785fe1eb220005f77f960a268c251",
+  "qualification": "Post-run privacy-only projection repair; domain board operations not rerun. Existing B/D metadata artifacts projected to safe proof fields. Old history/cache remediation is separate and unresolved.",
+  "regression": {
+    "command": [
+      "C:\\nvm4w\\nodejs\\node.exe",
+      "scripts/safe-repo-metadata.test.mjs"
+    ],
+    "cwd": "",
+    "startedAt": "2026-09-14T12:13:38.496Z",
+    "durationMs": 187,
+    "exitCode": 0,
+    "stdout": "PASS repository evidence allowlist: known and future unknown credential fields excluded; false privacy preserved.\n",
+    "stderr": ""
+  }
+}

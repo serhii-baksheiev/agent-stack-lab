@@ -1,0 +1,13 @@
+{
+  "command": [
+    "uv",
+    "venv",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\d-orchestrators-1789386831427\\venv"
+  ],
+  "cwd": ".lab-runs/d-orchestrators-1789386831427",
+  "startedAt": "2026-09-14T11:54:02.582Z",
+  "durationMs": 687,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": "Using CPython 3.11.9 interpreter at: C:\\Users\\SerhiiBaksheiev\\AppData\\Local\\Programs\\Python\\Python311\\python.exe\nCreating virtual environment at: venv\nActivate with: venv\\Scripts\\activate\n"
+}

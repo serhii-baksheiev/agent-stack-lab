@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-09-14",
+  "boardScenarioSha": "a86b2885742746b1dccb1c8763aa9351f79f9326",
+  "orchestratorScenarioSha": "4fbe88909791bbf97632ccb4f4ce3047578cc0cd",
+  "canonicalOrchestratorRun": "https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34841316242",
+  "commands": 58,
+  "snapshots": 6,
+  "apiCalls": 44,
+  "nonzero": [
+    {
+      "file": "spikes/d-team-orchestration/evidence/board/api/16-lease-claim-1.json",
+      "status": 422,
+      "message": "Reference cannot be updated"
+    },
+    {
+      "file": "spikes/d-team-orchestration/evidence/board/api/23-stale-owner-update.json",
+      "status": 422,
+      "message": "Update is not a fast forward"
+    },
+    {
+      "file": "spikes/d-team-orchestration/evidence/board/api/7-issue-claim-0.json",
+      "status": 400,
+      "message": "Bad Request"
+    },
+    {
+      "file": "spikes/d-team-orchestration/evidence/board/api/8-issue-claim-1.json",
+      "status": 400,
+      "message": "Bad Request"
+    },
+    {
+      "file": "spikes/d-team-orchestration/evidence/board/git/conflict-before-merge.json",
+      "exitCode": 1
+    }
+  ],
+  "qualification": "Board actual API/worktrees and ready source/unit tests counted separately; Windows source discovery excluded."
+}

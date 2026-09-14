@@ -1,0 +1,17 @@
+{
+  "command": [
+    "git",
+    "worktree",
+    "add",
+    "-b",
+    "lab/d-work-b-1789386678212",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\d-board-1789386678212\\work-b",
+    "lab/d-fixture-1789386678212"
+  ],
+  "cwd": ".lab-runs/d-board-1789386678212/fixture",
+  "startedAt": "2026-09-14T11:52:27.555Z",
+  "durationMs": 541,
+  "exitCode": 0,
+  "stdout": "HEAD is now at 336f6ff Synthetic counter baseline\n",
+  "stderr": "Preparing worktree (new branch 'lab/d-work-b-1789386678212')\n"
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\nvm4w\\nodejs\\node.exe",
+    "-e",
+    "const fs=require(\"fs\"); const x=JSON.parse(fs.readFileSync(process.argv[1])); if(!x.issue||!x.commit||!x.leaseCommit)process.exit(1); console.log(JSON.stringify(x));",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\d-board-1789386678212\\handoff.json"
+  ],
+  "cwd": ".lab-runs/d-board-1789386678212",
+  "startedAt": "2026-09-14T11:53:20.014Z",
+  "durationMs": 206,
+  "exitCode": 0,
+  "stdout": "{\"feature\":\"d-counter-1789386678212\",\"requirements\":[\"D-R1\",\"D-R2\",\"D-R3\"],\"issue\":13,\"pr\":16,\"branch\":\"lab/d-work-b-1789386678212\",\"commit\":\"91819b59656ab6f0eba5fc20359e108737769566\",\"leaseRef\":\"lab/d-claim-1789386678212\",\"leaseCommit\":\"4245eed7f8c1bce669da91134d7244b9037b38eb\",\"nextAction\":\"Inspect board blockers and PR feedback before selecting more work\",\"providerStart\":\"Claude-shaped synthetic record\",\"providerContinue\":\"Codex-shaped synthetic reader\",\"actualNativeModelHandoff\":false}\n",
+  "stderr": ""
+}

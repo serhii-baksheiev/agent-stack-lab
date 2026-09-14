@@ -1,0 +1,26 @@
+{
+  "label": "lease-claim-0",
+  "method": "PATCH",
+  "endpoint": "repos/serhii-baksheiev/agent-stack-lab/git/refs/heads/lab/d-claim-1789386678212",
+  "request": {
+    "sha": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+    "force": false
+  },
+  "requestHeaders": [],
+  "startedAt": "2026-09-14T11:51:54.016Z",
+  "durationMs": 1861,
+  "exitCode": 0,
+  "status": 200,
+  "responseHeaders": "HTTP/2.0 200 OK\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\r\nCache-Control: private, max-age=60, s-maxage=60\r\nContent-Security-Policy: default-src 'none'\r\nContent-Type: application/json; charset=utf-8\r\nDate: Mon, 14 Sep 2026 11:51:56 GMT\r\nEtag: W/\"bd1a991aac3ef63232f993f187dab6de3c08b50f891d252314026fcf94e0a1c5\"\r\nReferrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin\r\nServer: github.com\r\nStrict-Transport-Security: max-age=31536000; includeSubdomains; preload\r\nVary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With\r\nX-Accepted-Oauth-Scopes: repo\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Github-Api-Version-Selected: 2026-03-10\r\nX-Github-Edge-Region: fra\r\nX-Github-Media-Type: github.v3; format=json\r\nX-Github-Request-Id: 9212:A114F:100DF22:F94C77:6AA7DFDB\r\nX-Oauth-Client-Id: 178c6fc778ccc68e1d6a\r\nX-Oauth-Scopes: admin:public_key, gist, read:org, repo, workflow\r\nX-Ratelimit-Limit: 5000\r\nX-Ratelimit-Remaining: 4987\r\nX-Ratelimit-Reset: 1789390232\r\nX-Ratelimit-Resource: core\r\nX-Ratelimit-Used: 13\r\nX-Xss-Protection: 0",
+  "data": {
+    "ref": "refs/heads/lab/d-claim-1789386678212",
+    "node_id": "REF_kwDOUaGcPdoAJHJlZnMvaGVhZHMvbGFiL2QtY2xhaW0tMTc4OTM4NjY3ODIxMg",
+    "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/git/refs/heads/lab/d-claim-1789386678212",
+    "object": {
+      "sha": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+      "type": "commit",
+      "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/git/commits/78c0fdd165fa64c0318b4c78f2204997141277d8"
+    }
+  },
+  "stderr": ""
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "uv",
+    "venv",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/d-orchestrators-1789387427557/venv"
+  ],
+  "cwd": ".lab-runs/d-orchestrators-1789387427557",
+  "startedAt": "2026-09-14T12:03:52.608Z",
+  "durationMs": 187,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": "Using CPython 3.12.14 interpreter at: /opt/hostedtoolcache/Python/3.12.14/x64/bin/python\nCreating virtual environment at: venv\nActivate with: venv/bin/activate\n"
+}

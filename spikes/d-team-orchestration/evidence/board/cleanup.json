@@ -1,0 +1,49 @@
+{
+  "verified": [
+    {
+      "kind": "pr",
+      "number": 15,
+      "status": 200,
+      "closed": true
+    },
+    {
+      "kind": "pr",
+      "number": 16,
+      "status": 200,
+      "closed": true
+    },
+    {
+      "kind": "pr",
+      "number": 17,
+      "status": 200,
+      "closed": true
+    },
+    {
+      "kind": "issue",
+      "number": 12,
+      "status": 200,
+      "closed": true
+    },
+    {
+      "kind": "issue",
+      "number": 13,
+      "status": 200,
+      "closed": true
+    },
+    {
+      "kind": "issue",
+      "number": 14,
+      "status": 200,
+      "closed": true
+    }
+  ],
+  "allClosed": true,
+  "retainedSyntheticBranches": [
+    "lab/d-claim-1789386678212",
+    "lab/d-fixture-1789386678212",
+    "lab/d-work-a-1789386678212",
+    "lab/d-work-b-1789386678212",
+    "lab/d-work-external-1789386678212"
+  ],
+  "reason": "Retained for reproducible commit/ref evidence; no branch merged into master."
+}

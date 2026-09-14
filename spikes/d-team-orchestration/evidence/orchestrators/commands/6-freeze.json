@@ -1,0 +1,15 @@
+{
+  "command": [
+    "uv",
+    "pip",
+    "freeze",
+    "--python",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/d-orchestrators-1789387427557/venv/bin/python"
+  ],
+  "cwd": ".lab-runs/d-orchestrators-1789387427557",
+  "startedAt": "2026-09-14T12:03:53.114Z",
+  "durationMs": 9,
+  "exitCode": 0,
+  "stdout": "greenlet==3.5.5\npsycopg2-binary==2.9.10\nsqlalchemy==2.0.43\ntyping-extensions==4.16.0\n",
+  "stderr": "Using Python 3.12.14 environment at: venv\n"
+}

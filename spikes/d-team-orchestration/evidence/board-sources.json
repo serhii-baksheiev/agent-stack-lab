@@ -1,0 +1,10 @@
+{
+  "checkedAt":"2026-09-14",
+  "apiVersion":"2026-03-10",
+  "sources":[
+    {"url":"https://docs.github.com/en/rest/issues/issue-dependencies","claim":"Real blocked_by relationships use blocking issue database ID, not labels or repository-local number.","evidence":"Actual add/read and closed-blocker state in board/api."},
+    {"url":"https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api","claim":"Unsafe conditional requests unsupported unless endpoint explicitly documents them.","evidence":"Both actual issue If-Match PATCH requests rejected400 with this exact reason."},
+    {"url":"https://docs.github.com/en/rest/git/refs","claim":"force:false requires fast-forward; competing sibling commits cannot both become the same ref tip.","evidence":"Actual concurrent200/422 and stale-owner422, not a claim that arbitrary publication is atomically fenced."}
+  ],
+  "claimsNotEstablished":["Jira transition compare-and-swap","Hard enforcement across privileged direct code/issue mutations","Clock-skew-safe lease expiry","Exactly-once external side effects"]
+}

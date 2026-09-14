@@ -1,0 +1,20 @@
+{
+  "repository": {
+    "url": "https://github.com/openai/symphony",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "pushedAt": "2026-09-09T21:52:09Z",
+    "defaultBranch": "main"
+  },
+  "latestRelease": {
+    "tag": "v0.0.2",
+    "publishedAt": "2026-07-24T15:01:31Z"
+  },
+  "pinnedCommit": "653f8b3cc476db03420479ba6f95b2ed7281c401",
+  "pinnedCommitDate": "2026-07-24T14:56:50Z"
+}

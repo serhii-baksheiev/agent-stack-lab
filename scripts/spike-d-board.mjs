@@ -4,6 +4,7 @@ import {mkdirSync,writeFileSync,readFileSync} from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import {root,run,json,sha,snapshot} from './lab-evidence.mjs';
+import {safeRepoMetadata} from './safe-repo-metadata.mjs';
 const repository='serhii-baksheiev/agent-stack-lab',apiRoot='repos/'+repository,stamp=Date.now(),base=path.join(root,'.lab-runs/d-board-'+stamp),out='spikes/d-team-orchestration/evidence/board';mkdirSync(base,{recursive:true});
 const checks=[],issues=[],prs=[],branches=[],add=(name,passed,detail)=>checks.push({name,passed,detail});let sequence=0;
 async function api(label,method,endpoint,body,headers=[]){
@@ -11,6 +12,7 @@ async function api(label,method,endpoint,body,headers=[]){
  const args=['api',endpoint,'--method',method,'--include','-H','Accept: application/vnd.github+json','-H','X-GitHub-Api-Version: 2026-03-10',...headers.flatMap(x=>['-H',x])];if(body!==undefined)args.push('--input','-');
  const startedAt=new Date().toISOString(),start=Date.now();const response=await new Promise((resolve,reject)=>{const child=spawn('gh',args,{cwd:root,stdio:['pipe','pipe','pipe'],windowsHide:true});let stdout='',stderr='';child.stdout.on('data',b=>stdout+=b);child.stderr.on('data',b=>stderr+=b);child.on('error',reject);const timer=setTimeout(()=>child.kill(),60000);child.on('close',code=>{clearTimeout(timer);resolve({code,stdout,stderr});});child.stdin.end(body===undefined?'':JSON.stringify(body));});
  const split=response.stdout.search(/\r?\n\r?\n/),head=split<0?'':response.stdout.slice(0,split),raw=split<0?response.stdout:response.stdout.slice(split).trim();let data;try{data=JSON.parse(raw);}catch{data=raw;}
+ if(endpointPath===apiRoot&&data&&typeof data==='object')data=safeRepoMetadata(data);
  const status=Number(head.match(/^HTTP\/\S+\s+(\d+)/m)?.[1]),record={label,method,endpoint,request:body,requestHeaders:headers,startedAt,durationMs:Date.now()-start,exitCode:response.code,status,responseHeaders:head,data,stderr:response.stderr};json(out+`/api/${sequence++}-${label}.json`,record);return record;
 }
 function ok(r,codes=[200,201,204]){assert(codes.includes(r.status),JSON.stringify({label:r.label,status:r.status,error:r.data}));return r.data;}

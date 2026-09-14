@@ -1,0 +1,20 @@
+{
+  "repository": {
+    "url": "https://github.com/OpenHands/automation",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "pushedAt": "2026-09-14T11:25:41Z",
+    "defaultBranch": "main"
+  },
+  "latestRelease": {
+    "tag": "1.11.1",
+    "publishedAt": "2026-09-09T18:07:01Z"
+  },
+  "pinnedCommit": "bc625068a9028849c32760e4fc9f66ec12b70872",
+  "pinnedCommitDate": "2026-09-09T18:06:41Z"
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "uv",
+    "pip",
+    "install",
+    "--python",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\d-orchestrators-1789386831427\\venv\\Scripts\\python.exe",
+    "SQLAlchemy==2.0.43"
+  ],
+  "cwd": ".lab-runs/d-orchestrators-1789386831427",
+  "startedAt": "2026-09-14T11:54:03.271Z",
+  "durationMs": 3927,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": "Using Python 3.11.9 environment at: venv\nResolved 3 packages in 1.45s\nDownloading sqlalchemy (2.0MiB)\n Downloaded sqlalchemy\nPrepared 3 packages in 1.05s\nInstalled 3 packages in 226ms\n + greenlet==3.5.5\n + sqlalchemy==2.0.43\n + typing-extensions==4.16.0\n"
+}

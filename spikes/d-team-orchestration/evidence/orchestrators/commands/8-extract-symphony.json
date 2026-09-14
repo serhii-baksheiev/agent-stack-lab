@@ -1,0 +1,16 @@
+{
+  "command": [
+    "tar",
+    "-xzf",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/d-orchestrators-1789387427557/symphony.tar.gz",
+    "--strip-components=1",
+    "-C",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/d-orchestrators-1789387427557/symphony-tests"
+  ],
+  "cwd": ".lab-runs/d-orchestrators-1789387427557",
+  "startedAt": "2026-09-14T12:03:55.942Z",
+  "durationMs": 213,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": ""
+}

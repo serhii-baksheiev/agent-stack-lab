@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\nvm4w\\nodejs\\node.exe",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\d-orchestrators-1789386831427\\canvas\\bin\\agent-canvas.mjs",
+    "--version"
+  ],
+  "cwd": ".lab-runs/d-orchestrators-1789386831427",
+  "startedAt": "2026-09-14T11:54:01.980Z",
+  "durationMs": 199,
+  "exitCode": 0,
+  "stdout": "1.18.0\n",
+  "stderr": ""
+}

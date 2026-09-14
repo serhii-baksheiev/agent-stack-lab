@@ -1,0 +1,22 @@
+{
+  "label": "master-ref",
+  "method": "GET",
+  "endpoint": "repos/serhii-baksheiev/agent-stack-lab/git/ref/heads/master?lab_probe=1789386701692",
+  "requestHeaders": [],
+  "startedAt": "2026-09-14T11:51:41.692Z",
+  "durationMs": 2567,
+  "exitCode": 0,
+  "status": 200,
+  "responseHeaders": "HTTP/2.0 200 OK\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\r\nCache-Control: private, max-age=60, s-maxage=60\r\nContent-Security-Policy: default-src 'none'\r\nContent-Type: application/json; charset=utf-8\r\nDate: Mon, 14 Sep 2026 11:51:44 GMT\r\nEtag: W/\"81592f4dcef3dc4338ceb05f213fb48e548330696a725a662ae8d79704e1607c\"\r\nLast-Modified: Mon, 14 Sep 2026 11:46:40 GMT\r\nReferrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin\r\nServer: github.com\r\nStrict-Transport-Security: max-age=31536000; includeSubdomains; preload\r\nVary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With\r\nX-Accepted-Oauth-Scopes: repo\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Github-Api-Version-Selected: 2026-03-10\r\nX-Github-Edge-Region: fra\r\nX-Github-Media-Type: github.v3; format=json\r\nX-Github-Request-Id: 6CAA:1E263D:F7FD3C:F07F68:6AA7DFD0\r\nX-Oauth-Client-Id: 178c6fc778ccc68e1d6a\r\nX-Oauth-Scopes: admin:public_key, gist, read:org, repo, workflow\r\nX-Poll-Interval: 300\r\nX-Ratelimit-Limit: 5000\r\nX-Ratelimit-Remaining: 4956\r\nX-Ratelimit-Reset: 1789388310\r\nX-Ratelimit-Resource: core\r\nX-Ratelimit-Used: 44\r\nX-Xss-Protection: 0",
+  "data": {
+    "ref": "refs/heads/master",
+    "node_id": "REF_kwDOUaGcPbFyZWZzL2hlYWRzL21hc3Rlcg",
+    "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/git/refs/heads/master",
+    "object": {
+      "sha": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+      "type": "commit",
+      "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/git/commits/c30f2de2b9ac847978bcd1dce863998e583f9d7a"
+    }
+  },
+  "stderr": ""
+}
