@@ -1,0 +1,76 @@
+{
+  "files": {
+    ".agents/skills/lab-skill/SKILL.md": {
+      "size": 88,
+      "sha256": "04203ea5383695d97a9c6781dad274fbce250d04350d803920eb0fcc26ee53f5"
+    },
+    ".claude/agents/lab-reviewer.md": {
+      "size": 129,
+      "sha256": "acdeb6902a9ca24a85f6ca7e093c14f7fbcda87fa15f939c3cd3b3d6e0bfcec4"
+    },
+    ".claude/skills/lab-skill/SKILL.md": {
+      "size": 88,
+      "sha256": "04203ea5383695d97a9c6781dad274fbce250d04350d803920eb0fcc26ee53f5"
+    },
+    ".codex/agents/lab-reviewer.toml": {
+      "size": 156,
+      "sha256": "927819e7881c6c781137860e462e5df0d9c1e3fc6ca353e69f1abb37e82cc0bc"
+    },
+    ".ruler/AGENTS.md": {
+      "size": 53,
+      "sha256": "5edf9bb4639ae88dd3dbd73cd22ec693bed40ad8de1cb07af28dbbcb559ad1df"
+    },
+    ".ruler/agents/lab-reviewer.md": {
+      "size": 141,
+      "sha256": "3e58ab22b271cf84459d62edb2bb2e55ec3cde64f09cd7ecd876673ba235c534"
+    },
+    ".ruler/ruler.toml": {
+      "size": 1542,
+      "sha256": "8d181aa53a78f22291afc34787541909a361044f9d84ed755b3cc4164af13eba"
+    },
+    ".ruler/skills/lab-skill/SKILL.md": {
+      "size": 88,
+      "sha256": "04203ea5383695d97a9c6781dad274fbce250d04350d803920eb0fcc26ee53f5"
+    },
+    "AGENTS.md": {
+      "size": 118,
+      "sha256": "c54e8747c7ef46295e95da2767f3701b15782da385207f4ceae26022292f6719"
+    },
+    "CLAUDE.md": {
+      "size": 90,
+      "sha256": "171c75bc17d7a2be577b3a77e616df50a0e9e8e0931089f0e9c8ad0fc7fc58df"
+    }
+  },
+  "count": 10,
+  "bytes": 2493,
+  "status": "?? .agents/skills/lab-skill/SKILL.md\n?? .claude/agents/lab-reviewer.md\n?? .claude/skills/lab-skill/SKILL.md\n?? .codex/agents/lab-reviewer.toml\n?? .ruler/AGENTS.md\n?? .ruler/agents/lab-reviewer.md\n?? .ruler/ruler.toml\n?? .ruler/skills/lab-skill/SKILL.md\n?? AGENTS.md\n?? CLAUDE.md\n",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/f-ruler-ruler-first",
+    "startedAt": "2026-09-14T09:51:57.774Z",
+    "durationMs": 3,
+    "exitCode": 0,
+    "stdout": "?? .agents/skills/lab-skill/SKILL.md\n?? .claude/agents/lab-reviewer.md\n?? .claude/skills/lab-skill/SKILL.md\n?? .codex/agents/lab-reviewer.toml\n?? .ruler/AGENTS.md\n?? .ruler/agents/lab-reviewer.md\n?? .ruler/ruler.toml\n?? .ruler/skills/lab-skill/SKILL.md\n?? AGENTS.md\n?? CLAUDE.md\n",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/f-ruler-ruler-first",
+    "startedAt": "2026-09-14T09:51:57.777Z",
+    "durationMs": 3,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

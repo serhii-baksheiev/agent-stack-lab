@@ -1,0 +1,4 @@
+{
+  ".claude/agents/lab-reviewer.md": "---\nname: lab-reviewer\ndescription: Synthetic read-only reviewer\nmodel: inherit\nreadonly: true\n---\n\nReview only synthetic files.\n",
+  ".codex/agents/lab-reviewer.toml": "name = \"lab-reviewer\"\ndescription = \"Synthetic read-only reviewer\"\ndeveloper_instructions = \"\"\"\nReview only synthetic files.\n\"\"\"\nsandbox_mode = \"read-only\"\n"
+}

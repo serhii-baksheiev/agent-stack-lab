@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "install",
+    "--help"
+  ],
+  "cwd": ".lab-runs/f-native-claude-rig-first/repo",
+  "startedAt": "2026-09-14T09:52:04.199Z",
+  "durationMs": 119,
+  "exitCode": 0,
+  "stdout": "Usage: claude plugin install|i [options] <plugin>\n\nInstall a plugin from available marketplaces (use plugin@marketplace for\nspecific marketplace)\n\nOptions:\n  --config <key=value>  Set a userConfig option declared in the plugin's\n                        manifest (repeatable). Values are validated against the\n                        schema and stored via the same path as the interactive\n                        /plugin configure flow.\n  -h, --help            Display help for command\n  --json                Print one machine-readable result line on stdout instead\n                        of the human message (same exit codes; a\n                        marketplace-declared command is still shown and must be\n                        confirmed — pass -y when not interactive)\n  -s, --scope <scope>   Installation scope: user, project, or local (default:\n                        \"user\")\n  -y, --yes             Accept the displayed marketplace-declared command\n                        without the confirmation prompt — a plugin installed by\n                        running a command, or one whose archive is fetched\n                        through a headersHelper command (required when stdin or\n                        stdout is not a TTY)\n",
+  "stderr": ""
+}

@@ -1,0 +1,40 @@
+{
+  "files": {
+    ".claude/settings.json": {
+      "size": 238,
+      "sha256": "f460d8b2859dac8a3e27ada4c7ee2a739c33a51f7b2d509b9bace0c697593ef5"
+    }
+  },
+  "count": 1,
+  "bytes": 238,
+  "status": "?? .claude/settings.json\n",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/f-native-claude-native-first/repo",
+    "startedAt": "2026-09-14T09:52:07.706Z",
+    "durationMs": 5,
+    "exitCode": 0,
+    "stdout": "?? .claude/settings.json\n",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/f-native-claude-native-first/repo",
+    "startedAt": "2026-09-14T09:52:07.711Z",
+    "durationMs": 4,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

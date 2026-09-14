@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "install",
+    "lab-neutral@personal",
+    "--scope",
+    "project",
+    "--json"
+  ],
+  "cwd": ".lab-runs/f-native-claude-rig-first/repo",
+  "startedAt": "2026-09-14T09:52:04.788Z",
+  "durationMs": 199,
+  "exitCode": 0,
+  "stdout": "{\"command\":\"install\",\"outcome\":\"ok\",\"plugin\":\"lab-neutral@personal\",\"pluginId\":\"lab-neutral@personal\",\"scope\":\"project\",\"message\":\"Successfully installed plugin: lab-neutral@personal (scope: project)\"}\n",
+  "stderr": ""
+}

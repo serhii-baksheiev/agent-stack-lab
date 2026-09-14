@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "details",
+    "lab-neutral@personal"
+  ],
+  "cwd": ".lab-runs/f-native-claude-native-first/repo",
+  "startedAt": "2026-09-14T09:52:08.639Z",
+  "durationMs": 193,
+  "exitCode": 0,
+  "stdout": "lab-neutral 1.0.0\n  Description: Synthetic shared skill and hook lifecycle fixture\n  Source: lab-neutral@personal\n\nComponent inventory\n  Skills (1)  lab-proof\n  Agents (1)  auditor\n  Hooks (2)  SessionStart, Setup  (harness-only — no model context cost)\n  MCP servers (0)\n  LSP servers (0)\n\nProjected token cost\n  Always-on:   ~39 tok   added to every session\n\nPer-component (rounded)\n  component  always-on  on-invoke\n  lab-proof        ~20        ~60\n  auditor         < 20       < 20\n\n  On-invoke cost is paid each time a skill or agent fires.\n  Token counts are estimates and may differ from actual usage.\n",
+  "stderr": ""
+}

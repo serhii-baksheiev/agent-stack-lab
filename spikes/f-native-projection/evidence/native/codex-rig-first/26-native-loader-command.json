@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/scripts/spike-f-import.mjs",
+    "--inspect",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-native-codex-rig-first/repo",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-native-codex-rig-first/home/.codex",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-native-codex-rig-first/inspection.json"
+  ],
+  "cwd": ".lab-runs/f-native-codex-rig-first/repo",
+  "startedAt": "2026-09-14T09:52:10.816Z",
+  "durationMs": 219,
+  "exitCode": 0,
+  "stdout": "{\"status\":\"completed\",\"observations\":{},\"errors\":[]}\n",
+  "stderr": ""
+}

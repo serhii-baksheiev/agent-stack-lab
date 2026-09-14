@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "marketplace",
+    "--help"
+  ],
+  "cwd": ".lab-runs/f-native-claude-native-first/repo",
+  "startedAt": "2026-09-14T09:52:07.364Z",
+  "durationMs": 125,
+  "exitCode": 0,
+  "stdout": "Usage: claude plugin marketplace [options] [command]\n\nManage Claude Code marketplaces\n\nOptions:\n  -h, --help                  Display help for command\n\nCommands:\n  add [options] <source>      Add a marketplace from a URL, path, or GitHub repo\n  help [command]              display help for command\n  list [options]              List all configured marketplaces\n  remove|rm [options] <name>  Remove a configured marketplace\n  update [options] [name]     Update marketplace(s) from their source - updates\n                              all if no name specified\n",
+  "stderr": ""
+}

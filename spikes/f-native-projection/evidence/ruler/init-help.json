@@ -1,0 +1,14 @@
+{
+  "command": [
+    "node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-ruler-package/node_modules/@intellectronica/ruler/dist/cli/index.js",
+    "init",
+    "--help"
+  ],
+  "cwd": ".lab-runs/f-ruler-package",
+  "startedAt": "2026-09-14T09:51:54.018Z",
+  "durationMs": 171,
+  "exitCode": 0,
+  "stdout": "ruler init\n\nScaffold a .ruler directory with default files\n\nOptions:\n  --version       Show version number                                  [boolean]\n  --help          Show help                                            [boolean]\n  --project-root  Project root directory                      [string] [default:\n  \"<LAB>/.lab-runs/f-ruler-package\"]\n  --global        Initialize in global config directory (XDG_CONFIG_HOME/ruler)\n                                                      [boolean] [default: false]\n",
+  "stderr": ""
+}

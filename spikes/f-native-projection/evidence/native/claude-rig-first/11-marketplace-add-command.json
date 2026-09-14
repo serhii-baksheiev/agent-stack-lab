@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "marketplace",
+    "add",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-native-claude-rig-first/marketplace",
+    "--scope",
+    "project"
+  ],
+  "cwd": ".lab-runs/f-native-claude-rig-first/repo",
+  "startedAt": "2026-09-14T09:52:04.570Z",
+  "durationMs": 204,
+  "exitCode": 0,
+  "stdout": "Adding marketplace…✔ Successfully added marketplace: personal (declared in project settings)\n",
+  "stderr": ""
+}

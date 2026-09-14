@@ -1,0 +1,77 @@
+[
+  {
+    "order": "rig-first",
+    "repeatRigExit": 1,
+    "repeatRulerExit": 0,
+    "repeatApplyExit": 0,
+    "immediateRepeatIdentical": false,
+    "stableRepeatIdentical": true,
+    "rigDryExit": 0,
+    "rigDryReadOnly": true,
+    "rigUpgradeExit": 0,
+    "rigPreservesUserEdits": true,
+    "rigDeletedStaysRemoved": true,
+    "rulerDryExit": 0,
+    "rulerDryReadOnly": true,
+    "rulerUpgradeExit": 0,
+    "sourceUpdatePropagated": true,
+    "generatedEditPreserved": false,
+    "projectedDeletePreserved": false,
+    "rulerPreservesSharedEdits": [
+      {
+        "path": "AGENTS.md",
+        "preserved": false
+      },
+      {
+        "path": "CLAUDE.md",
+        "preserved": false
+      }
+    ],
+    "rulerRevertExit": 0,
+    "rigDryAfterRevertExit": 0,
+    "rigFilesChangedByRevert": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ],
+    "remainingProjectedAgents": [
+      ".claude/agents/lab-reviewer.md",
+      ".codex/agents/lab-reviewer.toml"
+    ],
+    "secondOverwrites": [
+      ".agents/skills/check-premises/SKILL.md",
+      ".agents/skills/loop/SKILL.md",
+      ".agents/skills/new-invariant/SKILL.md",
+      ".agents/skills/new-invariant/guard-invariant.example.mjs",
+      ".agents/skills/new-invariant/guard-invariant.example.test.mjs",
+      ".agents/skills/pr-ship/SKILL.md",
+      ".agents/skills/worktree-task/SKILL.md",
+      ".claude/agents/code-reviewer.md",
+      ".claude/agents/prose-reviewer.md",
+      ".claude/agents/security-scanner.md",
+      ".claude/agents/test-writer.md",
+      ".claude/skills/check-premises/SKILL.md",
+      ".claude/skills/loop/SKILL.md",
+      ".claude/skills/new-invariant/SKILL.md",
+      ".claude/skills/new-invariant/guard-invariant.example.mjs",
+      ".claude/skills/new-invariant/guard-invariant.example.test.mjs",
+      ".claude/skills/pr-ship/SKILL.md",
+      ".claude/skills/worktree-task/SKILL.md",
+      ".codex/agents/code-reviewer.toml",
+      ".codex/agents/prose-reviewer.toml",
+      ".codex/agents/security-scanner.toml",
+      ".codex/agents/test-writer.toml",
+      "AGENTS.md",
+      "CLAUDE.md"
+    ],
+    "rigUninstall": "unverified: no native command in 0.9.0",
+    "releaseUpgrade": "unverified: source update/reapply only; same package version",
+    "stableRepeatExit": 0
+  },
+  {
+    "order": "ruler-first",
+    "blocked": true,
+    "secondComponentExit": 1,
+    "reason": "This repo already has an CLAUDE.md. Refusing to overwrite it. Merge the agent-os map in by hand, or run create-agent-rig upgrade to refresh a rig.\n",
+    "filesUnchangedByRefusal": true
+  }
+]

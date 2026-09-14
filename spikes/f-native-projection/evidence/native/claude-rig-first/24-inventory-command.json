@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "list",
+    "--json"
+  ],
+  "cwd": ".lab-runs/f-native-claude-rig-first/repo",
+  "startedAt": "2026-09-14T09:52:05.403Z",
+  "durationMs": 176,
+  "exitCode": 0,
+  "stdout": "[\n  {\n    \"id\": \"lab-neutral@personal\",\n    \"version\": \"1.0.0\",\n    \"scope\": \"project\",\n    \"enabled\": true,\n    \"installPath\": \"<LAB>/.lab-runs/f-native-claude-rig-first/home/.claude/plugins/cache/personal/lab-neutral/1.0.0\",\n    \"installedAt\": \"2026-09-14T09:52:04.962Z\",\n    \"lastUpdated\": \"2026-09-14T09:52:04.962Z\",\n    \"projectPath\": \"<LAB>/.lab-runs/f-native-claude-rig-first/repo\"\n  }\n]\n",
+  "stderr": ""
+}

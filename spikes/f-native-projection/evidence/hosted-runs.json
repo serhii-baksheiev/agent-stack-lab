@@ -1,0 +1,16 @@
+{
+  "canonical": {
+    "runId": 34830163055,
+    "commit": "e73a9b9",
+    "url": "https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34830163055",
+    "conclusion": "success",
+    "artifact": "spike-f-evidence"
+  },
+  "superseded": [
+    {"runId": 34829609999, "reason": "Harness used sanitized <LAB> path for cache execution; fixed explicit fixture-path restoration."},
+    {"runId": 34829757807, "reason": "Same classified harness path failure; run was already queued by Windows isolation fix."},
+    {"runId": 34829865552, "reason": "Harness omitted creation of isolated CODEX_HOME; fixed mkdir before invocation."},
+    {"runId": 34830001687, "reason": "Codex list has no installedPath; harness now uses the measured install-response path."}
+  ],
+  "note": "Superseded artifacts are not canonical successes. No unchanged flaky scenario was manually rerun. Each follow-up contains a diagnosed collector/setup fix."
+}

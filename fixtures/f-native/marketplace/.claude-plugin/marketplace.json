@@ -1,0 +1,5 @@
+{
+  "name": "personal",
+  "owner": {"name": "Synthetic Lab"},
+  "plugins": [{"name": "lab-neutral", "source": "./plugins/lab-neutral"}]
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "tar",
+    "-xzf",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-ruler-package/rig.tgz",
+    "-C",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-ruler-package"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T09:51:53.668Z",
+  "durationMs": 20,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": ""
+}

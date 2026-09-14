@@ -1,0 +1,386 @@
+[
+  {
+    "stage": "before-import",
+    "files": [
+      {
+        "path": ".claude/agents/lab-reviewer.md",
+        "bytes": 128,
+        "sha256": "f1d3aec62791188fc31e783b20b2b545efe98d376e0859f31ca85ba00c5be648",
+        "text": ""
+      },
+      {
+        "path": ".claude/commands/lab-command.md",
+        "bytes": 33,
+        "sha256": "5ad27abf8614e79c5d956b89776546f96d603a4d29ece56544c958c6e9fad32a",
+        "text": ""
+      },
+      {
+        "path": ".claude/settings.json",
+        "bytes": 218,
+        "sha256": "421d60ec487c66c5e18818cbd801015fe115ff66080e03c592b0f08b3b214ead",
+        "text": ""
+      },
+      {
+        "path": ".claude/skills/lab-import/SKILL.md",
+        "bytes": 109,
+        "sha256": "9cd13c62141b5785d6365daa735c4832ba10befcbdc67a457e81d5d6bf6c91e5",
+        "text": ""
+      },
+      {
+        "path": "CLAUDE.md",
+        "bytes": 70,
+        "sha256": "6b3dc5820d77e33aeb4278785b5e48624fbc8566a399a2bc7abe3934c1a059bd",
+        "text": "\n# Synthetic project\nUse fixture-only data. Import marker: source-v1.\n"
+      }
+    ],
+    "gitStatus": "?? .claude/agents/lab-reviewer.md\n?? .claude/commands/lab-command.md\n?? .claude/settings.json\n?? .claude/skills/lab-import/SKILL.md\n?? CLAUDE.md\n",
+    "gitStatusCommand": {
+      "exitCode": 0,
+      "error": null,
+      "stdout": "?? .claude/agents/lab-reviewer.md\n?? .claude/commands/lab-command.md\n?? .claude/settings.json\n?? .claude/skills/lab-import/SKILL.md\n?? CLAUDE.md\n",
+      "stderr": ""
+    }
+  },
+  {
+    "stage": "firstImport",
+    "files": [
+      {
+        "path": ".agents/skills/lab-import/SKILL.md",
+        "bytes": 109,
+        "sha256": "9cd13c62141b5785d6365daa735c4832ba10befcbdc67a457e81d5d6bf6c91e5",
+        "text": "---\nname: lab-import\ndescription: Synthetic import validation skill\n---\nReturn the synthetic fixture marker.\n"
+      },
+      {
+        "path": ".agents/skills/source-command-lab-command/SKILL.md",
+        "bytes": 266,
+        "sha256": "305064b86f795347571f4cff68486b9a5988cef4aab877ebbaa192c62bca72f9",
+        "text": "---\nname: \"source-command-lab-command\"\ndescription: \"Migrated source command `lab-command`\"\n---\n\n# source-command-lab-command\n\nUse this skill when the user asks to run the migrated source command `lab-command`.\n\n## Command Template\n\nReport synthetic fixture status.\n"
+      },
+      {
+        "path": ".claude/agents/lab-reviewer.md",
+        "bytes": 128,
+        "sha256": "f1d3aec62791188fc31e783b20b2b545efe98d376e0859f31ca85ba00c5be648",
+        "text": ""
+      },
+      {
+        "path": ".claude/commands/lab-command.md",
+        "bytes": 33,
+        "sha256": "5ad27abf8614e79c5d956b89776546f96d603a4d29ece56544c958c6e9fad32a",
+        "text": ""
+      },
+      {
+        "path": ".claude/settings.json",
+        "bytes": 218,
+        "sha256": "421d60ec487c66c5e18818cbd801015fe115ff66080e03c592b0f08b3b214ead",
+        "text": ""
+      },
+      {
+        "path": ".claude/skills/lab-import/SKILL.md",
+        "bytes": 109,
+        "sha256": "9cd13c62141b5785d6365daa735c4832ba10befcbdc67a457e81d5d6bf6c91e5",
+        "text": ""
+      },
+      {
+        "path": ".codex/agents/lab-reviewer.toml",
+        "bytes": 139,
+        "sha256": "4dc6bdd352cb45a02b5629dd352e06b567c0ad9d9a842c7f0805e0eca241be7c",
+        "text": ""
+      },
+      {
+        "path": ".codex/hooks.json",
+        "bytes": 219,
+        "sha256": "abe69c59d94a1ab1b9e2eb042fc349411551b70502087c6ad4afbe7765315ea9",
+        "text": ""
+      },
+      {
+        "path": "AGENTS.md",
+        "bytes": 70,
+        "sha256": "6b3dc5820d77e33aeb4278785b5e48624fbc8566a399a2bc7abe3934c1a059bd",
+        "text": "\n# Synthetic project\nUse fixture-only data. Import marker: source-v1.\n"
+      },
+      {
+        "path": "CLAUDE.md",
+        "bytes": 70,
+        "sha256": "6b3dc5820d77e33aeb4278785b5e48624fbc8566a399a2bc7abe3934c1a059bd",
+        "text": "\n# Synthetic project\nUse fixture-only data. Import marker: source-v1.\n"
+      }
+    ],
+    "gitStatus": "?? .agents/skills/lab-import/SKILL.md\n?? .agents/skills/source-command-lab-command/SKILL.md\n?? .claude/agents/lab-reviewer.md\n?? .claude/commands/lab-command.md\n?? .claude/settings.json\n?? .claude/skills/lab-import/SKILL.md\n?? .codex/agents/lab-reviewer.toml\n?? .codex/hooks.json\n?? AGENTS.md\n?? CLAUDE.md\n",
+    "gitStatusCommand": {
+      "exitCode": 0,
+      "error": null,
+      "stdout": "?? .agents/skills/lab-import/SKILL.md\n?? .agents/skills/source-command-lab-command/SKILL.md\n?? .claude/agents/lab-reviewer.md\n?? .claude/commands/lab-command.md\n?? .claude/settings.json\n?? .claude/skills/lab-import/SKILL.md\n?? .codex/agents/lab-reviewer.toml\n?? .codex/hooks.json\n?? AGENTS.md\n?? CLAUDE.md\n",
+      "stderr": ""
+    }
+  },
+  {
+    "stage": "repeatImport",
+    "files": [
+      {
+        "path": ".agents/skills/lab-import/SKILL.md",
+        "bytes": 109,
+        "sha256": "9cd13c62141b5785d6365daa735c4832ba10befcbdc67a457e81d5d6bf6c91e5",
+        "text": "---\nname: lab-import\ndescription: Synthetic import validation skill\n---\nReturn the synthetic fixture marker.\n"
+      },
+      {
+        "path": ".agents/skills/source-command-lab-command/SKILL.md",
+        "bytes": 266,
+        "sha256": "305064b86f795347571f4cff68486b9a5988cef4aab877ebbaa192c62bca72f9",
+        "text": "---\nname: \"source-command-lab-command\"\ndescription: \"Migrated source command `lab-command`\"\n---\n\n# source-command-lab-command\n\nUse this skill when the user asks to run the migrated source command `lab-command`.\n\n## Command Template\n\nReport synthetic fixture status.\n"
+      },
+      {
+        "path": ".claude/agents/lab-reviewer.md",
+        "bytes": 128,
+        "sha256": "f1d3aec62791188fc31e783b20b2b545efe98d376e0859f31ca85ba00c5be648",
+        "text": ""
+      },
+      {
+        "path": ".claude/commands/lab-command.md",
+        "bytes": 33,
+        "sha256": "5ad27abf8614e79c5d956b89776546f96d603a4d29ece56544c958c6e9fad32a",
+        "text": ""
+      },
+      {
+        "path": ".claude/settings.json",
+        "bytes": 218,
+        "sha256": "421d60ec487c66c5e18818cbd801015fe115ff66080e03c592b0f08b3b214ead",
+        "text": ""
+      },
+      {
+        "path": ".claude/skills/lab-import/SKILL.md",
+        "bytes": 109,
+        "sha256": "9cd13c62141b5785d6365daa735c4832ba10befcbdc67a457e81d5d6bf6c91e5",
+        "text": ""
+      },
+      {
+        "path": ".codex/agents/lab-reviewer.toml",
+        "bytes": 139,
+        "sha256": "4dc6bdd352cb45a02b5629dd352e06b567c0ad9d9a842c7f0805e0eca241be7c",
+        "text": ""
+      },
+      {
+        "path": ".codex/hooks.json",
+        "bytes": 219,
+        "sha256": "abe69c59d94a1ab1b9e2eb042fc349411551b70502087c6ad4afbe7765315ea9",
+        "text": ""
+      },
+      {
+        "path": "AGENTS.md",
+        "bytes": 70,
+        "sha256": "6b3dc5820d77e33aeb4278785b5e48624fbc8566a399a2bc7abe3934c1a059bd",
+        "text": "\n# Synthetic project\nUse fixture-only data. Import marker: source-v1.\n"
+      },
+      {
+        "path": "CLAUDE.md",
+        "bytes": 70,
+        "sha256": "6b3dc5820d77e33aeb4278785b5e48624fbc8566a399a2bc7abe3934c1a059bd",
+        "text": "\n# Synthetic project\nUse fixture-only data. Import marker: source-v1.\n"
+      }
+    ],
+    "gitStatus": "?? .agents/skills/lab-import/SKILL.md\n?? .agents/skills/source-command-lab-command/SKILL.md\n?? .claude/agents/lab-reviewer.md\n?? .claude/commands/lab-command.md\n?? .claude/settings.json\n?? .claude/skills/lab-import/SKILL.md\n?? .codex/agents/lab-reviewer.toml\n?? .codex/hooks.json\n?? AGENTS.md\n?? CLAUDE.md\n",
+    "gitStatusCommand": {
+      "exitCode": 0,
+      "error": null,
+      "stdout": "?? .agents/skills/lab-import/SKILL.md\n?? .agents/skills/source-command-lab-command/SKILL.md\n?? .claude/agents/lab-reviewer.md\n?? .claude/commands/lab-command.md\n?? .claude/settings.json\n?? .claude/skills/lab-import/SKILL.md\n?? .codex/agents/lab-reviewer.toml\n?? .codex/hooks.json\n?? AGENTS.md\n?? CLAUDE.md\n",
+      "stderr": ""
+    }
+  },
+  {
+    "stage": "user-edit-and-delete",
+    "files": [
+      {
+        "path": ".agents/skills/source-command-lab-command/SKILL.md",
+        "bytes": 266,
+        "sha256": "305064b86f795347571f4cff68486b9a5988cef4aab877ebbaa192c62bca72f9",
+        "text": "---\nname: \"source-command-lab-command\"\ndescription: \"Migrated source command `lab-command`\"\n---\n\n# source-command-lab-command\n\nUse this skill when the user asks to run the migrated source command `lab-command`.\n\n## Command Template\n\nReport synthetic fixture status.\n"
+      },
+      {
+        "path": ".claude/agents/lab-reviewer.md",
+        "bytes": 128,
+        "sha256": "f1d3aec62791188fc31e783b20b2b545efe98d376e0859f31ca85ba00c5be648",
+        "text": ""
+      },
+      {
+        "path": ".claude/commands/lab-command.md",
+        "bytes": 33,
+        "sha256": "5ad27abf8614e79c5d956b89776546f96d603a4d29ece56544c958c6e9fad32a",
+        "text": ""
+      },
+      {
+        "path": ".claude/settings.json",
+        "bytes": 218,
+        "sha256": "421d60ec487c66c5e18818cbd801015fe115ff66080e03c592b0f08b3b214ead",
+        "text": ""
+      },
+      {
+        "path": ".claude/skills/lab-import/SKILL.md",
+        "bytes": 109,
+        "sha256": "9cd13c62141b5785d6365daa735c4832ba10befcbdc67a457e81d5d6bf6c91e5",
+        "text": ""
+      },
+      {
+        "path": ".codex/agents/lab-reviewer.toml",
+        "bytes": 139,
+        "sha256": "4dc6bdd352cb45a02b5629dd352e06b567c0ad9d9a842c7f0805e0eca241be7c",
+        "text": ""
+      },
+      {
+        "path": ".codex/hooks.json",
+        "bytes": 219,
+        "sha256": "abe69c59d94a1ab1b9e2eb042fc349411551b70502087c6ad4afbe7765315ea9",
+        "text": ""
+      },
+      {
+        "path": "AGENTS.md",
+        "bytes": 89,
+        "sha256": "405e75ee6ad22facc67d5e18e15c782772eb20f694dda409be7a9582500e0d13",
+        "text": "\n# Synthetic project\nUse fixture-only data. Import marker: source-v1.\n\nUSER_EDIT_KEEP_ME\n"
+      },
+      {
+        "path": "CLAUDE.md",
+        "bytes": 70,
+        "sha256": "6b3dc5820d77e33aeb4278785b5e48624fbc8566a399a2bc7abe3934c1a059bd",
+        "text": "\n# Synthetic project\nUse fixture-only data. Import marker: source-v1.\n"
+      }
+    ],
+    "gitStatus": "?? .agents/skills/source-command-lab-command/SKILL.md\n?? .claude/agents/lab-reviewer.md\n?? .claude/commands/lab-command.md\n?? .claude/settings.json\n?? .claude/skills/lab-import/SKILL.md\n?? .codex/agents/lab-reviewer.toml\n?? .codex/hooks.json\n?? AGENTS.md\n?? CLAUDE.md\n",
+    "gitStatusCommand": {
+      "exitCode": 0,
+      "error": null,
+      "stdout": "?? .agents/skills/source-command-lab-command/SKILL.md\n?? .claude/agents/lab-reviewer.md\n?? .claude/commands/lab-command.md\n?? .claude/settings.json\n?? .claude/skills/lab-import/SKILL.md\n?? .codex/agents/lab-reviewer.toml\n?? .codex/hooks.json\n?? AGENTS.md\n?? CLAUDE.md\n",
+      "stderr": ""
+    }
+  },
+  {
+    "stage": "reimportAfterEdit",
+    "files": [
+      {
+        "path": ".agents/skills/source-command-lab-command/SKILL.md",
+        "bytes": 266,
+        "sha256": "305064b86f795347571f4cff68486b9a5988cef4aab877ebbaa192c62bca72f9",
+        "text": "---\nname: \"source-command-lab-command\"\ndescription: \"Migrated source command `lab-command`\"\n---\n\n# source-command-lab-command\n\nUse this skill when the user asks to run the migrated source command `lab-command`.\n\n## Command Template\n\nReport synthetic fixture status.\n"
+      },
+      {
+        "path": ".claude/agents/lab-reviewer.md",
+        "bytes": 128,
+        "sha256": "f1d3aec62791188fc31e783b20b2b545efe98d376e0859f31ca85ba00c5be648",
+        "text": ""
+      },
+      {
+        "path": ".claude/commands/lab-command.md",
+        "bytes": 33,
+        "sha256": "5ad27abf8614e79c5d956b89776546f96d603a4d29ece56544c958c6e9fad32a",
+        "text": ""
+      },
+      {
+        "path": ".claude/settings.json",
+        "bytes": 218,
+        "sha256": "421d60ec487c66c5e18818cbd801015fe115ff66080e03c592b0f08b3b214ead",
+        "text": ""
+      },
+      {
+        "path": ".claude/skills/lab-import/SKILL.md",
+        "bytes": 109,
+        "sha256": "9cd13c62141b5785d6365daa735c4832ba10befcbdc67a457e81d5d6bf6c91e5",
+        "text": ""
+      },
+      {
+        "path": ".codex/agents/lab-reviewer.toml",
+        "bytes": 139,
+        "sha256": "4dc6bdd352cb45a02b5629dd352e06b567c0ad9d9a842c7f0805e0eca241be7c",
+        "text": ""
+      },
+      {
+        "path": ".codex/hooks.json",
+        "bytes": 219,
+        "sha256": "abe69c59d94a1ab1b9e2eb042fc349411551b70502087c6ad4afbe7765315ea9",
+        "text": ""
+      },
+      {
+        "path": "AGENTS.md",
+        "bytes": 89,
+        "sha256": "405e75ee6ad22facc67d5e18e15c782772eb20f694dda409be7a9582500e0d13",
+        "text": "\n# Synthetic project\nUse fixture-only data. Import marker: source-v1.\n\nUSER_EDIT_KEEP_ME\n"
+      },
+      {
+        "path": "CLAUDE.md",
+        "bytes": 69,
+        "sha256": "a9538a18d46e433138e64cee92be19e3cebeeb4cd802a47183ba0b8f754fd143",
+        "text": "# Synthetic project\nUse fixture-only data. Import marker: source-v2.\n"
+      }
+    ],
+    "gitStatus": "?? .agents/skills/source-command-lab-command/SKILL.md\n?? .claude/agents/lab-reviewer.md\n?? .claude/commands/lab-command.md\n?? .claude/settings.json\n?? .claude/skills/lab-import/SKILL.md\n?? .codex/agents/lab-reviewer.toml\n?? .codex/hooks.json\n?? AGENTS.md\n?? CLAUDE.md\n",
+    "gitStatusCommand": {
+      "exitCode": 0,
+      "error": null,
+      "stdout": "?? .agents/skills/source-command-lab-command/SKILL.md\n?? .claude/agents/lab-reviewer.md\n?? .claude/commands/lab-command.md\n?? .claude/settings.json\n?? .claude/skills/lab-import/SKILL.md\n?? .codex/agents/lab-reviewer.toml\n?? .codex/hooks.json\n?? AGENTS.md\n?? CLAUDE.md\n",
+      "stderr": ""
+    }
+  },
+  {
+    "stage": "fresh-detect-no-items",
+    "files": [
+      {
+        "path": ".agents/skills/source-command-lab-command/SKILL.md",
+        "bytes": 266,
+        "sha256": "305064b86f795347571f4cff68486b9a5988cef4aab877ebbaa192c62bca72f9",
+        "text": "---\nname: \"source-command-lab-command\"\ndescription: \"Migrated source command `lab-command`\"\n---\n\n# source-command-lab-command\n\nUse this skill when the user asks to run the migrated source command `lab-command`.\n\n## Command Template\n\nReport synthetic fixture status.\n"
+      },
+      {
+        "path": ".claude/agents/lab-reviewer.md",
+        "bytes": 128,
+        "sha256": "f1d3aec62791188fc31e783b20b2b545efe98d376e0859f31ca85ba00c5be648",
+        "text": ""
+      },
+      {
+        "path": ".claude/commands/lab-command.md",
+        "bytes": 33,
+        "sha256": "5ad27abf8614e79c5d956b89776546f96d603a4d29ece56544c958c6e9fad32a",
+        "text": ""
+      },
+      {
+        "path": ".claude/settings.json",
+        "bytes": 218,
+        "sha256": "421d60ec487c66c5e18818cbd801015fe115ff66080e03c592b0f08b3b214ead",
+        "text": ""
+      },
+      {
+        "path": ".claude/skills/lab-import/SKILL.md",
+        "bytes": 109,
+        "sha256": "9cd13c62141b5785d6365daa735c4832ba10befcbdc67a457e81d5d6bf6c91e5",
+        "text": ""
+      },
+      {
+        "path": ".codex/agents/lab-reviewer.toml",
+        "bytes": 139,
+        "sha256": "4dc6bdd352cb45a02b5629dd352e06b567c0ad9d9a842c7f0805e0eca241be7c",
+        "text": ""
+      },
+      {
+        "path": ".codex/hooks.json",
+        "bytes": 219,
+        "sha256": "abe69c59d94a1ab1b9e2eb042fc349411551b70502087c6ad4afbe7765315ea9",
+        "text": ""
+      },
+      {
+        "path": "AGENTS.md",
+        "bytes": 89,
+        "sha256": "405e75ee6ad22facc67d5e18e15c782772eb20f694dda409be7a9582500e0d13",
+        "text": "\n# Synthetic project\nUse fixture-only data. Import marker: source-v1.\n\nUSER_EDIT_KEEP_ME\n"
+      },
+      {
+        "path": "CLAUDE.md",
+        "bytes": 69,
+        "sha256": "a9538a18d46e433138e64cee92be19e3cebeeb4cd802a47183ba0b8f754fd143",
+        "text": "# Synthetic project\nUse fixture-only data. Import marker: source-v2.\n"
+      }
+    ],
+    "gitStatus": "?? .agents/skills/source-command-lab-command/SKILL.md\n?? .claude/agents/lab-reviewer.md\n?? .claude/commands/lab-command.md\n?? .claude/settings.json\n?? .claude/skills/lab-import/SKILL.md\n?? .codex/agents/lab-reviewer.toml\n?? .codex/hooks.json\n?? AGENTS.md\n?? CLAUDE.md\n",
+    "gitStatusCommand": {
+      "exitCode": 0,
+      "error": null,
+      "stdout": "?? .agents/skills/source-command-lab-command/SKILL.md\n?? .claude/agents/lab-reviewer.md\n?? .claude/commands/lab-command.md\n?? .claude/settings.json\n?? .claude/skills/lab-import/SKILL.md\n?? .codex/agents/lab-reviewer.toml\n?? .codex/hooks.json\n?? AGENTS.md\n?? CLAUDE.md\n",
+      "stderr": ""
+    }
+  }
+]

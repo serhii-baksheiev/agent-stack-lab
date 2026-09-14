@@ -1,0 +1,311 @@
+{
+  "scope": "Engineering judgments for Spike F distribution/lifecycle only; no live-model performance scores. For status unverified, score 0 means no demonstrated evidence in this spike, not inherent absence of capability. Do not aggregate these with measured scores.",
+  "scale": "0 worst, 10 best; lower cost and lock-in score higher",
+  "checkedAt": "2026-09-14",
+  "candidates": [
+    {
+      "candidate": "Native Claude Code plugins 2.1.270",
+      "confidence": "medium; installed artifact execution differs from model dispatch",
+      "dimensions": {
+        "userUtility": {
+          "score": 8,
+          "evidence": "Shared source installed, updated to synthetic 1.0.1 and removed through actual CLI in both orders."
+        },
+        "maturity": {
+          "score": 8,
+          "evidence": "Native lifecycle completed; project registration, cache and manifest formats established."
+        },
+        "maintainability": {
+          "score": 8,
+          "evidence": "Delegate package lifecycle upstream, retain wiring compatibility test."
+        },
+        "upstreamActivity": {
+          "score": 9,
+          "evidence": "Official release 2026-09-12; repository last push 2026-09-14."
+        },
+        "claudeCompatibility": {
+          "score": 8,
+          "evidence": "Actual native plugin CLI lifecycle and package probe; live dispatch unverified."
+        },
+        "codexCompatibility": {
+          "score": 6,
+          "evidence": "Shared skill source and dual native manifests; cross-provider live execution unverified."
+        },
+        "reproducibility": {
+          "score": 7,
+          "evidence": "Pinned CLI package integrity and dependency lock, synthetic source revisions; cold offline bootstrap unverified."
+        },
+        "upgradeUninstall": {
+          "score": 8,
+          "evidence": "Functional version update and removal executed; cache customization policy remains unverified."
+        },
+        "absenceOfFileConflicts": {
+          "score": 6,
+          "evidence": "Plugin content lives in native cache, but project settings overlap Rig wiring."
+        },
+        "teamwork": {
+          "score": 0,
+          "evidence": "Deferred to D. Zero denotes unverified evidence coverage, not a proven lack of product capability.",
+          "status": "unverified"
+        },
+        "boardIntegration": {
+          "score": 0,
+          "evidence": "No board operation executed in F. Zero denotes unverified evidence coverage, not a proven lack of product capability.",
+          "status": "unverified"
+        },
+        "security": {
+          "score": 6,
+          "evidence": "Pinned package, isolated profiles and no credentials; no complete hook enforcement audit."
+        },
+        "offlineLocalFirst": {
+          "score": 6,
+          "evidence": "Local marketplace and cache; no network-isolated cold toolchain install."
+        },
+        "integrationCost": {
+          "score": 7,
+          "evidence": "Two-provider wrapper estimate 4–7 days; shared with Codex, not additive."
+        },
+        "annualMaintenanceCost": {
+          "score": 7,
+          "evidence": "Two-provider compatibility estimate 4–8 days/year; not measured labor."
+        },
+        "lowVendorLockIn": {
+          "score": 5,
+          "evidence": "Portable Markdown skill content, provider-specific native lifecycle and proprietary harness."
+        },
+        "licenseSuitability": {
+          "score": 5,
+          "evidence": "Vendor license referenced by npm README; installation tested, redistribution not approved or proposed."
+        }
+      }
+    },
+    {
+      "candidate": "Native Codex plugins 0.154.0",
+      "confidence": "medium; both installation orders and functional updates verified, model dispatch unverified",
+      "dimensions": {
+        "userUtility": {
+          "score": 8,
+          "evidence": "Both native installation orders, functional package update and removal executed."
+        },
+        "maturity": {
+          "score": 8,
+          "evidence": "Native lifecycle completes in hosted fixtures; local marketplace refresh requires plugin add route."
+        },
+        "maintainability": {
+          "score": 8,
+          "evidence": "Native lifecycle APIs avoid replicating upstream caches and registration."
+        },
+        "upstreamActivity": {
+          "score": 9,
+          "evidence": "Official Codex release 2026-09-09; repository last push 2026-09-14."
+        },
+        "claudeCompatibility": {
+          "score": 6,
+          "evidence": "Synthetic source shares skill/script content with Claude; routing semantics remain provider-specific."
+        },
+        "codexCompatibility": {
+          "score": 8,
+          "evidence": "Actual native lifecycle, installed probe and loader skill listing; no live model dispatch."
+        },
+        "reproducibility": {
+          "score": 7,
+          "evidence": "Exact npm CLI distribution and dependency lock; source fixture is pinned by lab SHA."
+        },
+        "upgradeUninstall": {
+          "score": 8,
+          "evidence": "Installed probe advances to 1.0.1 and inventory entry is absent after uninstall."
+        },
+        "absenceOfFileConflicts": {
+          "score": 7,
+          "evidence": "Both orders retain tested Rig edits/deletion and native removal preserves Rig payload; wiring handover remains explicit."
+        },
+        "teamwork": {
+          "score": 0,
+          "evidence": "Deferred to D. Zero denotes unverified evidence coverage, not a proven lack of product capability.",
+          "status": "unverified"
+        },
+        "boardIntegration": {
+          "score": 0,
+          "evidence": "No board operation executed in F. Zero denotes unverified evidence coverage, not a proven lack of product capability.",
+          "status": "unverified"
+        },
+        "security": {
+          "score": 6,
+          "evidence": "Isolated profiles and schema-level hook trust information; no hook enforcement certification."
+        },
+        "offlineLocalFirst": {
+          "score": 6,
+          "evidence": "Local marketplace supported by actual CLI; cold offline dependency install unverified."
+        },
+        "integrationCost": {
+          "score": 7,
+          "evidence": "4–7 days combined two-provider bounded integration estimate."
+        },
+        "annualMaintenanceCost": {
+          "score": 7,
+          "evidence": "4–8 days/year combined two-provider estimate; avoid double counting Claude."
+        },
+        "lowVendorLockIn": {
+          "score": 7,
+          "evidence": "Apache-2.0 CLI and shared Markdown, but native provider registration APIs."
+        },
+        "licenseSuitability": {
+          "score": 9,
+          "evidence": "Apache-2.0 CLI; synthetic assets MIT, no source redistribution required."
+        }
+      }
+    },
+    {
+      "candidate": "Codex native Claude configuration import 0.154.0",
+      "confidence": "medium for migration; high confidence it is not source synchronization in tested replay",
+      "dimensions": {
+        "userUtility": {
+          "score": 7,
+          "evidence": "Real noninteractive migration of skills, commands and subagents; ongoing source changes not propagated."
+        },
+        "maturity": {
+          "score": 6,
+          "evidence": "Completed experimental app-server import, stable replay, no demonstrated undo."
+        },
+        "maintainability": {
+          "score": 8,
+          "evidence": "Use native migration instead of custom translators."
+        },
+        "upstreamActivity": {
+          "score": 9,
+          "evidence": "Official Codex release 2026-09-09; repository last push 2026-09-14."
+        },
+        "claudeCompatibility": {
+          "score": 7,
+          "evidence": "Reads synthetic Claude configuration and source assets; no Claude live session tested."
+        },
+        "codexCompatibility": {
+          "score": 7,
+          "evidence": "Native importer creates Codex artifacts and skills are listed; no model routing execution."
+        },
+        "reproducibility": {
+          "score": 7,
+          "evidence": "Exact CLI, isolated homes, repeat byte-idempotence; source changes intentionally not synchronized."
+        },
+        "upgradeUninstall": {
+          "score": 2,
+          "evidence": "Repeated import does not update changed source; deterministic undo unavailable in tested API."
+        },
+        "absenceOfFileConflicts": {
+          "score": 6,
+          "evidence": "Preserves tested edits and destinations; reverse Rig bootstrap refuses imported anchors."
+        },
+        "teamwork": {
+          "score": 0,
+          "evidence": "Deferred to D. Zero denotes unverified evidence coverage, not a proven lack of product capability.",
+          "status": "unverified"
+        },
+        "boardIntegration": {
+          "score": 0,
+          "evidence": "No board operation executed. Zero denotes unverified evidence coverage, not a proven lack of product capability.",
+          "status": "unverified"
+        },
+        "security": {
+          "score": 6,
+          "evidence": "No home discovery/chat import/authentication; tested project-only reads and generated files."
+        },
+        "offlineLocalFirst": {
+          "score": 7,
+          "evidence": "Local source migration without model calls; network-isolated invocation not measured."
+        },
+        "integrationCost": {
+          "score": 8,
+          "evidence": "A bounded migration call replaces custom file translators; ongoing update excluded."
+        },
+        "annualMaintenanceCost": {
+          "score": 7,
+          "evidence": "Experimental API requires regression tracking; included in combined wrapper estimate."
+        },
+        "lowVendorLockIn": {
+          "score": 7,
+          "evidence": "Local generated Markdown/TOML/JSON readable outside the harness."
+        },
+        "licenseSuitability": {
+          "score": 9,
+          "evidence": "Apache-2.0 native CLI, synthetic source only."
+        }
+      }
+    },
+    {
+      "candidate": "Ruler 0.3.44 with skills and subagents projection enabled",
+      "confidence": "high for observed ownership failure; score applies to overlapping Rig composition",
+      "dimensions": {
+        "userUtility": {
+          "score": 5,
+          "evidence": "One canonical source generates both providers, but deletes foreign-owned target content."
+        },
+        "maturity": {
+          "score": 5,
+          "evidence": "Real previous-to-current upgrade; experimental projection features and incomplete revert."
+        },
+        "maintainability": {
+          "score": 6,
+          "evidence": "Upstream generator exists; repairing collision semantics would introduce integration burden."
+        },
+        "upstreamActivity": {
+          "score": 7,
+          "evidence": "0.3.44 published 2026-06-30; checked 2026-09-14; no future activity assumed."
+        },
+        "claudeCompatibility": {
+          "score": 4,
+          "evidence": "Generates Claude assets but replaces existing Rig skill/agent directories."
+        },
+        "codexCompatibility": {
+          "score": 4,
+          "evidence": "Generates Codex TOML agents and skills but replaces existing owners; runtime routing unverified."
+        },
+        "reproducibility": {
+          "score": 7,
+          "evidence": "Pinned package integrity and dependency lock; settled apply byte-idempotent, immediate repeat differs."
+        },
+        "upgradeUninstall": {
+          "score": 2,
+          "evidence": "Upgrade loses generated edit/deletion; revert changes Rig context and leaves projected agents."
+        },
+        "absenceOfFileConflicts": {
+          "score": 1,
+          "evidence": "Observed foreign Rig skill/agent deletion and anchor replacement; reverse bootstrap refuses."
+        },
+        "teamwork": {
+          "score": 0,
+          "evidence": "Source distribution is not task ownership; D pending. Zero denotes unverified evidence coverage, not a proven lack of product capability.",
+          "status": "unverified"
+        },
+        "boardIntegration": {
+          "score": 0,
+          "evidence": "No board operation executed. Zero denotes unverified evidence coverage, not a proven lack of product capability.",
+          "status": "unverified"
+        },
+        "security": {
+          "score": 3,
+          "evidence": "Integrity verified, but destructive shared-directory behavior violates preservation requirement."
+        },
+        "offlineLocalFirst": {
+          "score": 8,
+          "evidence": "Local-only apply and canonical on-disk source; uncached bootstrap unverified."
+        },
+        "integrationCost": {
+          "score": 3,
+          "evidence": "Safe overlap requires disabling features or resolving destructive ownership semantics; rejected scope."
+        },
+        "annualMaintenanceCost": {
+          "score": 4,
+          "evidence": "A compatibility fork would require lifecycle regressions; no fork proposed or measured."
+        },
+        "lowVendorLockIn": {
+          "score": 9,
+          "evidence": "MIT source and portable canonical Markdown."
+        },
+        "licenseSuitability": {
+          "score": 9,
+          "evidence": "MIT pinned official source and npm metadata."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "update",
+    "lab-neutral@personal",
+    "--scope",
+    "project",
+    "--json"
+  ],
+  "cwd": ".lab-runs/f-native-claude-native-first/repo",
+  "startedAt": "2026-09-14T09:52:09.162Z",
+  "durationMs": 188,
+  "exitCode": 0,
+  "stdout": "{\"command\":\"update\",\"outcome\":\"ok\",\"plugin\":\"lab-neutral@personal\",\"pluginId\":\"lab-neutral@personal\",\"scope\":\"project\",\"message\":\"Plugin \\\"lab-neutral\\\" updated from 1.0.0 to 1.0.1 for scope project (<LAB>/.lab-runs/f-native-claude-native-first/repo). Restart to apply changes.\",\"updateOutcome\":\"updated\",\"oldVersion\":\"1.0.0\",\"newVersion\":\"1.0.1\"}\n",
+  "stderr": ""
+}

@@ -1,0 +1,21 @@
+{
+  "version": "0.9.0",
+  "dist": {
+    "shasum": "4fae16bb6e6914264af34ba51631ff7432f31394",
+    "tarball": "https://registry.npmjs.org/create-agent-rig/-/create-agent-rig-0.9.0.tgz",
+    "fileCount": 270,
+    "integrity": "sha512-yqWpUwdpVKR7unoQy9Bh5UF3+ArCxXSxWaKS3YIuMsiIY+E2u91HeaaCdi8D9bv+Dp5+NSl+5L6uJRd91oHLQQ==",
+    "signatures": [
+      {
+        "sig": "MEYCIQCkVWfsY+dTRV7Nb2GGzXvlWOxOS1a9aWvsUfiTpX9mlwIhAPuRvaaFl8Ba/Dt8uiP4KnkPjBANr3PQTn4m+8vWwK7s",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEUCIQCaigu2Msd0WUVlahHOng/QtEbWEMmQeuB9xGKtBNiWAwIgba+r4pks/kXXeOMrsBCdC7ZUO6Spv5ktIFwFdBbEb04=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 1894623
+  },
+  "verifiedIntegrity": "sha512-yqWpUwdpVKR7unoQy9Bh5UF3+ArCxXSxWaKS3YIuMsiIY+E2u91HeaaCdi8D9bv+Dp5+NSl+5L6uJRd91oHLQQ=="
+}

@@ -1,0 +1,19 @@
+{
+  "command": [
+    "node",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\f-ruler-package\\node_modules\\@intellectronica\\ruler\\dist\\cli\\index.js",
+    "apply",
+    "--agents",
+    "claude,codex",
+    "--local-only",
+    "--no-mcp",
+    "--no-gitignore",
+    "--subagents"
+  ],
+  "cwd": ".lab-runs/f-ruler-rig-first",
+  "startedAt": "2026-09-14T09:36:07.389Z",
+  "durationMs": 2308,
+  "exitCode": 1,
+  "stdout": "",
+  "stderr": "[ruler] Skills support is experimental and behavior may change in future releases.\n[ruler] Subagents support is experimental and behavior may change in future releases.\n[ruler] EPERM: operation not permitted, rename '<LAB>\\.lab-runs\\f-ruler-rig-first\\.claude\\agents.tmp-1789378569668' -> '<LAB>\\.lab-runs\\f-ruler-rig-first\\.claude\\agents'\n"
+}
