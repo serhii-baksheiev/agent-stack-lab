@@ -2,7 +2,7 @@ name: Spike A experiments
 on:
   push:
     branches: [spike/a-spec-kit-manifest]
-    paths: ['scripts/baseline.mjs', 'scripts/spike-a.mjs', 'scripts/lab-evidence.mjs', '.github/workflows/spike-a.yml']
+    paths: ['scripts/baseline.mjs', 'scripts/spike-a*.mjs', 'scripts/lab-evidence.mjs', '.github/workflows/spike-a.yml']
   workflow_dispatch:
     inputs:
       runner:
@@ -30,7 +30,13 @@ jobs:
           python -m venv .lab-runs/spec-kit-env
           .lab-runs/spec-kit-env/bin/pip install 'git+https://github.com/github/spec-kit.git@96c9bd657bfd5de0d651a6165084932b7304ac99'
           .lab-runs/spec-kit-env/bin/pip freeze > .lab-runs/python-resolved.txt
+          python -m venv .lab-runs/spec-kit-previous
+          .lab-runs/spec-kit-previous/bin/pip install 'git+https://github.com/github/spec-kit.git@a4e25ce6b96dc8e85f84206c6a54353fa9c5260b'
       - run: node scripts/spike-a.mjs
+      - run: node scripts/spike-a-release-upgrade.mjs
+      - name: Offline replay with network namespace isolation
+        shell: bash
+        run: sudo --preserve-env=PATH unshare -n -- runuser -u "$(id -un)" -- node scripts/spike-a-offline.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
