@@ -8,7 +8,7 @@ export function json(file, data) { mkdirSync(path.dirname(file), { recursive: tr
 export function run(command, args, cwd, log) {
   const start = Date.now();
   // Callers supply only fixed laboratory arguments. Never pass credentials here.
-  const r = spawnSync(command, args, { cwd, encoding:'utf8', shell: process.platform === 'win32' && /^(npm|npx)$/.test(command), timeout:180000, env:{...process.env, NO_COLOR:'1', GIT_TERMINAL_PROMPT:'0'} });
+  const r = spawnSync(command, args, { cwd, encoding:'utf8', maxBuffer:16*1024*1024, shell: process.platform === 'win32' && /^(npm|npx)$/.test(command), timeout:180000, env:{...process.env, NO_COLOR:'1', GIT_TERMINAL_PROMPT:'0'} });
   const clean = s => (s || '').split(root).join('<LAB>').replace(/\x1b\[[0-9;]*m/g, '');
   const result = {command:[command,...args], cwd:path.relative(root,cwd).replaceAll('\\','/'), startedAt:new Date(start).toISOString(), durationMs:Date.now()-start, exitCode:r.status, error:r.error?.message, stdout:clean(r.stdout), stderr:clean(r.stderr)};
   if(log) json(log,result);

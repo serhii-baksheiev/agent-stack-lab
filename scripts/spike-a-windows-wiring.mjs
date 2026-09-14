@@ -1,4 +1,4 @@
-import {mkdirSync,readFileSync,existsSync} from 'node:fs';
+import {mkdirSync,readFileSync,existsSync,writeFileSync} from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import {root,run,json,sha} from './lab-evidence.mjs';
@@ -15,6 +15,9 @@ for(const order of ['rig-first','spec-first']) {
  const settings=path.join(cwd,'.claude/settings.json');const before=existsSync(settings)?readFileSync(settings):null;
  assert.equal((order==='rig-first'?specify():rig()).exitCode,0);
  const after=readFileSync(settings),manifest=JSON.parse(readFileSync(path.join(cwd,'.claude/.rig-manifest.json')));
- results.push({order,beforeBytes:before?.length??null,afterBytes:after.length,beforeSha:before?sha(before):null,afterSha:sha(after),rigManifestSha:manifest.files['.claude/settings.json'],rigOwnsExactBytes:sha(after)===manifest.files['.claude/settings.json'],contentEqualAfterLFNormalization:before?before.toString().replaceAll('\r\n','\n')===after.toString().replaceAll('\r\n','\n'):null});
+ const sameMeaning=before?before.toString().replaceAll('\r\n','\n')===after.toString().replaceAll('\r\n','\n'):null;
+ // Bounded repair experiment: restore foreign-owned bytes only when line endings are the sole change.
+ if(before&&sameMeaning&&sha(before)===manifest.files['.claude/settings.json'])writeFileSync(settings,before);
+ results.push({order,beforeBytes:before?.length??null,afterBytes:after.length,beforeSha:before?sha(before):null,afterSha:sha(after),rigManifestSha:manifest.files['.claude/settings.json'],rigOwnsExactBytes:sha(after)===manifest.files['.claude/settings.json'],contentEqualAfterLFNormalization:sameMeaning,afterBoundedRepairRigOwnsExactBytes:sha(readFileSync(settings))===manifest.files['.claude/settings.json']});
 }
 json(out+'/results.json',results);console.log(JSON.stringify(results,null,2));
