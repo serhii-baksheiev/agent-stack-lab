@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "update",
+    "figma@figma-lab",
+    "--scope",
+    "project",
+    "--json"
+  ],
+  "cwd": ".lab-runs/c-native-claude-rig-first/repo",
+  "startedAt": "2026-09-14T10:09:24.891Z",
+  "durationMs": 304,
+  "exitCode": 0,
+  "stdout": "{\"command\":\"update\",\"outcome\":\"ok\",\"plugin\":\"figma@figma-lab\",\"pluginId\":\"figma@figma-lab\",\"scope\":\"project\",\"message\":\"Plugin \\\"figma\\\" updated from 2.2.108 to 2.2.111 for scope project (<LAB>/.lab-runs/c-native-claude-rig-first/repo). Restart to apply changes.\",\"updateOutcome\":\"updated\",\"oldVersion\":\"2.2.108\",\"newVersion\":\"2.2.111\"}\n",
+  "stderr": ""
+}

@@ -1,0 +1,559 @@
+{
+  "version": "2.2.108",
+  "commit": "f74a51c9aaec87a2e65c9121753b63fb42203d96",
+  "manifest": {
+    "name": "figma",
+    "description": "Plugin that includes the Figma MCP server and Skills for common workflows",
+    "version": "2.2.108",
+    "author": {
+      "name": "Figma"
+    }
+  },
+  "files": {
+    ".claude-plugin/plugin.json": {
+      "sha256": "16bbb46a218b8e9ae0efd733632103ab4bfc1739a727dbe2a49141e47f0f0e0f",
+      "bytes": 179
+    },
+    ".cursor-plugin/plugin.json": {
+      "sha256": "c66a3a1e5c9f8f5c0162cb4fe24bb1b55bc481c086085a7055c40cbf49e52400",
+      "bytes": 512
+    },
+    ".github/plugin/plugin.json": {
+      "sha256": "62effcb7e25e658763e559637e71ce30741cec6572a72a041bd7e9c83bde4010",
+      "bytes": 363
+    },
+    ".mcp.json": {
+      "sha256": "f5eb4608692233b72884f519da182716c488df4e40555cb5818756ffe9600a6c",
+      "bytes": 1329
+    },
+    "Figma Icon (Full-color).svg": {
+      "sha256": "9798b710e015c7f3fa6101779e323568d6a5a022651d427021262ce850467b07",
+      "bytes": 646
+    },
+    "Figma Icon (Mono-line black, tight).svg": {
+      "sha256": "8a20a489330f3542dd58d1d01d38f1afb7d0d592abe9ca4813afd70e31c2f894",
+      "bytes": 2281
+    },
+    "README.md": {
+      "sha256": "7f53673373a7794efa87470bbbae3737ea28780d73640d572208f0bd65e1cbb8",
+      "bytes": 17759
+    },
+    "figma-power/POWER.md": {
+      "sha256": "54c724b4635745c6b7bb4d38af6727dabf782383033b51e9ce27a0f6d57ccf9c",
+      "bytes": 5963
+    },
+    "figma-power/mcp.json": {
+      "sha256": "719b51ce7c565fd5ed49ad6537112d71a0ba8dccc10b94ecce43403b8025e000",
+      "bytes": 110
+    },
+    "figma-power/steering/code-connect-components.md": {
+      "sha256": "6846b247f37d657b954ae062052ffc1c461540889058c236b5b365525fda8bec",
+      "bytes": 15134
+    },
+    "figma-power/steering/create-design-system-rules.md": {
+      "sha256": "e1335b4afdda103b3ad6726814d9a3d6f6a0025ce34e2ae588b981817a5187bc",
+      "bytes": 16513
+    },
+    "figma-power/steering/implement-design.md": {
+      "sha256": "99ea608cbeee7c57da887af16f017546e36e2ca6d04e7022869ea48a3c82980b",
+      "bytes": 9705
+    },
+    "gemini-extension.json": {
+      "sha256": "704a55be5e5b6d4d0bb05daedfd067ff70db87904964a4361b26e12df6ad3e01",
+      "bytes": 368
+    },
+    "server.json": {
+      "sha256": "816cdcbae73123466e69a8bd27b2b9b7c693b3037cb12078c1544e6acb109f30",
+      "bytes": 491
+    },
+    "skills/figma-code-connect/SKILL.md": {
+      "sha256": "87af3996edb167d6aa3c044cb1bbb6a0d8e2d631c731bb896b1e1e8669640415",
+      "bytes": 26669
+    },
+    "skills/figma-code-connect/references/advanced-patterns.md": {
+      "sha256": "ac2cb232aca4e43b75169f47f5550d6e7e48a8df0eb55aa1adbfb1a2ab0aa1b4",
+      "bytes": 10069
+    },
+    "skills/figma-code-connect/references/api.md": {
+      "sha256": "40c1dcae2db387fb93ffbf4eba8ae81362e204bdfa5be7018f743b8ac24d4252",
+      "bytes": 23396
+    },
+    "skills/figma-create-new-file/SKILL.md": {
+      "sha256": "82e0a018692d3d009b5d2c83ecce9203a4ce7dfbdb98b7b13a4f7e5b11832bc2",
+      "bytes": 3946
+    },
+    "skills/figma-design-to-code/SKILL.md": {
+      "sha256": "936bbe68b4731d4a8748db15f85247efde232c8ae0902857c2c79a9ed40649ea",
+      "bytes": 4983
+    },
+    "skills/figma-generate-design/SKILL.md": {
+      "sha256": "8e8370840f983df0639c7c78048d80693113ddd59668bfe0c4f79d6c621d1b19",
+      "bytes": 33487
+    },
+    "skills/figma-generate-design/references/componentization.md": {
+      "sha256": "20cb544a638c12723f653eda19de274cc713292a51c311e76cb9010271f666d7",
+      "bytes": 1764
+    },
+    "skills/figma-generate-design/references/discover-product-font.md": {
+      "sha256": "87858089c77f71d478d0233b89498e3589ff14556b0cd503f6a3faf5941f643a",
+      "bytes": 4699
+    },
+    "skills/figma-generate-diagram/SKILL.md": {
+      "sha256": "7297638dbf2130d1b37bfd85df65d290a4dd0b11a11b54abafcf7d07565922b5",
+      "bytes": 10272
+    },
+    "skills/figma-generate-diagram/references/architecture.md": {
+      "sha256": "a7c26be020e5736a6df3c069b01b54f11b647f486d6acce063ed0d133a25a7b5",
+      "bytes": 13551
+    },
+    "skills/figma-generate-diagram/references/erd.md": {
+      "sha256": "a71270515061f0dfe7b4a934422796706d472feaead68bc010fcbfe2ad42cecf",
+      "bytes": 13388
+    },
+    "skills/figma-generate-diagram/references/flowchart.md": {
+      "sha256": "88f2e7f98ffcc98cf8312066ad52195f865670390cbea01522002879d763cdac",
+      "bytes": 19558
+    },
+    "skills/figma-generate-diagram/references/gantt.md": {
+      "sha256": "2dc379c99eaa1bf72310be28505aab75f587c5f614bdfa43e0427c2cc97f2a0f",
+      "bytes": 13253
+    },
+    "skills/figma-generate-diagram/references/sequence.md": {
+      "sha256": "23d7d67a4ea4e19dc843ae80aa5920b1f6174cbcfb137f4b18eda401c8df6dd6",
+      "bytes": 14982
+    },
+    "skills/figma-generate-diagram/references/state.md": {
+      "sha256": "8b66ae6d74eb71df77e69ab55f184253d4311d7cfc0a85bc3dc81b65b1eda31b",
+      "bytes": 14654
+    },
+    "skills/figma-generate-diagram/references/workflow.md": {
+      "sha256": "bb252be5139791acd425e08f3300415153b2f738ae2ce77447dbab9137924741",
+      "bytes": 11229
+    },
+    "skills/figma-generate-library/SKILL.md": {
+      "sha256": "5df9865d16d1940c8f0f3cac465ece1b36119609f6286a91dd1504d1cb2f83b0",
+      "bytes": 23435
+    },
+    "skills/figma-generate-library/references/code-connect-setup.md": {
+      "sha256": "6662c3f0d68e9b81bc2e8d766a40fc526a055b4c2acfaab36947a56c38f660fe",
+      "bytes": 12456
+    },
+    "skills/figma-generate-library/references/component-creation.md": {
+      "sha256": "abfeadf4f49a12a6efb7b62b7855e22c42eae041cce8b3fa07090480dfe6ae7d",
+      "bytes": 37943
+    },
+    "skills/figma-generate-library/references/discovery-phase.md": {
+      "sha256": "2a83dcc62e7e8dc64a4c178b0b3b8849d655ab3431a63c2eb19dcf07821d557d",
+      "bytes": 21747
+    },
+    "skills/figma-generate-library/references/documentation-creation.md": {
+      "sha256": "16559b87b5922d249611087e3063f0e64c7b593e34d353f63979630f0bb5c932",
+      "bytes": 29037
+    },
+    "skills/figma-generate-library/references/error-recovery.md": {
+      "sha256": "2f034485158846db63fad0a63fe95c6fcd96b0492b13dce28241fa6c3c9ac107",
+      "bytes": 16425
+    },
+    "skills/figma-generate-library/references/naming-conventions.md": {
+      "sha256": "16810f87eab00ea93644035dca95e2d927b266b9fcbf5460c1712dab30638442",
+      "bytes": 19003
+    },
+    "skills/figma-generate-library/references/token-creation.md": {
+      "sha256": "123f2a95d6dffc6356eba036f188cf9034932e67a0ce7000abbf1d6ddb1bbb84",
+      "bytes": 32603
+    },
+    "skills/figma-generate-library/scripts/bindVariablesToComponent.js": {
+      "sha256": "f6492ad075b38bab0ae9a7a0dfb60c58e23a4258f67261f1b166098df58f115c",
+      "bytes": 4026
+    },
+    "skills/figma-generate-library/scripts/cleanupOrphans.js": {
+      "sha256": "525583dc4a560cfd7f725685140210e649dd1c73c7fd076a5ce03fe9e17fddaa",
+      "bytes": 2204
+    },
+    "skills/figma-generate-library/scripts/createComponentWithVariants.js": {
+      "sha256": "3a97251335e4bb5dd833acdd86c1a158d1e4ad2b6780587f1bc453d88aa53d31",
+      "bytes": 4679
+    },
+    "skills/figma-generate-library/scripts/createDocumentationPage.js": {
+      "sha256": "28cb9b86c2c26ed91b3fdb688d18e07928c7abc073e1b72dd6c0f0995225381d",
+      "bytes": 4738
+    },
+    "skills/figma-generate-library/scripts/createSemanticTokens.js": {
+      "sha256": "e390eb77e996cddcf62fb889eb146cb37f83407c4c83659297d4d1a34c26020f",
+      "bytes": 3688
+    },
+    "skills/figma-generate-library/scripts/createVariableCollection.js": {
+      "sha256": "7fed413cd2d09acdb80e9a92e20a9afd581aeba4d4754d605862926df8b146d0",
+      "bytes": 1408
+    },
+    "skills/figma-generate-library/scripts/inspectFileStructure.js": {
+      "sha256": "d4c73a074cfef2bfe6dc31998b3e9fb4861bfd4e0ae61bcda6165ab05c9f3118",
+      "bytes": 3718
+    },
+    "skills/figma-generate-library/scripts/validateCreation.js": {
+      "sha256": "dae970b4d80c4d0994f14c89ad01c04115604444b916a0b8fc342ed262fdfa97",
+      "bytes": 2718
+    },
+    "skills/figma-generative-plugins/SKILL.md": {
+      "sha256": "b97eb184a1f6b6545f3b8266a4d1a1e29304888904db7daed2864b9fd036b124",
+      "bytes": 4852
+    },
+    "skills/figma-generative-plugins/references/authoring.md": {
+      "sha256": "a3e4438413504c8d2aed5ca955955f87f7bb476c3c2834e6d6809a634d2e08f1",
+      "bytes": 11979
+    },
+    "skills/figma-implement-motion/SKILL.md": {
+      "sha256": "2e26e67284d47c6a74aedf9dca7543f4c8817dafc59a11abb156d4f7feedb2c2",
+      "bytes": 23279
+    },
+    "skills/figma-implement-motion/references/examples-and-anti-examples.md": {
+      "sha256": "879c7d77e48573f863b7b52be04c56b1e6c0a9cd5e236274699e86b50ffd3a72",
+      "bytes": 11705
+    },
+    "skills/figma-implement-motion/references/framework-recommendations.md": {
+      "sha256": "985fc9a7a390d9c7389b0191a2660ed12da8af3508ae1ba613323cca3fe19c18",
+      "bytes": 7003
+    },
+    "skills/figma-implement-motion/references/gotchas.md": {
+      "sha256": "f970e4ab6ecb6e99ad27de6a770ddbbe1a799d9effd6b41f1e85bbd821675876",
+      "bytes": 9621
+    },
+    "skills/figma-implement-motion/references/motion-lint-rules.md": {
+      "sha256": "017029d2c0872a6316b5b1594adc97062bab3f7efb1ca340f00fa6cd265f6316",
+      "bytes": 2095
+    },
+    "skills/figma-implement-motion/references/svg-and-path-motion.md": {
+      "sha256": "a283d0a875e94edc30d8021b6f8b47cd26547c770f53420ac3f56df0966054ad",
+      "bytes": 8403
+    },
+    "skills/figma-implement-motion/references/unsupported-and-fallbacks.md": {
+      "sha256": "e12c6985e5fd88d37a5cc7cf219fd738a5102debd4e9f0943515900cf8c62000",
+      "bytes": 6164
+    },
+    "skills/figma-shaders/SKILL.md": {
+      "sha256": "c7e34c5a4eb316cfe84768cb419fe71b3ce840b29561ecd0f90eb402a72e1adf",
+      "bytes": 5612
+    },
+    "skills/figma-shaders/references/authoring.md": {
+      "sha256": "4ed8fb1fa1afed7092d338786a16a70e848f2e2e3d3ef1f5a4e1d5c65a746401",
+      "bytes": 10995
+    },
+    "skills/figma-swiftui/SKILL.md": {
+      "sha256": "868c4defe2c0854f5a3e27594d3fa0f20347c86a9b15d103483b7488bfa8affe",
+      "bytes": 4049
+    },
+    "skills/figma-swiftui/references/code-to-design.md": {
+      "sha256": "ecbef130da18583465a57236dcf422a8287cf6b242b9fd9392d13acf57c50807",
+      "bytes": 18991
+    },
+    "skills/figma-swiftui/references/design-to-code.md": {
+      "sha256": "4a1224ad17dd59ca540ed8c020c7fcfb28743407e91724b0eea585726f0847c0",
+      "bytes": 37329
+    },
+    "skills/figma-use/SKILL.md": {
+      "sha256": "a86ffad4416fca51015468151ff546fd95e16bc4bafc6d9593a480c8e5ff10b4",
+      "bytes": 34645
+    },
+    "skills/figma-use/references/api-reference.md": {
+      "sha256": "1714b502a85b66cd957fa5226f98a43ffbd967a4f4caf866309db2007fb12ba0",
+      "bytes": 16280
+    },
+    "skills/figma-use/references/common-patterns.md": {
+      "sha256": "0a7baa19a250964ddb8dd4716f9b70fc894c6e265947684486f3d2b4ff47eb2d",
+      "bytes": 14410
+    },
+    "skills/figma-use/references/component-patterns.md": {
+      "sha256": "e7c826c718e94356ded58c3be99264d114a2ccfc54851624075c4c1a3e1f04fc",
+      "bytes": 24086
+    },
+    "skills/figma-use/references/effect-style-patterns.md": {
+      "sha256": "36340c4d5f9462ff797f907d2e6b822f8a9239831b82319270fe5f0cf298a15e",
+      "bytes": 3215
+    },
+    "skills/figma-use/references/gotchas.md": {
+      "sha256": "a47591e48d9cb7c2b37cf632dbb04a9dc13a817f18f6d66028eeef41cc052548",
+      "bytes": 53421
+    },
+    "skills/figma-use/references/plugin-api-patterns.md": {
+      "sha256": "654026ebf2935958a7464a0d6c4ae4bd42668e1ddb43b4f29b7cb2652070768e",
+      "bytes": 16249
+    },
+    "skills/figma-use/references/plugin-api-standalone.d.ts": {
+      "sha256": "00e52215f56326e272b45fa7fca66440ffe244741081a47f30f32031d6624178",
+      "bytes": 452967
+    },
+    "skills/figma-use/references/plugin-api-standalone.index.md": {
+      "sha256": "5f465b267e5380ccd42ecbe3f311705306921c6449ce79e847e93b9eb80a41df",
+      "bytes": 29977
+    },
+    "skills/figma-use/references/text-style-patterns.md": {
+      "sha256": "2f0ff8d78938e8a3a6b9a1aaa9b47d8ab895bf3c38624b2361abeaf86548e5d5",
+      "bytes": 6947
+    },
+    "skills/figma-use/references/validation-and-recovery.md": {
+      "sha256": "4559e9052601f994bb17c2eee8a26609b91177f7e5744073ab5576de4fe14cf7",
+      "bytes": 3873
+    },
+    "skills/figma-use/references/variable-patterns.md": {
+      "sha256": "cab86c964d75e6e5a3ab80a59275de137828e92e989873852c9775a22a5584e3",
+      "bytes": 14652
+    },
+    "skills/figma-use/references/working-with-design-systems/wwds-components--creating.md": {
+      "sha256": "f383ea109e48c335c5855a8c7be15402e0ba72d5313c34cde6cebf550a6443ff",
+      "bytes": 2199
+    },
+    "skills/figma-use/references/working-with-design-systems/wwds-components--using.md": {
+      "sha256": "ffaf10a09ca7f773aa5a3f08397fdc18dc35f7c2ee9c1db1d917927056bc39f6",
+      "bytes": 2420
+    },
+    "skills/figma-use/references/working-with-design-systems/wwds-components.md": {
+      "sha256": "a8f996f4cf0c3520d8c11639866dbc740bcad802a4f42453520c32412b53f825",
+      "bytes": 4272
+    },
+    "skills/figma-use/references/working-with-design-systems/wwds-effect-styles.md": {
+      "sha256": "d0b9b409fda5e22a9095420c606224a2c9b166abbeda6e8b284a820b6d9d7907",
+      "bytes": 3268
+    },
+    "skills/figma-use/references/working-with-design-systems/wwds-text-styles.md": {
+      "sha256": "0e3a259a2f2c3280bedac02e40b3a901d08e8c4cde45a90b4ca367da5c3ee40e",
+      "bytes": 5144
+    },
+    "skills/figma-use/references/working-with-design-systems/wwds-variables--creating.md": {
+      "sha256": "3a2f9796aac9d419705ca02b9fab29a46282f0921c4c0a01704cec7e43d8ccf2",
+      "bytes": 1559
+    },
+    "skills/figma-use/references/working-with-design-systems/wwds-variables--using.md": {
+      "sha256": "3a328d9f2a176a4086ee7c3e14ca83ee730f4d44b5c1b2276247481fdab6a5e7",
+      "bytes": 1908
+    },
+    "skills/figma-use/references/working-with-design-systems/wwds-variables.md": {
+      "sha256": "51e2e13658a80ebd1683890cba656b48caf1da670b53b7945dd3cad6b2796958",
+      "bytes": 5183
+    },
+    "skills/figma-use/references/working-with-design-systems/wwds.md": {
+      "sha256": "e514da78a7eed6a55c95d6b52a600bd38252bb28ad1dde689a7c72f30c99a9f8",
+      "bytes": 5220
+    },
+    "skills/figma-use-figjam/SKILL.md": {
+      "sha256": "8d566444a1aaf31c122682a5fbe3d6f14c6a844a4e05164cda3de872752cea24",
+      "bytes": 6943
+    },
+    "skills/figma-use-figjam/references/batch-modify.md": {
+      "sha256": "35f5067406699a7d91cbcb51c567dfec37f46ccd856dc0a00db6d1bb97386323",
+      "bytes": 7395
+    },
+    "skills/figma-use-figjam/references/create-code-block.md": {
+      "sha256": "a7e4dbf31d8f0310dc5d1aa56de24ca66de34cb95031c60fbe6cf9d8b7ce878e",
+      "bytes": 2791
+    },
+    "skills/figma-use-figjam/references/create-connector.md": {
+      "sha256": "5b64b05a50bcdf0831d9f56b64dfa5398e12dbac21cb97137aaf2b875749f87a",
+      "bytes": 11595
+    },
+    "skills/figma-use-figjam/references/create-label.md": {
+      "sha256": "aa682240fb4713617975d3d7af90419ae09363d75c834aba17fdf798c582ed07",
+      "bytes": 11831
+    },
+    "skills/figma-use-figjam/references/create-section.md": {
+      "sha256": "49ce969c599204190e7cb54c93b96447ba74d855b92b7d64a39dc7295540ec74",
+      "bytes": 7695
+    },
+    "skills/figma-use-figjam/references/create-shape-with-text.md": {
+      "sha256": "bd92fd1a406babdceff480a6dbce459bd8397d31c3a56710bd6f3806876b03f8",
+      "bytes": 15946
+    },
+    "skills/figma-use-figjam/references/create-sticky.md": {
+      "sha256": "8e3afc40db5aba563a228e3488f76db9840bf3a50d836980e1c722a9e3334f2b",
+      "bytes": 10552
+    },
+    "skills/figma-use-figjam/references/create-table.md": {
+      "sha256": "71877bd8a987d893f5352d6bc202cd155705193faf4efd49a5ff7f7aea49eb48",
+      "bytes": 13457
+    },
+    "skills/figma-use-figjam/references/create-text.md": {
+      "sha256": "2cfdd1329d913b227d2cdc33e20c92276e95b23f3b731e44600ddb30007988ee",
+      "bytes": 18575
+    },
+    "skills/figma-use-figjam/references/edit-text.md": {
+      "sha256": "598198a416d7413cfadfbc6e758c0e741adcb3b7d9f234498bce0178649bcb93",
+      "bytes": 12051
+    },
+    "skills/figma-use-figjam/references/figjam-colors.md": {
+      "sha256": "4610c00dd720309656c484fcf37612b56249cf800fe6d8dcb3f4cc65a112037e",
+      "bytes": 9228
+    },
+    "skills/figma-use-figjam/references/plan-board-content.md": {
+      "sha256": "1a951719d4a8934da2c0324298c0982b4612dfe788ba1f0237c94d715f139925",
+      "bytes": 17219
+    },
+    "skills/figma-use-figjam/references/position-figjam-nodes.md": {
+      "sha256": "5355af8a1bf7711f065c667251b9290959d63a831bef9a096b40f8d276053023",
+      "bytes": 3920
+    },
+    "skills/figma-use-motion/SKILL.md": {
+      "sha256": "d74fa8c9435a5260f8a61e3a8fbf11c068f940ae3423e9be2efde8b5e785d78c",
+      "bytes": 6910
+    },
+    "skills/figma-use-motion/references/motion-easing.md": {
+      "sha256": "bb687254ab222747d385e1604ead72a439a444dec8aa0a51ef8a2189a9f45637",
+      "bytes": 4591
+    },
+    "skills/figma-use-motion/references/motion-patterns.md": {
+      "sha256": "429a4be590898acd025dffa18c9ce2b9a2bd1a7c6a065d96cec7f55eb86762f1",
+      "bytes": 19966
+    },
+    "skills/figma-use-slides/SKILL.md": {
+      "sha256": "0a69a65e686dcc223581afb409a4d31cf318716e2c65cc9c926839a8737e71a4",
+      "bytes": 22033
+    },
+    "skills/figma-use-slides/references/slide-content.md": {
+      "sha256": "feeae39f1cdf12d25d00ac67258025bf94628bf6dbe0418c18b1f4aa02c186f3",
+      "bytes": 6056
+    },
+    "skills/figma-use-slides/references/slide-design.md": {
+      "sha256": "6d8e56017ef49ee9f66332e6f6093b8fabac8dabd68e81101512e11751820224",
+      "bytes": 15827
+    },
+    "skills/figma-use-slides/references/slide-gotchas.md": {
+      "sha256": "8d28df88e7aee9ab5895835932b54a5a70998d896ff7dc7f3aef1edb7ddd1bdc",
+      "bytes": 16533
+    },
+    "skills/figma-use-slides/references/slide-grid.md": {
+      "sha256": "982f6c1ce3b3e487817273c5840e0121fd1abf61f42e37a6bf9b06d9fe924d48",
+      "bytes": 3058
+    },
+    "skills/figma-use-slides/references/slide-lifecycle.md": {
+      "sha256": "880e80bd9a4ed0ff30648ac609cf0337c167706613f438333289fce5164cd1cb",
+      "bytes": 2208
+    },
+    "skills/figma-use-slides/references/slide-properties.md": {
+      "sha256": "1755322fdeb262014b341ef456392dc1c7dd602d8416dba549d2543fc1cba10c",
+      "bytes": 3801
+    },
+    "workflow-skills/generate-project-plan/SKILL.md": {
+      "sha256": "0cc7b780099b957d0687bb2f375b77d1dcf226809210ec88b8f92b6d4a20e3db",
+      "bytes": 27518
+    },
+    "workflow-skills/generate-project-plan/references/blocks/diagram-section.md": {
+      "sha256": "55017147ca0fefa03ea8b7ec7af56e305482e09a3ed3f147d81ddce5d5301c8d",
+      "bytes": 10830
+    },
+    "workflow-skills/generate-project-plan/references/blocks/intro-callout.md": {
+      "sha256": "45fc9c1dbce970ca2c02e387ee6bf3a538a192a1cf5a5b036c9089fd6710fddf",
+      "bytes": 3206
+    },
+    "workflow-skills/generate-project-plan/references/blocks/metadata-strip.md": {
+      "sha256": "0d6d2f06a0e87f8796cb73899e39871ad05619520e4521f09a40cdbf68d9b6b1",
+      "bytes": 3622
+    },
+    "workflow-skills/generate-project-plan/references/blocks/multi-column-text.md": {
+      "sha256": "4f5455bc4448e97cf4c63815ea6473ab1d70e3b2e142b24df3a6a5410770582c",
+      "bytes": 5174
+    },
+    "workflow-skills/generate-project-plan/references/blocks/nested-section.md": {
+      "sha256": "2a9b4036c868934bb8833520317c3b11d6e71920d96995040bf867d4186c2bae",
+      "bytes": 4311
+    },
+    "workflow-skills/generate-project-plan/references/blocks/section.md": {
+      "sha256": "7a79276288d08495e9b2a5f3a383c3d16ab0086c3c27642ff1f7484f7eb98fc9",
+      "bytes": 3260
+    },
+    "workflow-skills/generate-project-plan/references/blocks/sticky-column.md": {
+      "sha256": "3ff66722cdf1d575112331c8892cdf3bb2962ba544a0dad6e2e70e6adf6948f1",
+      "bytes": 3548
+    },
+    "workflow-skills/generate-project-plan/references/blocks/table.md": {
+      "sha256": "2ef812b59b5e1272acfbe7975aefdf5eb7944fe131a296c92834967f2848f2ce",
+      "bytes": 4779
+    },
+    "workflow-skills/generate-project-plan/references/blocks/text-primitives.md": {
+      "sha256": "804bb8a6c6b109fe0ab4cbe08d2fe3b957e21908d0dd781ea6fccf58e7d5f8ec",
+      "bytes": 4726
+    },
+    "workflow-skills/generate-project-plan/references/foundation/codebase-grounding.md": {
+      "sha256": "0072a34db1771afd2506a7a4e2911ef86195079f6919eacca1661cb4989217a3",
+      "bytes": 5162
+    },
+    "workflow-skills/generate-project-plan/references/foundation/layout.md": {
+      "sha256": "6f8825113882adabadfbe59c14162f0a9cfd6688929fcb7ded5798b573486c11",
+      "bytes": 3481
+    },
+    "workflow-skills/generate-project-plan/references/foundation/palette.md": {
+      "sha256": "f70add670e132e024a15a7f049f6bbf87b79355e05224cf5bcaccec0c3f10d7f",
+      "bytes": 7160
+    },
+    "workflow-skills/generate-project-plan/references/foundation/plugin-api-traps.md": {
+      "sha256": "90b1b994fb0b08790d9d9d5f18969bb8c584856357e353249e60c996d0c9eaf0",
+      "bytes": 7739
+    },
+    "workflow-skills/generate-project-plan/references/section-catalog.md": {
+      "sha256": "db41be204879edaa4eacf676b3360bac41acc00f24f1b2dcdcbe0cb43bd87698",
+      "bytes": 9583
+    },
+    "workflow-skills/video-interaction-mapper/README.md": {
+      "sha256": "20f764dbd9c57314d915da02c408492f0d566b41f3e455650633a1eabfb34545",
+      "bytes": 1668
+    },
+    "workflow-skills/video-interaction-mapper/SKILL.md": {
+      "sha256": "aa32df853ec3c7a33f170dc6261bb207d3f07c58b40b855d72d2f6caf1eae0ab",
+      "bytes": 12943
+    },
+    "workflow-skills/video-interaction-mapper/scripts/extract_key_frames.py": {
+      "sha256": "1a91a2d0c77355303d575dc4104f865146e7509b8ee93fa19d8dcb7000a9e132",
+      "bytes": 13692
+    },
+    "workflow-skills/video-interaction-mapper/scripts/generate_figma_calls.py": {
+      "sha256": "3658c364eb7c893fa8218614baf8b0850cc6a1bbbe2cbd05746ec0615704171b",
+      "bytes": 24564
+    },
+    "workflow-skills/video-interaction-mapper/scripts/prepare_upload_frames.py": {
+      "sha256": "a6cddf1e28c0378832ee14408965292475905bced2cbd775e15a536332d4a522",
+      "bytes": 7284
+    },
+    "workflow-skills/video-interaction-mapper/scripts/resolve_moment_frames.py": {
+      "sha256": "a174dc99505077990af0b382cbe6f5a013349be3a399db83478010a5fee19162",
+      "bytes": 6465
+    },
+    "workflow-skills/video-interaction-mapper/scripts/update_run_manifest.py": {
+      "sha256": "a9bb5a8121cfe2f14e531ca1db5f8ece48a3270a6dceb4285f899b7de85d7a92",
+      "bytes": 7145
+    }
+  },
+  "source": "https://github.com/figma/mcp-server-guide/tree/f74a51c9aaec87a2e65c9121753b63fb42203d96",
+  "license": "unverified: no repository-level license detected; do not redistribute as OSS",
+  "mcp": {
+    "mcpServers": {
+      "figma": {
+        "type": "http",
+        "url": "https://mcp.figma.com/mcp",
+        "headers": {
+          "X-Figma-Plugin-Bundle": "figma_prod@2_2_108"
+        },
+        "_meta": {
+          "ideToolIconPath": "./Figma Icon (Mono-line black, tight).svg",
+          "ideToolIconRendersAsTemplate": true,
+          "ideToolTitles": {
+            "add_code_connect_map": "Add Code Connect Mapping",
+            "create_new_file": "Create New File",
+            "generate_diagram": "Generate Diagram",
+            "generate_figma_design": "Generate Figma Design",
+            "get_code_connect_map": "Get Code Connect Mapping",
+            "get_code_connect_suggestions": "Get Code Connect Suggestions",
+            "get_context_for_code_connect": "Get Code Connect Context",
+            "get_design_context": "Get Design Context",
+            "get_figjam": "Get FigJam Content",
+            "get_libraries": "Get Libraries",
+            "get_metadata": "Get Metadata",
+            "get_screenshot": "Get Screenshot",
+            "get_variable_defs": "Get Variable Definitions",
+            "search_design_system": "Search Design System",
+            "send_code_connect_mappings": "Send Code Connect Mappings",
+            "upload_assets": "Upload Assets",
+            "use_figma": "Use Figma",
+            "whoami": "Who Am I"
+          }
+        }
+      }
+    }
+  }
+}

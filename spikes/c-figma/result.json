@@ -1,0 +1,14 @@
+{
+  "spike": "C",
+  "verdict": "ADAPT",
+  "confidence": "medium",
+  "candidate": "Optional official Figma native plugin/MCP installation and connection diagnosis",
+  "version": "client bundle 2.2.111 @ d638a5e055e8d95e0394a94350860398cf424b74; hosted backend unpinned",
+  "rigBaseline": "0.9.0",
+  "qualification": "installation/upgrade/removal proven; live design access and redistribution license unresolved",
+  "scenariosPassed": 58,
+  "scenariosFailed": 0,
+  "scenariosUnverified": 8,
+  "estimatedIntegrationDays": 1,
+  "estimatedAnnualMaintenanceDays": 1
+}

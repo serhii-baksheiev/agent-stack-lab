@@ -1,0 +1,43 @@
+name: Spike C Figma handoff
+on:
+  push:
+    branches: [spike/c-figma]
+    paths: ['scripts/spike-c*.mjs', 'fixtures/c-figma/**', '.github/workflows/spike-c.yml']
+  workflow_dispatch:
+    inputs:
+      runner:
+        description: 'Optional existing Linux self-hosted label'
+        default: ubuntu-latest
+        type: string
+jobs:
+  handoff:
+    runs-on: ${{ inputs.runner || 'ubuntu-latest' }}
+    timeout-minutes: 12
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: |
+            fixtures/f-native/package-lock.json
+            fixtures/c-figma/package-lock.json
+      - name: Install pinned isolated toolchains
+        run: |
+          mkdir -p .lab-runs/f-tools .lab-runs/c-tools
+          cp fixtures/f-native/toolchain.json .lab-runs/f-tools/package.json
+          cp fixtures/f-native/package-lock.json .lab-runs/f-tools/package-lock.json
+          cp fixtures/c-figma/toolchain.json .lab-runs/c-tools/package.json
+          cp fixtures/c-figma/package-lock.json .lab-runs/c-tools/package-lock.json
+          (cd .lab-runs/f-tools && npm ci --no-audit --no-fund)
+          (cd .lab-runs/c-tools && npm ci --no-audit --no-fund)
+          .lab-runs/c-tools/node_modules/.bin/playwright install --with-deps chromium
+      - run: node scripts/spike-c-integrations.mjs
+      - run: node scripts/spike-c-visual.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: spike-c-evidence
+          path: spikes/c-figma/evidence/

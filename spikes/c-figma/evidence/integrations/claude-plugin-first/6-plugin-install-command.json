@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "install",
+    "figma@figma-lab",
+    "--scope",
+    "project",
+    "--json"
+  ],
+  "cwd": ".lab-runs/c-native-claude-plugin-first/repo",
+  "startedAt": "2026-09-14T10:09:26.644Z",
+  "durationMs": 289,
+  "exitCode": 0,
+  "stdout": "{\"command\":\"install\",\"outcome\":\"ok\",\"plugin\":\"figma@figma-lab\",\"pluginId\":\"figma@figma-lab\",\"scope\":\"project\",\"message\":\"Successfully installed plugin: figma@figma-lab (scope: project)\"}\n",
+  "stderr": ""
+}

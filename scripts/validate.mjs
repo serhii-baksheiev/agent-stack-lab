@@ -15,3 +15,4 @@ for (const p of tracked) {
 console.log(`PASS: required documents, JSON syntax, tracked-path boundaries (${tracked.length} files). This is not a secret scanner or spike behavior test.`);
 if (existsSync('spikes/a-spec-kit-manifest/result.json')) await import('./validate-a-evidence.mjs');
 if (existsSync('spikes/f-native-projection/result.json')) await import('./validate-f-evidence.mjs');
+if (existsSync('spikes/c-figma/result.json')) await import('./validate-c-evidence.mjs');

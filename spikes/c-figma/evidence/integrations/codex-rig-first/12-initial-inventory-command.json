@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@openai/codex/bin/codex.js",
+    "plugin",
+    "list",
+    "--json"
+  ],
+  "cwd": ".lab-runs/c-native-codex-rig-first/repo",
+  "startedAt": "2026-09-14T10:09:30.028Z",
+  "durationMs": 54,
+  "exitCode": 0,
+  "stdout": "{\n  \"installed\": [\n    {\n      \"pluginId\": \"figma@figma-lab\",\n      \"name\": \"figma\",\n      \"marketplaceName\": \"figma-lab\",\n      \"version\": \"2.2.108\",\n      \"installed\": true,\n      \"enabled\": true,\n      \"source\": {\n        \"source\": \"local\",\n        \"path\": \"<LAB>/.lab-runs/c-native-codex-rig-first/market/plugins/figma\"\n      },\n      \"marketplaceSource\": {\n        \"sourceType\": \"local\",\n        \"source\": \"<LAB>/.lab-runs/c-native-codex-rig-first/market\"\n      },\n      \"installPolicy\": \"AVAILABLE\",\n      \"authPolicy\": \"ON_INSTALL\"\n    }\n  ],\n  \"available\": []\n}\n",
+  "stderr": ""
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "git",
+    "fetch",
+    "--depth",
+    "1",
+    "https://github.com/figma/mcp-server-guide.git",
+    "f74a51c9aaec87a2e65c9121753b63fb42203d96"
+  ],
+  "cwd": ".lab-runs/c-source-2.2.108",
+  "startedAt": "2026-09-14T10:09:20.346Z",
+  "durationMs": 877,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": "From https://github.com/figma/mcp-server-guide\n * branch            f74a51c9aaec87a2e65c9121753b63fb42203d96 -> FETCH_HEAD\n"
+}
