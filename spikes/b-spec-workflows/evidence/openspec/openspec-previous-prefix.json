@@ -1,0 +1,14 @@
+{
+  "command": [
+    "npm",
+    "--prefix",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-openspec-1789382552065/openspec-previous",
+    "prefix"
+  ],
+  "cwd": ".lab-runs/b-openspec-1789382552065/openspec-previous",
+  "startedAt": "2026-09-14T10:42:39.290Z",
+  "durationMs": 86,
+  "exitCode": 0,
+  "stdout": "<LAB>/.lab-runs/b-openspec-1789382552065/openspec-previous\n",
+  "stderr": ""
+}

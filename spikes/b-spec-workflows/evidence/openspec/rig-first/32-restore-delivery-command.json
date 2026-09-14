@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-openspec-1789382552065/openspec/node_modules/@fission-ai/openspec/bin/openspec.js",
+    "config",
+    "set",
+    "delivery",
+    "both"
+  ],
+  "cwd": ".lab-runs/b-openspec-1789382552065/rig-first",
+  "startedAt": "2026-09-14T10:42:47.418Z",
+  "durationMs": 283,
+  "exitCode": 0,
+  "stdout": "Set delivery = \"both\"\n",
+  "stderr": ""
+}

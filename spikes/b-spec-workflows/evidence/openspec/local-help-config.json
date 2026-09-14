@@ -1,0 +1,15 @@
+{
+  "command": [
+    "C:\\nvm4w\\nodejs\\node.exe",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\b-openspec-package\\node_modules\\@fission-ai\\openspec\\bin\\openspec.js",
+    "config",
+    "set",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:28:51.800Z",
+  "durationMs": 1373,
+  "exitCode": 0,
+  "stdout": "Usage: openspec config set [options] <key> <value>\n\nSet a value (auto-coerce types)\n\nOptions:\n  --string         Force value to be stored as string\n  --allow-unknown  Allow setting unknown keys\n  -h, --help       display help for command\n",
+  "stderr": ""
+}

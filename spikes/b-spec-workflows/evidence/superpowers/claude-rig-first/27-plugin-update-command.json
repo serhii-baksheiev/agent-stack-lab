@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "update",
+    "superpowers@superpowers-lab",
+    "--scope",
+    "project",
+    "--json"
+  ],
+  "cwd": ".lab-runs/b-superpowers-native-claude-rig-first/repo",
+  "startedAt": "2026-09-14T10:43:02.127Z",
+  "durationMs": 222,
+  "exitCode": 0,
+  "stdout": "{\"command\":\"update\",\"outcome\":\"ok\",\"plugin\":\"superpowers@superpowers-lab\",\"pluginId\":\"superpowers@superpowers-lab\",\"scope\":\"project\",\"message\":\"Plugin \\\"superpowers\\\" updated from 6.2.0 to 6.3.0 for scope project (<LAB>/.lab-runs/b-superpowers-native-claude-rig-first/repo). Restart to apply changes.\",\"updateOutcome\":\"updated\",\"oldVersion\":\"6.2.0\",\"newVersion\":\"6.3.0\"}\n",
+  "stderr": ""
+}

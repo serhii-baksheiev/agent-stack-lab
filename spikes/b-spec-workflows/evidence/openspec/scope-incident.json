@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-14",
+  "surface": "local Windows discovery, before executable collector",
+  "chronology": [
+    "Verified and unpacked OpenSpec 1.13.0 tarball inside ignored .lab-runs/b-openspec-package.",
+    "Ran npm install --ignore-scripts --no-audit --no-fund --save-exact ./openspec.tgz from that directory without first creating package.json. npm resolved an existing user-home parent prefix and reported added 80 packages.",
+    "The expected lab node_modules path did not exist. npm prefix returned the user home. OpenSpec directory creation timestamps matched this install (2026-09-14 14:18:53 through 14:18:58 local).",
+    "Reported incident to root and ran targeted npm uninstall --prefix at the exact user-home prefix, --ignore-scripts --no-audit --no-fund @fission-ai/openspec. npm reported removed 80 packages. Cleanup completed before root's pause message arrived.",
+    "Created private package.json inside ignored lab package directory and reinstalled using explicit absolute --prefix; npm reported added 80 packages and local CLI help succeeded. No further outside-lab writes were performed."
+  ],
+  "beforeManifestOrLockBytesAvailable": false,
+  "exactRollbackVerified": false,
+  "residualUncertainty": "Parent manifest/lockfile formatting or dependency-resolution changes may remain. Matching package counts and directory creation timestamps corroborate removal of the new installation but cannot prove exact restoration or prior package absence.",
+  "prevention": "Collector creates a private package.json, asserts npm --prefix <absolute lab directory> prefix equals that directory, installs with explicit --prefix, and isolates cache/user configuration/home.",
+  "credentialsOrParentManifestContentsCaptured": false
+}

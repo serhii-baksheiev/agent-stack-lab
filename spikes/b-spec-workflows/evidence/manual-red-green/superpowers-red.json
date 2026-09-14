@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\nvm4w\\nodejs\\node.exe",
+    "--test",
+    "fixtures/b-workflow/superpowers/tests/subscriptions.test.mjs"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:26:57.358Z",
+  "durationMs": 3158,
+  "exitCode": 1,
+  "stdout": "✖ SP-1 returns normalized deterministic append without changing input (1.6369ms)\n✖ SP-2 caller serialization preserves identity (0.3671ms)\nℹ tests 2\nℹ suites 0\nℹ pass 0\nℹ fail 2\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 2092.0548\n\n✖ failing tests:\n\ntest at fixtures\\b-workflow\\superpowers\\tests\\subscriptions.test.mjs:4:1\n✖ SP-1 returns normalized deterministic append without changing input (1.6369ms)\n  Error: Not implemented: intentional red phase\n      at subscribe (file:///C:/Users/SerhiiBaksheiev/Documents/agent-stack-lab/fixtures/b-workflow/superpowers/src/subscriptions.mjs:1:37)\n      at TestContext.<anonymous> (file:///C:/Users/SerhiiBaksheiev/Documents/agent-stack-lab/fixtures/b-workflow/superpowers/tests/subscriptions.test.mjs:5:40)\n      at Test.runInAsyncScope (node:async_hooks:227:14)\n      at Test.run (node:internal/test_runner/test:1325:25)\n      at Test.start (node:internal/test_runner/test:1191:17)\n      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)\n\ntest at fixtures\\b-workflow\\superpowers\\tests\\subscriptions.test.mjs:11:1\n✖ SP-2 caller serialization preserves identity (0.3671ms)\n  Error: Not implemented: intentional red phase\n      at subscribe (file:///C:/Users/SerhiiBaksheiev/Documents/agent-stack-lab/fixtures/b-workflow/superpowers/src/subscriptions.mjs:1:37)\n      at TestContext.<anonymous> (file:///C:/Users/SerhiiBaksheiev/Documents/agent-stack-lab/fixtures/b-workflow/superpowers/tests/subscriptions.test.mjs:12:14)\n      at Test.runInAsyncScope (node:async_hooks:227:14)\n      at Test.run (node:internal/test_runner/test:1325:25)\n      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)\n      at Test.postRun (node:internal/test_runner/test:1465:19)\n      at Test.run (node:internal/test_runner/test:1390:12)\n      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)\n",
+  "stderr": ""
+}

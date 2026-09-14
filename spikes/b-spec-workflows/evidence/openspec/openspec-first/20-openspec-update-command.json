@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-openspec-1789382552065/openspec/node_modules/@fission-ai/openspec/bin/openspec.js",
+    "update",
+    "--force"
+  ],
+  "cwd": ".lab-runs/b-openspec-1789382552065/openspec-first",
+  "startedAt": "2026-09-14T10:42:49.021Z",
+  "durationMs": 321,
+  "exitCode": 0,
+  "stdout": "Force updating 2 tool(s): claude, codex\n\n\n✓ Updated: Claude Code, Codex (v1.13.0)\nCommands skipped for: codex (uses skills)\nNote: 6 more workflows are available (new, continue, ff, bulk-archive, verify, onboard).\nAdd them with `openspec config profile`.\nTools: Claude Code, Codex\n\n",
+  "stderr": "- Updating Claude Code...\n✔ Updated Claude Code\n- Updating Codex...\n✔ Updated Codex\n"
+}

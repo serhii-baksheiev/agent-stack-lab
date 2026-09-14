@@ -1,0 +1,13 @@
+{
+  "command": [
+    "node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-bmad-lifecycle-1789382530950/packages/node_modules/bmad-method/tools/installer/bmad-cli.js",
+    "--help"
+  ],
+  "cwd": ".lab-runs/b-bmad-lifecycle-1789382530950/packages",
+  "startedAt": "2026-09-14T10:42:17.979Z",
+  "durationMs": 505,
+  "exitCode": 0,
+  "stdout": "Usage: bmad-cli [options] [command]\n\nBMAD Core CLI - Universal AI agent framework\n\nOptions:\n  -V, --version        output the version number\n  -h, --help           display help for command\n\nCommands:\n  install [options]    Install BMAD Core agents and tools\n  status               Display BMAD installation status and module versions\n  uninstall [options]  Remove BMAD installation from the current project\n  help [command]       display help for command\n",
+  "stderr": ""
+}

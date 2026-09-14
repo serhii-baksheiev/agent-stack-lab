@@ -1,0 +1,13 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "fixtures/b-workflow/bmad/tests/subscriptions.test.mjs"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:29:21.718Z",
+  "durationMs": 742,
+  "exitCode": 0,
+  "stdout": "✔ validation and boundary (7.5211ms)\n✔ duplicate identity (0.4952ms)\n✔ immutable creation (0.7254ms)\n✔ distinct and deterministic (2.0455ms)\n✔ restart (2.4707ms)\nℹ tests 5\nℹ suites 0\nℹ pass 5\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 412.6791\n",
+  "stderr": ""
+}

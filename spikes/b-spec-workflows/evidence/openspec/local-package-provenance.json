@@ -1,0 +1,31 @@
+{
+  "name": "@fission-ai/openspec",
+  "version": "1.13.0",
+  "license": "MIT",
+  "gitHead": null,
+  "repository": {
+    "url": "git+https://github.com/Fission-AI/OpenSpec.git",
+    "type": "git"
+  },
+  "dist": {
+    "shasum": "5b124e7aafb6b539701a671e1fd015dac6b8bbf0",
+    "tarball": "https://registry.npmjs.org/@fission-ai/openspec/-/openspec-1.13.0.tgz",
+    "fileCount": 389,
+    "integrity": "sha512-1b1VbjELIUHPz8BLnkVxqPu4pAYS6BhfrLcmUIM7Bd0iJXQDvE+e/LBofE1kydegfxmG7R1xCMRXsl5VtZD+0w==",
+    "signatures": [
+      {
+        "sig": "MEUCIQDkN0MDZ1V5aKd+p9eozeQ7iaDc5HknBEIFGRYatQXk9gIgGHCGHvm7rA0ZlAcvO2uazW52GuL8y7hmPA/0kmPfysY=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@fission-ai%2fopenspec@1.13.0",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 1929558
+  },
+  "integrityVerified": true,
+  "checkedAt": "2026-09-14T10:27:56.921Z"
+}

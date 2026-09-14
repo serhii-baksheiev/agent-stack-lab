@@ -1,0 +1,15 @@
+{
+  "command": [
+    "uv",
+    "run",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\b-bmad-author/.claude/skills/bmad-architecture/scripts/lint_spine.py",
+    "--workspace",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\fixtures\\b-workflow\\bmad\\_bmad-output\\specs\\spec-subscriptions"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:29:22.462Z",
+  "durationMs": 1626,
+  "exitCode": 0,
+  "stdout": "{\r\n  \"ok\": true,\r\n  \"spine\": \"ARCHITECTURE-SPINE.md\",\r\n  \"total_findings\": 0,\r\n  \"by_severity\": {},\r\n  \"findings\": []\r\n}\r\n",
+  "stderr": ""
+}

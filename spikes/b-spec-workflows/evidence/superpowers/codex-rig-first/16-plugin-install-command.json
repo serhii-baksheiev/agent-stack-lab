@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@openai/codex/bin/codex.js",
+    "plugin",
+    "add",
+    "superpowers@superpowers-lab",
+    "--json"
+  ],
+  "cwd": ".lab-runs/b-superpowers-native-codex-rig-first/repo",
+  "startedAt": "2026-09-14T10:43:06.317Z",
+  "durationMs": 58,
+  "exitCode": 0,
+  "stdout": "{\n  \"pluginId\": \"superpowers@superpowers-lab\",\n  \"name\": \"superpowers\",\n  \"marketplaceName\": \"superpowers-lab\",\n  \"version\": \"6.2.0\",\n  \"installedPath\": \"<LAB>/.lab-runs/b-superpowers-native-codex-rig-first/home/.codex/plugins/cache/superpowers-lab/superpowers/6.2.0\",\n  \"authPolicy\": \"ON_INSTALL\"\n}\n",
+  "stderr": ""
+}

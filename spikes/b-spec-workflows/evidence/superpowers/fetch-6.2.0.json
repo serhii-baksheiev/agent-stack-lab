@@ -1,0 +1,16 @@
+{
+  "command": [
+    "git",
+    "fetch",
+    "--depth",
+    "1",
+    "https://github.com/obra/superpowers.git",
+    "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9"
+  ],
+  "cwd": ".lab-runs/b-superpowers-source-6.2.0",
+  "startedAt": "2026-09-14T10:42:58.361Z",
+  "durationMs": 805,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": "From https://github.com/obra/superpowers\n * branch            3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9 -> FETCH_HEAD\n"
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\nvm4w\\nodejs\\node.exe",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\b-openspec-package\\node_modules\\@fission-ai\\openspec\\bin\\openspec.js",
+    "init",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:28:49.504Z",
+  "durationMs": 1023,
+  "exitCode": 0,
+  "stdout": "Usage: openspec init [options] [path]\n\nInitialize OpenSpec in your project\n\nOptions:\n  --tools <tools>        Configure AI tools non-interactively. Use \"all\",\n                         \"none\", or a comma-separated list of: amazon-q,\n                         antigravity, auggie, bob, claude, cline, command-code,\n                         codeartsagent, codex, devin, forgecode, codebuddy,\n                         continue, costrict, crush, cursor, factory, gemini,\n                         github-copilot, hermes, iflow, junie, kilocode, kimi,\n                         kiro, lingma, minimax-code, vibe, oh-my-pi, opencode,\n                         pi, codeassistant, qoder, qwen, rovodev, roocode, trae,\n                         zed, zcode, agents. Also accepted: windsurf (now devin)\n  --language <language>  Write new OpenSpec artifacts in this language\n  --force                Auto-cleanup legacy files without prompting\n  --profile <profile>    Override global config profile (core or custom)\n  --no-animation         Show a static welcome screen instead of the animated\n                         one\n  --copilot-cloud        Set up GitHub Copilot cloud coding-agent files without\n                         prompting\n  --no-copilot-cloud     Skip GitHub Copilot cloud coding-agent files without\n                         prompting\n  -h, --help             display help for command\n",
+  "stderr": ""
+}

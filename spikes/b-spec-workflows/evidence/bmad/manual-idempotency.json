@@ -1,0 +1,13 @@
+{
+  "method": "Manual-load no-change re-derivation from reread memlog and input; same bytes intentionally retained. No native model idempotency claimed.",
+  "beforeSha256": "944e9988c20a8296cfe292c876d1e3072252ea698ef8a3ffdb50a8f48a4a61bb",
+  "afterSha256": "944e9988c20a8296cfe292c876d1e3072252ea698ef8a3ffdb50a8f48a4a61bb",
+  "sameSlug": true,
+  "stableCapabilityIds": [
+    "CAP-1",
+    "CAP-2",
+    "CAP-3",
+    "CAP-4",
+    "CAP-5"
+  ]
+}

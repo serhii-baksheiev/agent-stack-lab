@@ -1,0 +1,40 @@
+{
+  "files": {
+    ".claude/settings.json": {
+      "size": 252,
+      "sha256": "1f98ae903a3680f2a1cc43d5fa1db0eabc315713177d304a73453bb5c56af589"
+    }
+  },
+  "count": 1,
+  "bytes": 252,
+  "status": "?? .claude/settings.json\n",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/b-superpowers-native-claude-plugin-first/repo",
+    "startedAt": "2026-09-14T10:43:03.488Z",
+    "durationMs": 4,
+    "exitCode": 0,
+    "stdout": "?? .claude/settings.json\n",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/b-superpowers-native-claude-plugin-first/repo",
+    "startedAt": "2026-09-14T10:43:03.492Z",
+    "durationMs": 5,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

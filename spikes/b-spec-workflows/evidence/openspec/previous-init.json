@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-openspec-1789382552065/openspec-previous/node_modules/@fission-ai/openspec/bin/openspec.js",
+    "init",
+    "--tools",
+    "claude,codex",
+    "--profile",
+    "core",
+    "--no-animation"
+  ],
+  "cwd": ".lab-runs/b-openspec-1789382552065/release-upgrade",
+  "startedAt": "2026-09-14T10:42:50.728Z",
+  "durationMs": 347,
+  "exitCode": 0,
+  "stdout": "- Creating OpenSpec structure...\n▌ OpenSpec structure created\n\nOpenSpec Setup Complete\n\nCreated: Claude Code, Codex\n6 skills and 6 commands in .claude, .agents/\nCommands skipped for: codex (uses skills)\nConfig: openspec/config.yaml (schema: spec-driven)\n\nGetting started:\n  Start your first change: /opsx:propose \"your idea\" (Claude Code)\n  Start your first change: $openspec-propose \"your idea\" (Codex)\n\nLearn more: https://github.com/Fission-AI/OpenSpec\nFeedback:   https://github.com/Fission-AI/OpenSpec/issues\n\n",
+  "stderr": "- Setting up Claude Code...\n✔ Setup complete for Claude Code\n- Setting up Codex...\n✔ Setup complete for Codex\n"
+}

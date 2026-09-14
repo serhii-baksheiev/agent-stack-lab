@@ -1,0 +1,11 @@
+{
+  "classification": "Windows Python stdout cp1252 UnicodeEncodeError; set PYTHONUTF8 and PYTHONIOENCODING; canonical Ubuntu completed",
+  "observedExit": 1,
+  "command": [
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\spec-kit-env\\Scripts\\python.exe",
+    ".specify/scripts/python/setup_tasks.py",
+    "--json"
+  ],
+  "stderr": "Traceback (most recent call last):\r\n  File \"<LAB>\\.lab-runs\\b-spec-kit-workflow\\repo\\.specify\\scripts\\python\\setup_tasks.py\", line 175, in <module>\r\n    raise SystemExit(main())\r\n                     ^^^^^^\r\n  File \"<LAB>\\.lab-runs\\b-spec-kit-workflow\\repo\\.specify\\scripts\\python\\setup_tasks.py\", line 152, in main\r\n    sys.stdout.write(\r\n  File \"C:\\Users\\SerhiiBaksheiev\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\encodings\\cp1252.py\", line 19, in encode\r\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 2634-2635: character maps to <undefined>\r\n",
+  "originalRecordSha256": "250965b416bf8e776632af8322d4b564982b42e0c67ab66cfdeb0dc334aca76d"
+}

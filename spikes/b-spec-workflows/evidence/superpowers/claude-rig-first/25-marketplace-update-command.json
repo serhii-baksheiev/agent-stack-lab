@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "marketplace",
+    "update",
+    "superpowers-lab"
+  ],
+  "cwd": ".lab-runs/b-superpowers-native-claude-rig-first/repo",
+  "startedAt": "2026-09-14T10:43:01.925Z",
+  "durationMs": 190,
+  "exitCode": 0,
+  "stdout": "Updating marketplace: superpowers-lab...Validating local marketplace\n✔ Successfully updated marketplace: superpowers-lab\n",
+  "stderr": ""
+}
