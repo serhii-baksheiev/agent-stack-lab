@@ -1,0 +1,5 @@
+{
+  "name": "agent-stack-lab-visual-toolchain",
+  "private": true,
+  "dependencies": {"playwright": "1.63.0"}
+}

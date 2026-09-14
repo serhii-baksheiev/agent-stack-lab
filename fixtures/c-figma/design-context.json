@@ -1,0 +1,13 @@
+{
+  "id": "SYN-C-001",
+  "provenance": "Manually authored synthetic design fixture; not a Figma file or MCP response.",
+  "component": "Project subscription card",
+  "tokens": {"canvas": "#f4f6fa", "surface": "#ffffff", "text": "#162238", "muted": "#58677e", "border": "#c8d2e0", "primary": "#2457d6", "radius": 12, "spacing": 8},
+  "layout": {"cardMaxWidth": 400, "mobileSideMargin": 24, "cardTop": 72, "cardPadding": 24, "cardHeight": 289, "inputHeight": 44, "buttonHeight": 44},
+  "assets": [],
+  "requirements": [
+    {"id": "C-R1", "text": "Render the card using the specified tokens at desktop and mobile widths."},
+    {"id": "C-R2", "text": "Require a valid email and report subscription confirmation without network access."},
+    {"id": "C-R3", "text": "Associate the Email label with its input and announce confirmation through a status region."}
+  ]
+}
