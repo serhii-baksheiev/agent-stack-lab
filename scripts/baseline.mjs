@@ -7,7 +7,7 @@ import { root,json,run,snapshot } from './lab-evidence.mjs';
 const out=path.join(root,'spikes/a-spec-kit-manifest/evidence/rig-baseline');
 const cwd=path.join(root,'.lab-runs/baseline-090');
 mkdirSync(out,{recursive:true}); mkdirSync(cwd,{recursive:true});
-const metadata=run('npm',['view','create-agent-rig@0.9.0','name','version','dist','--json'],cwd,out+'/registry-command.json');
+const metadata=run('npm',['view','create-agent-rig@0.9.0','name','version','license','dist','--json'],cwd,out+'/registry-command.json');
 assert.equal(metadata.exitCode,0);
 const pkg=JSON.parse(metadata.stdout);
 const tarPath=path.join(root,'.lab-runs/registry-090/create-agent-rig-0.9.0.tgz');

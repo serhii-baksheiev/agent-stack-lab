@@ -29,11 +29,14 @@ jobs:
         run: |
           python -m venv .lab-runs/spec-kit-env
           .lab-runs/spec-kit-env/bin/pip install 'git+https://github.com/github/spec-kit.git@96c9bd657bfd5de0d651a6165084932b7304ac99'
-          .lab-runs/spec-kit-env/bin/pip freeze > .lab-runs/python-resolved.txt
+          mkdir -p spikes/a-spec-kit-manifest/evidence/environment
+          .lab-runs/spec-kit-env/bin/pip freeze > spikes/a-spec-kit-manifest/evidence/environment/python-resolved.txt
+          .lab-runs/spec-kit-env/bin/pip inspect > spikes/a-spec-kit-manifest/evidence/environment/python-inspect.json
           python -m venv .lab-runs/spec-kit-previous
           .lab-runs/spec-kit-previous/bin/pip install 'git+https://github.com/github/spec-kit.git@a4e25ce6b96dc8e85f84206c6a54353fa9c5260b'
       - run: node scripts/spike-a.mjs
       - run: node scripts/spike-a-release-upgrade.mjs
+      - run: node scripts/spike-a-collisions.mjs
       - name: Offline replay with network namespace isolation
         shell: bash
         run: sudo --preserve-env=PATH unshare -n -- runuser -u "$(id -un)" -- node scripts/spike-a-offline.mjs
