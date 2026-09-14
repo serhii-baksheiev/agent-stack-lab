@@ -20,13 +20,13 @@ The reports state that A/F/B share lifecycle work and C/E/D reuse registration/d
 | Item | Developer-days | Basis |
 |---|---|---|
 | One-time migration of existing 0.9.0 installations (inventory tooling, snapshot/rollback, cross-release fixture, docs) | 4–8 | *(inference)*; A's removal adapter and same-version replays are the only executed analogues |
-| 0.9.1 fix-only release | 1–3 | A negative rows (help exit codes, CRLF hashing); docs |
+| 0.9.1 fix-only release | 1–3 | *(inference)*; A negative rows (help exit codes, CRLF hashing); docs |
 | 0.9.2 deprecation release (notices, receipt diagnostics, cross-release fixture) | 3–6 | *(inference)* built on F receipt needs |
-| 0.10.0 architectural turn (payload reduction, doctor, uninstall, guard fixtures, Memory externalised) | 12–20 | Non-additive combination of A 2–4, F 4–7, D 2–3 plus uninstall/doctor rebuild *(inference for the rebuild share)* |
+| 0.10.x architectural turn (payload reduction, doctor, uninstall, guard fixtures, Memory externalised) | 12–20 | Non-additive combination of A 2–4, F 4–7, D 2–3 plus uninstall/doctor rebuild *(inference for the rebuild share)* |
 | 1.0.0 contract freeze (schema freeze, Linux+Windows lanes, cold bootstrap, licence records) | 5–10 | *(inference)*; cold bootstrap unverified in all spikes |
-| Annual maintenance, Lean Rig core | 10–16 per year | F 4–8 + A 2–4 + D 2–3 with overlap; two harness release trains |
+| Annual maintenance, Lean Rig core | 10–16 per year | *(inference)*: F 4–8 + A 2–4 + D 2–3 plus C 1 / B 2 / E 3 registration and pin upkeep (naive 14–21), de-duplicated for shared lifecycle/doctor code; two harness release trains |
 | Annual maintenance, full 0.9.0 scope | 20–35 per year | *(inference)*: adds queue/journal/revalidation/Memory pass-through scripts for two harnesses with no fixtures today; lower bound assumes they are left untested, upper bound assumes fixtures are written |
-| Adaptation cost when Claude Code or Codex change (per significant release) | 1–3 per harness per release | F: registration APIs, settings ownership and import behaviour changed between versions; Codex marketplace refresh rejects local sources |
+| Adaptation cost when Claude Code or Codex change (per significant release) | 1–3 per harness per release | *(inference)* from F: registration APIs, settings ownership and import behaviour changed between versions; Codex marketplace refresh rejects local sources |
 | Optional team/board integration (thin skill, doctor) | 2–3 initial, 2–3 per year | D result.json |
 | Optional claim adapter (only if distributed autonomy is required) | 5–8 initial, 3–5 per year | D conditional proposal; gates unresolved |
 | Optional Memory integration (Basic) | 3 initial, 3 per year | E; AGPL decision excluded |
