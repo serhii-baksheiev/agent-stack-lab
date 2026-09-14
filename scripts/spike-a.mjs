@@ -59,7 +59,10 @@ for(const order of ['rig-first','spec-first']) {
   const remove=spec('spec-uninstall-claude',['integration','uninstall','claude']);
   const afterRemove=snap('after-spec-uninstall');
   const rigSurvives=Object.keys(rigManifest.files).filter(p=>beforeRemove.files[p]).every(p=>beforeRemove.files[p].sha256===afterRemove.files[p]?.sha256);
-  assert.equal(spec('surviving-codex-status',['integration','status','--json']).exitCode,0);
+  const survivingSpec=spec('surviving-codex-status',['integration','status','--json']);
+  const survivingState=JSON.parse(survivingSpec.stdout);
+  // Characterize the observed upstream failure; ledger must count this as failed compatibility.
+  assert.equal(survivingSpec.exitCode,1);assert(survivingState.findings.some(f=>f.code==='integration-state-missing'));
   assert.equal(rig('surviving-rig-dry',['upgrade','--dry-run']).exitCode,0);
   const finalFiles=snap('final-ownership').files;
   json(evidence+'/final-ownership.json',Object.fromEntries(Object.entries(finalFiles).map(([p,f])=>[p,{...f,owner:p in rigManifest.files || p==='.claude/.rig-manifest.json'?'rig':p==='.specify/memory/constitution.md'?'project':'spec-kit',note:p===specSkill?'user-edited former Spec Kit skill retained after uninstall':undefined}])));
@@ -70,7 +73,7 @@ for(const order of ['rig-first','spec-first']) {
   const removalPlan={kind:'lab-adapter-prototype-not-native-uninstall',blocked:unsafeWiring.length>0,unsafeWiring,remove:[],preserve:[]};
   for(const [p,hash] of Object.entries(rigManifest.files)) {const target=path.resolve(cwd,p);assert(target.startsWith(realpathSync(cwd)+path.sep)); if(!existsSync(target))continue;(sha(readFileSync(target))===hash?removalPlan.remove:removalPlan.preserve).push(p);}
   json(evidence+'/rig-uninstall-plan.json',removalPlan);
-  results.push({order,firstExit:first.exitCode,secondExit:second.exitCode,rigRepeatInitExit:rigRepeat.exitCode,rigDryExit:dry.exitCode,dryReadOnly,rigUpgradeExit:up.exitCode,specEditedUpgradeExit:specUp.exitCode,editsPreserved,deletedStaysRemoved,specDeletedStaysRemoved,specUninstallExit:remove.exitCode,rigSurvivesSpecUninstall:rigSurvives,editedSpecSkillSurvives:existsSync(path.join(cwd,specSkill)),rigUninstallBlockedOnModifiedWiring:removalPlan.blocked,naturalSecondComponentOverwrites:Object.entries(ownership).filter(([p,v])=>v.changedBySecond).map(([p])=>p)});
+  results.push({order,firstExit:first.exitCode,secondExit:second.exitCode,rigRepeatInitExit:rigRepeat.exitCode,rigDryExit:dry.exitCode,dryReadOnly,rigUpgradeExit:up.exitCode,specEditedUpgradeExit:specUp.exitCode,editsPreserved,deletedStaysRemoved,specDeletedStaysRemoved,specUninstallExit:remove.exitCode,rigSurvivesSpecUninstall:rigSurvives,specSurvivingCodexStatusExit:survivingSpec.exitCode,specSurvivingIntegrations:survivingState.installed_integrations,editedSpecSkillSurvives:existsSync(path.join(cwd,specSkill)),rigUninstallBlockedOnModifiedWiring:removalPlan.blocked,naturalSecondComponentOverwrites:Object.entries(ownership).filter(([p,v])=>v.changedBySecond).map(([p])=>p)});
 }
 json(out+'/results.json',results); console.log(JSON.stringify(results,null,2));
 assert(results.every(r=>r.rigDryExit===0&&r.rigUpgradeExit===0&&r.specEditedUpgradeExit===1&&r.specUninstallExit===0&&r.dryReadOnly&&r.editsPreserved&&r.deletedStaysRemoved&&r.rigSurvivesSpecUninstall));
