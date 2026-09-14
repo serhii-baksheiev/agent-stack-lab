@@ -54,7 +54,7 @@ try {
     const left = (width - Math.min(400, width-48))/2;
     const samples = [[10,10], [left+16,90], [left+30,270], [left+30,240], [width-10,height-10]];
     const pixels = await page.evaluate(async ({ a, b, samples }) => {
-      async function values(source) { const image = new Image(); image.src = `data:image/png;base64,${source}`; await image.decode(); const canvas = document.createElement('canvas'); canvas.width = image.width; canvas.height = image.height; const ctx = canvas.getContext('2d'); ctx.drawImage(image,0,0); return samples.map(([x,y]) => Array.from(ctx.getImageData(x,y,1,1).data)); }
+      async function values(source) { const image = new Image(); image.src = `data:image/png;base64,${source}`; await image.decode(); const canvas = document.createElementNS('http://www.w3.org/1999/xhtml', 'canvas'); canvas.width = image.width; canvas.height = image.height; const ctx = canvas.getContext('2d'); ctx.drawImage(image,0,0); return samples.map(([x,y]) => Array.from(ctx.getImageData(x,y,1,1).data)); }
       return { actual: await values(a), reference: await values(b) };
     }, { a: actual.toString('base64'), b: reference.toString('base64'), samples });
     check(`${name}: independent SVG solid-color samples`, () => assert.deepEqual(pixels.actual, pixels.reference), 'C-R1');
