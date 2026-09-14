@@ -1,1 +1,1 @@
-export function render(n) { return `Count: ${n}`; }
+export function render(n) { return `Total: ${n}`; }
