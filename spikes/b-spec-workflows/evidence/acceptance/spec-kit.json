@@ -1,0 +1,46 @@
+{
+  "candidate": "spec-kit",
+  "entry": "fixtures/b-workflow/spec-kit/src/subscriptions.mjs",
+  "sourceSha256": "afc49e657762c4f89a6dd6f4eb7e942d9ab6d6fe541081584f59974e42b6bbe2",
+  "checks": [
+    {
+      "name": "normalization and deterministic first record",
+      "passed": true
+    },
+    {
+      "name": "duplicate does not create another record",
+      "passed": true
+    },
+    {
+      "name": "distinct record preserves frozen input",
+      "passed": true
+    },
+    {
+      "name": "invalid types fail without mutation",
+      "passed": true
+    },
+    {
+      "name": "invalid syntax fails without mutation",
+      "passed": true
+    },
+    {
+      "name": "normalized length limit is enforced",
+      "passed": true
+    },
+    {
+      "name": "independent inputs do not share hidden state",
+      "passed": true
+    },
+    {
+      "name": "several duplicates and distinct records remain deterministic",
+      "passed": true
+    },
+    {
+      "name": "new process resumes serialized state without duplicate",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "coverage": "Behavioral B-R1 through B-R5; B-R6 artifact completeness and absence of hidden I/O/time/randomness also require source/artifact review.",
+  "execution": "Direct Node contract checks against manual-load Codex candidate output; no claim of native Claude execution."
+}

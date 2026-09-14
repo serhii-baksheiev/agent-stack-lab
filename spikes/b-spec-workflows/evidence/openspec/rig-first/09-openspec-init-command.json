@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-openspec-1789382552065/openspec/node_modules/@fission-ai/openspec/bin/openspec.js",
+    "init",
+    "--tools",
+    "claude,codex",
+    "--profile",
+    "core",
+    "--no-animation"
+  ],
+  "cwd": ".lab-runs/b-openspec-1789382552065/rig-first",
+  "startedAt": "2026-09-14T10:42:45.393Z",
+  "durationMs": 315,
+  "exitCode": 0,
+  "stdout": "Migrated: custom profile with 6 workflows\nNew in this version: the openspec-propose skill. Try 'openspec config profile core' for the streamlined experience.\n\nOpenSpec Setup Complete\n\nRefreshed: Claude Code, Codex\n6 skills and 6 commands in .claude, .agents/\nCommands skipped for: codex (uses skills)\nConfig: openspec/config.yaml (exists)\n\nGetting started:\n  Start your first change: /opsx:propose \"your idea\" (Claude Code)\n  Start your first change: $openspec-propose \"your idea\" (Codex)\n\nNote: 6 more workflows are available (new, continue, ff, bulk-archive, verify, onboard).\nAdd them with `openspec config profile`.\n\nLearn more: https://github.com/Fission-AI/OpenSpec\nFeedback:   https://github.com/Fission-AI/OpenSpec/issues\n\n",
+  "stderr": "- Setting up Claude Code...\n✔ Setup complete for Claude Code\n- Setting up Codex...\n✔ Setup complete for Codex\n"
+}

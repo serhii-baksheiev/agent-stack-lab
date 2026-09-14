@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\nvm4w\\nodejs\\node.exe",
+    "--test",
+    "fixtures/b-workflow/spec-kit/tests/subscriptions.test.mjs"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:27:40.970Z",
+  "durationMs": 1444,
+  "exitCode": 0,
+  "stdout": "✔ US1 normalizes, preserves frozen state and avoids duplicates (4.6182ms)\n✔ US2 serialized state has no session dependency (0.4684ms)\nℹ tests 2\nℹ suites 0\nℹ pass 2\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 440.5541\n",
+  "stderr": ""
+}

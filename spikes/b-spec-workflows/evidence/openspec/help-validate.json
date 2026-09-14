@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-openspec-1789382552065/openspec/node_modules/@fission-ai/openspec/bin/openspec.js",
+    "validate",
+    "--help"
+  ],
+  "cwd": ".lab-runs/b-openspec-1789382552065",
+  "startedAt": "2026-09-14T10:42:44.411Z",
+  "durationMs": 271,
+  "exitCode": 0,
+  "stdout": "Usage: openspec validate [options] [item-name]\n\nValidate changes and specs\n\nOptions:\n  --all                     Validate all changes and specs\n  --changes                 Validate all changes\n  --specs                   Validate all specs\n  --archived                Validate that archived changes have all tasks\n                            completed (for pre-commit linting)\n  --report <full|findings>  Select bulk report content: full|findings; combine\n                            with --json for JSON\n  --type <type>             Specify item type when ambiguous: change|spec\n  --strict                  Enable strict validation mode\n  --json                    Output validation results as JSON\n  --concurrency <n>         Max concurrent validations (defaults to env\n                            OPENSPEC_CONCURRENCY or 6)\n  --no-interactive          Disable interactive prompts\n  --store <id>              Store id to use as the OpenSpec root (a store is a\n                            standalone OpenSpec repo you've registered)\n  -h, --help                display help for command\n",
+  "stderr": ""
+}

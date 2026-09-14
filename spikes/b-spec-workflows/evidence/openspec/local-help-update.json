@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\nvm4w\\nodejs\\node.exe",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\b-openspec-package\\node_modules\\@fission-ai\\openspec\\bin\\openspec.js",
+    "update",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:28:50.529Z",
+  "durationMs": 1267,
+  "exitCode": 0,
+  "stdout": "Usage: openspec update [options] [path]\n\nUpdate OpenSpec instruction files\n\nOptions:\n  --force     Force update even when tools are up to date\n  -h, --help  display help for command\n",
+  "stderr": ""
+}

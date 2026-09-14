@@ -1,0 +1,371 @@
+{
+  "checkedAt": "2026-09-14",
+  "scale": "0 worst, 10 best; high cost/lock-in scores mean lower cost/lock-in. Unverified dimensions score 0 only to satisfy numeric matrix; do not aggregate as measured inferiority.",
+  "basis": "Engineering judgments in this small synthetic workflow/lifecycle scope, not benchmark measurements.",
+  "candidates": [
+    {
+      "candidate": "Spec Kit 1.0.6",
+      "confidence": "medium",
+      "dimensions": {
+        "userUtility": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "maturity": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "maintainability": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "upstreamActivity": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "claudeCompatibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "codexCompatibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "reproducibility": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "upgradeUninstall": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "absenceOfFileConflicts": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "teamwork": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "boardIntegration": {
+          "score": 3,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "security": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "offlineLocalFirst": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "integrationCost": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "annualMaintenanceCost": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "lowVendorLockIn": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        },
+        "licenseSuitability": {
+          "score": 10,
+          "status": "engineering-judgment",
+          "evidence": "A native lifecycle + B helpers/36 shared tests + failed board replay; model quality and teamwork unverified."
+        }
+      }
+    },
+    {
+      "candidate": "BMAD 6.12.0",
+      "confidence": "medium",
+      "dimensions": {
+        "userUtility": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "maturity": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "maintainability": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "upstreamActivity": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "claudeCompatibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "codexCompatibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "reproducibility": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "upgradeUninstall": {
+          "score": 5,
+          "status": "engineering-judgment",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "absenceOfFileConflicts": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "teamwork": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "boardIntegration": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "security": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "offlineLocalFirst": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "integrationCost": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "annualMaintenanceCost": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "lowVendorLockIn": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        },
+        "licenseSuitability": {
+          "score": 10,
+          "status": "engineering-judgment",
+          "evidence": "Native dual installation/removal and spine renderer/linter; generated edits overwritten, repeat drift; cross-version upgrade unverified."
+        }
+      }
+    },
+    {
+      "candidate": "OpenSpec 1.13.0",
+      "confidence": "medium",
+      "dimensions": {
+        "userUtility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "maturity": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "maintainability": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "upstreamActivity": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "claudeCompatibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "codexCompatibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "reproducibility": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "upgradeUninstall": {
+          "score": 4,
+          "status": "engineering-judgment",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "absenceOfFileConflicts": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "teamwork": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "boardIntegration": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "security": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "offlineLocalFirst": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "integrationCost": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "annualMaintenanceCost": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "lowVendorLockIn": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        },
+        "licenseSuitability": {
+          "score": 10,
+          "status": "engineering-judgment",
+          "evidence": "Native strict validation/archive/restart and cross-version update; generated edits/deletions overwritten; complete uninstall absent."
+        }
+      }
+    },
+    {
+      "candidate": "Superpowers 6.3.0",
+      "confidence": "medium",
+      "dimensions": {
+        "userUtility": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "maturity": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "maintainability": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "upstreamActivity": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "claudeCompatibility": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "codexCompatibility": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "reproducibility": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "upgradeUninstall": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "absenceOfFileConflicts": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "teamwork": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "boardIntegration": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "security": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "offlineLocalFirst": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "integrationCost": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "annualMaintenanceCost": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "lowVendorLockIn": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        },
+        "licenseSuitability": {
+          "score": 10,
+          "status": "engineering-judgment",
+          "evidence": "Actual native dual-provider cache update/removal; manual TDD trial. Incremental semantic quality and native teamwork unverified."
+        }
+      }
+    }
+  ]
+}

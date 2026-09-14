@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "install",
+    "superpowers@superpowers-lab",
+    "--scope",
+    "project",
+    "--json"
+  ],
+  "cwd": ".lab-runs/b-superpowers-native-claude-rig-first/repo",
+  "startedAt": "2026-09-14T10:43:01.464Z",
+  "durationMs": 200,
+  "exitCode": 0,
+  "stdout": "{\"command\":\"install\",\"outcome\":\"ok\",\"plugin\":\"superpowers@superpowers-lab\",\"pluginId\":\"superpowers@superpowers-lab\",\"scope\":\"project\",\"message\":\"Plugin \\\"superpowers@superpowers-lab\\\" is already installed (scope: project)\"}\n",
+  "stderr": ""
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-bmad-lifecycle-1789382530950/packages/node_modules/bmad-method/tools/installer/bmad-cli.js",
+    "status"
+  ],
+  "cwd": ".lab-runs/b-bmad-lifecycle-1789382530950/bmad-first",
+  "startedAt": "2026-09-14T10:42:27.523Z",
+  "durationMs": 441,
+  "exitCode": 0,
+  "stdout": "│\n◇  BMAD Status ────────────────────────────────────────────────────────────────╮\n│                                                                              │\n│  Version:       6.12.0                                                       │\n│  Location:      <LAB>/.lab-runs  │\n│  /b-bmad-lifecycle-1789382530950/bmad-first/_bmad                            │\n│  Installed:     9/14/2026                                                    │\n│  Last Updated:  9/14/2026                                                    │\n│                                                                              │\n├──────────────────────────────────────────────────────────────────────────────╯\n│\n◇  Module Versions ─────────────────╮\n│                                   │\n│  Built-in Modules                 │\n│    core                 6.12.0 ✓  │\n│    bmm                  6.12.0 ✓  │\n│                                   │\n├───────────────────────────────────╯\n│\n◆  All modules are up to date\n",
+  "stderr": ""
+}

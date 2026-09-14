@@ -16,3 +16,4 @@ console.log(`PASS: required documents, JSON syntax, tracked-path boundaries (${t
 if (existsSync('spikes/a-spec-kit-manifest/result.json')) await import('./validate-a-evidence.mjs');
 if (existsSync('spikes/f-native-projection/result.json')) await import('./validate-f-evidence.mjs');
 if (existsSync('spikes/c-figma/result.json')) await import('./validate-c-evidence.mjs');
+if (existsSync('spikes/b-spec-workflows/result.json')) await import('./validate-b-evidence.mjs');

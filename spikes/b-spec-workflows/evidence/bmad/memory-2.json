@@ -1,0 +1,19 @@
+{
+  "command": [
+    "uv",
+    "run",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\b-bmad-author/_bmad/scripts/resolve_customization.py",
+    "--skill",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\b-bmad-author/.claude/skills/bmad-architecture",
+    "--project-root",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\b-bmad-author",
+    "--key",
+    "workflow"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:31:08.964Z",
+  "durationMs": 2993,
+  "exitCode": 0,
+  "stdout": "{\r\n  \"workflow\": {\r\n    \"activation_steps_prepend\": [],\r\n    \"activation_steps_append\": [],\r\n    \"persistent_facts\": [],\r\n    \"on_complete\": \"\",\r\n    \"spine_template\": \"assets/spine-template.md\",\r\n    \"spine_output_path\": \"{planning_artifacts}/architecture\",\r\n    \"run_folder_pattern\": \"architecture-{project_name}-{date}\",\r\n    \"doc_standards\": [\r\n      \"skill:bmad-review lenses=structure,prose\"\r\n    ],\r\n    \"external_sources\": [],\r\n    \"external_handoffs\": [],\r\n    \"finalize_reviewers\": [\r\n      \"Verify every committed decision was web-researched or reality-checked rather than asserted from training data: current library/framework versions, that each named technology still exists and fits, and — greenfield — the live defaults of any starter it leans on. Flag anything that could be out of date and wasn't confirmed against the web, the existing project, or the current starter.\",\r\n      \"Attack the spine as an adversary: construct two units one level down that each obey every AD to the letter yet still build incompatibly — clashing shared-data shapes, two owners of one entity, conflicting state-mutation paths. Every pair you find is a hole to close with a new or tightened AD.\"\r\n    ]\r\n  }\r\n}\r\n",
+  "stderr": ""
+}

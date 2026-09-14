@@ -1,0 +1,13 @@
+{
+  "command": [
+    "node",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\b-bmad-inspect\\node_modules\\bmad-method\\tools\\installer\\bmad-cli.js",
+    "status"
+  ],
+  "cwd": ".lab-runs/b-bmad-author",
+  "startedAt": "2026-09-14T10:29:13.720Z",
+  "durationMs": 7990,
+  "exitCode": 0,
+  "stdout": "│\n◇  BMAD Status ────────────────────────────────────────────────────────────────╮\n│                                                                              │\n│  Version:       6.12.0                                                       │\n│  Location:      <LAB>\\.lab-run  │\n│  s\\b-bmad-author\\_bmad                                                       │\n│  Installed:     9/14/2026                                                    │\n│  Last Updated:  9/14/2026                                                    │\n│                                                                              │\n├──────────────────────────────────────────────────────────────────────────────╯\n│\n◇  Module Versions ─────────────────╮\n│                                   │\n│  Built-in Modules                 │\n│    core                 6.12.0 ✓  │\n│    bmm                  6.12.0 ✓  │\n│                                   │\n├───────────────────────────────────╯\n│\n◆  All modules are up to date\n",
+  "stderr": ""
+}

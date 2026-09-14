@@ -1,0 +1,19 @@
+{
+  "command": [
+    "uv",
+    "run",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\b-bmad-author/_bmad/scripts/resolve_customization.py",
+    "--skill",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\b-bmad-author/.claude/skills/bmad-spec",
+    "--project-root",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\b-bmad-author",
+    "--key",
+    "workflow"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:31:11.960Z",
+  "durationMs": 9047,
+  "exitCode": 0,
+  "stdout": "{\r\n  \"workflow\": {\r\n    \"activation_steps_prepend\": [],\r\n    \"activation_steps_append\": [],\r\n    \"persistent_facts\": [],\r\n    \"on_complete\": \"\",\r\n    \"spec_template\": \"assets/spec-template.md\",\r\n    \"spec_filename\": \"SPEC.md\",\r\n    \"spec_output_path\": \"{output_folder}/specs\",\r\n    \"run_folder_pattern\": \"spec-{slug}\"\r\n  }\r\n}\r\n",
+  "stderr": ""
+}

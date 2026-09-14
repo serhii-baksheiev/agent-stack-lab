@@ -1,0 +1,23 @@
+{
+  "stage": "repeat-open",
+  "created": [
+    {
+      "id": "T003",
+      "number": 8,
+      "url": "https://github.com/serhii-baksheiev/agent-stack-lab/issues/8"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "T001",
+      "number": 5,
+      "state": "open"
+    },
+    {
+      "id": "T002",
+      "number": 6,
+      "state": "open"
+    }
+  ],
+  "conflicts": []
+}

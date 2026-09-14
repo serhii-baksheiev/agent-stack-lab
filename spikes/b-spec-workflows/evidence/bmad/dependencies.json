@@ -1,0 +1,20 @@
+{
+  "command": [
+    "npm",
+    "install",
+    "--prefix",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-bmad-lifecycle-1789382530950/packages",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund",
+    "--save-exact",
+    "./bmad.tgz",
+    "./rig.tgz"
+  ],
+  "cwd": ".lab-runs/b-bmad-lifecycle-1789382530950/packages",
+  "startedAt": "2026-09-14T10:42:11.662Z",
+  "durationMs": 6032,
+  "exitCode": 0,
+  "stdout": "\nadded 100 packages in 6s\n",
+  "stderr": "npm warn deprecated glob@11.1.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me\n"
+}

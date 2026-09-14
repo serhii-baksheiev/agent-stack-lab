@@ -1,0 +1,956 @@
+[
+  {
+    "scenario": "spec-kit: normalization and deterministic first record",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "spec-kit: duplicate does not create another record",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "spec-kit: distinct record preserves frozen input",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "spec-kit: invalid types fail without mutation",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "spec-kit: invalid syntax fails without mutation",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "spec-kit: normalized length limit is enforced",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "spec-kit: independent inputs do not share hidden state",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "spec-kit: several duplicates and distinct records remain deterministic",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "spec-kit: new process resumes serialized state without duplicate",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "bmad: normalization and deterministic first record",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "bmad: duplicate does not create another record",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "bmad: distinct record preserves frozen input",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "bmad: invalid types fail without mutation",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "bmad: invalid syntax fails without mutation",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "bmad: normalized length limit is enforced",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "bmad: independent inputs do not share hidden state",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "bmad: several duplicates and distinct records remain deterministic",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "bmad: new process resumes serialized state without duplicate",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "openspec: normalization and deterministic first record",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "openspec: duplicate does not create another record",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "openspec: distinct record preserves frozen input",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "openspec: invalid types fail without mutation",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "openspec: invalid syntax fails without mutation",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "openspec: normalized length limit is enforced",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "openspec: independent inputs do not share hidden state",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "openspec: several duplicates and distinct records remain deterministic",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "openspec: new process resumes serialized state without duplicate",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "superpowers: normalization and deterministic first record",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "superpowers: duplicate does not create another record",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "superpowers: distinct record preserves frozen input",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "superpowers: invalid types fail without mutation",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "superpowers: invalid syntax fails without mutation",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "superpowers: normalized length limit is enforced",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "superpowers: independent inputs do not share hidden state",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "superpowers: several duplicates and distinct records remain deterministic",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "superpowers: new process resumes serialized state without duplicate",
+    "status": "passed",
+    "evidence": "acceptance/results.json"
+  },
+  {
+    "scenario": "Spec Kit resumeReadOnly",
+    "status": "passed",
+    "evidence": "spec-kit/result.json"
+  },
+  {
+    "scenario": "Spec Kit existingPlanSkipped",
+    "status": "passed",
+    "evidence": "spec-kit/result.json"
+  },
+  {
+    "scenario": "superpowers/claude-rig-first secondExit",
+    "status": "passed",
+    "evidence": "superpowers/claude-rig-first"
+  },
+  {
+    "scenario": "superpowers/claude-rig-first repeatNative",
+    "status": "passed",
+    "evidence": "superpowers/claude-rig-first"
+  },
+  {
+    "scenario": "superpowers/claude-rig-first dryExit",
+    "status": "passed",
+    "evidence": "superpowers/claude-rig-first"
+  },
+  {
+    "scenario": "superpowers/claude-rig-first rigUpgrade",
+    "status": "passed",
+    "evidence": "superpowers/claude-rig-first"
+  },
+  {
+    "scenario": "superpowers/claude-rig-first pluginUpgrade",
+    "status": "passed",
+    "evidence": "superpowers/claude-rig-first"
+  },
+  {
+    "scenario": "superpowers/claude-rig-first uninstall",
+    "status": "passed",
+    "evidence": "superpowers/claude-rig-first"
+  },
+  {
+    "scenario": "superpowers/claude-rig-first survivingRig",
+    "status": "passed",
+    "evidence": "superpowers/claude-rig-first"
+  },
+  {
+    "scenario": "superpowers/claude-rig-first dryReadOnly",
+    "status": "passed",
+    "evidence": "superpowers/claude-rig-first"
+  },
+  {
+    "scenario": "superpowers/claude-rig-first editsPreserved",
+    "status": "passed",
+    "evidence": "superpowers/claude-rig-first"
+  },
+  {
+    "scenario": "superpowers/claude-rig-first deletedStaysRemoved",
+    "status": "passed",
+    "evidence": "superpowers/claude-rig-first"
+  },
+  {
+    "scenario": "superpowers/claude-rig-first bundleUpdated",
+    "status": "passed",
+    "evidence": "superpowers/claude-rig-first"
+  },
+  {
+    "scenario": "superpowers/claude-rig-first rigPreserved",
+    "status": "passed",
+    "evidence": "superpowers/claude-rig-first"
+  },
+  {
+    "scenario": "superpowers/claude-rig-first settingsEditSurvives",
+    "status": "passed",
+    "evidence": "superpowers/claude-rig-first"
+  },
+  {
+    "scenario": "superpowers/claude-rig-first native registration removed",
+    "status": "passed",
+    "evidence": "superpowers/claude-rig-first"
+  },
+  {
+    "scenario": "superpowers/claude-plugin-first secondExit",
+    "status": "passed",
+    "evidence": "superpowers/claude-plugin-first"
+  },
+  {
+    "scenario": "superpowers/claude-plugin-first repeatNative",
+    "status": "passed",
+    "evidence": "superpowers/claude-plugin-first"
+  },
+  {
+    "scenario": "superpowers/claude-plugin-first dryExit",
+    "status": "passed",
+    "evidence": "superpowers/claude-plugin-first"
+  },
+  {
+    "scenario": "superpowers/claude-plugin-first rigUpgrade",
+    "status": "passed",
+    "evidence": "superpowers/claude-plugin-first"
+  },
+  {
+    "scenario": "superpowers/claude-plugin-first pluginUpgrade",
+    "status": "passed",
+    "evidence": "superpowers/claude-plugin-first"
+  },
+  {
+    "scenario": "superpowers/claude-plugin-first uninstall",
+    "status": "passed",
+    "evidence": "superpowers/claude-plugin-first"
+  },
+  {
+    "scenario": "superpowers/claude-plugin-first survivingRig",
+    "status": "passed",
+    "evidence": "superpowers/claude-plugin-first"
+  },
+  {
+    "scenario": "superpowers/claude-plugin-first dryReadOnly",
+    "status": "passed",
+    "evidence": "superpowers/claude-plugin-first"
+  },
+  {
+    "scenario": "superpowers/claude-plugin-first editsPreserved",
+    "status": "passed",
+    "evidence": "superpowers/claude-plugin-first"
+  },
+  {
+    "scenario": "superpowers/claude-plugin-first deletedStaysRemoved",
+    "status": "passed",
+    "evidence": "superpowers/claude-plugin-first"
+  },
+  {
+    "scenario": "superpowers/claude-plugin-first bundleUpdated",
+    "status": "passed",
+    "evidence": "superpowers/claude-plugin-first"
+  },
+  {
+    "scenario": "superpowers/claude-plugin-first rigPreserved",
+    "status": "passed",
+    "evidence": "superpowers/claude-plugin-first"
+  },
+  {
+    "scenario": "superpowers/claude-plugin-first settingsEditSurvives",
+    "status": "passed",
+    "evidence": "superpowers/claude-plugin-first"
+  },
+  {
+    "scenario": "superpowers/claude-plugin-first native registration removed",
+    "status": "passed",
+    "evidence": "superpowers/claude-plugin-first"
+  },
+  {
+    "scenario": "superpowers/codex-rig-first secondExit",
+    "status": "passed",
+    "evidence": "superpowers/codex-rig-first"
+  },
+  {
+    "scenario": "superpowers/codex-rig-first repeatNative",
+    "status": "passed",
+    "evidence": "superpowers/codex-rig-first"
+  },
+  {
+    "scenario": "superpowers/codex-rig-first dryExit",
+    "status": "passed",
+    "evidence": "superpowers/codex-rig-first"
+  },
+  {
+    "scenario": "superpowers/codex-rig-first rigUpgrade",
+    "status": "passed",
+    "evidence": "superpowers/codex-rig-first"
+  },
+  {
+    "scenario": "superpowers/codex-rig-first pluginUpgrade",
+    "status": "passed",
+    "evidence": "superpowers/codex-rig-first"
+  },
+  {
+    "scenario": "superpowers/codex-rig-first uninstall",
+    "status": "passed",
+    "evidence": "superpowers/codex-rig-first"
+  },
+  {
+    "scenario": "superpowers/codex-rig-first survivingRig",
+    "status": "passed",
+    "evidence": "superpowers/codex-rig-first"
+  },
+  {
+    "scenario": "superpowers/codex-rig-first dryReadOnly",
+    "status": "passed",
+    "evidence": "superpowers/codex-rig-first"
+  },
+  {
+    "scenario": "superpowers/codex-rig-first editsPreserved",
+    "status": "passed",
+    "evidence": "superpowers/codex-rig-first"
+  },
+  {
+    "scenario": "superpowers/codex-rig-first deletedStaysRemoved",
+    "status": "passed",
+    "evidence": "superpowers/codex-rig-first"
+  },
+  {
+    "scenario": "superpowers/codex-rig-first bundleUpdated",
+    "status": "passed",
+    "evidence": "superpowers/codex-rig-first"
+  },
+  {
+    "scenario": "superpowers/codex-rig-first rigPreserved",
+    "status": "passed",
+    "evidence": "superpowers/codex-rig-first"
+  },
+  {
+    "scenario": "superpowers/codex-rig-first settingsEditSurvives",
+    "status": "passed",
+    "evidence": "superpowers/codex-rig-first"
+  },
+  {
+    "scenario": "superpowers/codex-rig-first native registration removed",
+    "status": "passed",
+    "evidence": "superpowers/codex-rig-first"
+  },
+  {
+    "scenario": "superpowers/codex-plugin-first secondExit",
+    "status": "passed",
+    "evidence": "superpowers/codex-plugin-first"
+  },
+  {
+    "scenario": "superpowers/codex-plugin-first repeatNative",
+    "status": "passed",
+    "evidence": "superpowers/codex-plugin-first"
+  },
+  {
+    "scenario": "superpowers/codex-plugin-first dryExit",
+    "status": "passed",
+    "evidence": "superpowers/codex-plugin-first"
+  },
+  {
+    "scenario": "superpowers/codex-plugin-first rigUpgrade",
+    "status": "passed",
+    "evidence": "superpowers/codex-plugin-first"
+  },
+  {
+    "scenario": "superpowers/codex-plugin-first pluginUpgrade",
+    "status": "passed",
+    "evidence": "superpowers/codex-plugin-first"
+  },
+  {
+    "scenario": "superpowers/codex-plugin-first uninstall",
+    "status": "passed",
+    "evidence": "superpowers/codex-plugin-first"
+  },
+  {
+    "scenario": "superpowers/codex-plugin-first survivingRig",
+    "status": "passed",
+    "evidence": "superpowers/codex-plugin-first"
+  },
+  {
+    "scenario": "superpowers/codex-plugin-first dryReadOnly",
+    "status": "passed",
+    "evidence": "superpowers/codex-plugin-first"
+  },
+  {
+    "scenario": "superpowers/codex-plugin-first editsPreserved",
+    "status": "passed",
+    "evidence": "superpowers/codex-plugin-first"
+  },
+  {
+    "scenario": "superpowers/codex-plugin-first deletedStaysRemoved",
+    "status": "passed",
+    "evidence": "superpowers/codex-plugin-first"
+  },
+  {
+    "scenario": "superpowers/codex-plugin-first bundleUpdated",
+    "status": "passed",
+    "evidence": "superpowers/codex-plugin-first"
+  },
+  {
+    "scenario": "superpowers/codex-plugin-first rigPreserved",
+    "status": "passed",
+    "evidence": "superpowers/codex-plugin-first"
+  },
+  {
+    "scenario": "superpowers/codex-plugin-first settingsEditSurvives",
+    "status": "passed",
+    "evidence": "superpowers/codex-plugin-first"
+  },
+  {
+    "scenario": "superpowers/codex-plugin-first native registration removed",
+    "status": "passed",
+    "evidence": "superpowers/codex-plugin-first"
+  },
+  {
+    "scenario": "bmad/rig-first bmadStatusExit",
+    "status": "passed",
+    "evidence": "bmad/rig-first"
+  },
+  {
+    "scenario": "bmad/rig-first bmadRepeatExit",
+    "status": "passed",
+    "evidence": "bmad/rig-first"
+  },
+  {
+    "scenario": "bmad/rig-first bmadRepeat2Exit",
+    "status": "passed",
+    "evidence": "bmad/rig-first"
+  },
+  {
+    "scenario": "bmad/rig-first rigDryExit",
+    "status": "passed",
+    "evidence": "bmad/rig-first"
+  },
+  {
+    "scenario": "bmad/rig-first rigUpgradeExit",
+    "status": "passed",
+    "evidence": "bmad/rig-first"
+  },
+  {
+    "scenario": "bmad/rig-first bmadUpdateExit",
+    "status": "passed",
+    "evidence": "bmad/rig-first"
+  },
+  {
+    "scenario": "bmad/rig-first bmadUninstallExit",
+    "status": "passed",
+    "evidence": "bmad/rig-first"
+  },
+  {
+    "scenario": "bmad/rig-first rigSurvivalExit",
+    "status": "passed",
+    "evidence": "bmad/rig-first"
+  },
+  {
+    "scenario": "bmad/rig-first rigDryReadOnly",
+    "status": "passed",
+    "evidence": "bmad/rig-first"
+  },
+  {
+    "scenario": "bmad/rig-first rigDeletionPreserved",
+    "status": "passed",
+    "evidence": "bmad/rig-first"
+  },
+  {
+    "scenario": "bmad/rig-first bmadGeneratedEditPreserved",
+    "status": "failed",
+    "evidence": "bmad/rig-first"
+  },
+  {
+    "scenario": "bmad/rig-first artifactPreserved",
+    "status": "passed",
+    "evidence": "bmad/rig-first"
+  },
+  {
+    "scenario": "bmad/rig-first settled update byte-idempotent",
+    "status": "failed",
+    "evidence": "bmad/rig-first",
+    "note": "Config/manifest bytes change on each update."
+  },
+  {
+    "scenario": "bmad/rig-first Rig shared edits preserved",
+    "status": "passed",
+    "evidence": "bmad/rig-first"
+  },
+  {
+    "scenario": "bmad/rig-first rendererExit",
+    "status": "passed",
+    "evidence": "bmad/rig-first/workflow-replay.json"
+  },
+  {
+    "scenario": "bmad/rig-first spineLintExit",
+    "status": "passed",
+    "evidence": "bmad/rig-first/workflow-replay.json"
+  },
+  {
+    "scenario": "bmad/rig-first testsExit",
+    "status": "passed",
+    "evidence": "bmad/rig-first/workflow-replay.json"
+  },
+  {
+    "scenario": "bmad/rig-first Rig files survive native uninstall",
+    "status": "passed",
+    "evidence": "bmad/rig-first/rig-uninstall-survival.json"
+  },
+  {
+    "scenario": "bmad/bmad-first bmadStatusExit",
+    "status": "passed",
+    "evidence": "bmad/bmad-first"
+  },
+  {
+    "scenario": "bmad/bmad-first bmadRepeatExit",
+    "status": "passed",
+    "evidence": "bmad/bmad-first"
+  },
+  {
+    "scenario": "bmad/bmad-first bmadRepeat2Exit",
+    "status": "passed",
+    "evidence": "bmad/bmad-first"
+  },
+  {
+    "scenario": "bmad/bmad-first rigDryExit",
+    "status": "passed",
+    "evidence": "bmad/bmad-first"
+  },
+  {
+    "scenario": "bmad/bmad-first rigUpgradeExit",
+    "status": "passed",
+    "evidence": "bmad/bmad-first"
+  },
+  {
+    "scenario": "bmad/bmad-first bmadUpdateExit",
+    "status": "passed",
+    "evidence": "bmad/bmad-first"
+  },
+  {
+    "scenario": "bmad/bmad-first bmadUninstallExit",
+    "status": "passed",
+    "evidence": "bmad/bmad-first"
+  },
+  {
+    "scenario": "bmad/bmad-first rigSurvivalExit",
+    "status": "passed",
+    "evidence": "bmad/bmad-first"
+  },
+  {
+    "scenario": "bmad/bmad-first rigDryReadOnly",
+    "status": "passed",
+    "evidence": "bmad/bmad-first"
+  },
+  {
+    "scenario": "bmad/bmad-first rigDeletionPreserved",
+    "status": "passed",
+    "evidence": "bmad/bmad-first"
+  },
+  {
+    "scenario": "bmad/bmad-first bmadGeneratedEditPreserved",
+    "status": "failed",
+    "evidence": "bmad/bmad-first"
+  },
+  {
+    "scenario": "bmad/bmad-first artifactPreserved",
+    "status": "passed",
+    "evidence": "bmad/bmad-first"
+  },
+  {
+    "scenario": "bmad/bmad-first settled update byte-idempotent",
+    "status": "failed",
+    "evidence": "bmad/bmad-first",
+    "note": "Config/manifest bytes change on each update."
+  },
+  {
+    "scenario": "bmad/bmad-first Rig shared edits preserved",
+    "status": "passed",
+    "evidence": "bmad/bmad-first"
+  },
+  {
+    "scenario": "bmad/bmad-first rendererExit",
+    "status": "passed",
+    "evidence": "bmad/bmad-first/workflow-replay.json"
+  },
+  {
+    "scenario": "bmad/bmad-first spineLintExit",
+    "status": "passed",
+    "evidence": "bmad/bmad-first/workflow-replay.json"
+  },
+  {
+    "scenario": "bmad/bmad-first testsExit",
+    "status": "passed",
+    "evidence": "bmad/bmad-first/workflow-replay.json"
+  },
+  {
+    "scenario": "bmad/bmad-first Rig files survive native uninstall",
+    "status": "passed",
+    "evidence": "bmad/bmad-first/rig-uninstall-survival.json"
+  },
+  {
+    "scenario": "openspec/rig-first openspecRepeat",
+    "status": "passed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first rigDry",
+    "status": "passed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first rigUpgrade",
+    "status": "passed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first openspecUpdate",
+    "status": "passed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first deliveryConfig",
+    "status": "passed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first deliveryReconcile",
+    "status": "passed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first survivorRig",
+    "status": "passed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first survivorSpec",
+    "status": "passed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first openspecRepeatIdentical",
+    "status": "passed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first rigDryReadOnly",
+    "status": "passed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first rigEditsPreserved",
+    "status": "passed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first rigDeletedStaysRemoved",
+    "status": "passed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first openspecSkillEditPreserved",
+    "status": "failed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first rigSurvivesUpdate",
+    "status": "passed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first claudeSkillRemoved",
+    "status": "passed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first rigSurvivesReconcile",
+    "status": "passed",
+    "evidence": "openspec/rig-first"
+  },
+  {
+    "scenario": "openspec/rig-first generated deletion stays removed",
+    "status": "failed",
+    "evidence": "openspec/rig-first",
+    "note": "Generated delivery files are reconstructed by update."
+  },
+  {
+    "scenario": "openspec/openspec-first openspecRepeat",
+    "status": "passed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first rigDry",
+    "status": "passed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first rigUpgrade",
+    "status": "passed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first openspecUpdate",
+    "status": "passed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first deliveryConfig",
+    "status": "passed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first deliveryReconcile",
+    "status": "passed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first survivorRig",
+    "status": "passed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first survivorSpec",
+    "status": "passed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first openspecRepeatIdentical",
+    "status": "passed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first rigDryReadOnly",
+    "status": "passed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first rigEditsPreserved",
+    "status": "passed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first rigDeletedStaysRemoved",
+    "status": "passed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first openspecSkillEditPreserved",
+    "status": "failed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first rigSurvivesUpdate",
+    "status": "passed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first claudeSkillRemoved",
+    "status": "passed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first rigSurvivesReconcile",
+    "status": "passed",
+    "evidence": "openspec/openspec-first"
+  },
+  {
+    "scenario": "openspec/openspec-first generated deletion stays removed",
+    "status": "failed",
+    "evidence": "openspec/openspec-first",
+    "note": "Generated delivery files are reconstructed by update."
+  },
+  {
+    "scenario": "OpenSpec instructionsByteIdentical",
+    "status": "passed",
+    "evidence": "openspec/workflow/restart-results.json"
+  },
+  {
+    "scenario": "OpenSpec filesUnchanged",
+    "status": "passed",
+    "evidence": "openspec/workflow/restart-results.json"
+  },
+  {
+    "scenario": "OpenSpec persistent completed tasks",
+    "status": "passed",
+    "evidence": "openspec/workflow/restart-results.json"
+  },
+  {
+    "scenario": "openspec/current-update.json",
+    "status": "passed",
+    "evidence": "openspec/current-update.json"
+  },
+  {
+    "scenario": "openspec/workflow/strict-validation.json",
+    "status": "passed",
+    "evidence": "openspec/workflow/strict-validation.json"
+  },
+  {
+    "scenario": "openspec/workflow/archive.json",
+    "status": "passed",
+    "evidence": "openspec/workflow/archive.json"
+  },
+  {
+    "scenario": "openspec/workflow/validate-archived.json",
+    "status": "passed",
+    "evidence": "openspec/workflow/validate-archived.json"
+  },
+  {
+    "scenario": "GitHub export creates three synthetic tasks",
+    "status": "passed",
+    "evidence": "board-export/result.json"
+  },
+  {
+    "scenario": "Immediate GitHub export avoids duplicate",
+    "status": "failed",
+    "evidence": "board-export/result.json"
+  },
+  {
+    "scenario": "Closed task replay avoids duplicate",
+    "status": "passed",
+    "evidence": "board-export/result.json"
+  },
+  {
+    "scenario": "All synthetic issues closed",
+    "status": "passed",
+    "evidence": "board-export/result.json"
+  },
+  {
+    "scenario": "Task IDs scoped to feature",
+    "status": "failed",
+    "evidence": "board-export/result.json"
+  },
+  {
+    "scenario": "Native Claude model workflow for all candidates",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Native Codex automatic skill dispatch",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Comparative discovery quality on underspecified real feature",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Real human approval interaction",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Jira export",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "BMAD cross-version release upgrade",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "OpenSpec deterministic complete uninstall",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "BMAD generated deletion lifecycle",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Rig removal with each B component surviving",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Cold offline B dependency bootstrap",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Live Figma context inside B workflow",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Automatic semantic regeneration idempotence",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Superpowers incremental value over Spec Kit in native execution",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Exact rollback of outside-lab npm scope incident",
+    "status": "unverified",
+    "evidence": "report.md"
+  }
+]

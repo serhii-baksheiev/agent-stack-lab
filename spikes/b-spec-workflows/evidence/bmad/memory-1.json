@@ -1,0 +1,19 @@
+{
+  "command": [
+    "uv",
+    "run",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\b-bmad-author/_bmad/scripts/resolve_customization.py",
+    "--skill",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\b-bmad-author/.claude/skills/bmad-product-brief",
+    "--project-root",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\b-bmad-author",
+    "--key",
+    "workflow"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:31:06.549Z",
+  "durationMs": 2411,
+  "exitCode": 0,
+  "stdout": "{\r\n  \"workflow\": {\r\n    \"activation_steps_prepend\": [],\r\n    \"activation_steps_append\": [],\r\n    \"persistent_facts\": [],\r\n    \"on_complete\": \"\",\r\n    \"brief_template\": \"assets/brief-template.md\",\r\n    \"brief_output_path\": \"{planning_artifacts}/briefs\",\r\n    \"run_folder_pattern\": \"brief-{project_name}-{date}\",\r\n    \"doc_standards\": [\r\n      \"skill:bmad-review lenses=structure,prose\"\r\n    ],\r\n    \"external_sources\": [],\r\n    \"external_handoffs\": []\r\n  }\r\n}\r\n",
+  "stderr": ""
+}

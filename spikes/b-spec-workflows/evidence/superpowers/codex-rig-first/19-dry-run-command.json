@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-superpowers-rig/package/packages/cli/dist/index.js",
+    "upgrade",
+    "--dry-run"
+  ],
+  "cwd": ".lab-runs/b-superpowers-native-codex-rig-first/repo",
+  "startedAt": "2026-09-14T10:43:06.396Z",
+  "durationMs": 88,
+  "exitCode": 0,
+  "stdout": "agent-rig upgrade — init rig in <LAB>/.lab-runs/b-superpowers-native-codex-rig-first/repo\n  installed by 0.9.0\n  upgrading to 0.9.0\n\n\n  0 to replace, 0 new, 0 yours (kept), 83 already current\n\nDry run — nothing written.\n",
+  "stderr": ""
+}

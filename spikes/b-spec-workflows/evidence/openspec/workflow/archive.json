@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-openspec-1789382552065/openspec/node_modules/@fission-ai/openspec/bin/openspec.js",
+    "archive",
+    "local-subscriptions",
+    "--yes",
+    "--json"
+  ],
+  "cwd": ".lab-runs/b-openspec-1789382552065/workflow",
+  "startedAt": "2026-09-14T10:42:57.636Z",
+  "durationMs": 365,
+  "exitCode": 0,
+  "stdout": "{\n  \"archive\": {\n    \"change\": \"local-subscriptions\",\n    \"archivedAs\": \"2026-09-14-local-subscriptions\",\n    \"path\": \"<LAB>/.lab-runs/b-openspec-1789382552065/workflow/openspec/changes/archive/2026-09-14-local-subscriptions\",\n    \"specsUpdated\": true,\n    \"totals\": {\n      \"added\": 6,\n      \"modified\": 0,\n      \"removed\": 0,\n      \"renamed\": 0\n    }\n  },\n  \"root\": {\n    \"path\": \"<LAB>/.lab-runs/b-openspec-1789382552065/workflow\",\n    \"source\": \"nearest\"\n  }\n}\n",
+  "stderr": ""
+}

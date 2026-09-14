@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/spec-kit-env/bin/python",
+    ".specify/scripts/python/check_prerequisites.py",
+    "--json",
+    "--require-tasks",
+    "--include-tasks"
+  ],
+  "cwd": ".lab-runs/b-spec-kit-workflow/repo",
+  "startedAt": "2026-09-14T10:42:10.173Z",
+  "durationMs": 33,
+  "exitCode": 0,
+  "stdout": "{\"FEATURE_DIR\":\"<LAB>/.lab-runs/b-spec-kit-workflow/repo/specs/001-local-subscriptions\",\"AVAILABLE_DOCS\":[\"research.md\",\"data-model.md\",\"contracts/\",\"quickstart.md\",\"tasks.md\"]}\n",
+  "stderr": ""
+}

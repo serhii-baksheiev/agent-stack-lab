@@ -1,8 +1,8 @@
 # Feature Specification: Local subscriptions
 
-**Feature Branch**: `001-local-subscriptions`  
-**Created**: 2026-09-14  
-**Status**: Implemented laboratory trial; independent acceptance/review required  
+**Feature Branch**: `001-local-subscriptions`
+**Created**: 2026-09-14
+**Status**: Implemented laboratory trial; independent acceptance/review required
 **Input**: Shared synthetic feature brief, B-R1–B-R6.
 
 ## User Scenarios & Testing
