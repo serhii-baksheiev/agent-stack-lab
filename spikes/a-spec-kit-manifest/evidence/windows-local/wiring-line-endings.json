@@ -1,5 +1,5 @@
 {
-    "onlyLineEndingDifference":  true,
-    "baselineLF":  69,
-    "actualCR":  69
+  "onlyLineEndingDifference": true,
+  "baselineLF": 69,
+  "actualCR": 69
 }
