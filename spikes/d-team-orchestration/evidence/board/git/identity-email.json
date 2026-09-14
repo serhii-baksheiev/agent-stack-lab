@@ -1,0 +1,14 @@
+{
+  "command": [
+    "git",
+    "config",
+    "user.email",
+    "lab@example.invalid"
+  ],
+  "cwd": ".lab-runs/d-board-1789386678212/fixture",
+  "startedAt": "2026-09-14T11:52:10.599Z",
+  "durationMs": 964,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": ""
+}

@@ -1,0 +1,155 @@
+{
+  "repository": "serhii-baksheiev/agent-stack-lab",
+  "stamp": 1789386678212,
+  "scriptSha256": "649a7798168e13058d76d6f57943aa3861cf98d90b2fe13c46313e182a71bb7e",
+  "scenarioSha": "9c408cf9e10bf16927933bf4f925dcf33c0ffcbe",
+  "platform": "win32",
+  "node": "v24.18.0",
+  "checks": [
+    {
+      "name": "private repository verified",
+      "passed": true
+    },
+    {
+      "name": "spec decomposed into three real board issues",
+      "passed": true
+    },
+    {
+      "name": "real blocker links prevent selecting blocked task",
+      "passed": true,
+      "detail": {
+        "labelsUsed": false,
+        "blockedIssue": 13
+      }
+    },
+    {
+      "name": "issue If-Match admits exactly one concurrent owner",
+      "passed": false,
+      "detail": {
+        "statuses": [
+          400,
+          400
+        ],
+        "finalBody": "Synthetic feature d-counter-1789386678212. Requirement D-R1/R2/R3. Stable task identity serhii-baksheiev/agent-stack-lab:d-counter-1789386678212:D-T3. No production task."
+      }
+    },
+    {
+      "name": "native Git ref admits exactly one concurrent claim",
+      "passed": true,
+      "detail": {
+        "statuses": [
+          200,
+          422
+        ],
+        "winner": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+      }
+    },
+    {
+      "name": "duplicate claim event does not create new commit",
+      "passed": true,
+      "detail": {
+        "method": "Read canonical current claim before replay; event history beyond this current lease unverified."
+      }
+    },
+    {
+      "name": "expired claim can be reclaimed without deleting ref",
+      "passed": true,
+      "detail": {
+        "expiredAt": 1789386721963,
+        "reclaimedAfter": 1789386722123,
+        "epoch": 2,
+        "qualification": "Cooperative client wall clock; server clock skew policy and hard authorization fencing unverified."
+      }
+    },
+    {
+      "name": "stale owner cannot advance canonical claim ref",
+      "passed": true,
+      "detail": {
+        "status": 422
+      }
+    },
+    {
+      "name": "cooperative publish guard rejects stale fencing token",
+      "passed": true,
+      "detail": {
+        "qualification": "Read-check is not atomic with arbitrary external writes; privileged bypass remains possible."
+      }
+    },
+    {
+      "name": "each task executes in separate branch and worktree",
+      "passed": true
+    },
+    {
+      "name": "two PRs changing common line expose conflict before merge",
+      "passed": true
+    },
+    {
+      "name": "external PR is visible during active work",
+      "passed": true
+    },
+    {
+      "name": "review feedback produces a new corrective commit",
+      "passed": true,
+      "detail": {
+        "formalIndependentAccountReview": false
+      }
+    },
+    {
+      "name": "reworked feature passes requirement-linked fresh-process tests",
+      "passed": true
+    },
+    {
+      "name": "fresh process reconstructs explainable handoff state",
+      "passed": true,
+      "detail": {
+        "actualClaudeToCodexModelExecution": false
+      }
+    },
+    {
+      "name": "blocker readiness follows real issue state",
+      "passed": true
+    }
+  ],
+  "issues": [
+    {
+      "number": 12,
+      "id": 5448930508,
+      "url": "https://github.com/serhii-baksheiev/agent-stack-lab/issues/12"
+    },
+    {
+      "number": 13,
+      "id": 5448930979,
+      "url": "https://github.com/serhii-baksheiev/agent-stack-lab/issues/13"
+    },
+    {
+      "number": 14,
+      "id": 5448931561,
+      "url": "https://github.com/serhii-baksheiev/agent-stack-lab/issues/14"
+    }
+  ],
+  "prs": [
+    {
+      "number": 15,
+      "url": "https://github.com/serhii-baksheiev/agent-stack-lab/pull/15",
+      "actor": "a"
+    },
+    {
+      "number": 16,
+      "url": "https://github.com/serhii-baksheiev/agent-stack-lab/pull/16",
+      "actor": "b"
+    },
+    {
+      "number": 17,
+      "url": "https://github.com/serhii-baksheiev/agent-stack-lab/pull/17",
+      "actor": "external"
+    }
+  ],
+  "branches": [
+    "lab/d-claim-1789386678212",
+    "lab/d-fixture-1789386678212",
+    "lab/d-work-a-1789386678212",
+    "lab/d-work-b-1789386678212",
+    "lab/d-work-external-1789386678212"
+  ],
+  "scope": "Two synthetic process actors using one authorized lab account; not two model inference sessions or independent GitHub identities."
+}

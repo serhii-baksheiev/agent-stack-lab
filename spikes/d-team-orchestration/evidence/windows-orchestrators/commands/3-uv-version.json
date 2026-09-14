@@ -1,0 +1,12 @@
+{
+  "command": [
+    "uv",
+    "--version"
+  ],
+  "cwd": ".lab-runs/d-orchestrators-1789386831427",
+  "startedAt": "2026-09-14T11:54:02.393Z",
+  "durationMs": 186,
+  "exitCode": 0,
+  "stdout": "uv 0.12.5 (210d1f678 2026-08-14 x86_64-pc-windows-msvc)\n",
+  "stderr": ""
+}

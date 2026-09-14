@@ -1,0 +1,553 @@
+{
+  "checkedAt": "2026-09-14",
+  "scale": "0 worst10 best; high cost/lock-in means lower cost/lock-in. Unverified zero is numeric placeholder, not measured inferiority; do not average.",
+  "basis": "Engineering judgments in bounded evidence scope.",
+  "candidates": [
+    {
+      "candidate": "Native teams/subagents",
+      "confidence": "medium",
+      "dimensions": {
+        "userUtility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "maturity": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "maintainability": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "upstreamActivity": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "claudeCompatibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "codexCompatibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "reproducibility": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "upgradeUninstall": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "absenceOfFileConflicts": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "teamwork": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "boardIntegration": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "security": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "offlineLocalFirst": {
+          "score": 4,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "integrationCost": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "annualMaintenanceCost": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "lowVendorLockIn": {
+          "score": 4,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        },
+        "licenseSuitability": {
+          "score": 5,
+          "status": "engineering-judgment",
+          "evidence": "Current official docs/pinned source; actual harness team execution and distributed ownership unverified."
+        }
+      }
+    },
+    {
+      "candidate": "GitHub Issues/PRs API2026-03-10",
+      "confidence": "medium",
+      "dimensions": {
+        "userUtility": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "maturity": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "maintainability": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "upstreamActivity": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "claudeCompatibility": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "codexCompatibility": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "reproducibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "upgradeUninstall": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "absenceOfFileConflicts": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "teamwork": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "boardIntegration": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "security": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "offlineLocalFirst": {
+          "score": 2,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "integrationCost": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "annualMaintenanceCost": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "lowVendorLockIn": {
+          "score": 5,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        },
+        "licenseSuitability": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Actual links/PRs/conflicts; Issue conditional PATCH400. Generic CLI access, not native model integration."
+        }
+      }
+    },
+    {
+      "candidate": "Symphony0.0.2",
+      "confidence": "medium",
+      "dimensions": {
+        "userUtility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "maturity": {
+          "score": 5,
+          "status": "engineering-judgment",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "maintainability": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "upstreamActivity": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "claudeCompatibility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "codexCompatibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "reproducibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "upgradeUninstall": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "absenceOfFileConflicts": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "teamwork": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "boardIntegration": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "security": {
+          "score": 5,
+          "status": "engineering-judgment",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "offlineLocalFirst": {
+          "score": 3,
+          "status": "engineering-judgment",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "integrationCost": {
+          "score": 5,
+          "status": "engineering-judgment",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "annualMaintenanceCost": {
+          "score": 5,
+          "status": "engineering-judgment",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "lowVendorLockIn": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        },
+        "licenseSuitability": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Pinned upstream runtime tests with memory tracker; single supervised controller; lifecycle/deployment not qualified."
+        }
+      }
+    },
+    {
+      "candidate": "OpenHands Canvas1.18/Automation1.11.1",
+      "confidence": "medium",
+      "dimensions": {
+        "userUtility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "maturity": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "maintainability": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "upstreamActivity": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "claudeCompatibility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "codexCompatibility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "reproducibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "upgradeUninstall": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "absenceOfFileConflicts": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "teamwork": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "boardIntegration": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "security": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "offlineLocalFirst": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "integrationCost": {
+          "score": 4,
+          "status": "engineering-judgment",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "annualMaintenanceCost": {
+          "score": 4,
+          "status": "engineering-judgment",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "lowVendorLockIn": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        },
+        "licenseSuitability": {
+          "score": 10,
+          "status": "engineering-judgment",
+          "evidence": "Native launcher metadata + native scheduler query tests; complete backend/provider/board lifecycle unverified."
+        }
+      }
+    },
+    {
+      "candidate": "Jira",
+      "confidence": "medium",
+      "dimensions": {
+        "userUtility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "maturity": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "maintainability": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "upstreamActivity": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "claudeCompatibility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "codexCompatibility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "reproducibility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "upgradeUninstall": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "absenceOfFileConflicts": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "teamwork": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "boardIntegration": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "security": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "offlineLocalFirst": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "integrationCost": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "annualMaintenanceCost": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "lowVendorLockIn": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        },
+        "licenseSuitability": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No Jira mutation authorized outside lab; no tested task/claim integration."
+        }
+      }
+    },
+    {
+      "candidate": "Cooperative Git-ref claim proof",
+      "confidence": "medium",
+      "dimensions": {
+        "userUtility": {
+          "score": 5,
+          "status": "engineering-judgment",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "maturity": {
+          "score": 2,
+          "status": "engineering-judgment",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "maintainability": {
+          "score": 5,
+          "status": "engineering-judgment",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "upstreamActivity": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "claudeCompatibility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "codexCompatibility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "reproducibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "upgradeUninstall": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "absenceOfFileConflicts": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "teamwork": {
+          "score": 5,
+          "status": "engineering-judgment",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "boardIntegration": {
+          "score": 5,
+          "status": "engineering-judgment",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "security": {
+          "score": 3,
+          "status": "engineering-judgment",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "offlineLocalFirst": {
+          "score": 2,
+          "status": "engineering-judgment",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "integrationCost": {
+          "score": 5,
+          "status": "engineering-judgment",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "annualMaintenanceCost": {
+          "score": 4,
+          "status": "engineering-judgment",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "lowVendorLockIn": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        },
+        "licenseSuitability": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Lab-only native fast-forward primitive; no production package, hard fencing, historical idempotence or universal queue."
+        }
+      }
+    }
+  ]
+}

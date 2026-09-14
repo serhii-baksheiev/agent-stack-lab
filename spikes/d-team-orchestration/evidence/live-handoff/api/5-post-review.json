@@ -1,0 +1,56 @@
+{
+  "label": "post-review",
+  "method": "POST",
+  "endpoint": "repos/serhii-baksheiev/agent-stack-lab/pulls/19/reviews",
+  "request": {
+    "event": "COMMENT",
+    "body": "Codex codex-cli 0.154.0 exec review, posted by the lab script from the same operator account (not an independent-account REQUEST_CHANGES). Continuation commit 60ad5db8ec47e822d2140e544b3b945c82df918e on lab/d-live-codex-1789393978738.\n\n# Codex review\n\nChanges required:\n\n- **D-R2 — `counter.mjs:9`:** `String(n)` can throw before the intended TypeError is constructed. A non-number with a `Symbol.toPrimitive` hook that throws RangeError therefore violates D-R2. Use a fixed error message or guard conversion so invalid inputs always throw TypeError. Added `codex.test.mjs` to reproduce this defect.\n- **D-R4 — `README.md`:** The document contains 11 lines; reduce it to at most 10 lines, for example by removing one blank line.\n\nD-R1 appears satisfied. `counter.test.mjs` uses `node:test` and `node:assert/strict` and covers ordinary valid and invalid inputs.\n\nValidation: The required command `node --test \"spikes/d-team-orchestration/live/1789393978738/**/*.test.mjs\"` failed with `spawn EPERM` before assertions ran. Running with `--test-isolation=none` executed all five tests: the four existing tests passed and the new regression test failed with RangeError instead of TypeError. D-R3's required passing run remains unverified.\n\nOnly `codex.test.mjs` and `REVIEW.md` were added. No implementation files were modified, and no git commands were run.\n"
+  },
+  "requestHeaders": [],
+  "startedAt": "2026-09-14T13:57:09.861Z",
+  "durationMs": 2119,
+  "exitCode": 0,
+  "status": 200,
+  "responseHeaders": "HTTP/2.0 200 OK\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\r\nCache-Control: private, max-age=60, s-maxage=60\r\nContent-Security-Policy: default-src 'none'\r\nContent-Type: application/json; charset=utf-8\r\nDate: Mon, 14 Sep 2026 13:57:12 GMT\r\nEtag: W/\"f4cfa2a56ff39a5b4c6d80023994101f8258a1abc892cdfab9843d5c112cc16e\"\r\nReferrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin\r\nServer: github.com\r\nStrict-Transport-Security: max-age=31536000; includeSubdomains; preload\r\nVary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With\r\nX-Accepted-Oauth-Scopes: \r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Github-Api-Version-Selected: 2026-03-10\r\nX-Github-Edge-Region: fra\r\nX-Github-Media-Type: github.v3; format=json\r\nX-Github-Request-Id: 5A01:1D3814:FD2679:F5EEDD:6AA7FD37\r\nX-Oauth-Client-Id: 178c6fc778ccc68e1d6a\r\nX-Oauth-Scopes: admin:public_key, gist, read:org, repo, workflow\r\nX-Ratelimit-Limit: 5000\r\nX-Ratelimit-Remaining: 4972\r\nX-Ratelimit-Reset: 1789397539\r\nX-Ratelimit-Resource: core\r\nX-Ratelimit-Used: 28\r\nX-Xss-Protection: 0",
+  "data": {
+    "id": 5198577118,
+    "node_id": "PRR_kwDOUaGcPc8AAAABNdv93g",
+    "user": {
+      "login": "serhii-baksheiev",
+      "id": 22969597,
+      "node_id": "MDQ6VXNlcjIyOTY5NTk3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22969597?u=38d08521081f1d66e84ee9d69d3a9e1835c0ecbf&v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/serhii-baksheiev",
+      "html_url": "https://github.com/serhii-baksheiev",
+      "followers_url": "https://api.github.com/users/serhii-baksheiev/followers",
+      "following_url": "https://api.github.com/users/serhii-baksheiev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/serhii-baksheiev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/serhii-baksheiev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/serhii-baksheiev/subscriptions",
+      "organizations_url": "https://api.github.com/users/serhii-baksheiev/orgs",
+      "repos_url": "https://api.github.com/users/serhii-baksheiev/repos",
+      "events_url": "https://api.github.com/users/serhii-baksheiev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/serhii-baksheiev/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Codex codex-cli 0.154.0 exec review, posted by the lab script from the same operator account (not an independent-account REQUEST_CHANGES). Continuation commit 60ad5db8ec47e822d2140e544b3b945c82df918e on lab/d-live-codex-1789393978738.\n\n# Codex review\n\nChanges required:\n\n- **D-R2 — `counter.mjs:9`:** `String(n)` can throw before the intended TypeError is constructed. A non-number with a `Symbol.toPrimitive` hook that throws RangeError therefore violates D-R2. Use a fixed error message or guard conversion so invalid inputs always throw TypeError. Added `codex.test.mjs` to reproduce this defect.\n- **D-R4 — `README.md`:** The document contains 11 lines; reduce it to at most 10 lines, for example by removing one blank line.\n\nD-R1 appears satisfied. `counter.test.mjs` uses `node:test` and `node:assert/strict` and covers ordinary valid and invalid inputs.\n\nValidation: The required command `node --test \"spikes/d-team-orchestration/live/1789393978738/**/*.test.mjs\"` failed with `spawn EPERM` before assertions ran. Running with `--test-isolation=none` executed all five tests: the four existing tests passed and the new regression test failed with RangeError instead of TypeError. D-R3's required passing run remains unverified.\n\nOnly `codex.test.mjs` and `REVIEW.md` were added. No implementation files were modified, and no git commands were run.\n",
+    "state": "COMMENTED",
+    "html_url": "https://github.com/serhii-baksheiev/agent-stack-lab/pull/19#pullrequestreview-5198577118",
+    "pull_request_url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/pulls/19",
+    "author_association": "OWNER",
+    "_links": {
+      "html": {
+        "href": "https://github.com/serhii-baksheiev/agent-stack-lab/pull/19#pullrequestreview-5198577118"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/pulls/19"
+      }
+    },
+    "submitted_at": "2026-09-14T13:57:11Z",
+    "commit_id": "0ed8805b11aaea6f1ecc208b2cf6fa701af2a9d8"
+  },
+  "stderr": ""
+}

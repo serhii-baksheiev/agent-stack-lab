@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\nvm4w\\nodejs\\node.exe",
+    "--test",
+    "spikes/d-team-orchestration/live/1789393978738/**/*.test.mjs"
+  ],
+  "cwd": ".lab-runs/d-live-1789393978738/claude",
+  "startedAt": "2026-09-14T13:55:18.702Z",
+  "durationMs": 857,
+  "exitCode": 0,
+  "stdout": "✔ D-R1: render returns \"Count: <n>\" for non-negative integers (0.8101ms)\n✔ D-R2: render throws TypeError for negative numbers (0.458ms)\n✔ D-R2: render throws TypeError for non-integers (0.1836ms)\n✔ D-R2: render throws TypeError for non-numbers (0.9514ms)\nℹ tests 4\nℹ suites 0\nℹ pass 4\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 218.4289\n",
+  "stderr": ""
+}

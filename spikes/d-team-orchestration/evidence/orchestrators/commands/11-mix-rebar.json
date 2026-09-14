@@ -1,0 +1,13 @@
+{
+  "command": [
+    "mix",
+    "local.rebar",
+    "--force"
+  ],
+  "cwd": ".lab-runs/d-orchestrators-1789387427557/symphony-tests/elixir",
+  "startedAt": "2026-09-14T12:03:57.268Z",
+  "durationMs": 681,
+  "exitCode": 0,
+  "stdout": "* creating <LAB>/.lab-runs/d-orchestrator-cache/mix/elixir/1-19-otp-28/rebar3\n",
+  "stderr": ""
+}

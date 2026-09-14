@@ -5,8 +5,9 @@ import {mkdirSync,readFileSync,writeFileSync} from 'node:fs';
 import {spawnSync} from 'node:child_process';
 import path from 'node:path';
 import {root,json,sha} from './lab-evidence.mjs';
+import {safeRepoMetadata} from './safe-repo-metadata.mjs';
 const repo='serhii-baksheiev/agent-stack-lab',out='spikes/b-spec-workflows/evidence/board-export',temp=path.join(root,'.lab-runs/b-board-export');mkdirSync(temp,{recursive:true});let n=0;
-function api(endpoint,method='GET',body){const args=['api',endpoint];if(body){const input=path.join(temp,'request.json');writeFileSync(input,JSON.stringify(body));args.push('--method',method,'--input',input);}const r=spawnSync('gh',args,{encoding:'utf8',timeout:60000,maxBuffer:4*1024*1024,windowsHide:true});assert(!r.error,r.error?.message);assert.equal(r.status,0,r.stderr);const value=JSON.parse(r.stdout);json(out+`/${n++}-api.json`,{endpoint,method,exitCode:r.status,response:value});return value;}
+function api(endpoint,method='GET',body){const args=['api',endpoint];if(body){const input=path.join(temp,'request.json');writeFileSync(input,JSON.stringify(body));args.push('--method',method,'--input',input);}const r=spawnSync('gh',args,{encoding:'utf8',timeout:60000,maxBuffer:4*1024*1024,windowsHide:true});assert(!r.error,r.error?.message);assert.equal(r.status,0,r.stderr);const parsed=JSON.parse(r.stdout),value=endpoint.split('?')[0]==='repos/'+repo?safeRepoMetadata(parsed):parsed;json(out+`/${n++}-api.json`,{endpoint,method,exitCode:r.status,response:value});return value;}
 assert.equal(api('repos/'+repo).private,true,'Write only this private lab');
 const file='fixtures/b-workflow/spec-kit/specs/001-local-subscriptions/tasks.md',text=readFileSync(file,'utf8');const tasks=[...text.matchAll(/^- \[[ x]\] (T\d{3,})\s+(?:\[US\d+\]\s+)?(.+)$/gm)].map(m=>({id:m[1],description:m[2]}));assert.equal(tasks.length,3);
 function existing(){const rows=[];for(let page=1;;page++){const found=api(`repos/${repo}/issues?state=all&per_page=100&page=${page}`);rows.push(...found.filter(x=>!x.pull_request));if(found.length<100)break;assert(page<10,'Unexpected large lab issue history; stop bounded export');}return rows;}

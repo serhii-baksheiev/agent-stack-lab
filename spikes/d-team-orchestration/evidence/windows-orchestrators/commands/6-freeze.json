@@ -1,0 +1,15 @@
+{
+  "command": [
+    "uv",
+    "pip",
+    "freeze",
+    "--python",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\d-orchestrators-1789386831427\\venv\\Scripts\\python.exe"
+  ],
+  "cwd": ".lab-runs/d-orchestrators-1789386831427",
+  "startedAt": "2026-09-14T11:54:07.201Z",
+  "durationMs": 161,
+  "exitCode": 0,
+  "stdout": "greenlet==3.5.5\nsqlalchemy==2.0.43\ntyping-extensions==4.16.0\n",
+  "stderr": "Using Python 3.11.9 environment at: venv\n"
+}

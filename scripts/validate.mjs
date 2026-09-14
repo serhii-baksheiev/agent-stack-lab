@@ -13,10 +13,14 @@ for (const p of tracked) {
   if (p.endsWith('.json')) JSON.parse(readFileSync(p, 'utf8').replace(/^\uFEFF/, ''));
 }
 console.log(`PASS: required documents, JSON syntax, tracked-path boundaries (${tracked.length} files). This is not a secret scanner or spike behavior test.`);
+function assertNoCredentialFields(v,p){if(!v||typeof v!=='object')return;for(const [k,x]of Object.entries(v)){assert(!/^(temp_clone_token|access_token|refresh_token|client_secret|authorization)$/i.test(k)||!x,`Credential field in evidence ${p}:${k}`);assertNoCredentialFields(x,p+':'+k);}}
+for(const p of tracked.filter(p=>p.endsWith('.json')))assertNoCredentialFields(JSON.parse(readFileSync(p,'utf8').replace(/^\uFEFF/,'')),p);
+if(existsSync('scripts/safe-repo-metadata.test.mjs'))await import('./safe-repo-metadata.test.mjs');
 if (existsSync('spikes/a-spec-kit-manifest/result.json')) await import('./validate-a-evidence.mjs');
 if (existsSync('spikes/f-native-projection/result.json')) await import('./validate-f-evidence.mjs');
 if (existsSync('spikes/c-figma/result.json')) await import('./validate-c-evidence.mjs');
 if (existsSync('spikes/b-spec-workflows/result.json')) await import('./validate-b-evidence.mjs');
 if (existsSync('spikes/e-memory/result.json')) await import('./validate-e-evidence.mjs');
+if (existsSync('spikes/d-team-orchestration/result.json')) await import('./validate-d-evidence.mjs');
 
 if (existsSync('docs/history-cleanup/evidence-reference-index.json')) await import('./validate-history-cleanup.mjs');

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "git",
+    "init",
+    "-q"
+  ],
+  "cwd": ".lab-runs/d-board-1789386678212/fixture",
+  "startedAt": "2026-09-14T11:52:09.350Z",
+  "durationMs": 775,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": ""
+}

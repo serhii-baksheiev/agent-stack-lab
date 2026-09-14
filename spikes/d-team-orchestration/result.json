@@ -1,0 +1,14 @@
+{
+  "spike": "D",
+  "verdict": "ADAPT",
+  "confidence": "medium",
+  "candidate": "Native agents + external board + thin task/handoff skill; optional claim layer remains conditional, no Rig scheduler",
+  "version": "GitHub API2026-03-10; Symphony0.0.2; OpenHands Canvas1.18.0 / Automation1.11.1; Claude2.1.270 / Codex0.154.0",
+  "rigBaseline": "0.9.0",
+  "scenariosPassed": 23,
+  "scenariosFailed": 2,
+  "scenariosUnverified": 11,
+  "estimatedIntegrationDays": 3,
+  "estimatedAnnualMaintenanceDays": 3,
+  "qualification": "Primitive/source/unit observations plus one scripted live Claude Code -> Codex -> Claude Code handoff over a real lab Issue/PR with hosted CI; not a qualified autonomous team. Optional production claim adapter estimated5\u20138 additional days,3\u20135 annual; no queue/framework built."
+}

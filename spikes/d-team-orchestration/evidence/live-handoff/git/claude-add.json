@@ -1,0 +1,13 @@
+{
+  "command": [
+    "git",
+    "add",
+    "spikes/d-team-orchestration/live/1789393978738"
+  ],
+  "cwd": ".lab-runs/d-live-1789393978738/claude",
+  "startedAt": "2026-09-14T13:55:19.567Z",
+  "durationMs": 283,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": ""
+}

@@ -1,9 +1,393 @@
 {
-  "at": "2026-09-14T12:50:58.319Z",
-  "branch": "master",
-  "filteredSourceSha": "3cf6d819289cd621d6fa7811a53a74d22fba4f79",
+  "at": "2026-09-14T12:51:07.067Z",
+  "branch": "spike/d-team-orchestration",
+  "filteredSourceSha": "3f1e4fb13ed074adf4e01be86dd6230e6eb06799",
   "normalization": "Commit references including scenarioSha and URLs are translated to cleaned identities. Original source execution timestamps/results remain historical, not reruns. Original bytes remain only in retained private local backup. Do not attribute pre-cleanup workflow runs to rewritten SHA.",
   "files": [
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/10-master-ref.json",
+      "beforeSha256": "5df133f1381541558d63c2d6d9f862456bc2b5f2fdc3452039d00e2174503436",
+      "mappedCommits": [
+        {
+          "old": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+          "new": "3cf6d819289cd621d6fa7811a53a74d22fba4f79"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "deb1a2a16270f7ef9f0f458a9bd749d814177a750c342131d5180bec839ddbbc",
+      "finalFileSha256": "deb1a2a16270f7ef9f0f458a9bd749d814177a750c342131d5180bec839ddbbc"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/11-master-commit.json",
+      "beforeSha256": "b6f4be3de360cf495c7687e8563461e6f2cc3dfc98b4e6fd3c258774efa3a341",
+      "mappedCommits": [
+        {
+          "old": "2f3c3166b3dc45b3526626a06aa9dd2589e98001",
+          "new": "57d2cd62be4a479cae724e0c96f67f9b8b48f4cd"
+        },
+        {
+          "old": "610c860dc05b7407e0fa8b67a820e8b0275955e8",
+          "new": "043104768b96bc0f9e41a7f093ace0f1b03b2a50"
+        },
+        {
+          "old": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+          "new": "3cf6d819289cd621d6fa7811a53a74d22fba4f79"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "073d494805a5df19f939b8d70eb34ef799541b2e54b5946b10a35a4dc0f01a3d",
+      "finalFileSha256": "073d494805a5df19f939b8d70eb34ef799541b2e54b5946b10a35a4dc0f01a3d"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/12-lease-ref-create.json",
+      "beforeSha256": "946255a525724c4cee53c2791d5269cf8d0fb6e1872f15cb09d6e332079868eb",
+      "mappedCommits": [
+        {
+          "old": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+          "new": "3cf6d819289cd621d6fa7811a53a74d22fba4f79"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "7b457287307d65f03d1ef68ed0b57c8ba3117f9f9238ec38c6f97cab1a5887d7",
+      "finalFileSha256": "7b457287307d65f03d1ef68ed0b57c8ba3117f9f9238ec38c6f97cab1a5887d7"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/13-lease-propose-actor-a.json",
+      "beforeSha256": "c4970b541890a87bfee682a82d8e0ba406590f3e387f3bf7729d784ff52a5926",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        },
+        {
+          "old": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+          "new": "3cf6d819289cd621d6fa7811a53a74d22fba4f79"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "697283045036ec8def917a35c53adf7a8ddb7d2324171c1aee6b8267eff1add2",
+      "finalFileSha256": "697283045036ec8def917a35c53adf7a8ddb7d2324171c1aee6b8267eff1add2"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/14-lease-propose-actor-b.json",
+      "beforeSha256": "a11ae1c653fc6171250c54d86f122e15272d16067ac23d0713d48168a21b53c1",
+      "mappedCommits": [
+        {
+          "old": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+          "new": "3cf6d819289cd621d6fa7811a53a74d22fba4f79"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "1b4ab8a0cd214e86fca1503254b53ac600553bedabe6f1e06ae5681fbd77e726",
+      "finalFileSha256": "1b4ab8a0cd214e86fca1503254b53ac600553bedabe6f1e06ae5681fbd77e726"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/15-lease-claim-0.json",
+      "beforeSha256": "b6e3b0c44c216a3a1353ae55bcd8f2a6fd847ca014084c1134ca9fa99f98cb4e",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "37474cfde9bc60d8f4097e0931189dccd0e2f7549e747de5deae299e19c9f7d2",
+      "finalFileSha256": "37474cfde9bc60d8f4097e0931189dccd0e2f7549e747de5deae299e19c9f7d2"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/17-lease-tip.json",
+      "beforeSha256": "602e3393f2c7aa5f245639cf10614f86146cbd878153a187edc93b5413fc50d9",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "1506b8502069492c4626a8750e66c5927ee429624bb6027371b797844d5b9c8b",
+      "finalFileSha256": "1506b8502069492c4626a8750e66c5927ee429624bb6027371b797844d5b9c8b"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/18-publish-claim-reference.json",
+      "beforeSha256": "6882a7b2f163cc0e4e8e4ffae7603fc356a5d37d7427d9a97d8d7dbfc637aa73",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "08ca9a0e7928927b6e63e36accea6682d192abfc79b45aec0a58df6f959d57a9",
+      "finalFileSha256": "08ca9a0e7928927b6e63e36accea6682d192abfc79b45aec0a58df6f959d57a9"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/19-replay-commit.json",
+      "beforeSha256": "c3bde02d42626bfea4fca4e4c06fa66d9fae6f5a4b0433e1f4e194112305d787",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        },
+        {
+          "old": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+          "new": "3cf6d819289cd621d6fa7811a53a74d22fba4f79"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "a1d2206bad3a97714e1fb008f6b7838510b7ee73fda2f7cbff06d2cc649bf035",
+      "finalFileSha256": "a1d2206bad3a97714e1fb008f6b7838510b7ee73fda2f7cbff06d2cc649bf035"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/20-lease-reclaim-proposal.json",
+      "beforeSha256": "3d31fe0ff43ccac09e165fd39eb41fe0d2cec4d10633041670d8274d8c4fa9bc",
+      "mappedCommits": [
+        {
+          "old": "4245eed7f8c1bce669da91134d7244b9037b38eb",
+          "new": "13d06668e415b34fc44124453da17e5dffaed8b9"
+        },
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "c70dcc07063529a9ef6c09239bd9382c1c2963a345249a87338fd5b946e88c5b",
+      "finalFileSha256": "c70dcc07063529a9ef6c09239bd9382c1c2963a345249a87338fd5b946e88c5b"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/21-lease-reclaim.json",
+      "beforeSha256": "2902cbf74ce62b71e3ded9f3e8e5f61d5ed95346610424d11ee158a56cffe8dd",
+      "mappedCommits": [
+        {
+          "old": "4245eed7f8c1bce669da91134d7244b9037b38eb",
+          "new": "13d06668e415b34fc44124453da17e5dffaed8b9"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "f43493e0038c18ecaf28916401b3ca3a8fad3df04dfd57eaf420f7546cfa080a",
+      "finalFileSha256": "f43493e0038c18ecaf28916401b3ca3a8fad3df04dfd57eaf420f7546cfa080a"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/22-stale-owner-proposal.json",
+      "beforeSha256": "abfbc59ea7bd82565d8621f1cd8b2e37eb1f207e91c9ef32a4a039eb4c7ddd74",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "54e73782371e82e0c895f2c800f56c764028d1139fc748c584177b4993966619",
+      "finalFileSha256": "54e73782371e82e0c895f2c800f56c764028d1139fc748c584177b4993966619"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/24-lease-final-tip.json",
+      "beforeSha256": "4000bda609ad2d135e6692274dca1f57a8fa7bbd1f2a4412254f3d987828a40b",
+      "mappedCommits": [
+        {
+          "old": "4245eed7f8c1bce669da91134d7244b9037b38eb",
+          "new": "13d06668e415b34fc44124453da17e5dffaed8b9"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "5413708797dd9d668f3c6e5f29027a0f6707ec8ca442d2a449615f530dabe8e2",
+      "finalFileSha256": "5413708797dd9d668f3c6e5f29027a0f6707ec8ca442d2a449615f530dabe8e2"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/37-close-issue-14.json",
+      "beforeSha256": "54abe2a951f0ec6c662d3ce2f482c1f0429f6e78c0d7d9ad6c97ace312253c0a",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "8854eb9a1176a68d3ee842b7fb32ecdf647a120575e1540a461e53e5db36355c",
+      "finalFileSha256": "8854eb9a1176a68d3ee842b7fb32ecdf647a120575e1540a461e53e5db36355c"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/api/43-verify-closed-issue-14.json",
+      "beforeSha256": "d155bd75bb748c18e4451c08bcd2f9e12b9bfb441bacca8258ea67409c65622b",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "3e485036190ee55f0802af507f07c9dc35d97d2c0716a9bec23aa9c71ef5bbcb",
+      "finalFileSha256": "3e485036190ee55f0802af507f07c9dc35d97d2c0716a9bec23aa9c71ef5bbcb"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/handoff.json",
+      "beforeSha256": "799eda2d62479483ea992a4ca50071534f79a04cb63384f88902bc6dcbdad9b8",
+      "mappedCommits": [
+        {
+          "old": "4245eed7f8c1bce669da91134d7244b9037b38eb",
+          "new": "13d06668e415b34fc44124453da17e5dffaed8b9"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "3662208e50ba14cfee897eaf9f7dd678df8f9c1152c1e16910287c5f7a9bda56",
+      "finalFileSha256": "3662208e50ba14cfee897eaf9f7dd678df8f9c1152c1e16910287c5f7a9bda56"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/restart-read.json",
+      "beforeSha256": "8892a6229367522ba6bc9b5268129d148a4b00875b88a8913b4d373bc03134bd",
+      "mappedCommits": [
+        {
+          "old": "4245eed7f8c1bce669da91134d7244b9037b38eb",
+          "new": "13d06668e415b34fc44124453da17e5dffaed8b9"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "da9fc105dd42977d7cbccf7640aa1dd1c7379d0b96aa2a3cba38ba5447f7ee3e",
+      "finalFileSha256": "da9fc105dd42977d7cbccf7640aa1dd1c7379d0b96aa2a3cba38ba5447f7ee3e"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/board/result.json",
+      "beforeSha256": "739bb3838d7cdc37a4bead4bed60e81f65eebbe4d73f25449d76111488379284",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        },
+        {
+          "old": "a86b2885742746b1dccb1c8763aa9351f79f9326",
+          "new": "9c408cf9e10bf16927933bf4f925dcf33c0ffcbe"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "4e1877f375d528113652cd722658cdb5a73d89a02dc2d8458f71322d064d1e14",
+      "finalFileSha256": "4e1877f375d528113652cd722658cdb5a73d89a02dc2d8458f71322d064d1e14"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/diagnostics/first-hosted.json",
+      "beforeSha256": "cb77e75470b8a751a711d9b60541ee5f6b41747c9321df76262e2a12837a77ab",
+      "mappedCommits": [
+        {
+          "old": "7b9799b798797520a0f766e6d9dd64208bee06f1",
+          "new": "afe444c8d1b8bee6c778146eab96bf8d8d78311a"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "c9d571972e5bbaf0a4c8241853685a774d326610eb24253fbca1f4dc5ba809bf",
+      "finalFileSha256": "c9d571972e5bbaf0a4c8241853685a774d326610eb24253fbca1f4dc5ba809bf"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/orchestrators/result.json",
+      "beforeSha256": "ca1b06c564668da07f62f4a487734c67f176b53b6385dd6ded7574c6e1842d7b",
+      "mappedCommits": [
+        {
+          "old": "4fbe88909791bbf97632ccb4f4ce3047578cc0cd",
+          "new": "a1e37399383468b1ca80477d739146ca648568c6"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "b29f7a29467414ace342e0ab52d874ed2158361a4c6996731b34a183b1b3a6df",
+      "finalFileSha256": "b29f7a29467414ace342e0ab52d874ed2158361a4c6996731b34a183b1b3a6df"
+    },
+    {
+      "path": "spikes/d-team-orchestration/evidence/windows-orchestrators/result.json",
+      "beforeSha256": "61001b6815acf5f2b6b7d941b735d7c5e08aa1ddc14d6b66568284c8a8f68aec",
+      "mappedCommits": [
+        {
+          "old": "a86b2885742746b1dccb1c8763aa9351f79f9326",
+          "new": "9c408cf9e10bf16927933bf4f925dcf33c0ffcbe"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "25acf99d7430c6c210453abb051fdb1ae581ddef9682ee9798cbcb4ea060cc0e",
+      "finalFileSha256": "25acf99d7430c6c210453abb051fdb1ae581ddef9682ee9798cbcb4ea060cc0e"
+    },
+    {
+      "path": "spikes/d-team-orchestration/measurements.json",
+      "beforeSha256": "6487e37d9f43b4c1887d327d338c0b8ce2adccf0275c11f3f4d480db7fd62935",
+      "mappedCommits": [
+        {
+          "old": "4fbe88909791bbf97632ccb4f4ce3047578cc0cd",
+          "new": "a1e37399383468b1ca80477d739146ca648568c6"
+        },
+        {
+          "old": "a86b2885742746b1dccb1c8763aa9351f79f9326",
+          "new": "9c408cf9e10bf16927933bf4f925dcf33c0ffcbe"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "c8bbec66724facb6bfb8ca2e28a6dea94e23b7ac67e492386f36a8d2ed1b6cb0",
+      "finalFileSha256": "c402d0360a6fe76ddfff00fe15aaa23d1ffef5080b766bbaa75b4be1e6095b9f",
+      "previousFinalFileSha256": "c402d0360a6fe76ddfff00fe15aaa23d1ffef5080b766bbaa75b4be1e6095b9f",
+      "postCleanupEdit": "Final review: live handoff evidence and security wording",
+      "committedFinalFileSha256History": [
+        {
+          "commit": "b363efa293daff0406e4ba8f00be3f43b25c2fa6",
+          "sha256": "c8bbec66724facb6bfb8ca2e28a6dea94e23b7ac67e492386f36a8d2ed1b6cb0"
+        },
+        {
+          "commit": "05bca081cb1c3b7be5d7e70f69f17446310a46ea",
+          "sha256": "c402d0360a6fe76ddfff00fe15aaa23d1ffef5080b766bbaa75b4be1e6095b9f"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/report.md",
+      "beforeSha256": "f2f6427d4d7a9e21afba4a3b883879cd20aaea3a1cf5c625f7e4af69bfbbb0de",
+      "mappedCommits": [
+        {
+          "old": "4fbe88909791bbf97632ccb4f4ce3047578cc0cd",
+          "new": "a1e37399383468b1ca80477d739146ca648568c6"
+        },
+        {
+          "old": "a86b2885742746b1dccb1c8763aa9351f79f9326",
+          "new": "9c408cf9e10bf16927933bf4f925dcf33c0ffcbe"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "57b4bed5c163a3b6a5acc617cae194449248471ca5b702d30473dd78d3cacb14",
+      "finalFileSha256": "a231b4ece73b32a0da007b021aac0c80a6e2a1b106cddadcc639d548b11f4caf",
+      "previousFinalFileSha256": "f05ab8b6cf5e07feaee28717f303501227e953bfb3bb406e26a12f97109f69d6",
+      "postCleanupEdit": "Final review: reviewer wording fixes",
+      "committedFinalFileSha256History": [
+        {
+          "commit": "b363efa293daff0406e4ba8f00be3f43b25c2fa6",
+          "sha256": "bc9856685f3a74789a1c810e5627c65514d1adf9f791562745361e4b1e282c76"
+        },
+        {
+          "commit": "05bca081cb1c3b7be5d7e70f69f17446310a46ea",
+          "sha256": "f05ab8b6cf5e07feaee28717f303501227e953bfb3bb406e26a12f97109f69d6"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/review.md",
+      "beforeSha256": "d7ff45219ff4ca34b899882c0a2ad05ab5e1898fae6defd6e0f20b3dfe366968",
+      "mappedCommits": [
+        {
+          "old": "4fbe88909791bbf97632ccb4f4ce3047578cc0cd",
+          "new": "a1e37399383468b1ca80477d739146ca648568c6"
+        },
+        {
+          "old": "a86b2885742746b1dccb1c8763aa9351f79f9326",
+          "new": "9c408cf9e10bf16927933bf4f925dcf33c0ffcbe"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "ae5113e78a13fcd6da4aead6c1aef20ad161074ae39298989cb3c35ed0bb9f74",
+      "finalFileSha256": "4cdd84aa1d5dd55d898f382127e34ec24a811bb8a0e2c5e868b1ce08e1d95469",
+      "previousFinalFileSha256": "be07350561849f281c6f139d207e10991e5952f9be2be7d4ac3b3c9609fa8d66",
+      "postCleanupEdit": "Final review: reviewer wording fixes",
+      "committedFinalFileSha256History": [
+        {
+          "commit": "b363efa293daff0406e4ba8f00be3f43b25c2fa6",
+          "sha256": "50e933212533884e6894b94ed46fd3428d76509f923d1707b34ebf4f834e500b"
+        },
+        {
+          "commit": "05bca081cb1c3b7be5d7e70f69f17446310a46ea",
+          "sha256": "be07350561849f281c6f139d207e10991e5952f9be2be7d4ac3b3c9609fa8d66"
+        }
+      ]
+    },
+    {
+      "path": "spikes/d-team-orchestration/scenario-ledger.json",
+      "beforeSha256": "49c316aa2fa09641cf4fb6e5ba082283cd86bc0be37f32e851fced525b61fd24",
+      "mappedCommits": [
+        {
+          "old": "78c0fdd165fa64c0318b4c78f2204997141277d8",
+          "new": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+        }
+      ],
+      "afterCommitReferenceTranslationSha256": "0deb9408226718c5d2e467957fdd58375ea519dab29ccb669f3f487856717e83",
+      "finalFileSha256": "1213f43a98d7a48ab3db987574c22770d982f952e7218ecb31d15b74da321b3f",
+      "previousFinalFileSha256": "30085a01b178855f07a1b6b569cbb37058b970844f18bddf82a2880a004c676c",
+      "postCleanupEdit": "Final review: reviewer wording fixes",
+      "committedFinalFileSha256History": [
+        {
+          "commit": "b363efa293daff0406e4ba8f00be3f43b25c2fa6",
+          "sha256": "0deb9408226718c5d2e467957fdd58375ea519dab29ccb669f3f487856717e83"
+        },
+        {
+          "commit": "05bca081cb1c3b7be5d7e70f69f17446310a46ea",
+          "sha256": "30085a01b178855f07a1b6b569cbb37058b970844f18bddf82a2880a004c676c"
+        }
+      ]
+    },
     {
       "path": "spikes/e-memory/evidence/basic-setup/provenance.json",
       "beforeSha256": "7c4627032f50ae89e7e82a544d32c339e752d32b3de44939b9d7e75e6b5f32a1",
@@ -189,5 +573,35 @@
       "finalFileSha256": "925d1c42e38880fbea50e69fa6590a1d48b5e552c8254281decced83b0c61f08"
     }
   ],
-  "hashSemantics": "beforeSha256 is pre-translation; afterCommitReferenceTranslationSha256 is immediately after SHA translation; finalFileSha256 includes the subsequent historical-provenance banner."
+  "hashSemantics": "beforeSha256 is pre-translation; afterCommitReferenceTranslationSha256 is immediately after SHA translation; finalFileSha256 includes the subsequent historical-provenance banner. previousFinalFileSha256 is the hash at the last commit before the current post-cleanup edit; committedFinalFileSha256History lists the committed hashes of rows edited after the cleanup (intermediate uncommitted edits are not recorded).",
+  "postCleanupEdits": [
+    {
+      "at": "2026-09-14T13:55:25.487Z",
+      "reason": "Final review: correct pre-cleanup run attribution and link exact-head runs",
+      "files": [
+        "spikes/d-team-orchestration/measurements.json",
+        "spikes/d-team-orchestration/report.md",
+        "spikes/d-team-orchestration/review.md"
+      ]
+    },
+    {
+      "at": "2026-09-14T14:10:11.816Z",
+      "reason": "Final review: live handoff evidence and security wording",
+      "files": [
+        "spikes/d-team-orchestration/measurements.json",
+        "spikes/d-team-orchestration/report.md",
+        "spikes/d-team-orchestration/review.md",
+        "spikes/d-team-orchestration/scenario-ledger.json"
+      ]
+    },
+    {
+      "at": "2026-09-14T14:26:00.652Z",
+      "reason": "Final review: reviewer wording fixes",
+      "files": [
+        "spikes/d-team-orchestration/report.md",
+        "spikes/d-team-orchestration/review.md",
+        "spikes/d-team-orchestration/scenario-ledger.json"
+      ]
+    }
+  ]
 }

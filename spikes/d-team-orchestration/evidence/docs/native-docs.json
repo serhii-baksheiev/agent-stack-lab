@@ -1,0 +1,62 @@
+{
+  "docs": [
+    {
+      "name": "claude-teams",
+      "url": "https://code.claude.com/docs/en/agent-teams",
+      "finalUrl": "https://code.claude.com/docs/en/agent-teams",
+      "sha256": "0c93fd31b475bb67a9b440e1e68eb1d46c89c7c9db6b80f26ccb8496976b59bf",
+      "bytes": 684534,
+      "checkedAt": "2026-09-14T11:58:25.593Z",
+      "qualification": "Fetched official page; time-varying HTML hash, content summarized in notes-orchestrators.md."
+    },
+    {
+      "name": "codex-subagents",
+      "url": "https://learn.chatgpt.com/docs/agent-configuration/subagents",
+      "finalUrl": "https://learn.chatgpt.com/docs/agent-configuration/subagents",
+      "sha256": "2a2f07dfcc7f6ec3354b684c3ee762aecd772c3ebb2695f818db8005899c25fe",
+      "bytes": 564184,
+      "checkedAt": "2026-09-14T11:58:25.875Z",
+      "qualification": "Fetched official page; time-varying HTML hash, content summarized in notes-orchestrators.md."
+    },
+    {
+      "name": "agent-hq-policy",
+      "url": "https://docs.github.com/en/copilot/how-tos/manage-your-account/manage-policies",
+      "finalUrl": "https://docs.github.com/en/copilot/how-tos/manage-your-account/manage-policies",
+      "sha256": "7009275cfaccebc09d934eaff6bf908aa202639092b4cd08f1f34a8805c9242b",
+      "bytes": 631037,
+      "checkedAt": "2026-09-14T11:58:26.253Z",
+      "qualification": "Fetched official page; time-varying HTML hash, content summarized in notes-orchestrators.md."
+    },
+    {
+      "name": "openhands-backends",
+      "url": "https://docs.openhands.dev/openhands/usage/agent-canvas/backends",
+      "finalUrl": "https://docs.openhands.dev/openhands/usage/agent-canvas/backends",
+      "sha256": "5ba7fc467aeb1fc2333f3f210dcb2e54196915df789313c828745e26a7ee670a",
+      "bytes": 281181,
+      "checkedAt": "2026-09-14T11:58:26.567Z",
+      "qualification": "Fetched official page; time-varying HTML hash, content summarized in notes-orchestrators.md."
+    }
+  ],
+  "claudePin": {
+    "name": "@anthropic-ai/claude-code",
+    "version": "2.1.270",
+    "license": "SEE LICENSE IN README.md",
+    "dist": {
+      "shasum": "6cba495abac4528f76fddf32acd46b016a0d48a6",
+      "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.270.tgz",
+      "fileCount": 7,
+      "integrity": "sha512-0zMkfIWQu7/SG56VP8r780HZWvrNShzK28AbAnhKRK0ns+ToGXPT0W8UqyZmZCUKAkJDd5//TrwSOhk1+hysiw==",
+      "signatures": [
+        {
+          "sig": "MEUCICswNn0ZCH6n8b+WSQFDOEk3QcOvuTFLZwQA0RkGt7r8AiEA514qgU8Z5E/KTJIyHGcXZv2L4B/pTejvTh1xjp/qnzI=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIQDyCqb7ch5aX85hMjDSBfIBKo1hMTZ0y/DOzppaCb0AnwIgVVRgJIsRhWqYHNRPctMa/5aJSwpoNTt1q29sH6adZS4=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 184449
+    }
+  }
+}

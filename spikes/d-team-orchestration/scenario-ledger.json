@@ -1,0 +1,238 @@
+[
+  {
+    "scenario": "private repository verified",
+    "status": "passed",
+    "evidence": "board/result.json"
+  },
+  {
+    "scenario": "spec decomposed into three real board issues",
+    "status": "passed",
+    "evidence": "board/result.json"
+  },
+  {
+    "scenario": "Real blocker API exposes task readiness",
+    "status": "passed",
+    "evidence": "board/result.json",
+    "note": {
+      "labelsUsed": false,
+      "blockedIssue": 13
+    }
+  },
+  {
+    "scenario": "issue If-Match admits exactly one concurrent owner",
+    "status": "failed",
+    "evidence": "board/result.json",
+    "note": {
+      "statuses": [
+        400,
+        400
+      ],
+      "finalBody": "Synthetic feature d-counter-1789386678212. Requirement D-R1/R2/R3. Stable task identity serhii-baksheiev/agent-stack-lab:d-counter-1789386678212:D-T3. No production task."
+    }
+  },
+  {
+    "scenario": "native Git ref admits exactly one concurrent claim",
+    "status": "passed",
+    "evidence": "board/result.json",
+    "note": {
+      "statuses": [
+        200,
+        422
+      ],
+      "winner": "3d28b8cc63d42b36fdd53b9ec9fe13813463ec5d"
+    }
+  },
+  {
+    "scenario": "duplicate claim event does not create new commit",
+    "status": "passed",
+    "evidence": "board/result.json",
+    "note": {
+      "method": "Read canonical current claim before replay; event history beyond this current lease unverified."
+    }
+  },
+  {
+    "scenario": "expired claim can be reclaimed without deleting ref",
+    "status": "passed",
+    "evidence": "board/result.json",
+    "note": {
+      "expiredAt": 1789386721963,
+      "reclaimedAfter": 1789386722123,
+      "epoch": 2,
+      "qualification": "Cooperative client wall clock; server clock skew policy and hard authorization fencing unverified."
+    }
+  },
+  {
+    "scenario": "stale owner cannot advance canonical claim ref",
+    "status": "passed",
+    "evidence": "board/result.json",
+    "note": {
+      "status": 422
+    }
+  },
+  {
+    "scenario": "cooperative publish guard rejects stale fencing token",
+    "status": "passed",
+    "evidence": "board/result.json",
+    "note": {
+      "qualification": "Read-check is not atomic with arbitrary external writes; privileged bypass remains possible."
+    }
+  },
+  {
+    "scenario": "each task executes in separate branch and worktree",
+    "status": "passed",
+    "evidence": "board/result.json"
+  },
+  {
+    "scenario": "two PRs changing common line expose conflict before merge",
+    "status": "passed",
+    "evidence": "board/result.json"
+  },
+  {
+    "scenario": "external PR is visible during active work",
+    "status": "passed",
+    "evidence": "board/result.json"
+  },
+  {
+    "scenario": "review feedback produces a new corrective commit",
+    "status": "passed",
+    "evidence": "board/result.json",
+    "note": {
+      "formalIndependentAccountReview": false
+    }
+  },
+  {
+    "scenario": "reworked feature passes requirement-linked fresh-process tests",
+    "status": "passed",
+    "evidence": "board/result.json"
+  },
+  {
+    "scenario": "fresh process reconstructs explainable handoff state",
+    "status": "passed",
+    "evidence": "board/result.json",
+    "note": {
+      "actualClaudeToCodexModelExecution": false
+    }
+  },
+  {
+    "scenario": "blocker readiness follows real issue state",
+    "status": "passed",
+    "evidence": "board/result.json"
+  },
+  {
+    "scenario": "Canvas pinned source CLI help/version/info",
+    "status": "passed",
+    "evidence": "orchestrators/result.json",
+    "note": "No backend launch or package-install claim; native upstream entrypoint uses only Node builtins on these paths."
+  },
+  {
+    "scenario": "Native PostgreSQL fetch skips locked row and rollback releases it",
+    "status": "passed",
+    "evidence": "orchestrators/result.json",
+    "note": "Two real database sessions; unmodified fetch function with synthetic ORM/table only."
+  },
+  {
+    "scenario": "Native scheduler SQLite selection and PostgreSQL query construction",
+    "status": "passed",
+    "evidence": "orchestrators/result.json",
+    "note": "Unmodified AST function, synthetic ORM table; full backend and PostgreSQL runtime not exercised."
+  },
+  {
+    "scenario": "Symphony upstream restart/reconciliation/retry subset",
+    "status": "passed",
+    "evidence": "orchestrators/result.json",
+    "note": "Memory tracker and synthetic worker hooks, no model/board calls; one runtime supervisor, not competing controllers. Excluded tests are counted separately."
+  },
+  {
+    "scenario": "All synthetic board issues and PRs closed",
+    "status": "passed",
+    "evidence": "board/cleanup.json"
+  },
+  {
+    "scenario": "Native model team execution/recall",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Live Claude Code implementation passes fresh-process tests inside isolated worktree only",
+    "status": "passed",
+    "evidence": "live-handoff/claude-implement.json",
+    "note": "git status showed no change outside the feature directory; node --test 4/4 in a fresh process."
+  },
+  {
+    "scenario": "Codex continuation passes fresh-process tests before the fix",
+    "status": "failed",
+    "evidence": "live-handoff/codex-fresh-test.json",
+    "note": "Codex deliberately added a regression test (Symbol.toPrimitive hook) that exposed a real D-R2 defect: RangeError instead of TypeError. 4 passed / 1 failed; the failure is the review finding, corrected in the next commit. Codex also reported spawn EPERM under its sandbox for default node --test isolation and used --test-isolation=none."
+  },
+  {
+    "scenario": "Live Claude Code corrects code after Codex review and hosted CI passes on the final PR head",
+    "status": "passed",
+    "evidence": "live-handoff/result.json",
+    "note": {
+      "pr": 19,
+      "issue": 18,
+      "finalHead": "25145ca9047a40d086298ce95754a7803e00b8fc",
+      "ci": "smoke run 34852712574 on ubuntu-latest, conclusion success; validate.mjs executes live feature tests when the live directory is present",
+      "review": "Codex review posted as same-account COMMENT, not independent REQUEST_CHANGES",
+      "closed": "PR #19 closed unmerged and Issue #18 closed, verified by API"
+    }
+  },
+  {
+    "scenario": "Distributed external issue/PR fencing by a ready orchestrator",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Cross-version data upgrade and package uninstall survival",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Full PostgreSQL scheduler/dispatcher crash recovery",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Two autonomous native models choose next issue",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Scripted live Claude Code to Codex implementation continuation",
+    "status": "passed",
+    "evidence": "live-handoff/result.json",
+    "note": {
+      "mode": "Claude Code 2.1.270 print mode implemented Issue #18 in worktree A; Codex 0.154.0 exec read the collector-persisted Issue-comment handoff in worktree B, added codex.test.mjs and REVIEW.md; sequencing scripted by the lab collector under one operator account. Not autonomous task selection, not independent identities, not native compaction."
+    }
+  },
+  {
+    "scenario": "Native compaction/restart of team execution",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Jira or other board transition CAS",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Historical event replay and exactly-once task creation",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Server-clock/clock-skew-safe lease expiry",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Hard atomic publication fencing",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Complete Rig overlap orders for ready orchestrator installations",
+    "status": "unverified",
+    "evidence": "report.md"
+  }
+]

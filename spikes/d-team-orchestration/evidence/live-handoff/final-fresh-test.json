@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\nvm4w\\nodejs\\node.exe",
+    "--test",
+    "spikes/d-team-orchestration/live/1789393978738/**/*.test.mjs"
+  ],
+  "cwd": ".lab-runs/d-live-1789393978738/claude",
+  "startedAt": "2026-09-14T13:59:37.078Z",
+  "durationMs": 571,
+  "exitCode": 0,
+  "stdout": "✔ D-R2: rejects non-numbers with TypeError even when string conversion throws (1.4057ms)\n✔ D-R1: render returns \"Count: <n>\" for non-negative integers (1.1136ms)\n✔ D-R2: render throws TypeError for negative numbers (0.5732ms)\n✔ D-R2: render throws TypeError for non-integers (0.2005ms)\n✔ D-R2: render throws TypeError for non-numbers (1.533ms)\nℹ tests 5\nℹ suites 0\nℹ pass 5\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 326.9204\n",
+  "stderr": ""
+}

@@ -1,0 +1,20 @@
+{
+  "repository": {
+    "url": "https://github.com/OpenHands/OpenHands",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "pushedAt": "2026-09-14T11:14:38Z",
+    "defaultBranch": "main"
+  },
+  "latestRelease": {
+    "tag": "v1.18.0",
+    "publishedAt": "2026-09-11T18:27:48Z"
+  },
+  "pinnedCommit": "9120ff6cbbe23640f0e475661e5a9c9729cdbf1f",
+  "pinnedCommitDate": "2026-09-11T18:14:29Z"
+}

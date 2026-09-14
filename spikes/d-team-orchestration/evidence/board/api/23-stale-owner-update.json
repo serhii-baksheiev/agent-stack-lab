@@ -1,0 +1,21 @@
+{
+  "label": "stale-owner-update",
+  "method": "PATCH",
+  "endpoint": "repos/serhii-baksheiev/agent-stack-lab/git/refs/heads/lab/d-claim-1789386678212",
+  "request": {
+    "sha": "67276494504663fcf550e1aea6a4aab5bf8c0f49",
+    "force": false
+  },
+  "requestHeaders": [],
+  "startedAt": "2026-09-14T11:52:06.661Z",
+  "durationMs": 1612,
+  "exitCode": 1,
+  "status": 422,
+  "responseHeaders": "HTTP/2.0 422 Unprocessable Entity\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\r\nContent-Length: 136\r\nContent-Security-Policy: default-src 'none'\r\nContent-Type: application/json; charset=utf-8\r\nDate: Mon, 14 Sep 2026 11:52:08 GMT\r\nReferrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin\r\nServer: github.com\r\nStrict-Transport-Security: max-age=31536000; includeSubdomains; preload\r\nVary: Accept-Encoding, Accept, X-Requested-With\r\nX-Accepted-Oauth-Scopes: repo\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Github-Api-Version-Selected: 2026-03-10\r\nX-Github-Edge-Region: fra\r\nX-Github-Media-Type: github.v3; format=json\r\nX-Github-Request-Id: 397C:2B2B7E:FF5071:F78943:6AA7DFE8\r\nX-Oauth-Client-Id: 178c6fc778ccc68e1d6a\r\nX-Oauth-Scopes: admin:public_key, gist, read:org, repo, workflow\r\nX-Ratelimit-Limit: 5000\r\nX-Ratelimit-Remaining: 4980\r\nX-Ratelimit-Reset: 1789390232\r\nX-Ratelimit-Resource: core\r\nX-Ratelimit-Used: 20\r\nX-Xss-Protection: 0",
+  "data": {
+    "message": "Update is not a fast forward",
+    "documentation_url": "https://docs.github.com/rest/git/refs#update-a-reference",
+    "status": "422"
+  },
+  "stderr": "gh: Update is not a fast forward (HTTP 422)\n"
+}

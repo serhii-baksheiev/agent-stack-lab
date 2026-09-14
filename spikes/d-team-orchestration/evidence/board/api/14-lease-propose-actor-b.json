@@ -1,0 +1,54 @@
+{
+  "label": "lease-propose-actor-b",
+  "method": "POST",
+  "endpoint": "repos/serhii-baksheiev/agent-stack-lab/git/commits",
+  "request": {
+    "message": "{\"schema\":1,\"repository\":\"serhii-baksheiev/agent-stack-lab\",\"issue\":14,\"owner\":\"actor-b\",\"epoch\":1,\"event\":\"claim-once\",\"expiresAt\":1789386721963}",
+    "tree": "010298c955bbf68324d94c293832cb9486e0487f",
+    "parents": [
+      "3cf6d819289cd621d6fa7811a53a74d22fba4f79"
+    ]
+  },
+  "requestHeaders": [],
+  "startedAt": "2026-09-14T11:51:51.997Z",
+  "durationMs": 2015,
+  "exitCode": 0,
+  "status": 201,
+  "responseHeaders": "HTTP/2.0 201 Created\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\r\nCache-Control: private, max-age=60, s-maxage=60\r\nContent-Length: 1329\r\nContent-Security-Policy: default-src 'none'\r\nContent-Type: application/json; charset=utf-8\r\nDate: Mon, 14 Sep 2026 11:51:54 GMT\r\nEtag: \"d17dae8000af81776c459c1fb31216d520ffb26997b166af69816d1b0b946ef3\"\r\nLocation: https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/git/commits/ed7f07b5161bf80413b22459b85bea2bd571472c\r\nReferrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin\r\nServer: github.com\r\nStrict-Transport-Security: max-age=31536000; includeSubdomains; preload\r\nVary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With\r\nX-Accepted-Oauth-Scopes: \r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Github-Api-Version-Selected: 2026-03-10\r\nX-Github-Edge-Region: fra\r\nX-Github-Media-Type: github.v3; format=json\r\nX-Github-Request-Id: 9FD1:1C988A:10611A4:FEA7BD:6AA7DFD9\r\nX-Oauth-Client-Id: 178c6fc778ccc68e1d6a\r\nX-Oauth-Scopes: admin:public_key, gist, read:org, repo, workflow\r\nX-Ratelimit-Limit: 5000\r\nX-Ratelimit-Remaining: 4988\r\nX-Ratelimit-Reset: 1789390232\r\nX-Ratelimit-Resource: core\r\nX-Ratelimit-Used: 12\r\nX-Xss-Protection: 0",
+  "data": {
+    "sha": "ed7f07b5161bf80413b22459b85bea2bd571472c",
+    "node_id": "C_kwDOUaGcPdoAKGVkN2YwN2I1MTYxYmY4MDQxM2IyMjQ1OWI4NWJlYTJiZDU3MTQ3MmM",
+    "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/git/commits/ed7f07b5161bf80413b22459b85bea2bd571472c",
+    "html_url": "https://github.com/serhii-baksheiev/agent-stack-lab/commit/ed7f07b5161bf80413b22459b85bea2bd571472c",
+    "author": {
+      "name": "Serhii Baksheiev",
+      "email": "sbaksheiev@gmail.com",
+      "date": "2026-09-14T11:51:53Z"
+    },
+    "committer": {
+      "name": "Serhii Baksheiev",
+      "email": "sbaksheiev@gmail.com",
+      "date": "2026-09-14T11:51:53Z"
+    },
+    "tree": {
+      "sha": "010298c955bbf68324d94c293832cb9486e0487f",
+      "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/git/trees/010298c955bbf68324d94c293832cb9486e0487f"
+    },
+    "message": "{\"schema\":1,\"repository\":\"serhii-baksheiev/agent-stack-lab\",\"issue\":14,\"owner\":\"actor-b\",\"epoch\":1,\"event\":\"claim-once\",\"expiresAt\":1789386721963}",
+    "parents": [
+      {
+        "sha": "3cf6d819289cd621d6fa7811a53a74d22fba4f79",
+        "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/git/commits/3cf6d819289cd621d6fa7811a53a74d22fba4f79",
+        "html_url": "https://github.com/serhii-baksheiev/agent-stack-lab/commit/3cf6d819289cd621d6fa7811a53a74d22fba4f79"
+      }
+    ],
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "stderr": ""
+}

@@ -1,0 +1,235 @@
+{
+  "checkedAt": "2026-09-14T12:03:47.558Z",
+  "scenarioSha": "a1e37399383468b1ca80477d739146ca648568c6",
+  "scriptSha256": "26fa773628a450e78d647720070afc5bad4da1814a00f514f103bceb2392b175",
+  "platform": "linux",
+  "node": "v24.20.0",
+  "runDirectory": ".lab-runs/d-orchestrators-1789387427557",
+  "pins": {
+    "symphony": {
+      "repo": "openai/symphony",
+      "tag": "v0.0.2",
+      "commit": "653f8b3cc476db03420479ba6f95b2ed7281c401"
+    },
+    "canvas": {
+      "repo": "OpenHands/OpenHands",
+      "tag": "v1.18.0",
+      "commit": "9120ff6cbbe23640f0e475661e5a9c9729cdbf1f"
+    },
+    "automation": {
+      "repo": "OpenHands/automation",
+      "tag": "1.11.1",
+      "commit": "bc625068a9028849c32760e4fc9f66ec12b70872"
+    },
+    "codex": {
+      "repo": "openai/codex",
+      "tag": "rust-v0.154.0",
+      "commit": "6b9826e3aa83b1a5947db50f4332cb9c65f1b340"
+    }
+  },
+  "sources": [
+    {
+      "candidate": "symphony",
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/openai/symphony/653f8b3cc476db03420479ba6f95b2ed7281c401/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "candidate": "canvas",
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/9120ff6cbbe23640f0e475661e5a9c9729cdbf1f/LICENSE",
+      "sha256": "e1d1fa9f3a8d7bef24449d488fcd8f00f8f272cac297bb9bed161eb6175b876a",
+      "bytes": 1096
+    },
+    {
+      "candidate": "automation",
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/OpenHands/automation/bc625068a9028849c32760e4fc9f66ec12b70872/LICENSE",
+      "sha256": "14a9b631c658eee682c6c2973525fbdf808c3457176bc47513052c559cc5ce86",
+      "bytes": 1079
+    },
+    {
+      "candidate": "codex",
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/openai/codex/6b9826e3aa83b1a5947db50f4332cb9c65f1b340/LICENSE",
+      "sha256": "d17f227e4df5da1600391338865ce0f3055211760a36688f816941d58232d8dc",
+      "bytes": 10926
+    },
+    {
+      "candidate": "symphony",
+      "file": "SPEC.md",
+      "url": "https://raw.githubusercontent.com/openai/symphony/653f8b3cc476db03420479ba6f95b2ed7281c401/SPEC.md",
+      "sha256": "29d6b45a85453e045883c064c0e08595f9d4a33f9a2527f649bc1363b74e0176",
+      "bytes": 91923
+    },
+    {
+      "candidate": "symphony",
+      "file": "elixir/mix.exs",
+      "url": "https://raw.githubusercontent.com/openai/symphony/653f8b3cc476db03420479ba6f95b2ed7281c401/elixir/mix.exs",
+      "sha256": "27adc3b3149204e2fcb15c97bc712cbde451440dcbf4cf2b523cb645683052b2",
+      "bytes": 3303
+    },
+    {
+      "candidate": "symphony",
+      "file": "elixir/mix.lock",
+      "url": "https://raw.githubusercontent.com/openai/symphony/653f8b3cc476db03420479ba6f95b2ed7281c401/elixir/mix.lock",
+      "sha256": "f707a715e6a4e91fc865c1c78d286a5211759a94659caa87e6cd6bad12a6f90c",
+      "bytes": 13012
+    },
+    {
+      "candidate": "symphony",
+      "file": "elixir/lib/symphony_elixir/orchestrator.ex",
+      "url": "https://raw.githubusercontent.com/openai/symphony/653f8b3cc476db03420479ba6f95b2ed7281c401/elixir/lib/symphony_elixir/orchestrator.ex",
+      "sha256": "ffa6fd2ca66f775b93ca561adb60a61a416f8fb604ff247128d3638169fdab22",
+      "bytes": 65267
+    },
+    {
+      "candidate": "symphony",
+      "file": "elixir/lib/symphony_elixir/agent_runtime_supervisor.ex",
+      "url": "https://raw.githubusercontent.com/openai/symphony/653f8b3cc476db03420479ba6f95b2ed7281c401/elixir/lib/symphony_elixir/agent_runtime_supervisor.ex",
+      "sha256": "600ac1bd04126f671e77992284ce0083acf9b0130a8a200c7f6751a665042c6a",
+      "bytes": 968
+    },
+    {
+      "candidate": "symphony",
+      "file": "elixir/test/symphony_elixir/core_test.exs",
+      "url": "https://raw.githubusercontent.com/openai/symphony/653f8b3cc476db03420479ba6f95b2ed7281c401/elixir/test/symphony_elixir/core_test.exs",
+      "sha256": "d1a6d82116c696f01e0e6855f6abb738b08d263b8dfeb69475c99efdfdec710f",
+      "bytes": 77007
+    },
+    {
+      "candidate": "canvas",
+      "file": "package.json",
+      "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/9120ff6cbbe23640f0e475661e5a9c9729cdbf1f/package.json",
+      "sha256": "7700a20b949118a280b2c724b07a153f5b93a3e2b10a25d3de8dbbd198ff10ae",
+      "bytes": 9494
+    },
+    {
+      "candidate": "canvas",
+      "file": "config/defaults.json",
+      "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/9120ff6cbbe23640f0e475661e5a9c9729cdbf1f/config/defaults.json",
+      "sha256": "1cfbd273e5cdcadd36af2bc9eb858857b0e107f0bb27ad0403652f66217ce0ab",
+      "bytes": 2866
+    },
+    {
+      "candidate": "canvas",
+      "file": "bin/agent-canvas.mjs",
+      "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/9120ff6cbbe23640f0e475661e5a9c9729cdbf1f/bin/agent-canvas.mjs",
+      "sha256": "133e26fb65434ddac2eee471bfc56cb8144c92452241aacd627a8cbcfde277e6",
+      "bytes": 5787
+    },
+    {
+      "candidate": "canvas",
+      "file": "scripts/dev-with-automation.mjs",
+      "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/9120ff6cbbe23640f0e475661e5a9c9729cdbf1f/scripts/dev-with-automation.mjs",
+      "sha256": "178e4e6ac3f532ca0c0c3a9054718e0d926938ecb32c61286aba5aacfe53bd1a",
+      "bytes": 63282
+    },
+    {
+      "candidate": "automation",
+      "file": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/OpenHands/automation/bc625068a9028849c32760e4fc9f66ec12b70872/pyproject.toml",
+      "sha256": "3704f3ae223e799c877398a31adb1f466622f35f327ed2a89ff061e17b2073fa",
+      "bytes": 3300
+    },
+    {
+      "candidate": "automation",
+      "file": "openhands/automation/scheduler.py",
+      "url": "https://raw.githubusercontent.com/OpenHands/automation/bc625068a9028849c32760e4fc9f66ec12b70872/openhands/automation/scheduler.py",
+      "sha256": "3edb26776ef0ceba3688e2a35190cda948ef4ace46593e3967ed6d302e677a4f",
+      "bytes": 10860
+    },
+    {
+      "candidate": "automation",
+      "file": "openhands/automation/dispatcher.py",
+      "url": "https://raw.githubusercontent.com/OpenHands/automation/bc625068a9028849c32760e4fc9f66ec12b70872/openhands/automation/dispatcher.py",
+      "sha256": "c37683c172fa059a943f1684b44ff06d3cd596125bc35710f7b9cbf7f7dee641",
+      "bytes": 26196
+    },
+    {
+      "candidate": "automation",
+      "file": "openhands/automation/watchdog.py",
+      "url": "https://raw.githubusercontent.com/OpenHands/automation/bc625068a9028849c32760e4fc9f66ec12b70872/openhands/automation/watchdog.py",
+      "sha256": "66a3bf2266d469561fad2c16049549a4f8eed6ca38dec04cbb8968d063f96242",
+      "bytes": 37293
+    },
+    {
+      "candidate": "automation",
+      "file": "openhands/automation/utils/run.py",
+      "url": "https://raw.githubusercontent.com/OpenHands/automation/bc625068a9028849c32760e4fc9f66ec12b70872/openhands/automation/utils/run.py",
+      "sha256": "650afa6f893804a2536061b750fe2c43068768eb58fa3d9484a0fbbedad4bc7a",
+      "bytes": 18577
+    },
+    {
+      "candidate": "automation",
+      "file": "tests/test_scheduler.py",
+      "url": "https://raw.githubusercontent.com/OpenHands/automation/bc625068a9028849c32760e4fc9f66ec12b70872/tests/test_scheduler.py",
+      "sha256": "baccbcd15016b11f59f91e1dc64bb6a7dff43cd0b5f1997a2a83bfa9465fc9e7",
+      "bytes": 39701
+    },
+    {
+      "candidate": "automation",
+      "file": "tests/test_dispatcher.py",
+      "url": "https://raw.githubusercontent.com/OpenHands/automation/bc625068a9028849c32760e4fc9f66ec12b70872/tests/test_dispatcher.py",
+      "sha256": "7692ff74227aa105e1fdff53658aa9b6f6008518b446116ccbb66e2fdfb5d366",
+      "bytes": 54107
+    },
+    {
+      "candidate": "codex",
+      "file": "codex-rs/core/src/agent/control.rs",
+      "url": "https://raw.githubusercontent.com/openai/codex/6b9826e3aa83b1a5947db50f4332cb9c65f1b340/codex-rs/core/src/agent/control.rs",
+      "sha256": "22bd12703bac1518fdfe427f8179aa411e80976c936feda0dc6ec3212e93bec5",
+      "bytes": 34471
+    },
+    {
+      "candidate": "codex",
+      "file": "codex-rs/core/src/agent/control/residency.rs",
+      "url": "https://raw.githubusercontent.com/openai/codex/6b9826e3aa83b1a5947db50f4332cb9c65f1b340/codex-rs/core/src/agent/control/residency.rs",
+      "sha256": "019818bed8a57225d084e850fb2b471c2e4d4c21d263869c9ed49a2815fa8691",
+      "bytes": 7616
+    },
+    {
+      "candidate": "codex",
+      "file": "codex-rs/core/src/tools/handlers/multi_agents_v2/followup_task.rs",
+      "url": "https://raw.githubusercontent.com/openai/codex/6b9826e3aa83b1a5947db50f4332cb9c65f1b340/codex-rs/core/src/tools/handlers/multi_agents_v2/followup_task.rs",
+      "sha256": "754c3641826955308f8df5069ab5927669318fe4b40df620557c3a95aa7ee8cb",
+      "bytes": 1722
+    }
+  ],
+  "checks": [
+    {
+      "name": "Canvas pinned source CLI help/version/info",
+      "passed": true,
+      "qualification": "No backend launch or package-install claim; native upstream entrypoint uses only Node builtins on these paths."
+    },
+    {
+      "name": "Native PostgreSQL fetch skips locked row and rollback releases it",
+      "passed": true,
+      "qualification": "Two real database sessions; unmodified fetch function with synthetic ORM/table only."
+    },
+    {
+      "name": "Native scheduler SQLite selection and PostgreSQL query construction",
+      "passed": true,
+      "qualification": "Unmodified AST function, synthetic ORM table; full backend and PostgreSQL runtime not exercised."
+    },
+    {
+      "name": "Symphony upstream restart/reconciliation/retry subset",
+      "passed": true,
+      "qualification": "Memory tracker and synthetic worker hooks, no model/board calls; one runtime supervisor, not competing controllers. Excluded tests are counted separately."
+    }
+  ],
+  "unverified": [
+    "Native model team execution/recall",
+    "Distributed external issue/PR fencing by a ready orchestrator",
+    "Cross-version data upgrade and package uninstall survival",
+    "Full PostgreSQL scheduler/dispatcher crash recovery"
+  ],
+  "symphonyArchiveSha256": "ebbf306bcb90b7a5251b5eea9100d6d514d09c4f66e9759a8b68022f90ffc2ec",
+  "symphonyTests": {
+    "executed": 10,
+    "failures": 0,
+    "excluded": 42
+  },
+  "mixLockSha256": "f707a715e6a4e91fc865c1c78d286a5211759a94659caa87e6cd6bad12a6f90c"
+}

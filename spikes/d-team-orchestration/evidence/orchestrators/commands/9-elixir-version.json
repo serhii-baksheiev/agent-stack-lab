@@ -1,0 +1,12 @@
+{
+  "command": [
+    "elixir",
+    "--version"
+  ],
+  "cwd": ".lab-runs/d-orchestrators-1789387427557/symphony-tests/elixir",
+  "startedAt": "2026-09-14T12:03:56.156Z",
+  "durationMs": 290,
+  "exitCode": 0,
+  "stdout": "Erlang/OTP 28 [erts-16.4.0.6] [source] [64-bit] [smp:2:2] [ds:2:2:10] [async-threads:1] [jit:ns]\n\nElixir 1.19.6 (compiled with Erlang/OTP 28)\n",
+  "stderr": ""
+}

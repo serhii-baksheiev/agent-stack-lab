@@ -18,5 +18,24 @@
       "credentialValueSaved": false
     }
   ],
-  "invalidation": "unverified"
+  "invalidation": "unverified",
+  "actionsArtifactAudit": {
+    "at": "2026-09-14",
+    "artifactsScanned": 34,
+    "scope": "all non-validation evidence artifacts, boolean nonempty-credential-field scan only",
+    "findings": [
+      {
+        "artifactId": 10343723960,
+        "name": "spike-b-evidence",
+        "run": 34835217413,
+        "headSha": "1c5d1cb85c23b6d4582e69ea985ef0d6860dda64",
+        "nonemptyTempCredentialPresent": true,
+        "credentialValueSaved": false,
+        "deleted": true,
+        "deleteStatus": 204,
+        "verifyStatus": 404
+      }
+    ],
+    "runLogsInspected": false
+  }
 }

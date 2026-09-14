@@ -1,0 +1,59 @@
+name: Spike D ready orchestration
+on:
+  push:
+    branches: [spike/d-team-orchestration]
+    paths: ['scripts/spike-d-orchestrators.mjs', '.github/workflows/spike-d.yml']
+  workflow_dispatch:
+    inputs:
+      runner:
+        description: 'Optional existing Linux self-hosted label'
+        default: ubuntu-latest
+        type: string
+jobs:
+  source-tests:
+    runs-on: ${{ inputs.runner || 'ubuntu-latest' }}
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: synthetic_lab
+          POSTGRES_PASSWORD: synthetic_lab_only
+          POSTGRES_DB: synthetic_orchestration
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U synthetic_lab -d synthetic_orchestration"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: erlef/setup-beam@v1
+        with:
+          otp-version: '28'
+          elixir-version: '1.19'
+      - uses: actions/cache@v4
+        with:
+          path: .lab-runs/d-orchestrator-cache
+          key: ${{ runner.os }}-otp28-elixir119-symphony0002-hex-v1
+      - name: Isolated Python installer
+        run: |
+          mkdir -p .lab-runs/d-bootstrap
+          python -m venv .lab-runs/d-bootstrap/venv
+          .lab-runs/d-bootstrap/venv/bin/pip install 'uv==0.12.5'
+          echo "$PWD/.lab-runs/d-bootstrap/venv/bin" >> "$GITHUB_PATH"
+      - name: Source and upstream unit probes (no inference or board writes)
+        env:
+          LAB_POSTGRES_URL: postgresql+psycopg2://synthetic_lab:synthetic_lab_only@localhost:5432/synthetic_orchestration
+        run: node scripts/spike-d-orchestrators.mjs --symphony-tests
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: spike-d-orchestrators
+          path: spikes/d-team-orchestration/evidence/orchestrators/

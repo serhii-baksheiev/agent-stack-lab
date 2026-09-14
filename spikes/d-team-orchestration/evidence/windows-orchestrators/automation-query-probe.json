@@ -1,0 +1,9 @@
+{
+  "nativeFunction": "_fetch_enabled_automations",
+  "functionUnmodifiedAst": true,
+  "syntheticOrmModel": true,
+  "sqliteTwoSessionsBothSeeSameEligibleRow": true,
+  "postgresqlCompiledSql": "SELECT synthetic_automations.id, synthetic_automations.enabled, synthetic_automations.deleted_at, synthetic_automations.last_polled_at \nFROM synthetic_automations \nWHERE synthetic_automations.enabled IS true AND synthetic_automations.deleted_at IS NULL AND (synthetic_automations.last_polled_at IS NULL OR synthetic_automations.last_polled_at < %(last_polled_at_1)s) ORDER BY synthetic_automations.last_polled_at ASC NULLS FIRST \n LIMIT %(param_1)s FOR UPDATE SKIP LOCKED",
+  "postgresqlRuntimeTested": false,
+  "qualification": "Native fetch function only, not full scheduler/dispatcher. SQLite selection is not exclusive. PostgreSQL lock SQL compiled, not executed against PostgreSQL."
+}
