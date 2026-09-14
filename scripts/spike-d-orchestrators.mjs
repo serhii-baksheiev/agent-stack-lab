@@ -93,7 +93,9 @@ if(process.argv.includes('--symphony-tests')){
  const checkout=path.join(base,'symphony-tests');mkdirSync(checkout);cmd('extract-symphony','tar',['-xzf',archive,'--strip-components=1','-C',checkout]);const cwd=path.join(checkout,'elixir');
  cmd('elixir-version','elixir',['--version'],cwd);cmd('mix-hex','mix',['local.hex','--force'],cwd);cmd('mix-rebar','mix',['local.rebar','--force'],cwd);cmd('mix-deps','mix',['deps.get'],cwd);
  const tests='test/symphony_elixir/core_test.exs';const test=cmd('upstream-reconciliation-tests','mix',['test',...[351,474,803,897,928,956,1022,1062,1102,1141].map(n=>tests+':'+n),'--seed','0'],cwd);
- evidence.checks.push({name:'Symphony upstream restart/reconciliation/retry subset',passed:!test.stdout.includes('0 tests'),qualification:'Memory tracker and synthetic worker hooks, no model/board calls; one runtime supervisor, not competing controllers.'});assert(evidence.checks.at(-1).passed);
+ const counts=test.stdout.match(/(?:^|\n)(\d+) tests?, (\d+) failures?(?: \((\d+) excluded\))?(?:\r?\n|$)/);assert(counts,'Missing ExUnit summary');
+ evidence.symphonyTests={executed:Number(counts[1]),failures:Number(counts[2]),excluded:Number(counts[3]||0)};
+ evidence.checks.push({name:'Symphony upstream restart/reconciliation/retry subset',passed:evidence.symphonyTests.executed===10&&evidence.symphonyTests.failures===0,qualification:'Memory tracker and synthetic worker hooks, no model/board calls; one runtime supervisor, not competing controllers. Excluded tests are counted separately.'});assert(evidence.checks.at(-1).passed);
  evidence.mixLockSha256=sha(readFileSync(path.join(cwd,'mix.lock')));
 }else evidence.unverified.push('Symphony runtime unit subset (requires --symphony-tests and Elixir1.19/OTP28)');
 json(out+'/result.json',evidence);console.log(JSON.stringify({checks:evidence.checks,unverified:evidence.unverified}));
