@@ -12,6 +12,9 @@ const checks=[],add=(name,passed,detail)=>{checks.push({name,passed,detail});con
 const models={};const gitAuth=['-c','credential.helper=','-c','credential.helper=!gh auth git-credential'];
 // Nested harness sessions must not inherit the outer Claude Code session markers.
 const childEnv={CLAUDECODE:undefined,CLAUDE_CODE_ENTRYPOINT:undefined};
+// npm installs Codex as a .cmd shim on Windows; run its JavaScript launcher with the current Node instead of a shell.
+function resolveCodex(){const globalRoot=run('npm',['root','-g'],root).stdout.trim(),launcher=path.join(globalRoot,'@openai/codex/bin/codex.js');return existsSync(launcher)?[process.execPath,[launcher]]:['codex',[]];}
+const [codexCommand,codexPrefix]=resolveCodex();const codex=(args,cwd,log)=>run(codexCommand,[...codexPrefix,...args],cwd,log,childEnv);
 async function api(label,method,endpoint,body,headers=[]){
  const endpointPath=endpoint.split('?')[0];assert(endpointPath===apiRoot||endpointPath.startsWith(apiRoot+'/'),'Only laboratory API endpoints');
  const args=['api',endpoint,'--method',method,'--include','-H','Accept: application/vnd.github+json','-H','X-GitHub-Api-Version: 2026-03-10',...headers.flatMap(x=>['-H',x])];if(body!==undefined)args.push('--input','-');
@@ -33,7 +36,7 @@ const requirements=`Requirements for synthetic feature d-live-${stamp} (laborato
 Only files inside \`${featureDir}/\` may be created or changed. Do not run git. Do not touch any other path.`;
 try{
  const repo=ok(await get('privacy',apiRoot));assert(repo.private===true);assert.equal(repo.full_name,repository);add('private repository verified',true);
- const cv=run('claude',['--version'],root,out+'/claude-version.json',childEnv),xv=run('codex',['--version'],root,out+'/codex-version.json',childEnv);
+ const cv=run('claude',['--version'],root,out+'/claude-version.json',childEnv),xv=codex(['--version'],root,out+'/codex-version.json');
  models.claude=cv.stdout.trim();models.codex=xv.stdout.trim();
  if(cv.exitCode!==0||xv.exitCode!==0){status='unverified';add('authorized Claude Code and Codex CLIs available',false,{claude:cv.exitCode,codex:xv.exitCode});save();process.exit(0);}
  add('authorized Claude Code and Codex CLIs available',true,models);
@@ -55,7 +58,7 @@ try{
  const comments=ok(await get('read-handoff',apiRoot+`/issues/${issue.number}/comments`));const handoffText=comments.at(-1).body.match(/```json\n([\s\S]*?)\n```/)[1];const readBack=JSON.parse(handoffText);assert.equal(readBack.commit,claudeSha);
  git('worktree-codex',['worktree','add','-b',codexBranch,codexDir,claudeSha],root);writeFileSync(path.join(base,'handoff.json'),handoffText);
  const codexPrompt=`You are Codex continuing another agent's work in an isolated git worktree (branch ${codexBranch}) of a private laboratory repository. The handoff record is at ${path.join(base,'handoff.json').replaceAll('\\','/')}; read it first. Then review the files under ${featureDir}/ against these requirements:\n\n${requirements}\n\nTasks: (1) run \`node --test "${featureDir}/**/*.test.mjs"\`; (2) add one new test file ${featureDir}/codex.test.mjs (node:test) covering an edge case the existing tests miss; (3) write your review as markdown to ${featureDir}/REVIEW.md with a heading "Codex review", listing at least one concrete change request for the implementer if any defect or gap exists, otherwise say explicitly that no change is required; (4) do not modify counter.mjs, counter.test.mjs or any file outside ${featureDir}; do not run git. Your final message must be the same review text.`;
- const codexReview=run('codex',['exec','-C',codexDir,'--sandbox','workspace-write','--skip-git-repo-check','-o',path.join(base,'codex-last.md'),codexPrompt],codexDir,out+'/codex-review.json',childEnv);
+ const codexReview=codex(['exec','-C',codexDir,'--sandbox','workspace-write','--skip-git-repo-check','-o',path.join(base,'codex-last.md'),codexPrompt],codexDir,out+'/codex-review.json');
  const codexFiles=readdirSync(path.join(codexDir,featureDir));const reviewText=existsSync(path.join(codexDir,featureDir,'REVIEW.md'))?readFileSync(path.join(codexDir,featureDir,'REVIEW.md'),'utf8'):'';
  add('Codex read handoff and continued in separate worktree and branch',codexReview.exitCode===0&&codexFiles.includes('codex.test.mjs')&&reviewText.includes('Codex review')&&outsideFeature(codexDir).length===0,{files:codexFiles,outside:outsideFeature(codexDir)});
  const codexTest=run(process.execPath,['--test',featureDir+'/**/*.test.mjs'],codexDir,out+'/codex-fresh-test.json');add('Codex continuation passes fresh-process node --test',codexTest.exitCode===0);
