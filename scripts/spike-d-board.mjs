@@ -7,7 +7,7 @@ import {root,run,json,sha,snapshot} from './lab-evidence.mjs';
 const repository='serhii-baksheiev/agent-stack-lab',apiRoot='repos/'+repository,stamp=Date.now(),base=path.join(root,'.lab-runs/d-board-'+stamp),out='spikes/d-team-orchestration/evidence/board';mkdirSync(base,{recursive:true});
 const checks=[],issues=[],prs=[],branches=[],add=(name,passed,detail)=>checks.push({name,passed,detail});let sequence=0;
 async function api(label,method,endpoint,body,headers=[]){
- assert(endpoint===apiRoot||endpoint.startsWith(apiRoot+'/'),'Only laboratory API endpoints');
+ const endpointPath=endpoint.split('?')[0];assert(endpointPath===apiRoot||endpointPath.startsWith(apiRoot+'/'),'Only laboratory API endpoints');
  const args=['api',endpoint,'--method',method,'--include','-H','Accept: application/vnd.github+json','-H','X-GitHub-Api-Version: 2026-03-10',...headers.flatMap(x=>['-H',x])];if(body!==undefined)args.push('--input','-');
  const startedAt=new Date().toISOString(),start=Date.now();const response=await new Promise((resolve,reject)=>{const child=spawn('gh',args,{cwd:root,stdio:['pipe','pipe','pipe'],windowsHide:true});let stdout='',stderr='';child.stdout.on('data',b=>stdout+=b);child.stderr.on('data',b=>stderr+=b);child.on('error',reject);const timer=setTimeout(()=>child.kill(),60000);child.on('close',code=>{clearTimeout(timer);resolve({code,stdout,stderr});});child.stdin.end(body===undefined?'':JSON.stringify(body));});
  const split=response.stdout.search(/\r?\n\r?\n/),head=split<0?'':response.stdout.slice(0,split),raw=split<0?response.stdout:response.stdout.slice(split).trim();let data;try{data=JSON.parse(raw);}catch{data=raw;}
