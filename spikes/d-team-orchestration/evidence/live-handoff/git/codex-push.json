@@ -1,0 +1,18 @@
+{
+  "command": [
+    "git",
+    "-c",
+    "credential.helper=",
+    "-c",
+    "credential.helper=!gh auth git-credential",
+    "push",
+    "https://github.com/serhii-baksheiev/agent-stack-lab.git",
+    "lab/d-live-codex-1789393978738:refs/heads/lab/d-live-codex-1789393978738"
+  ],
+  "cwd": ".lab-runs/d-live-1789393978738/codex",
+  "startedAt": "2026-09-14T13:57:06.059Z",
+  "durationMs": 3801,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": "remote: \nremote: Create a pull request for 'lab/d-live-codex-1789393978738' on GitHub by visiting:        \nremote:      https://github.com/serhii-baksheiev/agent-stack-lab/pull/new/lab/d-live-codex-1789393978738        \nremote: \nTo https://github.com/serhii-baksheiev/agent-stack-lab.git\n * [new branch]      lab/d-live-codex-1789393978738 -> lab/d-live-codex-1789393978738\n"
+}

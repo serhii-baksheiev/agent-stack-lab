@@ -153,6 +153,31 @@
     "evidence": "report.md"
   },
   {
+    "scenario": "Live Claude Code implementation passes fresh-process tests inside isolated worktree only",
+    "status": "passed",
+    "evidence": "live-handoff/claude-implement.json",
+    "note": "git status showed no change outside the feature directory; node --test 4/4 in a fresh process."
+  },
+  {
+    "scenario": "Codex continuation passes fresh-process tests before the fix",
+    "status": "failed",
+    "evidence": "live-handoff/codex-fresh-test.json",
+    "note": "Codex deliberately added a regression test (Symbol.toPrimitive hook) that exposed a real D-R2 defect: RangeError instead of TypeError. 4 passed / 1 failed; the failure is the review finding, corrected in the next commit. Codex also reported spawn EPERM under its sandbox for default node --test isolation and used --test-isolation=none."
+  },
+  {
+    "scenario": "Live Claude Code corrects code after Codex review and hosted CI passes on the final PR head",
+    "status": "passed",
+    "evidence": "live-handoff/result.json",
+    "note": {
+      "pr": 19,
+      "issue": 18,
+      "finalHead": "25145ca9047a40d086298ce95754a7803e00b8fc",
+      "ci": "smoke run 34852712574 on ubuntu-latest, conclusion success; validate.mjs executes live feature tests when the live directory is present",
+      "review": "Codex review posted as same-account COMMENT, not independent REQUEST_CHANGES",
+      "closed": "PR #19 closed unmerged and Issue #18 closed, verified by API"
+    }
+  },
+  {
     "scenario": "Distributed external issue/PR fencing by a ready orchestrator",
     "status": "unverified",
     "evidence": "report.md"
@@ -174,8 +199,11 @@
   },
   {
     "scenario": "Native Claude-to-Codex implementation continuation",
-    "status": "unverified",
-    "evidence": "report.md"
+    "status": "passed",
+    "evidence": "live-handoff/result.json",
+    "note": {
+      "mode": "Claude Code 2.1.270 print mode implemented Issue #18 in worktree A; Codex 0.154.0 exec read the Issue-comment handoff in worktree B, added codex.test.mjs and REVIEW.md; sequencing scripted by the lab collector under one operator account. Not autonomous task selection, not independent identities, not native compaction."
+    }
   },
   {
     "scenario": "Native compaction/restart of team execution",

@@ -1,0 +1,148 @@
+{
+  "status": "observed",
+  "repository": "serhii-baksheiev/agent-stack-lab",
+  "stamp": 1789393978738,
+  "baseBranch": "spike/d-team-orchestration",
+  "featureDir": "spikes/d-team-orchestration/live/1789393978738",
+  "scriptSha256": "e57493ba6995168074fb93ec3bf564800952fb57b023631c9661f41b48d734ed",
+  "scenarioSha": "5d9a0aba618b6da85b85a2dd36a5bdaa71ef06da",
+  "platform": "win32",
+  "node": "v24.18.0",
+  "models": {
+    "claude": "2.1.270 (Claude Code)",
+    "codex": "codex-cli 0.154.0"
+  },
+  "checks": [
+    {
+      "name": "private repository verified",
+      "passed": true
+    },
+    {
+      "name": "authorized Claude Code and Codex CLIs available",
+      "passed": true,
+      "detail": {
+        "claude": "2.1.270 (Claude Code)",
+        "codex": "codex-cli 0.154.0"
+      }
+    },
+    {
+      "name": "live laboratory issue created",
+      "passed": true,
+      "detail": {
+        "number": 18
+      }
+    },
+    {
+      "name": "Claude Code implemented feature inside isolated worktree only",
+      "passed": true,
+      "detail": {
+        "created": [
+          "counter.mjs",
+          "counter.test.mjs",
+          "README.md"
+        ],
+        "outside": []
+      }
+    },
+    {
+      "name": "Claude implementation passes fresh-process node --test",
+      "passed": true
+    },
+    {
+      "name": "handoff published through Issue comment and PR",
+      "passed": true,
+      "detail": {
+        "pr": 19
+      }
+    },
+    {
+      "name": "Codex read handoff and continued in separate worktree and branch",
+      "passed": true,
+      "detail": {
+        "files": [
+          "codex.test.mjs",
+          "counter.mjs",
+          "counter.test.mjs",
+          "README.md",
+          "REVIEW.md"
+        ],
+        "outside": []
+      }
+    },
+    {
+      "name": "Codex continuation passes fresh-process node --test",
+      "passed": false
+    },
+    {
+      "name": "Codex review posted on PR as COMMENT",
+      "passed": true,
+      "detail": {
+        "sameAccount": true
+      }
+    },
+    {
+      "name": "Claude Code addressed Codex review with a new commit",
+      "passed": true,
+      "detail": {
+        "codexSha": "60ad5db8ec47e822d2140e544b3b945c82df918e",
+        "finalSha": "25145ca9047a40d086298ce95754a7803e00b8fc"
+      }
+    },
+    {
+      "name": "final implementation passes fresh-process node --test",
+      "passed": true
+    },
+    {
+      "name": "hosted GitHub CI passed on final PR head",
+      "passed": true,
+      "detail": {
+        "conclusion": "success",
+        "hosted": true,
+        "runner": "GitHub Actions 1000005035"
+      }
+    }
+  ],
+  "issue": {
+    "number": 18,
+    "url": "https://github.com/serhii-baksheiev/agent-stack-lab/issues/18"
+  },
+  "pr": {
+    "number": 19,
+    "url": "https://github.com/serhii-baksheiev/agent-stack-lab/pull/19",
+    "head": "lab/d-live-claude-1789393978738"
+  },
+  "ci": {
+    "checkRun": 104004418162,
+    "name": "smoke",
+    "conclusion": "success",
+    "status": "completed",
+    "headSha": "25145ca9047a40d086298ce95754a7803e00b8fc",
+    "url": "https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34852712574/job/104004418162",
+    "hosted": true,
+    "labels": [
+      "ubuntu-latest"
+    ],
+    "runner": "GitHub Actions 1000005035"
+  },
+  "closed": {
+    "allClosed": true,
+    "verified": [
+      {
+        "kind": "pr",
+        "number": 19,
+        "closed": true
+      },
+      {
+        "kind": "issue",
+        "number": 18,
+        "closed": true
+      }
+    ],
+    "retainedBranches": [
+      "lab/d-live-claude-1789393978738",
+      "lab/d-live-codex-1789393978738"
+    ],
+    "reason": "Retained for reproducible commit evidence; never merged."
+  },
+  "scope": "One authorized operator account drives both CLIs in print/exec mode from a lab script; sequencing is scripted, not autonomous task selection. Not two independent GitHub identities."
+}

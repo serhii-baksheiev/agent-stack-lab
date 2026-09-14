@@ -1,0 +1,18 @@
+{
+  "command": [
+    "git",
+    "-c",
+    "credential.helper=",
+    "-c",
+    "credential.helper=!gh auth git-credential",
+    "push",
+    "https://github.com/serhii-baksheiev/agent-stack-lab.git",
+    "lab/d-live-claude-1789393978738:refs/heads/lab/d-live-claude-1789393978738"
+  ],
+  "cwd": ".lab-runs/d-live-1789393978738/claude",
+  "startedAt": "2026-09-14T13:59:37.655Z",
+  "durationMs": 4266,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": "To https://github.com/serhii-baksheiev/agent-stack-lab.git\n   0ed8805..25145ca  lab/d-live-claude-1789393978738 -> lab/d-live-claude-1789393978738\n"
+}

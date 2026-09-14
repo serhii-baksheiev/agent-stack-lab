@@ -1,0 +1,13 @@
+{
+  "command": [
+    "git",
+    "rev-parse",
+    "HEAD"
+  ],
+  "cwd": ".lab-runs/d-live-1789393978738/codex",
+  "startedAt": "2026-09-14T13:57:05.681Z",
+  "durationMs": 377,
+  "exitCode": 0,
+  "stdout": "60ad5db8ec47e822d2140e544b3b945c82df918e\n",
+  "stderr": ""
+}

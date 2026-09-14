@@ -1,0 +1,62 @@
+{
+  "label": "pr-ready-comment",
+  "method": "POST",
+  "endpoint": "repos/serhii-baksheiev/agent-stack-lab/issues/19/comments",
+  "request": {
+    "body": "Claude Code fix commit 25145ca9047a40d086298ce95754a7803e00b8fc; awaiting hosted CI."
+  },
+  "requestHeaders": [],
+  "startedAt": "2026-09-14T13:59:41.926Z",
+  "durationMs": 3485,
+  "exitCode": 0,
+  "status": 201,
+  "responseHeaders": "HTTP/2.0 201 Created\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\r\nCache-Control: private, max-age=60, s-maxage=60\r\nContent-Length: 1885\r\nContent-Security-Policy: default-src 'none'\r\nContent-Type: application/json; charset=utf-8\r\nDate: Mon, 14 Sep 2026 13:59:45 GMT\r\nEtag: \"1cc2f41a4634a6b4bb61cd9fc3cd62988a804e7cc8f22d85095aafa32cc49bc5\"\r\nLocation: https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/issues/comments/5665174097\r\nReferrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin\r\nServer: github.com\r\nStrict-Transport-Security: max-age=31536000; includeSubdomains; preload\r\nVary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With\r\nX-Accepted-Oauth-Scopes: \r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Github-Api-Version-Selected: 2026-03-10\r\nX-Github-Edge-Region: fra\r\nX-Github-Media-Type: github.v3; format=json\r\nX-Github-Request-Id: 8C0C:37E134:10E124E:1068DBE:6AA7FDD1\r\nX-Oauth-Client-Id: 178c6fc778ccc68e1d6a\r\nX-Oauth-Scopes: admin:public_key, gist, read:org, repo, workflow\r\nX-Ratelimit-Limit: 5000\r\nX-Ratelimit-Remaining: 4937\r\nX-Ratelimit-Reset: 1789397539\r\nX-Ratelimit-Resource: core\r\nX-Ratelimit-Used: 63\r\nX-Xss-Protection: 0",
+  "data": {
+    "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/issues/comments/5665174097",
+    "html_url": "https://github.com/serhii-baksheiev/agent-stack-lab/pull/19#issuecomment-5665174097",
+    "issue_url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/issues/19",
+    "id": 5665174097,
+    "node_id": "IC_kwDOUaGcPc8AAAABUauyUQ",
+    "user": {
+      "login": "serhii-baksheiev",
+      "id": 22969597,
+      "node_id": "MDQ6VXNlcjIyOTY5NTk3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22969597?u=38d08521081f1d66e84ee9d69d3a9e1835c0ecbf&v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/serhii-baksheiev",
+      "html_url": "https://github.com/serhii-baksheiev",
+      "followers_url": "https://api.github.com/users/serhii-baksheiev/followers",
+      "following_url": "https://api.github.com/users/serhii-baksheiev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/serhii-baksheiev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/serhii-baksheiev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/serhii-baksheiev/subscriptions",
+      "organizations_url": "https://api.github.com/users/serhii-baksheiev/orgs",
+      "repos_url": "https://api.github.com/users/serhii-baksheiev/repos",
+      "events_url": "https://api.github.com/users/serhii-baksheiev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/serhii-baksheiev/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2026-09-14T13:59:45Z",
+    "updated_at": "2026-09-14T13:59:45Z",
+    "author_association": "OWNER",
+    "body": "Claude Code fix commit 25145ca9047a40d086298ce95754a7803e00b8fc; awaiting hosted CI.",
+    "reactions": {
+      "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/issues/comments/5665174097/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null,
+    "minimized": null,
+    "pin": null
+  },
+  "stderr": ""
+}

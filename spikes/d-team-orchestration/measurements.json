@@ -32,5 +32,43 @@
       "exitCode": 1
     }
   ],
-  "qualification": "Board actual API/worktrees and ready source/unit tests counted separately; Windows source discovery excluded."
+  "qualification": "Board actual API/worktrees and ready source/unit tests counted separately; Windows source discovery excluded.",
+  "canonicalOrchestratorRunHeadSha": "4fbe88909791bbf97632ccb4f4ce3047578cc0cd",
+  "canonicalOrchestratorRunNote": "Pre-cleanup run on the original commit; orchestratorScenarioSha is its cleanup-mapped identity, not the run head.",
+  "exactHeadOrchestratorRuns": [
+    {
+      "run": "https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34845116484",
+      "headSha": "3f1e4fb13ed074adf4e01be86dd6230e6eb06799",
+      "event": "push"
+    },
+    {
+      "run": "https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34846314339",
+      "headSha": "b363efa293daff0406e4ba8f00be3f43b25c2fa6",
+      "event": "workflow_dispatch",
+      "symphonyTests": {
+        "executed": 10,
+        "failures": 0,
+        "excluded": 42
+      },
+      "postgresql": "17.11 lock/skip/rollback reproduced"
+    }
+  ],
+  "liveHandoff": {
+    "scenarioSha": "5d9a0aba618b6da85b85a2dd36a5bdaa71ef06da",
+    "issue": 18,
+    "pr": 19,
+    "finalHead": "25145ca9047a40d086298ce95754a7803e00b8fc",
+    "hostedRun": "https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34852712574",
+    "checks": "11 passed / 1 failed (Codex regression test red before fix)",
+    "models": {
+      "claude": "2.1.270 (Claude Code) print mode",
+      "codex": "codex-cli 0.154.0 exec"
+    },
+    "claudeCostUsd": 1.65,
+    "retainedBranches": [
+      "lab/d-live-claude-1789393978738",
+      "lab/d-live-codex-1789393978738"
+    ],
+    "qualification": "Scripted sequencing under one operator account; live evidence counts are kept separate from the board/orchestrator command counts above."
+  }
 }

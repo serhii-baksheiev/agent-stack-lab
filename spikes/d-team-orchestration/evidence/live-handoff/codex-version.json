@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\nvm4w\\nodejs\\node.exe",
+    "C:\\Users\\SerhiiBaksheiev\\AppData\\Roaming\\npm\\node_modules\\@openai\\codex\\bin\\codex.js",
+    "--version"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T13:53:01.986Z",
+  "durationMs": 427,
+  "exitCode": 0,
+  "stdout": "codex-cli 0.154.0\n",
+  "stderr": ""
+}

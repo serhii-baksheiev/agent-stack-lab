@@ -1,0 +1,15 @@
+{
+  "command": [
+    "git",
+    "worktree",
+    "remove",
+    "--force",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\d-live-1789393978738\\claude"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T14:00:21.131Z",
+  "durationMs": 1082,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": ""
+}

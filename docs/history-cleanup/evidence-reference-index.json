@@ -294,7 +294,9 @@
         }
       ],
       "afterCommitReferenceTranslationSha256": "c8bbec66724facb6bfb8ca2e28a6dea94e23b7ac67e492386f36a8d2ed1b6cb0",
-      "finalFileSha256": "c8bbec66724facb6bfb8ca2e28a6dea94e23b7ac67e492386f36a8d2ed1b6cb0"
+      "finalFileSha256": "c402d0360a6fe76ddfff00fe15aaa23d1ffef5080b766bbaa75b4be1e6095b9f",
+      "previousFinalFileSha256": "8e85b2645eebb139678fc69a4fddefb0b92ddf0dde89f164d515a8a5c381c464",
+      "postCleanupEdit": "Final review: live handoff evidence and security wording"
     },
     {
       "path": "spikes/d-team-orchestration/report.md",
@@ -310,7 +312,9 @@
         }
       ],
       "afterCommitReferenceTranslationSha256": "57b4bed5c163a3b6a5acc617cae194449248471ca5b702d30473dd78d3cacb14",
-      "finalFileSha256": "bc9856685f3a74789a1c810e5627c65514d1adf9f791562745361e4b1e282c76"
+      "finalFileSha256": "f05ab8b6cf5e07feaee28717f303501227e953bfb3bb406e26a12f97109f69d6",
+      "previousFinalFileSha256": "d3f137c5c3bc200271e691766b361b2d00ba369c0e6df1df02048d48083abf11",
+      "postCleanupEdit": "Final review: live handoff evidence and security wording"
     },
     {
       "path": "spikes/d-team-orchestration/review.md",
@@ -326,7 +330,9 @@
         }
       ],
       "afterCommitReferenceTranslationSha256": "ae5113e78a13fcd6da4aead6c1aef20ad161074ae39298989cb3c35ed0bb9f74",
-      "finalFileSha256": "50e933212533884e6894b94ed46fd3428d76509f923d1707b34ebf4f834e500b"
+      "finalFileSha256": "be07350561849f281c6f139d207e10991e5952f9be2be7d4ac3b3c9609fa8d66",
+      "previousFinalFileSha256": "e27b8c3e1c1be5979323662eb65a7a23508ecf8b62241a63bc22d17507219a66",
+      "postCleanupEdit": "Final review: live handoff evidence and security wording"
     },
     {
       "path": "spikes/d-team-orchestration/scenario-ledger.json",
@@ -338,7 +344,9 @@
         }
       ],
       "afterCommitReferenceTranslationSha256": "0deb9408226718c5d2e467957fdd58375ea519dab29ccb669f3f487856717e83",
-      "finalFileSha256": "0deb9408226718c5d2e467957fdd58375ea519dab29ccb669f3f487856717e83"
+      "finalFileSha256": "30085a01b178855f07a1b6b569cbb37058b970844f18bddf82a2880a004c676c",
+      "previousFinalFileSha256": "0deb9408226718c5d2e467957fdd58375ea519dab29ccb669f3f487856717e83",
+      "postCleanupEdit": "Final review: live handoff evidence and security wording"
     },
     {
       "path": "spikes/e-memory/evidence/basic-setup/provenance.json",
@@ -525,5 +533,26 @@
       "finalFileSha256": "925d1c42e38880fbea50e69fa6590a1d48b5e552c8254281decced83b0c61f08"
     }
   ],
-  "hashSemantics": "beforeSha256 is pre-translation; afterCommitReferenceTranslationSha256 is immediately after SHA translation; finalFileSha256 includes the subsequent historical-provenance banner."
+  "hashSemantics": "beforeSha256 is pre-translation; afterCommitReferenceTranslationSha256 is immediately after SHA translation; finalFileSha256 includes the subsequent historical-provenance banner.",
+  "postCleanupEdits": [
+    {
+      "at": "2026-09-14T13:55:25.487Z",
+      "reason": "Final review: correct pre-cleanup run attribution and link exact-head runs",
+      "files": [
+        "spikes/d-team-orchestration/measurements.json",
+        "spikes/d-team-orchestration/report.md",
+        "spikes/d-team-orchestration/review.md"
+      ]
+    },
+    {
+      "at": "2026-09-14T14:10:11.816Z",
+      "reason": "Final review: live handoff evidence and security wording",
+      "files": [
+        "spikes/d-team-orchestration/measurements.json",
+        "spikes/d-team-orchestration/report.md",
+        "spikes/d-team-orchestration/review.md",
+        "spikes/d-team-orchestration/scenario-ledger.json"
+      ]
+    }
+  ]
 }

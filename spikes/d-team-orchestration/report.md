@@ -38,7 +38,7 @@ No new Rig installation is needed to prove a remote board's atomicity. Native ha
 | Expired claim release | Append successor lease commit with epoch2; no ref deletion race; client-clock limitation |
 | External PR | PR17 arrives while A/B work remains open and is read by API |
 | Reviewer rework | Actual COMMENT review and corrective commit; same lab account, not independent-account REQUEST_CHANGES |
-| Claude → Codex | Synthetic provider-shaped handoff only; actual model continuation unverified |
+| Claude → Codex | Synthetic provider-shaped handoff in the board run; additionally one scripted live handoff (Issue #18 / PR #19): Claude Code print mode implemented, Codex exec continued and reviewed, Claude Code fixed, hosted CI green. Same operator account, scripted sequencing, no autonomous selection |
 | Restart/compaction | Fresh Node process reconstructs issue/commit/ref/next action from handoff; native compaction unverified |
 | Duplicate event | Current canonical claim event is recognized by read/equality check; no full duplicate delivery executor, historical replay or exactly-once issue export proof |
 
@@ -46,7 +46,7 @@ The board collector records **15 positive checks and one negative board-CAS chec
 
 ## Measurements
 
-Overall ledger: **20 passed / 1 failed / 12 unverified**; 58 complete command records, 44 classified real GitHub API requests and six snapshots. Canonical ready-source run [34841316242](https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34841316242) uses commit `a1e37399383468b1ca80477d739146ca648568c6`. Counts combine bounded primitive/source checks, not an end-to-end production readiness score.
+Overall ledger: **23 passed / 2 failed / 11 unverified** (board and source probes plus the live handoff below); 58 complete command records, 44 classified real GitHub API requests and six snapshots. Canonical ready-source run [34841316242](https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34841316242) executed on the original pre-cleanup commit `4fbe88909791bbf97632ccb4f4ce3047578cc0cd`, which the history cleanup maps to `a1e37399383468b1ca80477d739146ca648568c6`; it is historical evidence, not an exact-head run. Exact-head hosted runs on the rewritten tree, [34845116484](https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34845116484) on `3f1e4fb13ed074adf4e01be86dd6230e6eb06799` and [34846314339](https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34846314339) on `b363efa293daff0406e4ba8f00be3f43b25c2fa6`, reproduce the same 10 / 0 / 42 Symphony counts and PostgreSQL 17.11 lock/skip/rollback outcomes (artifact `spike-d-orchestrators`). Counts combine bounded primitive/source checks, not an end-to-end production readiness score.
 
 The issue response supplies an ETag, but both actual unsafe conditional PATCH requests return400 with an explicit unsupported-condition error. This is stronger evidence than assuming assignment updates are an atomic lock. [GitHub conditional-request contract](https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api).
 
@@ -58,6 +58,12 @@ Ten selected unmodified Symphony upstream tests pass with zero failures (42 excl
 
 The unmodified OpenHands Automation fetch function, extracted by AST and supplied a synthetic ORM table, is executed against SQLite and PostgreSQL17.11. SQLite's two sessions select the same row; PostgreSQL's first transaction locks it, the second skips it, and rollback makes it selectable again. This is ready transactional coordination worth reusing; full scheduler/dispatcher, external board mapping and PR fencing remain unverified. Agent Canvas's pinned native source `--help/--version/--info` runs without launching the backend. Actual GitHub Agent HQ access/model execution is untested; its documented multi-provider surface is separate from Codex local subagents.
 
+## Live handoff (additional evidence)
+
+One bounded live run (`scripts/spike-d-live-handoff.mjs`, evidence in `evidence/live-handoff/`, source commit `5d9a0aba618b6da85b85a2dd36a5bdaa71ef06da`) used the operator's already authorized Claude Code 2.1.270 and Codex 0.154.0 CLIs without new secrets. Claude Code in print mode implemented synthetic Issue #18 inside worktree A (branch `lab/d-live-claude-1789393978738`); the collector opened PR #19 and published a handoff record as an Issue comment; Codex exec read that comment in worktree B (`lab/d-live-codex-1789393978738`), added a regression test and a review requesting two changes; Claude Code merged the Codex branch fast-forward, fixed a real defect (a throwing `Symbol.toPrimitive` hook turned the required TypeError into a RangeError) and a README length violation; hosted `smoke` run [34852712574](https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34852712574) on `ubuntu-latest` succeeded on final head `25145ca9047a40d086298ce95754a7803e00b8fc`, and the laboratory validator executes live feature tests when that directory is present. PR #19 was closed unmerged and Issue #18 closed, both verified by API; the two branches are retained.
+
+Limits: sequencing was scripted by the collector, both CLIs ran under one operator account, the Codex review is a same-account COMMENT, no autonomous next-task selection, crash or native compaction occurred, and Codex reported `spawn EPERM` for default `node --test` isolation inside its sandbox and fell back to `--test-isolation=none`. Claude cost for the two print-mode calls was about USD1.65. This upgrades the Claude→Codex continuation scenario from unverified to a bounded observed pass; it does not establish autonomous multi-controller teamwork.
+
 ## File ownership
 
 See [ownership.md](ownership.md). Board Issues/links own tasks/blockers; Git commits/PRs own code. Native task lists remain in-session. A persisted handoff explains state but does not override the board. Memory is not consulted for task ownership. Rig owns future installation/doctor only. The lab-only Git claim ref is explicit cooperative metadata outside the issue field, not a hidden scheduler or universal task database.
@@ -68,9 +74,9 @@ Issue body/assignee updates are insufficient for the tested optimistic claim. A 
 
 ## Security findings
 
-**Release/closure blocker:** GitGuardian found an API-supplied temporary clone credential in a full repository metadata response; independent scan also found it in already merged B evidence. Current files and collectors are repaired and tested, but published history/cache cleanup and token invalidation are unresolved. See [security incidents](../../docs/security-incidents.md). Primitive experiment results do not erase this violation of the no-credentials requirement.
+**Release/closure blocker:** GitGuardian found an API-supplied temporary clone credential in a full repository metadata response; independent scan also found it in already merged B evidence. Current files and collectors are repaired and tested and branch history was rewritten and verified on 2026-09-14, but GitHub-side PR-cache/old-SHA erasure and token invalidation remain unresolved. See [security incidents](../../docs/security-incidents.md). Primitive experiment results do not erase this violation of the no-credentials requirement.
 
-Exact private-repository guard precedes board writes; tokens remain inside gh authentication. All task/code data is synthetic and all experiment PRs are closed. Same-account COMMENT review and process actors are explicitly disclosed. Clock skew, crash during side effects, stale-worker direct publication and historical replay are not solved by the prototype. See [security.md](security.md).
+Exact private-repository guard precedes board writes; the user's gh authentication token was never read into code or evidence, while the API-supplied temporary clone credential was persisted once and is covered by the incident record. All task/code data is synthetic and all experiment PRs are closed. Same-account COMMENT review and process actors are explicitly disclosed. Clock skew, crash during side effects, stale-worker direct publication and historical replay are not solved by the prototype. See [security.md](security.md).
 
 ## Maintenance cost
 
@@ -82,7 +88,7 @@ GitHub issue conditional mutation is explicitly unsupported. In-session state al
 
 ## What remains unverified
 
-Actual native model teams and Claude→Codex continuation; native compaction; two autonomous next-task selectors; Jira/other board transition CAS; full distributed lease protocol and server-clock policy; hard publication fencing; event replay after later lease epochs; exactly-once task export; complete production Symphony/OpenHands install/update/uninstall and Rig overlap. No credentials or paid inference were fabricated to conceal these limits.
+Actual native model teams and autonomous (unscripted) Claude→Codex handoff; native compaction; two autonomous next-task selectors; Jira/other board transition CAS; full distributed lease protocol and server-clock policy; hard publication fencing; event replay after later lease epochs; exactly-once task export; complete production Symphony/OpenHands install/update/uninstall and Rig overlap. No credentials or paid inference were fabricated to conceal these limits.
 
 ## Verdict: ADAPT
 
@@ -100,4 +106,4 @@ No central scheduler, provider SDK, task-state memory or universal workflow DSL.
 
 ## Artifact links
 
-[Board evidence](evidence/board/), [official board contracts](evidence/board-sources.json), [orchestrator evidence](evidence/orchestrators/), [orchestrator source notes](notes-orchestrators.md), [scenario ledger](scenario-ledger.json), [scores](scores.json), [review](review.md), [result](result.json).
+[Board evidence](evidence/board/), [live handoff evidence](evidence/live-handoff/), [official board contracts](evidence/board-sources.json), [orchestrator evidence](evidence/orchestrators/), [orchestrator source notes](notes-orchestrators.md), [scenario ledger](scenario-ledger.json), [scores](scores.json), [review](review.md), [result](result.json).

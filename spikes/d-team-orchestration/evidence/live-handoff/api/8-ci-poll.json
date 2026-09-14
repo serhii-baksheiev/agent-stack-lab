@@ -1,0 +1,123 @@
+{
+  "label": "ci-poll",
+  "method": "GET",
+  "endpoint": "repos/serhii-baksheiev/agent-stack-lab/commits/25145ca9047a40d086298ce95754a7803e00b8fc/check-runs?lab_probe=1789394385413",
+  "requestHeaders": [],
+  "startedAt": "2026-09-14T13:59:45.413Z",
+  "durationMs": 1488,
+  "exitCode": 0,
+  "status": 200,
+  "responseHeaders": "HTTP/2.0 200 OK\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\r\nCache-Control: private, max-age=60, s-maxage=60\r\nContent-Security-Policy: default-src 'none'\r\nContent-Type: application/json; charset=utf-8\r\nDate: Mon, 14 Sep 2026 13:59:47 GMT\r\nEtag: W/\"42e2e22a003141ba370c2eda0233d20c1ab2ed7a1629833d48a254501ae0177c\"\r\nReferrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin\r\nServer: github.com\r\nStrict-Transport-Security: max-age=31536000; includeSubdomains; preload\r\nVary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With\r\nX-Accepted-Oauth-Scopes: \r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Github-Api-Version-Selected: 2026-03-10\r\nX-Github-Edge-Region: fra\r\nX-Github-Media-Type: github.v3; format=json\r\nX-Github-Request-Id: BFA4:1ECA67:109EA6F:10263F5:6AA7FDD2\r\nX-Oauth-Client-Id: 178c6fc778ccc68e1d6a\r\nX-Oauth-Scopes: admin:public_key, gist, read:org, repo, workflow\r\nX-Ratelimit-Limit: 5000\r\nX-Ratelimit-Remaining: 4936\r\nX-Ratelimit-Reset: 1789397539\r\nX-Ratelimit-Resource: core\r\nX-Ratelimit-Used: 64\r\nX-Xss-Protection: 0",
+  "data": {
+    "total_count": 1,
+    "check_runs": [
+      {
+        "id": 104004401010,
+        "name": "GitGuardian Security Checks",
+        "node_id": "CR_kwDOUaGcPc8AAAAYNyU3cg",
+        "head_sha": "25145ca9047a40d086298ce95754a7803e00b8fc",
+        "external_id": "",
+        "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/check-runs/104004401010",
+        "html_url": "https://github.com/serhii-baksheiev/agent-stack-lab/runs/104004401010",
+        "details_url": "https://dashboard.gitguardian.com",
+        "status": "in_progress",
+        "conclusion": null,
+        "started_at": "2026-09-14T13:59:45Z",
+        "completed_at": null,
+        "output": {
+          "title": null,
+          "summary": null,
+          "text": null,
+          "annotations_count": 0,
+          "annotations_url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/check-runs/104004401010/annotations"
+        },
+        "check_suite": {
+          "id": 94377809936
+        },
+        "app": {
+          "id": 46505,
+          "client_id": "Iv1.ec3c001966b4cc5a",
+          "slug": "gitguardian",
+          "node_id": "MDM6QXBwNDY1MDU=",
+          "owner": {
+            "login": "GitGuardian",
+            "id": 27360172,
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjI3MzYwMTcy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/27360172?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/GitGuardian",
+            "html_url": "https://github.com/GitGuardian",
+            "followers_url": "https://api.github.com/users/GitGuardian/followers",
+            "following_url": "https://api.github.com/users/GitGuardian/following{/other_user}",
+            "gists_url": "https://api.github.com/users/GitGuardian/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/GitGuardian/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/GitGuardian/subscriptions",
+            "organizations_url": "https://api.github.com/users/GitGuardian/orgs",
+            "repos_url": "https://api.github.com/users/GitGuardian/repos",
+            "events_url": "https://api.github.com/users/GitGuardian/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/GitGuardian/received_events",
+            "type": "Organization",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "name": "GitGuardian",
+          "description": "# 🦉 What is GitGuardian?\r\n\r\nGitGuardian Secrets Detection detects and fixes vulnerabilities in source code at every step of the software development lifecycle, covering 350+ types of secrets like API keys, database connection strings, private keys, certificates, and more. The platform’s policy engine enables security teams to monitor and enforce rules across their VCS, DevOps tools, and infrastructure-as-code configurations. Our automated remediation playbooks and collaboration features bring security and development teams together to resolve incidents fast and in full.\r\n\r\n## 1. Scan your codebase for 350+ types of secrets\r\nGitGuardian scans your GitHub repositories and raises alerts only for critical secrets, such as API keys or other credentials. At scale, GitGuardian’s detection algorithm has been battle-tested on over three years of activity in all public GitHub repositories – totaling over 1 billion scanned commits!\r\n\r\n## 2. Quickly remediate your hard-coded secrets\r\nIf you ever experience a leak involving a credential, we have a complete remediation guide used by 100k+ developers each year. We’ll show you how to revoke the secret and remove it from your git history.\r\n\r\n##  3. Prevent secrets from reaching GitHub\r\nInstall ggshield, the GitGuardian CLI, and add secrets detection to your local development workflow using pre-commit and pre-push git hooks integrations.\r\n\r\n# 🙋‍♂️ FAQ\r\n\r\n**What is your pricing?**\r\nGitGuardian is free for teams under 25 developers and offers a 30-day trial for larger teams.\r\n\r\n**How can I be sure that GitGuardian won’t raise too many false positives?**\r\nWe have scanned billions of commits, sent millions of alerts since 2018, and integrated each feedback to improve our algorithm. Our alerts currently receive 91% “true positive” feedback from developers.\r\n\r\n**My repositories are private; why should I install automated secret detection?**\r\nImagine if there were a plain text file with all your credit card numbers inside, you wouldn’t put this file inside your company’s git repository. Secrets are just as sensitive and should be handled with special care.\r\n\r\n**Is GitGuardian available to be installed on-premise?**\r\nYes, you can contact one of our security specialists to look over the possibility of installing GitGuardian on-premise on your repositories.\r\n\r\n# ⚒️ Installation notes \r\n\r\nYou should install GitGuardian directly through your [GitGuardian](https://dashboard.gitguardian.com/) workspace on the Integration settings page. \r\n\r\nSo that you know, your GitHub organization or GitHub account can only be associated with a single GitGuardian workspace.\r\n\r\n# 👋 Support\r\n\r\nIf you experience any difficulties or have any questions, please reach out to us by email ([support@gitguardian.com](mailto:support@gitguardian.com)).",
+          "external_url": "https://dashboard.gitguardian.com",
+          "html_url": "https://github.com/apps/gitguardian",
+          "created_at": "2019-11-12T15:44:31Z",
+          "updated_at": "2026-08-20T10:26:03Z",
+          "permissions": {
+            "checks": "write",
+            "contents": "read",
+            "emails": "read",
+            "issues": "write",
+            "members": "read",
+            "metadata": "read",
+            "organization_hooks": "write",
+            "pull_requests": "write"
+          },
+          "events": [
+            "check_run",
+            "check_suite",
+            "commit_comment",
+            "create",
+            "delete",
+            "organization",
+            "public",
+            "pull_request",
+            "pull_request_review",
+            "pull_request_review_comment",
+            "push",
+            "repository"
+          ]
+        },
+        "pull_requests": [
+          {
+            "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab/pulls/19",
+            "id": 4527133048,
+            "number": 19,
+            "head": {
+              "ref": "lab/d-live-claude-1789393978738",
+              "sha": "25145ca9047a40d086298ce95754a7803e00b8fc",
+              "repo": {
+                "id": 1369545789,
+                "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab",
+                "name": "agent-stack-lab"
+              }
+            },
+            "base": {
+              "ref": "spike/d-team-orchestration",
+              "sha": "5d9a0aba618b6da85b85a2dd36a5bdaa71ef06da",
+              "repo": {
+                "id": 1369545789,
+                "url": "https://api.github.com/repos/serhii-baksheiev/agent-stack-lab",
+                "name": "agent-stack-lab"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "stderr": ""
+}
