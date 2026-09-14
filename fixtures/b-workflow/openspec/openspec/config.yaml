@@ -1,0 +1,5 @@
+schema: spec-driven
+context: |
+  Synthetic local subscriptions domain module, pure Node ESM, no dependencies.
+  Follow ../feature-brief.md B-R1 through B-R6. No real users or external services.
+  Design context is fixtures/c-figma/design-context.json (synthetic, not live Figma).
