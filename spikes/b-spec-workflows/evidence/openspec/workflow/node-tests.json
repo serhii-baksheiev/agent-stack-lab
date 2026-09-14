@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "--test",
+    "test/subscriptions.test.mjs"
+  ],
+  "cwd": ".lab-runs/b-openspec-1789382552065/workflow",
+  "startedAt": "2026-09-14T10:42:56.028Z",
+  "durationMs": 93,
+  "exitCode": 0,
+  "stdout": "✔ B-R1 rejects invalid input without changing frozen records (1.480935ms)\n✔ B-R2/B-R3 normalization deduplicates and immutable additions use sequential IDs (0.200352ms)\n✔ B-R4/B-R5 distinct deterministic transitions survive serialized state and fresh import (0.809331ms)\nℹ tests 3\nℹ suites 0\nℹ pass 3\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 56.774961\n",
+  "stderr": ""
+}

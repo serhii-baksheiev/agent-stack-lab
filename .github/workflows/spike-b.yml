@@ -1,0 +1,46 @@
+name: Spike B spec workflows
+on:
+  push:
+    branches: [spike/b-spec-workflows]
+    paths: ['scripts/spike-b*.mjs', 'fixtures/b-workflow/**', '.github/workflows/spike-b.yml']
+  workflow_dispatch:
+    inputs:
+      runner:
+        description: 'Optional existing Linux self-hosted label'
+        default: ubuntu-latest
+        type: string
+jobs:
+  workflows:
+    runs-on: ${{ inputs.runner || 'ubuntu-latest' }}
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: fixtures/f-native/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install isolated pinned toolchains
+        run: |
+          mkdir -p .lab-runs/f-tools
+          cp fixtures/f-native/toolchain.json .lab-runs/f-tools/package.json
+          cp fixtures/f-native/package-lock.json .lab-runs/f-tools/package-lock.json
+          npm ci --prefix "$PWD/.lab-runs/f-tools" --no-audit --no-fund
+          python -m venv .lab-runs/spec-kit-env
+          .lab-runs/spec-kit-env/bin/pip install 'git+https://github.com/github/spec-kit.git@96c9bd657bfd5de0d651a6165084932b7304ac99' 'uv==0.12.5'
+          echo "$PWD/.lab-runs/spec-kit-env/bin" >> "$GITHUB_PATH"
+      - run: node scripts/spike-b-spec-kit.mjs
+      - run: node scripts/spike-b-bmad.mjs
+      - run: node scripts/spike-b-openspec.mjs
+      - run: node scripts/spike-b-superpowers.mjs
+      - run: node scripts/spike-b-acceptance.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: spike-b-evidence
+          path: spikes/b-spec-workflows/evidence/

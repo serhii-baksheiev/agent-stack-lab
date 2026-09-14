@@ -1,0 +1,41 @@
+{
+  "repo": "serhii-baksheiev/agent-stack-lab",
+  "sourceSkill": "Spec Kit1.0.6 speckit-taskstoissues",
+  "sourceTaskSha": "e3e5bfc6a5535515a802f1f07cc4405309e191c3a998db7264085293469362a3",
+  "authorship": "Codex manually followed native skill dedup semantics using gh transport, not an automatic built-in exporter",
+  "postImplementationExport": true,
+  "tasks": 3,
+  "firstCreated": 3,
+  "repeatCreated": 1,
+  "closedRepeatCreated": 0,
+  "issues": [
+    {
+      "id": "T001",
+      "number": 5,
+      "state": "closed"
+    },
+    {
+      "id": "T002",
+      "number": 6,
+      "state": "closed"
+    },
+    {
+      "id": "T003",
+      "number": 7,
+      "state": "closed"
+    }
+  ],
+  "allCreatedIssuesClosed": true,
+  "closedIssueNumbers": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "repeatDedupPassed": false,
+  "otherFeatureSameIdsWouldBeSkipped": true,
+  "scopeLimitation": "Task IDs alone are not feature-scoped. A second feature starting T001 would be skipped by the documented matching rule.",
+  "observedFailure": "Immediate repository issue listing omitted newly created T003 although creation succeeded; list-then-create replay produced a duplicate. Server consistency/cache cause is inferred, not proven.",
+  "realBlockerLinks": "not exercised by taskstoissues; deferred to Spike D",
+  "jira": "unverified; no production Jira access"
+}

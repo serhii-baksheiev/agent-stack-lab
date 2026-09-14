@@ -1,0 +1,26 @@
+{
+  "version": "6.12.0",
+  "commit": "05bfbd46d00766ec88eb9b42e76be2c575d64d7b",
+  "license": "MIT",
+  "dist": {
+    "shasum": "47c10878a3fa40d56f2adc16bd4c3eb1bd035388",
+    "tarball": "https://registry.npmjs.org/bmad-method/-/bmad-method-6.12.0.tgz",
+    "fileCount": 358,
+    "integrity": "sha512-gbbHo32TxCPwo4Yy70kqykFRwN5UdYqfnDKTsKAsF9m5qtLeoiCgEawj/LuzLBHLrYA0WTOyL/XWtXpgyDonMQ==",
+    "signatures": [
+      {
+        "sig": "MEUCICa1T/8sa2+fFs3G0DRMlZk1jgzmuE8VkjY6it+nI6duAiEA2uhuJCjjWZRePvVy7tKVLVSj0nCbvS6FrSpbNvnHQI0=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/bmad-method@6.12.0",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 3260666
+  },
+  "execution": "manual-load Codex; CLI scaffolds installed in ignored fixture; no Claude model session",
+  "renderedWorkflowSha256": "fb04adabd4f0f1915227725ed335f2d0bf3f5ea7491d62a9b5f24079187cd30a"
+}

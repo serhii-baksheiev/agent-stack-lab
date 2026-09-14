@@ -1,0 +1,16 @@
+{
+  "command": [
+    "node",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-bmad-lifecycle-1789382530950/packages/node_modules/bmad-method/tools/installer/bmad-cli.js",
+    "uninstall",
+    "--directory",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-bmad-lifecycle-1789382530950/rig-first",
+    "--yes"
+  ],
+  "cwd": ".lab-runs/b-bmad-lifecycle-1789382530950/rig-first",
+  "startedAt": "2026-09-14T10:42:25.480Z",
+  "durationMs": 517,
+  "exitCode": 0,
+  "stdout": "┌  BMAD Uninstall\n│\n◇  Current Installation ─────────────────╮\n│                                        │\n│  Version: 6.12.0                       │\n│  Modules: core, bmm                    │\n│  IDE integrations: claude-code, codex  │\n│                                        │\n├────────────────────────────────────────╯\n\u001b[?25l│\n◒  Removing IDE integrations...\n\u001b[1G\u001b[J◇  Removed IDE integrations (claude-code, codex)\n\u001b[?25h\u001b[?25l│\n◇  Modules & data removed\n\u001b[?25h│\n◇  Summary ───────────────────────────────────╮\n│                                             │\n│  IDE integrations cleaned                   │\n│  Modules & data removed                     │\n│  User artifacts preserved in _bmad-output/  │\n│                                             │\n├─────────────────────────────────────────────╯\n│\n└  To reinstall, run: npx bmad-method install\n\n",
+  "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/spec-kit-env/bin/specify",
+    "preset",
+    "resolve",
+    "spec-template"
+  ],
+  "cwd": ".lab-runs/b-spec-kit-workflow/repo",
+  "startedAt": "2026-09-14T10:42:09.897Z",
+  "durationMs": 181,
+  "exitCode": 0,
+  "stdout": "  spec-template: \n<LAB>/.lab-runs/b-spec-kit-workflow/\nrepo/.specify/templates/spec-template.md\n    (top layer from: core)\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "uninstall",
+    "superpowers@superpowers-lab",
+    "--scope",
+    "project",
+    "--json"
+  ],
+  "cwd": ".lab-runs/b-superpowers-native-claude-rig-first/repo",
+  "startedAt": "2026-09-14T10:43:02.569Z",
+  "durationMs": 198,
+  "exitCode": 0,
+  "stdout": "{\"command\":\"uninstall\",\"outcome\":\"ok\",\"plugin\":\"superpowers@superpowers-lab\",\"pluginId\":\"superpowers@superpowers-lab\",\"scope\":\"project\",\"keptData\":false,\"message\":\"Successfully uninstalled plugin: superpowers (scope: project)\"}\n",
+  "stderr": ""
+}

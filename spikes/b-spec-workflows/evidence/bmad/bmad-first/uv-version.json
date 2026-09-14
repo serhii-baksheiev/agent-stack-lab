@@ -1,0 +1,12 @@
+{
+  "command": [
+    "uv",
+    "--version"
+  ],
+  "cwd": ".lab-runs/b-bmad-lifecycle-1789382530950/bmad-first",
+  "startedAt": "2026-09-14T10:42:27.267Z",
+  "durationMs": 5,
+  "exitCode": 0,
+  "stdout": "uv 0.12.5 (x86_64-unknown-linux-gnu)\n",
+  "stderr": ""
+}

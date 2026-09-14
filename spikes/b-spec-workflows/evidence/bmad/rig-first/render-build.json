@@ -1,0 +1,18 @@
+{
+  "command": [
+    "uv",
+    "run",
+    "--no-cache",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-bmad-lifecycle-1789382530950/rig-first/_bmad/scripts/render_skill.py",
+    "--project-root",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-bmad-lifecycle-1789382530950/rig-first",
+    "--skill",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-bmad-lifecycle-1789382530950/rig-first/.claude/skills/bmad-build"
+  ],
+  "cwd": ".lab-runs/b-bmad-lifecycle-1789382530950/rig-first",
+  "startedAt": "2026-09-14T10:42:21.348Z",
+  "durationMs": 92,
+  "exitCode": 0,
+  "stdout": "read and follow <LAB>/.lab-runs/b-bmad-lifecycle-1789382530950/rig-first/_bmad/render/bmad-build/rig-first-e5f5a70051db/9e35773c074b0e536045/workflow.md\n",
+  "stderr": ""
+}

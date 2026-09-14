@@ -1,0 +1,14 @@
+{
+  "command": [
+    "npm",
+    "--prefix",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-openspec-1789382552065/rig",
+    "prefix"
+  ],
+  "cwd": ".lab-runs/b-openspec-1789382552065/rig",
+  "startedAt": "2026-09-14T10:42:38.327Z",
+  "durationMs": 85,
+  "exitCode": 0,
+  "stdout": "<LAB>/.lab-runs/b-openspec-1789382552065/rig\n",
+  "stderr": ""
+}

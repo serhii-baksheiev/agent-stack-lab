@@ -1,0 +1,105 @@
+{
+  "packages": [
+    {
+      "name": "@fission-ai/openspec",
+      "version": "1.13.0",
+      "license": "MIT",
+      "gitHead": null,
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Fission-AI/OpenSpec.git"
+      },
+      "released": "2026-09-09T21:08:28.059Z",
+      "latest": "1.13.0",
+      "dist": {
+        "integrity": "sha512-1b1VbjELIUHPz8BLnkVxqPu4pAYS6BhfrLcmUIM7Bd0iJXQDvE+e/LBofE1kydegfxmG7R1xCMRXsl5VtZD+0w==",
+        "shasum": "5b124e7aafb6b539701a671e1fd015dac6b8bbf0",
+        "tarball": "https://registry.npmjs.org/@fission-ai/openspec/-/openspec-1.13.0.tgz",
+        "fileCount": 389,
+        "unpackedSize": 1929558,
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/@fission-ai%2fopenspec@1.13.0",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "signatures": [
+          {
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+            "sig": "MEUCIQDkN0MDZ1V5aKd+p9eozeQ7iaDc5HknBEIFGRYatQXk9gIgGHCGHvm7rA0ZlAcvO2uazW52GuL8y7hmPA/0kmPfysY="
+          }
+        ]
+      },
+      "integrityVerified": true,
+      "checkedAt": "2026-09-14T10:42:38.123Z"
+    },
+    {
+      "name": "create-agent-rig",
+      "version": "0.9.0",
+      "license": "MIT",
+      "gitHead": "c27f391e7395accaf09354f255a07e1b9e4710c1",
+      "repository": {
+        "url": "git+https://github.com/serhii-baksheiev/create-agent-rig.git",
+        "type": "git"
+      },
+      "released": "2026-09-14T03:40:12.365Z",
+      "latest": "0.9.0",
+      "dist": {
+        "shasum": "4fae16bb6e6914264af34ba51631ff7432f31394",
+        "tarball": "https://registry.npmjs.org/create-agent-rig/-/create-agent-rig-0.9.0.tgz",
+        "fileCount": 270,
+        "integrity": "sha512-yqWpUwdpVKR7unoQy9Bh5UF3+ArCxXSxWaKS3YIuMsiIY+E2u91HeaaCdi8D9bv+Dp5+NSl+5L6uJRd91oHLQQ==",
+        "signatures": [
+          {
+            "sig": "MEYCIQCkVWfsY+dTRV7Nb2GGzXvlWOxOS1a9aWvsUfiTpX9mlwIhAPuRvaaFl8Ba/Dt8uiP4KnkPjBANr3PQTn4m+8vWwK7s",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+            "sig": "MEUCIQCaigu2Msd0WUVlahHOng/QtEbWEMmQeuB9xGKtBNiWAwIgba+r4pks/kXXeOMrsBCdC7ZUO6Spv5ktIFwFdBbEb04="
+          }
+        ],
+        "unpackedSize": 1894623
+      },
+      "integrityVerified": true,
+      "checkedAt": "2026-09-14T10:42:39.120Z"
+    },
+    {
+      "name": "@fission-ai/openspec",
+      "version": "1.12.0",
+      "license": "MIT",
+      "gitHead": null,
+      "repository": {
+        "url": "git+https://github.com/Fission-AI/OpenSpec.git",
+        "type": "git"
+      },
+      "released": "2026-09-03T00:09:12.604Z",
+      "latest": "1.13.0",
+      "dist": {
+        "shasum": "c844543999f673cdd72445879b86a4abea4c07ef",
+        "tarball": "https://registry.npmjs.org/@fission-ai/openspec/-/openspec-1.12.0.tgz",
+        "fileCount": 389,
+        "integrity": "sha512-oFE2Lj7WVSc87nSibk6qe9HjHIOlxhcPAXbPey44DlLvJzBl5+9BZVrNiozOwv++CQhW+MG0kuP1XLZ/uQrrWw==",
+        "signatures": [
+          {
+            "sig": "MEYCIQCioiwVCIccMniiQiYaZjSzMvGPBPceXUmaP7CVhojQFQIhAPxpDZ2RjZcXsscOZZx7RrUindYcnhFNwDbsmCOQGPtf",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/@fission-ai%2fopenspec@1.12.0",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 1898231
+      },
+      "integrityVerified": true,
+      "checkedAt": "2026-09-14T10:42:40.965Z"
+    }
+  ],
+  "node": "v24.20.0",
+  "platform": "linux",
+  "scriptSha256": "08ce6b5a053158cfefca5cf4f649e31c4467f006cd2dbba57113a2dba60a3dd1",
+  "runDirectory": ".lab-runs/b-openspec-1789382552065"
+}

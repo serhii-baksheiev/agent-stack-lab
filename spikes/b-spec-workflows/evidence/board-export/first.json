@@ -1,0 +1,22 @@
+{
+  "stage": "first",
+  "created": [
+    {
+      "id": "T001",
+      "number": 5,
+      "url": "https://github.com/serhii-baksheiev/agent-stack-lab/issues/5"
+    },
+    {
+      "id": "T002",
+      "number": 6,
+      "url": "https://github.com/serhii-baksheiev/agent-stack-lab/issues/6"
+    },
+    {
+      "id": "T003",
+      "number": 7,
+      "url": "https://github.com/serhii-baksheiev/agent-stack-lab/issues/7"
+    }
+  ],
+  "skipped": [],
+  "conflicts": []
+}

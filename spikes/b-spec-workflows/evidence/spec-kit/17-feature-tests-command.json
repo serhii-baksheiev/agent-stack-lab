@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/opt/hostedtoolcache/node/24.20.0/x64/bin/node",
+    "--test",
+    "tests/subscriptions.test.mjs"
+  ],
+  "cwd": ".lab-runs/b-spec-kit-workflow/repo",
+  "startedAt": "2026-09-14T10:42:10.215Z",
+  "durationMs": 80,
+  "exitCode": 0,
+  "stdout": "✔ US1 normalizes, preserves frozen state and avoids duplicates (1.276745ms)\n✔ US2 serialized state has no session dependency (0.149145ms)\nℹ tests 2\nℹ suites 0\nℹ pass 2\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 50.859764\n",
+  "stderr": ""
+}

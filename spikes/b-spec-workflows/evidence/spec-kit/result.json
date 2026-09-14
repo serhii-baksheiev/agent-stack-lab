@@ -1,0 +1,51 @@
+{
+  "version": "1.0.6",
+  "commit": "96c9bd657bfd5de0d651a6165084932b7304ac99",
+  "license": "MIT",
+  "scenarioSha": "87758096577df6878847c9e58979863d72452ca2",
+  "scriptSha256": "c6afbd439de1ae9069144af22e5763651ce37d0bbb32d049846b0bb77ab77705",
+  "nativeScaffoldFiles": 47,
+  "nativeScaffoldBytes": 434233,
+  "manualAuthoredAddedFiles": [
+    ".specify/feature.json",
+    "product-brief.md",
+    "specs/001-local-subscriptions/contracts/subscribe.md",
+    "specs/001-local-subscriptions/data-model.md",
+    "specs/001-local-subscriptions/design-context.json",
+    "specs/001-local-subscriptions/plan.md",
+    "specs/001-local-subscriptions/quickstart.md",
+    "specs/001-local-subscriptions/research.md",
+    "specs/001-local-subscriptions/spec.md",
+    "specs/001-local-subscriptions/tasks.md",
+    "src/subscriptions.mjs",
+    "tests/subscriptions.test.mjs"
+  ],
+  "loadedSkillInputs": {
+    "speckit-specify": {
+      "sha256": "d4d93f2444355136e78bb533988aa2dd560dc4b258f4923f67b1a437e7de38f8",
+      "source": "github/spec-kit@96c9bd657bfd5de0d651a6165084932b7304ac99"
+    },
+    "speckit-plan": {
+      "sha256": "4b9763a432e8ea3a35f0a40a4b4e444ce98b8f1978cbf14ab6ea7f81b08db861",
+      "source": "github/spec-kit@96c9bd657bfd5de0d651a6165084932b7304ac99"
+    },
+    "speckit-tasks": {
+      "sha256": "cf218d1b747cedffb3868aab8c0781f2513c291316b2077141d7dbc46229e215",
+      "source": "github/spec-kit@96c9bd657bfd5de0d651a6165084932b7304ac99"
+    },
+    "speckit-taskstoissues": {
+      "sha256": "7fa06b001257e5d33f41c69b1cebb3d2ef7c21af4fa6f92af891f0bab67aa761",
+      "source": "github/spec-kit@96c9bd657bfd5de0d651a6165084932b7304ac99"
+    }
+  },
+  "resumeReadOnly": true,
+  "existingPlanSkipped": true,
+  "nativePlanSetup": {
+    "FEATURE_SPEC": "<LAB>/.lab-runs/b-spec-kit-workflow/repo/specs/001-local-subscriptions/spec.md",
+    "IMPL_PLAN": "<LAB>/.lab-runs/b-spec-kit-workflow/repo/specs/001-local-subscriptions/plan.md",
+    "FEATURE_DIR": "<LAB>/.lab-runs/b-spec-kit-workflow/repo/specs/001-local-subscriptions",
+    "BRANCH": "001-local-subscriptions"
+  },
+  "claimBoundary": "Native CLI generated scaffolding and validated prerequisite paths; a Codex laboratory agent authored spec/plan/tasks/code following loaded instructions. No native Claude inference or native prose-generation claim.",
+  "rigCompatibilityEvidence": "spikes/a-spec-kit-manifest/evidence/integration/ (same exact 1.0.6 pin, both orders)"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/spec-kit-env/bin/python",
+    ".specify/scripts/python/setup_plan.py",
+    "--json"
+  ],
+  "cwd": ".lab-runs/b-spec-kit-workflow/repo",
+  "startedAt": "2026-09-14T10:42:10.312Z",
+  "durationMs": 30,
+  "exitCode": 0,
+  "stdout": "{\"FEATURE_SPEC\":\"<LAB>/.lab-runs/b-spec-kit-workflow/repo/specs/001-local-subscriptions/spec.md\",\"IMPL_PLAN\":\"<LAB>/.lab-runs/b-spec-kit-workflow/repo/specs/001-local-subscriptions/plan.md\",\"FEATURE_DIR\":\"<LAB>/.lab-runs/b-spec-kit-workflow/repo/specs/001-local-subscriptions\",\"BRANCH\":\"001-local-subscriptions\"}\n",
+  "stderr": "Plan already exists at <LAB>/.lab-runs/b-spec-kit-workflow/repo/specs/001-local-subscriptions/plan.md, skipping template copy\n"
+}

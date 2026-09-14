@@ -1,0 +1,19 @@
+{
+  "command": [
+    "npm",
+    "install",
+    "--prefix",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-openspec-1789382552065/openspec-previous",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund",
+    "--save-exact",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/b-openspec-1789382552065/openspec-previous/package.tgz"
+  ],
+  "cwd": ".lab-runs/b-openspec-1789382552065/openspec-previous",
+  "startedAt": "2026-09-14T10:42:39.376Z",
+  "durationMs": 1588,
+  "exitCode": 0,
+  "stdout": "\nadded 80 packages in 2s\n",
+  "stderr": ""
+}

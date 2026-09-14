@@ -1,0 +1,14 @@
+{
+  "spike": "B",
+  "verdict": "ADAPT",
+  "confidence": "medium",
+  "candidate": "Spec Kit canonical workflow; optional native Superpowers execution skills; BMAD/OpenSpec alternatives, no workflow engine",
+  "version": "Spec Kit1.0.6; BMAD6.12.0; OpenSpec1.13.0; Superpowers6.3.0",
+  "rigBaseline": "0.9.0",
+  "scenariosPassed": 166,
+  "scenariosFailed": 10,
+  "scenariosUnverified": 14,
+  "estimatedIntegrationDays": 2,
+  "estimatedAnnualMaintenanceDays": 2,
+  "qualification": "Workflow prose manually authored; native lifecycle measured. Optional layers are not a proven quality improvement."
+}
