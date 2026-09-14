@@ -1,1 +1,1 @@
-Synthetic D code fixture only.
+Synthetic external contributor change while A/B work is active.
