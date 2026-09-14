@@ -1,0 +1,300 @@
+[
+  {
+    "provider": "claude",
+    "order": "rig-first",
+    "secondExit": 0,
+    "changedBySecond": [
+      ".claude/settings.json"
+    ],
+    "initial": {
+      "installed": true,
+      "version": "2.2.108",
+      "mcpUrl": "https://mcp.figma.com/mcp",
+      "header": {
+        "X-Figma-Plugin-Bundle": "figma_prod@2_2_108"
+      },
+      "manifestSha": "16bbb46a218b8e9ae0efd733632103ab4bfc1739a727dbe2a49141e47f0f0e0f",
+      "mcpSha": "f5eb4608692233b72884f519da182716c488df4e40555cb5818756ffe9600a6c",
+      "skills": [
+        "figma-code-connect",
+        "figma-create-new-file",
+        "figma-design-to-code",
+        "figma-generate-design",
+        "figma-generate-diagram",
+        "figma-generate-library",
+        "figma-generative-plugins",
+        "figma-implement-motion",
+        "figma-shaders",
+        "figma-swiftui",
+        "figma-use",
+        "figma-use-figjam",
+        "figma-use-motion",
+        "figma-use-slides"
+      ]
+    },
+    "repeatRig": 1,
+    "repeatNative": 0,
+    "dryExit": 0,
+    "dryReadOnly": true,
+    "rigUpgrade": 0,
+    "editsPreserved": true,
+    "deletedStaysRemoved": true,
+    "pluginUpgrade": 0,
+    "updated": {
+      "installed": true,
+      "version": "2.2.111",
+      "mcpUrl": "https://mcp.figma.com/mcp",
+      "header": {
+        "X-Figma-Plugin-Bundle": "figma_prod@2_2_108"
+      },
+      "manifestSha": "560fd79a2082187c3b0b700364a4d9288b04792ba55bb46cc02ba2dcb0ae304a",
+      "mcpSha": "f5eb4608692233b72884f519da182716c488df4e40555cb5818756ffe9600a6c",
+      "skills": [
+        "figma-code-connect",
+        "figma-create-new-file",
+        "figma-design-to-code",
+        "figma-generate-design",
+        "figma-generate-diagram",
+        "figma-generate-library",
+        "figma-generative-plugins",
+        "figma-implement-motion",
+        "figma-shaders",
+        "figma-swiftui",
+        "figma-use",
+        "figma-use-figjam",
+        "figma-use-motion",
+        "figma-use-slides"
+      ]
+    },
+    "bundleUpdated": true,
+    "uninstall": 0,
+    "rigPreserved": true,
+    "settingsEditSurvives": true,
+    "final": {
+      "installed": false
+    },
+    "survivingRig": 0
+  },
+  {
+    "provider": "claude",
+    "order": "plugin-first",
+    "secondExit": 0,
+    "changedBySecond": [],
+    "initial": {
+      "installed": true,
+      "version": "2.2.108",
+      "mcpUrl": "https://mcp.figma.com/mcp",
+      "header": {
+        "X-Figma-Plugin-Bundle": "figma_prod@2_2_108"
+      },
+      "manifestSha": "16bbb46a218b8e9ae0efd733632103ab4bfc1739a727dbe2a49141e47f0f0e0f",
+      "mcpSha": "f5eb4608692233b72884f519da182716c488df4e40555cb5818756ffe9600a6c",
+      "skills": [
+        "figma-code-connect",
+        "figma-create-new-file",
+        "figma-design-to-code",
+        "figma-generate-design",
+        "figma-generate-diagram",
+        "figma-generate-library",
+        "figma-generative-plugins",
+        "figma-implement-motion",
+        "figma-shaders",
+        "figma-swiftui",
+        "figma-use",
+        "figma-use-figjam",
+        "figma-use-motion",
+        "figma-use-slides"
+      ]
+    },
+    "repeatRig": 1,
+    "repeatNative": 0,
+    "dryExit": 0,
+    "dryReadOnly": true,
+    "rigUpgrade": 0,
+    "editsPreserved": true,
+    "deletedStaysRemoved": true,
+    "pluginUpgrade": 0,
+    "updated": {
+      "installed": true,
+      "version": "2.2.111",
+      "mcpUrl": "https://mcp.figma.com/mcp",
+      "header": {
+        "X-Figma-Plugin-Bundle": "figma_prod@2_2_108"
+      },
+      "manifestSha": "560fd79a2082187c3b0b700364a4d9288b04792ba55bb46cc02ba2dcb0ae304a",
+      "mcpSha": "f5eb4608692233b72884f519da182716c488df4e40555cb5818756ffe9600a6c",
+      "skills": [
+        "figma-code-connect",
+        "figma-create-new-file",
+        "figma-design-to-code",
+        "figma-generate-design",
+        "figma-generate-diagram",
+        "figma-generate-library",
+        "figma-generative-plugins",
+        "figma-implement-motion",
+        "figma-shaders",
+        "figma-swiftui",
+        "figma-use",
+        "figma-use-figjam",
+        "figma-use-motion",
+        "figma-use-slides"
+      ]
+    },
+    "bundleUpdated": true,
+    "uninstall": 0,
+    "rigPreserved": true,
+    "settingsEditSurvives": true,
+    "final": {
+      "installed": false
+    },
+    "survivingRig": 0
+  },
+  {
+    "provider": "codex",
+    "order": "rig-first",
+    "secondExit": 0,
+    "changedBySecond": [],
+    "initial": {
+      "installed": true,
+      "version": "2.2.108",
+      "mcpUrl": "https://mcp.figma.com/mcp",
+      "header": {
+        "X-Figma-Plugin-Bundle": "figma_prod@2_2_108"
+      },
+      "manifestSha": "16bbb46a218b8e9ae0efd733632103ab4bfc1739a727dbe2a49141e47f0f0e0f",
+      "mcpSha": "f5eb4608692233b72884f519da182716c488df4e40555cb5818756ffe9600a6c",
+      "skills": [
+        "figma-code-connect",
+        "figma-create-new-file",
+        "figma-design-to-code",
+        "figma-generate-design",
+        "figma-generate-diagram",
+        "figma-generate-library",
+        "figma-generative-plugins",
+        "figma-implement-motion",
+        "figma-shaders",
+        "figma-swiftui",
+        "figma-use",
+        "figma-use-figjam",
+        "figma-use-motion",
+        "figma-use-slides"
+      ]
+    },
+    "repeatRig": 1,
+    "repeatNative": 0,
+    "dryExit": 0,
+    "dryReadOnly": true,
+    "rigUpgrade": 0,
+    "editsPreserved": true,
+    "deletedStaysRemoved": true,
+    "pluginUpgrade": 0,
+    "updated": {
+      "installed": true,
+      "version": "2.2.111",
+      "mcpUrl": "https://mcp.figma.com/mcp",
+      "header": {
+        "X-Figma-Plugin-Bundle": "figma_prod@2_2_108"
+      },
+      "manifestSha": "560fd79a2082187c3b0b700364a4d9288b04792ba55bb46cc02ba2dcb0ae304a",
+      "mcpSha": "f5eb4608692233b72884f519da182716c488df4e40555cb5818756ffe9600a6c",
+      "skills": [
+        "figma-code-connect",
+        "figma-create-new-file",
+        "figma-design-to-code",
+        "figma-generate-design",
+        "figma-generate-diagram",
+        "figma-generate-library",
+        "figma-generative-plugins",
+        "figma-implement-motion",
+        "figma-shaders",
+        "figma-swiftui",
+        "figma-use",
+        "figma-use-figjam",
+        "figma-use-motion",
+        "figma-use-slides"
+      ]
+    },
+    "bundleUpdated": true,
+    "uninstall": 0,
+    "rigPreserved": true,
+    "settingsEditSurvives": true,
+    "final": {
+      "installed": false
+    },
+    "survivingRig": 0
+  },
+  {
+    "provider": "codex",
+    "order": "plugin-first",
+    "secondExit": 0,
+    "changedBySecond": [],
+    "initial": {
+      "installed": true,
+      "version": "2.2.108",
+      "mcpUrl": "https://mcp.figma.com/mcp",
+      "header": {
+        "X-Figma-Plugin-Bundle": "figma_prod@2_2_108"
+      },
+      "manifestSha": "16bbb46a218b8e9ae0efd733632103ab4bfc1739a727dbe2a49141e47f0f0e0f",
+      "mcpSha": "f5eb4608692233b72884f519da182716c488df4e40555cb5818756ffe9600a6c",
+      "skills": [
+        "figma-code-connect",
+        "figma-create-new-file",
+        "figma-design-to-code",
+        "figma-generate-design",
+        "figma-generate-diagram",
+        "figma-generate-library",
+        "figma-generative-plugins",
+        "figma-implement-motion",
+        "figma-shaders",
+        "figma-swiftui",
+        "figma-use",
+        "figma-use-figjam",
+        "figma-use-motion",
+        "figma-use-slides"
+      ]
+    },
+    "repeatRig": 1,
+    "repeatNative": 0,
+    "dryExit": 0,
+    "dryReadOnly": true,
+    "rigUpgrade": 0,
+    "editsPreserved": true,
+    "deletedStaysRemoved": true,
+    "pluginUpgrade": 0,
+    "updated": {
+      "installed": true,
+      "version": "2.2.111",
+      "mcpUrl": "https://mcp.figma.com/mcp",
+      "header": {
+        "X-Figma-Plugin-Bundle": "figma_prod@2_2_108"
+      },
+      "manifestSha": "560fd79a2082187c3b0b700364a4d9288b04792ba55bb46cc02ba2dcb0ae304a",
+      "mcpSha": "f5eb4608692233b72884f519da182716c488df4e40555cb5818756ffe9600a6c",
+      "skills": [
+        "figma-code-connect",
+        "figma-create-new-file",
+        "figma-design-to-code",
+        "figma-generate-design",
+        "figma-generate-diagram",
+        "figma-generate-library",
+        "figma-generative-plugins",
+        "figma-implement-motion",
+        "figma-shaders",
+        "figma-swiftui",
+        "figma-use",
+        "figma-use-figjam",
+        "figma-use-motion",
+        "figma-use-slides"
+      ]
+    },
+    "bundleUpdated": true,
+    "uninstall": 0,
+    "rigPreserved": true,
+    "settingsEditSurvives": true,
+    "final": {
+      "installed": false
+    },
+    "survivingRig": 0
+  }
+]

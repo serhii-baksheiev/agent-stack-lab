@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "list",
+    "--json"
+  ],
+  "cwd": ".lab-runs/c-native-claude-plugin-first/repo",
+  "startedAt": "2026-09-14T10:09:28.637Z",
+  "durationMs": 242,
+  "exitCode": 0,
+  "stdout": "[\n  {\n    \"id\": \"figma@figma-lab\",\n    \"version\": \"2.2.111\",\n    \"scope\": \"project\",\n    \"enabled\": true,\n    \"installPath\": \"<LAB>/.lab-runs/c-native-claude-plugin-first/home/.claude/plugins/cache/figma-lab/figma/2.2.111\",\n    \"installedAt\": \"2026-09-14T10:09:26.904Z\",\n    \"lastUpdated\": \"2026-09-14T10:09:28.604Z\",\n    \"projectPath\": \"<LAB>/.lab-runs/c-native-claude-plugin-first/repo\",\n    \"mcpServers\": {\n      \"figma\": {\n        \"type\": \"http\",\n        \"url\": \"https://mcp.figma.com/mcp\",\n        \"headers\": {\n          \"X-Figma-Plugin-Bundle\": \"figma_prod@2_2_108\"\n        }\n      }\n    }\n  }\n]\n",
+  "stderr": ""
+}

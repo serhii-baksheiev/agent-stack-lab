@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "plugin",
+    "marketplace",
+    "update",
+    "figma-lab"
+  ],
+  "cwd": ".lab-runs/c-native-claude-plugin-first/repo",
+  "startedAt": "2026-09-14T10:09:28.071Z",
+  "durationMs": 243,
+  "exitCode": 0,
+  "stdout": "Updating marketplace: figma-lab...Validating local marketplace\n✔ Successfully updated marketplace: figma-lab\n",
+  "stderr": ""
+}

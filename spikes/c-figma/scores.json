@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-09-14",
+  "scale": "0 worst, 10 best; lower cost/lock-in scores higher. Provisional engineering judgments, not model quality measurements. Unverified zero means no demonstrated coverage, not proof of inherent inability.",
+  "candidate": "Official Figma plugin 2.2.111 plus remote MCP",
+  "dimensions": {
+    "userUtility": {"score": 7, "status": "provisional", "basis": "Official design context interface avoids a Rig-specific design subsystem; authenticated utility not measured."},
+    "maturity": {"score": 7, "status": "measured-and-documented", "basis": "Real native package lifecycle, documented OAuth service and multiple supported clients."},
+    "maintainability": {"score": 8, "basis": "Use upstream native package and connection lifecycle; no custom design engine."},
+    "upstreamActivity": {"score": 9, "basis": "Pinned official commits dated September 8 and 11, 2026; checked September 14."},
+    "claudeCompatibility": {"score": 7, "basis": "Native plugin install/update/remove with Rig; actual authenticated design tools unverified."},
+    "codexCompatibility": {"score": 7, "basis": "Native plugin install/update/remove with Rig; actual authenticated design tools unverified."},
+    "reproducibility": {"score": 5, "basis": "Exact client source commits and npm lock; hosted backend not immutable."},
+    "upgradeUninstall": {"score": 7, "basis": "Real prior-client-version update and native removal; credential revocation and reverse Rig removal unverified."},
+    "absenceOfFileConflicts": {"score": 7, "basis": "Native cache avoids skill-directory overlap; Claude settings still shared wiring."},
+    "teamwork": {"score": 4, "status": "provisional", "basis": "Portable project spec/traceability demonstrated offline; real provider handoff unverified."},
+    "boardIntegration": {"score": 0, "status": "unverified", "basis": "No board adapter tested in C; deferred to B/D."},
+    "security": {"score": 5, "basis": "Isolated no-credential lifecycle and bounded HTTP probe; no complete upstream audit or organization OAuth qualification."},
+    "offlineLocalFirst": {"score": 2, "basis": "Client source can be cached; official remote design retrieval requires connectivity. Offline fixture is independent."},
+    "integrationCost": {"score": 9, "status": "estimate", "basis": "About one day for optional lifecycle/diagnostic integration, excluding legal and organization access decisions."},
+    "annualMaintenanceCost": {"score": 9, "status": "estimate", "basis": "About one day/year for bounded compatibility smoke and instructions."},
+    "lowVendorLockIn": {"score": 4, "basis": "MCP transport is portable; design data and remote service are Figma-dependent."},
+    "license": {"score": 0, "status": "unverified", "basis": "No repository-level license found; no unconditional redistribution recommendation."}
+  }
+}

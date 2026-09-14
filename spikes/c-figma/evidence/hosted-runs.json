@@ -1,0 +1,5 @@
+{
+  "canonical": {"runId": 34831651581, "commit": "7a6f8a1", "conclusion": "success", "url": "https://github.com/serhii-baksheiev/agent-stack-lab/actions/runs/34831651581", "artifact": "spike-c-evidence"},
+  "superseded": [{"runId": 34831242016, "reason": "Native lifecycles completed; visual collector failed creating an HTML canvas in an SVG document. Fixed explicit HTML namespace before retry."}],
+  "liveService": "HTTP 401; no OAuth or synthetic Figma file available; not counted as successful design retrieval."
+}

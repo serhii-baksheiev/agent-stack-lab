@@ -1,0 +1,35 @@
+{
+  "files": {},
+  "count": 0,
+  "bytes": 0,
+  "status": "",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/c-native-claude-rig-first/repo",
+    "startedAt": "2026-09-14T10:09:22.663Z",
+    "durationMs": 7,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/c-native-claude-rig-first/repo",
+    "startedAt": "2026-09-14T10:09:22.670Z",
+    "durationMs": 6,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

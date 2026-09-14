@@ -1,0 +1,372 @@
+{
+  "files": {
+    ".agents/skills/check-premises/SKILL.md": {
+      "size": 13783,
+      "sha256": "403f26470ec0a9c853aa69fe8a114fbc3dfb3bf6e6094eecb8a836f153aa1a37"
+    },
+    ".agents/skills/loop/SKILL.md": {
+      "size": 64237,
+      "sha256": "2975696b3455f80f80cfb72ce8382b04e776e24b011bb81d919edb77f0ae4e27"
+    },
+    ".agents/skills/new-invariant/SKILL.md": {
+      "size": 5071,
+      "sha256": "b15abfba29cd52b2fc29f30d63803bc0fc2741429c8faab21d2f907ee1ce0828"
+    },
+    ".agents/skills/new-invariant/guard-invariant.example.mjs": {
+      "size": 3489,
+      "sha256": "0fec41841de1fc07f4da08d023fdda2906c62e3c71b22827c874f2809719b955"
+    },
+    ".agents/skills/new-invariant/guard-invariant.example.test.mjs": {
+      "size": 3582,
+      "sha256": "7bef9179c5b56d280d462cf21fb2c38dc4cb759b671b114b3995aac93720caf8"
+    },
+    ".agents/skills/pr-ship/SKILL.md": {
+      "size": 26057,
+      "sha256": "dc1d9c02879e383448f2336ae6433f960f86e8f8efb4ab8ccf9a17a5f7f524c3"
+    },
+    ".agents/skills/worktree-task/SKILL.md": {
+      "size": 3771,
+      "sha256": "1eedb9b3429f2d032181606924815dd8befbe7a79ba209655858fcdac189793c"
+    },
+    ".claude/.rig-manifest.json": {
+      "size": 9085,
+      "sha256": "5553c606c9b7a12f7090b27b3eef7d0279201c1ac37121dbfe6ea40cf4e81cc1"
+    },
+    ".claude/agents/code-reviewer.md": {
+      "size": 4710,
+      "sha256": "f12cb04871578eca3c9c36a1c2d60f5ae15a0e9094ecfc7c704c341756de4e3e"
+    },
+    ".claude/agents/prose-reviewer.md": {
+      "size": 10189,
+      "sha256": "7aed3bfc955efc94bbeda3f866d25e2b253c88facaa2beed73939182a9f845b2"
+    },
+    ".claude/agents/security-scanner.md": {
+      "size": 3653,
+      "sha256": "7c0bc189521955f2d126bac0ff97ab4fa252b05067692a5a3bb6cda232ddfaa3"
+    },
+    ".claude/agents/test-writer.md": {
+      "size": 1727,
+      "sha256": "fce976938fdd1154641e405a557b67161daa34cf84de9ad35fa14287d13b7f9c"
+    },
+    ".claude/hooks/block-no-verify.mjs": {
+      "size": 3430,
+      "sha256": "3d7bcbccd9a163f076bd1d8cc63021b7c8605d1cb1df24a3536db3e57c1d7630"
+    },
+    ".claude/hooks/gate-stop-dod.mjs": {
+      "size": 19705,
+      "sha256": "d2af03ed141fadd0b1e69b230b9277e8f03169757a8e2a679767653ab7828d9a"
+    },
+    ".claude/hooks/guard-bash.mjs": {
+      "size": 37103,
+      "sha256": "5ffaba69ffc9b6c39cd3c97c4f29b44627416d55793b50aa1a26ffe5efc45497"
+    },
+    ".claude/hooks/guard-rulebook.mjs": {
+      "size": 9814,
+      "sha256": "493ae58e54b055bd13ba992ee0dbfa2cb9ce9a3637ec345ab8d7cfff95831c60"
+    },
+    ".claude/hooks/guard-secret-file.mjs": {
+      "size": 9481,
+      "sha256": "5bf2896ec5e5f94fab20b52cd22418a4392778b40744602a087e320eeca3f688"
+    },
+    ".claude/hooks/guard-subagent-model.mjs": {
+      "size": 10046,
+      "sha256": "345cbd5f43171adb01cd46ad485fb61299f7135c00ff4217765993551aca3b38"
+    },
+    ".claude/hooks/inject-rules.mjs": {
+      "size": 9019,
+      "sha256": "860a5d4ba02b59971f80bf79a9081f48f11022d46fe66b0470f0abc4ed9633e4"
+    },
+    ".claude/hooks/lib/edit-input.mjs": {
+      "size": 23596,
+      "sha256": "6695698d2b38c79a12292601048dd0082a0cd18bf9e69c047d47679c2e6ecf67"
+    },
+    ".claude/hooks/lib/hook-input.mjs": {
+      "size": 8218,
+      "sha256": "3be3d4af4a25536d2a2bac0441a1370be7efafb5f8aa737b195bdce77db0091b"
+    },
+    ".claude/hooks/warn-subagent-routing.mjs": {
+      "size": 5113,
+      "sha256": "b95165243ebb60264c78b82ce01407669457fe33c0bf86ff2a5c117963c6bc6d"
+    },
+    ".claude/queue.json": {
+      "size": 27,
+      "sha256": "00671bfdd83326e7561f1ce955b7ad79dcf566faf2eae3684b4287af0d54c14c"
+    },
+    ".claude/rules/autonomy.md": {
+      "size": 10701,
+      "sha256": "532dc5cdffb1464fb68889628664b1e7e345272c806cf2ccb7a063c6a3a7f1bf"
+    },
+    ".claude/rules/invariants.md": {
+      "size": 15604,
+      "sha256": "ce90c1e697fdd444ca3fe2203d7991645f2c284c413ae187e4d6d6c618af52c9"
+    },
+    ".claude/rules/workflow.md": {
+      "size": 8388,
+      "sha256": "aa34a1eab572964b328ffa0044e96acb3e1c31491df0183460f06e5e6bba3b76"
+    },
+    ".claude/scripts/decision-router.mjs": {
+      "size": 57076,
+      "sha256": "8e9fe877949955e8f698701f969784b288bc95943c3bcea3bd4368db82e8e43e"
+    },
+    ".claude/scripts/detect-missed-gate.mjs": {
+      "size": 24524,
+      "sha256": "120ee3b90497b9023528a7f8b4e7f48c30a578fad62d94d55d1d280240e5e3a2"
+    },
+    ".claude/scripts/doctor.mjs": {
+      "size": 15626,
+      "sha256": "5154ad9abdcb37fea58b0da78fd71842c705774ffe48fd8050c302da17e73913"
+    },
+    ".claude/scripts/git-env.mjs": {
+      "size": 2463,
+      "sha256": "b022399f287cdce1bcb07329c0aab44bf99714b5f0515f274c962f41ea072b86"
+    },
+    ".claude/scripts/lib/claim-records.mjs": {
+      "size": 26002,
+      "sha256": "acb1d5702a826832977e7eb01b76c50cab19292528901f1b33693e561dbb0a24"
+    },
+    ".claude/scripts/lib/gate-coverage.mjs": {
+      "size": 13067,
+      "sha256": "1ef7f355071a747d8a8d9cd5e2072a19fe3d8c11a0e2a5f884d95a33fb95f12d"
+    },
+    ".claude/scripts/lib/revalidation-evidence.mjs": {
+      "size": 2067,
+      "sha256": "513369213374cf2c5415c7d5ea1f6d5c67300c77cec7af3e9190e710b156969f"
+    },
+    ".claude/scripts/lib/revalidation-points.mjs": {
+      "size": 1609,
+      "sha256": "b48e4959862906e279eca481f484f07a7fd4aa082f2778224a6574a7871bc9d8"
+    },
+    ".claude/scripts/lib/secrets.mjs": {
+      "size": 25128,
+      "sha256": "60fab2cc9f2028bccf6139e6a744406b4a86a9039d1367f3cef409902e9b327d"
+    },
+    ".claude/scripts/lib/shell-tools.mjs": {
+      "size": 4796,
+      "sha256": "402428f4b2c4e507652d775e43b26c1e0a74aadb2cedec3156ac186af17d667a"
+    },
+    ".claude/scripts/lib/verdict.mjs": {
+      "size": 20127,
+      "sha256": "51ef5185da289cfd883422e7ac51500e527a19c7780721af9cecf4f845a368f3"
+    },
+    ".claude/scripts/preflight.mjs": {
+      "size": 10480,
+      "sha256": "37eeb4bdb50d7f6b1427bd02ec9815f39ad9142f35691ffadd8c0b626c6cdb00"
+    },
+    ".claude/scripts/queue/as-of.mjs": {
+      "size": 2037,
+      "sha256": "d889888dd2004d53b544b870fdf97ccaba48c243e63f1222cac2a5ddee6dd407"
+    },
+    ".claude/scripts/queue/checkout.mjs": {
+      "size": 6787,
+      "sha256": "1b80b2abe4375e0d25868cf114543f0863c22ab02a3a0133f5155433aecdb835"
+    },
+    ".claude/scripts/queue/core.mjs": {
+      "size": 51541,
+      "sha256": "c9902da15d06de3e952352115db0288433520eae2caac1f70ee6e06753d1f444"
+    },
+    ".claude/scripts/queue/gate-rounds.mjs": {
+      "size": 10962,
+      "sha256": "deeb7a10772f906c7630bb3c295be1b61d7ebf0541b2a34debcb40c80e6d8f0e"
+    },
+    ".claude/scripts/queue/github-issues.mjs": {
+      "size": 14275,
+      "sha256": "b5349837d16de0966139f5b65e2800486592f1b24d7e87087c2b7212cead479d"
+    },
+    ".claude/scripts/queue/index.mjs": {
+      "size": 45807,
+      "sha256": "19a04cdbdfd936213cea3a9a00a583a060a4a8d0356d6a6922ae1c2f593f16f1"
+    },
+    ".claude/scripts/queue/jira.mjs": {
+      "size": 34175,
+      "sha256": "c2f2af8ac5eadd8d35a15bcdeffe585e32c6f99b4e6ab9ace0f9d7fd9d694943"
+    },
+    ".claude/scripts/queue/plan-md.mjs": {
+      "size": 24389,
+      "sha256": "816aec4cb84492370972f71813a9fec7c0309e5f501951a93620a37cb318ac39"
+    },
+    ".claude/scripts/queue/state.mjs": {
+      "size": 11355,
+      "sha256": "ff7e7a46eb71989c2a7be7bc3f77922b49ad9071b2dec49787d8b7be087edb5b"
+    },
+    ".claude/scripts/reconcile-external-prs.mjs": {
+      "size": 10572,
+      "sha256": "a326acd64ea19a50d093c91e711ad0234eb05c76d00066db5657c22f4355c190"
+    },
+    ".claude/scripts/revalidate.mjs": {
+      "size": 43496,
+      "sha256": "f756b7ccc2a4459e58b2125408de1f91372cd6093bf6f4ed14e26dc2eb4190fc"
+    },
+    ".claude/scripts/revalidation-report.mjs": {
+      "size": 7947,
+      "sha256": "fed627d2c8f0f5e6a4524b7015ac7a1cb5051a8c316ff4544af18be9c61eb163"
+    },
+    ".claude/scripts/run-journal.mjs": {
+      "size": 17841,
+      "sha256": "4511ff2c982750e20b576fd9eca8ec6c3b4ab81874a3109392418793b82cd5c4"
+    },
+    ".claude/scripts/run-state.mjs": {
+      "size": 31789,
+      "sha256": "c502cefafdc720d178de685e8372d2c140cb2663517c9d88b5345a9f0c50d0de"
+    },
+    ".claude/scripts/stop-flag.mjs": {
+      "size": 2987,
+      "sha256": "62b4cd264a5cee1f16a101ee8965026ee5516dd96945eeddbb73ff625697c6df"
+    },
+    ".claude/scripts/unattended-flag.mjs": {
+      "size": 21703,
+      "sha256": "2225ab544443948bb650f1a1b974fc78d9ec089e0cdd19cf58ef77a891ade837"
+    },
+    ".claude/scripts/verdict.mjs": {
+      "size": 8589,
+      "sha256": "adee6247553172d26962612c983f70ad42531eff4e4442a5c1c48a0a58c7eb42"
+    },
+    ".claude/settings.json": {
+      "size": 289,
+      "sha256": "f74d93cfff526d280dc028b7a708703cd13d44db8a6b5d78e7e5bb22a8f62419"
+    },
+    ".claude/skills/check-premises/SKILL.md": {
+      "size": 13783,
+      "sha256": "403f26470ec0a9c853aa69fe8a114fbc3dfb3bf6e6094eecb8a836f153aa1a37"
+    },
+    ".claude/skills/loop/SKILL.md": {
+      "size": 64237,
+      "sha256": "2975696b3455f80f80cfb72ce8382b04e776e24b011bb81d919edb77f0ae4e27"
+    },
+    ".claude/skills/new-invariant/SKILL.md": {
+      "size": 5071,
+      "sha256": "b15abfba29cd52b2fc29f30d63803bc0fc2741429c8faab21d2f907ee1ce0828"
+    },
+    ".claude/skills/new-invariant/guard-invariant.example.mjs": {
+      "size": 3489,
+      "sha256": "0fec41841de1fc07f4da08d023fdda2906c62e3c71b22827c874f2809719b955"
+    },
+    ".claude/skills/new-invariant/guard-invariant.example.test.mjs": {
+      "size": 3582,
+      "sha256": "7bef9179c5b56d280d462cf21fb2c38dc4cb759b671b114b3995aac93720caf8"
+    },
+    ".claude/skills/pr-ship/SKILL.md": {
+      "size": 26057,
+      "sha256": "dc1d9c02879e383448f2336ae6433f960f86e8f8efb4ab8ccf9a17a5f7f524c3"
+    },
+    ".claude/skills/worktree-task/SKILL.md": {
+      "size": 3771,
+      "sha256": "1eedb9b3429f2d032181606924815dd8befbe7a79ba209655858fcdac189793c"
+    },
+    ".codex/agents/code-reviewer.toml": {
+      "size": 4880,
+      "sha256": "180c182cc909cc0b6c06cfa286f528f22b77189eee49cac067fdaaf2920f8bae"
+    },
+    ".codex/agents/prose-reviewer.toml": {
+      "size": 10452,
+      "sha256": "7c37e4dbd94980bee16396d0d46d97c5079e295d3eed4b3ed8f98d701e57b10d"
+    },
+    ".codex/agents/security-scanner.toml": {
+      "size": 3809,
+      "sha256": "b529f02056948ff0ca179c96d9d47962c9c8064feccb68d3c970e7b1a2513fc9"
+    },
+    ".codex/agents/test-writer.toml": {
+      "size": 1794,
+      "sha256": "ec9e61b2c16c97ed26d5bdda2b0f715a41b80c0af549d0f2bbb96d6ca4c4d8d7"
+    },
+    ".codex/hooks.json": {
+      "size": 12687,
+      "sha256": "f3eaf4a9a2c0af418a6ecf54b6d7d32065033909907ea237d51423c9129f44a7"
+    },
+    ".rig/revalidation.json": {
+      "size": 177,
+      "sha256": "312b59f80fcbcf2897ef80fb54be236fb6b2b1745f705dae8e66c58f0bbd3099"
+    },
+    "AGENTS.md": {
+      "size": 11003,
+      "sha256": "9e0b9cd0ec6c6632edf792afe41430d9f6cbee14f636fd86e881fcf57cd62a23"
+    },
+    "CLAUDE.md": {
+      "size": 11003,
+      "sha256": "9e0b9cd0ec6c6632edf792afe41430d9f6cbee14f636fd86e881fcf57cd62a23"
+    },
+    "PLAN.md": {
+      "size": 1253,
+      "sha256": "0bba5f11f754c48c144617ce001476da214c03bf08aab83ff66af0e4d102f3a2"
+    },
+    "docs/decisions/closing-a-task.md": {
+      "size": 4933,
+      "sha256": "650b379d2fc9e16dbb4113395ff08b8f96625069e21721133364191293fe3eea"
+    },
+    "docs/decisions/codex-adapter.md": {
+      "size": 8344,
+      "sha256": "46b68f9130d16a96278e03d0ddb14d99b678c5a239e4667aa79733e632e67505"
+    },
+    "docs/decisions/content-blind-revalidation.md": {
+      "size": 8952,
+      "sha256": "d640a152428ea4cc6a5f0a19be58e0d23f3a99c44b0ad0b72152ec7b48fe5bfd"
+    },
+    "docs/decisions/fail-open-guards.md": {
+      "size": 2341,
+      "sha256": "9408b59fdb7a0e93d8e6762bf5d76f1afd6d4b0942d9395155dab4cb42c1bf80"
+    },
+    "docs/decisions/gate-coverage.md": {
+      "size": 4527,
+      "sha256": "ce5f093c19a8f9de700541bc1ac9031391dca46906dad15eb589a0fb5a021533"
+    },
+    "docs/decisions/review-lanes.md": {
+      "size": 4455,
+      "sha256": "1ba78f5d928db0c288b4c3b818cdc25ae82c2524267d069030f9c71c4b38fd71"
+    },
+    "docs/decisions/run-directory.md": {
+      "size": 1945,
+      "sha256": "6128953b794bb0a3e5b4586d11d9ab8af8d0c37c7e19f556254d0e92a632363b"
+    },
+    "docs/decisions/spacing-rations-mechanisms.md": {
+      "size": 8270,
+      "sha256": "5894f8aa613fbbba0f125c871b2a91d9cc5bd9dd6a3fe4c8fd9d8a06aa8839b8"
+    },
+    "docs/decisions/stop-conditions-in-a-file.md": {
+      "size": 2181,
+      "sha256": "dc0c9f5988fc983eb5100a085e274691b1e88a3b54ab2797e00972c4d69d61c4"
+    },
+    "docs/decisions/subagent-routing.md": {
+      "size": 8273,
+      "sha256": "97bb882dd066a65a740780a836199ecef8887392c1ece02a92670ecf153988d3"
+    },
+    "docs/decisions/two-empty-endings.md": {
+      "size": 4227,
+      "sha256": "e771888074498adc2d52e1f50f222056fd95433c4bb9c7e8aa0f3a730da449bd"
+    },
+    "journal/README.md": {
+      "size": 4971,
+      "sha256": "6f9b3692bec078a875efad7afd5a80418b8e930f3dad0708e53a567baab888b8"
+    }
+  },
+  "count": 84,
+  "bytes": 1109572,
+  "status": "?? .agents/skills/check-premises/SKILL.md\n?? .agents/skills/loop/SKILL.md\n?? .agents/skills/new-invariant/SKILL.md\n?? .agents/skills/new-invariant/guard-invariant.example.mjs\n?? .agents/skills/new-invariant/guard-invariant.example.test.mjs\n?? .agents/skills/pr-ship/SKILL.md\n?? .agents/skills/worktree-task/SKILL.md\n?? .claude/.rig-manifest.json\n?? .claude/agents/code-reviewer.md\n?? .claude/agents/prose-reviewer.md\n?? .claude/agents/security-scanner.md\n?? .claude/agents/test-writer.md\n?? .claude/hooks/block-no-verify.mjs\n?? .claude/hooks/gate-stop-dod.mjs\n?? .claude/hooks/guard-bash.mjs\n?? .claude/hooks/guard-rulebook.mjs\n?? .claude/hooks/guard-secret-file.mjs\n?? .claude/hooks/guard-subagent-model.mjs\n?? .claude/hooks/inject-rules.mjs\n?? .claude/hooks/lib/edit-input.mjs\n?? .claude/hooks/lib/hook-input.mjs\n?? .claude/hooks/warn-subagent-routing.mjs\n?? .claude/queue.json\n?? .claude/rules/autonomy.md\n?? .claude/rules/invariants.md\n?? .claude/rules/workflow.md\n?? .claude/scripts/decision-router.mjs\n?? .claude/scripts/detect-missed-gate.mjs\n?? .claude/scripts/doctor.mjs\n?? .claude/scripts/git-env.mjs\n?? .claude/scripts/lib/claim-records.mjs\n?? .claude/scripts/lib/gate-coverage.mjs\n?? .claude/scripts/lib/revalidation-evidence.mjs\n?? .claude/scripts/lib/revalidation-points.mjs\n?? .claude/scripts/lib/secrets.mjs\n?? .claude/scripts/lib/shell-tools.mjs\n?? .claude/scripts/lib/verdict.mjs\n?? .claude/scripts/preflight.mjs\n?? .claude/scripts/queue/as-of.mjs\n?? .claude/scripts/queue/checkout.mjs\n?? .claude/scripts/queue/core.mjs\n?? .claude/scripts/queue/gate-rounds.mjs\n?? .claude/scripts/queue/github-issues.mjs\n?? .claude/scripts/queue/index.mjs\n?? .claude/scripts/queue/jira.mjs\n?? .claude/scripts/queue/plan-md.mjs\n?? .claude/scripts/queue/state.mjs\n?? .claude/scripts/reconcile-external-prs.mjs\n?? .claude/scripts/revalidate.mjs\n?? .claude/scripts/revalidation-report.mjs\n?? .claude/scripts/run-journal.mjs\n?? .claude/scripts/run-state.mjs\n?? .claude/scripts/stop-flag.mjs\n?? .claude/scripts/unattended-flag.mjs\n?? .claude/scripts/verdict.mjs\n?? .claude/settings.json\n?? .claude/skills/check-premises/SKILL.md\n?? .claude/skills/loop/SKILL.md\n?? .claude/skills/new-invariant/SKILL.md\n?? .claude/skills/new-invariant/guard-invariant.example.mjs\n?? .claude/skills/new-invariant/guard-invariant.example.test.mjs\n?? .claude/skills/pr-ship/SKILL.md\n?? .claude/skills/worktree-task/SKILL.md\n?? .codex/agents/code-reviewer.toml\n?? .codex/agents/prose-reviewer.toml\n?? .codex/agents/security-scanner.toml\n?? .codex/agents/test-writer.toml\n?? .codex/hooks.json\n?? .rig/revalidation.json\n?? AGENTS.md\n?? CLAUDE.md\n?? PLAN.md\n?? docs/decisions/closing-a-task.md\n?? docs/decisions/codex-adapter.md\n?? docs/decisions/content-blind-revalidation.md\n?? docs/decisions/fail-open-guards.md\n?? docs/decisions/gate-coverage.md\n?? docs/decisions/review-lanes.md\n?? docs/decisions/run-directory.md\n?? docs/decisions/spacing-rations-mechanisms.md\n?? docs/decisions/stop-conditions-in-a-file.md\n?? docs/decisions/subagent-routing.md\n?? docs/decisions/two-empty-endings.md\n?? journal/README.md\n",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/c-native-claude-plugin-first/repo",
+    "startedAt": "2026-09-14T10:09:27.108Z",
+    "durationMs": 5,
+    "exitCode": 0,
+    "stdout": "?? .agents/skills/check-premises/SKILL.md\n?? .agents/skills/loop/SKILL.md\n?? .agents/skills/new-invariant/SKILL.md\n?? .agents/skills/new-invariant/guard-invariant.example.mjs\n?? .agents/skills/new-invariant/guard-invariant.example.test.mjs\n?? .agents/skills/pr-ship/SKILL.md\n?? .agents/skills/worktree-task/SKILL.md\n?? .claude/.rig-manifest.json\n?? .claude/agents/code-reviewer.md\n?? .claude/agents/prose-reviewer.md\n?? .claude/agents/security-scanner.md\n?? .claude/agents/test-writer.md\n?? .claude/hooks/block-no-verify.mjs\n?? .claude/hooks/gate-stop-dod.mjs\n?? .claude/hooks/guard-bash.mjs\n?? .claude/hooks/guard-rulebook.mjs\n?? .claude/hooks/guard-secret-file.mjs\n?? .claude/hooks/guard-subagent-model.mjs\n?? .claude/hooks/inject-rules.mjs\n?? .claude/hooks/lib/edit-input.mjs\n?? .claude/hooks/lib/hook-input.mjs\n?? .claude/hooks/warn-subagent-routing.mjs\n?? .claude/queue.json\n?? .claude/rules/autonomy.md\n?? .claude/rules/invariants.md\n?? .claude/rules/workflow.md\n?? .claude/scripts/decision-router.mjs\n?? .claude/scripts/detect-missed-gate.mjs\n?? .claude/scripts/doctor.mjs\n?? .claude/scripts/git-env.mjs\n?? .claude/scripts/lib/claim-records.mjs\n?? .claude/scripts/lib/gate-coverage.mjs\n?? .claude/scripts/lib/revalidation-evidence.mjs\n?? .claude/scripts/lib/revalidation-points.mjs\n?? .claude/scripts/lib/secrets.mjs\n?? .claude/scripts/lib/shell-tools.mjs\n?? .claude/scripts/lib/verdict.mjs\n?? .claude/scripts/preflight.mjs\n?? .claude/scripts/queue/as-of.mjs\n?? .claude/scripts/queue/checkout.mjs\n?? .claude/scripts/queue/core.mjs\n?? .claude/scripts/queue/gate-rounds.mjs\n?? .claude/scripts/queue/github-issues.mjs\n?? .claude/scripts/queue/index.mjs\n?? .claude/scripts/queue/jira.mjs\n?? .claude/scripts/queue/plan-md.mjs\n?? .claude/scripts/queue/state.mjs\n?? .claude/scripts/reconcile-external-prs.mjs\n?? .claude/scripts/revalidate.mjs\n?? .claude/scripts/revalidation-report.mjs\n?? .claude/scripts/run-journal.mjs\n?? .claude/scripts/run-state.mjs\n?? .claude/scripts/stop-flag.mjs\n?? .claude/scripts/unattended-flag.mjs\n?? .claude/scripts/verdict.mjs\n?? .claude/settings.json\n?? .claude/skills/check-premises/SKILL.md\n?? .claude/skills/loop/SKILL.md\n?? .claude/skills/new-invariant/SKILL.md\n?? .claude/skills/new-invariant/guard-invariant.example.mjs\n?? .claude/skills/new-invariant/guard-invariant.example.test.mjs\n?? .claude/skills/pr-ship/SKILL.md\n?? .claude/skills/worktree-task/SKILL.md\n?? .codex/agents/code-reviewer.toml\n?? .codex/agents/prose-reviewer.toml\n?? .codex/agents/security-scanner.toml\n?? .codex/agents/test-writer.toml\n?? .codex/hooks.json\n?? .rig/revalidation.json\n?? AGENTS.md\n?? CLAUDE.md\n?? PLAN.md\n?? docs/decisions/closing-a-task.md\n?? docs/decisions/codex-adapter.md\n?? docs/decisions/content-blind-revalidation.md\n?? docs/decisions/fail-open-guards.md\n?? docs/decisions/gate-coverage.md\n?? docs/decisions/review-lanes.md\n?? docs/decisions/run-directory.md\n?? docs/decisions/spacing-rations-mechanisms.md\n?? docs/decisions/stop-conditions-in-a-file.md\n?? docs/decisions/subagent-routing.md\n?? docs/decisions/two-empty-endings.md\n?? journal/README.md\n",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/c-native-claude-plugin-first/repo",
+    "startedAt": "2026-09-14T10:09:27.113Z",
+    "durationMs": 4,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

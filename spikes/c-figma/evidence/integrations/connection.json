@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-09-14T10:09:22.371Z",
+  "url": "https://mcp.figma.com/mcp",
+  "status": 401,
+  "challenge": "Bearer resource_metadata=\"https://mcp.figma.com/.well-known/oauth-protected-resource\",scope=\"mcp:connect\",authorization_uri=\"https://api.figma.com/.well-known/oauth-authorization-server\"",
+  "body": "Unauthorized",
+  "credentialsUsed": false,
+  "designDataRequested": false
+}

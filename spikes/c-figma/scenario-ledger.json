@@ -1,0 +1,346 @@
+[
+  {
+    "scenario": "claude rig-first: both components install",
+    "status": "passed",
+    "evidence": "integrations/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first: pinned old bundle installed",
+    "status": "passed",
+    "evidence": "integrations/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first: repeat native install completes",
+    "status": "passed",
+    "evidence": "integrations/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first: dryReadOnly",
+    "status": "passed",
+    "evidence": "integrations/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first: editsPreserved",
+    "status": "passed",
+    "evidence": "integrations/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first: deletedStaysRemoved",
+    "status": "passed",
+    "evidence": "integrations/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first: bundleUpdated",
+    "status": "passed",
+    "evidence": "integrations/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first: rigPreserved",
+    "status": "passed",
+    "evidence": "integrations/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first: settingsEditSurvives",
+    "status": "passed",
+    "evidence": "integrations/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first: native uninstall removes registration",
+    "status": "passed",
+    "evidence": "integrations/claude-rig-first"
+  },
+  {
+    "scenario": "claude rig-first: surviving Rig dry-run succeeds",
+    "status": "passed",
+    "evidence": "integrations/claude-rig-first"
+  },
+  {
+    "scenario": "claude plugin-first: both components install",
+    "status": "passed",
+    "evidence": "integrations/claude-plugin-first"
+  },
+  {
+    "scenario": "claude plugin-first: pinned old bundle installed",
+    "status": "passed",
+    "evidence": "integrations/claude-plugin-first"
+  },
+  {
+    "scenario": "claude plugin-first: repeat native install completes",
+    "status": "passed",
+    "evidence": "integrations/claude-plugin-first"
+  },
+  {
+    "scenario": "claude plugin-first: dryReadOnly",
+    "status": "passed",
+    "evidence": "integrations/claude-plugin-first"
+  },
+  {
+    "scenario": "claude plugin-first: editsPreserved",
+    "status": "passed",
+    "evidence": "integrations/claude-plugin-first"
+  },
+  {
+    "scenario": "claude plugin-first: deletedStaysRemoved",
+    "status": "passed",
+    "evidence": "integrations/claude-plugin-first"
+  },
+  {
+    "scenario": "claude plugin-first: bundleUpdated",
+    "status": "passed",
+    "evidence": "integrations/claude-plugin-first"
+  },
+  {
+    "scenario": "claude plugin-first: rigPreserved",
+    "status": "passed",
+    "evidence": "integrations/claude-plugin-first"
+  },
+  {
+    "scenario": "claude plugin-first: settingsEditSurvives",
+    "status": "passed",
+    "evidence": "integrations/claude-plugin-first"
+  },
+  {
+    "scenario": "claude plugin-first: native uninstall removes registration",
+    "status": "passed",
+    "evidence": "integrations/claude-plugin-first"
+  },
+  {
+    "scenario": "claude plugin-first: surviving Rig dry-run succeeds",
+    "status": "passed",
+    "evidence": "integrations/claude-plugin-first"
+  },
+  {
+    "scenario": "codex rig-first: both components install",
+    "status": "passed",
+    "evidence": "integrations/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first: pinned old bundle installed",
+    "status": "passed",
+    "evidence": "integrations/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first: repeat native install completes",
+    "status": "passed",
+    "evidence": "integrations/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first: dryReadOnly",
+    "status": "passed",
+    "evidence": "integrations/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first: editsPreserved",
+    "status": "passed",
+    "evidence": "integrations/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first: deletedStaysRemoved",
+    "status": "passed",
+    "evidence": "integrations/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first: bundleUpdated",
+    "status": "passed",
+    "evidence": "integrations/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first: rigPreserved",
+    "status": "passed",
+    "evidence": "integrations/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first: settingsEditSurvives",
+    "status": "passed",
+    "evidence": "integrations/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first: native uninstall removes registration",
+    "status": "passed",
+    "evidence": "integrations/codex-rig-first"
+  },
+  {
+    "scenario": "codex rig-first: surviving Rig dry-run succeeds",
+    "status": "passed",
+    "evidence": "integrations/codex-rig-first"
+  },
+  {
+    "scenario": "codex plugin-first: both components install",
+    "status": "passed",
+    "evidence": "integrations/codex-plugin-first"
+  },
+  {
+    "scenario": "codex plugin-first: pinned old bundle installed",
+    "status": "passed",
+    "evidence": "integrations/codex-plugin-first"
+  },
+  {
+    "scenario": "codex plugin-first: repeat native install completes",
+    "status": "passed",
+    "evidence": "integrations/codex-plugin-first"
+  },
+  {
+    "scenario": "codex plugin-first: dryReadOnly",
+    "status": "passed",
+    "evidence": "integrations/codex-plugin-first"
+  },
+  {
+    "scenario": "codex plugin-first: editsPreserved",
+    "status": "passed",
+    "evidence": "integrations/codex-plugin-first"
+  },
+  {
+    "scenario": "codex plugin-first: deletedStaysRemoved",
+    "status": "passed",
+    "evidence": "integrations/codex-plugin-first"
+  },
+  {
+    "scenario": "codex plugin-first: bundleUpdated",
+    "status": "passed",
+    "evidence": "integrations/codex-plugin-first"
+  },
+  {
+    "scenario": "codex plugin-first: rigPreserved",
+    "status": "passed",
+    "evidence": "integrations/codex-plugin-first"
+  },
+  {
+    "scenario": "codex plugin-first: settingsEditSurvives",
+    "status": "passed",
+    "evidence": "integrations/codex-plugin-first"
+  },
+  {
+    "scenario": "codex plugin-first: native uninstall removes registration",
+    "status": "passed",
+    "evidence": "integrations/codex-plugin-first"
+  },
+  {
+    "scenario": "codex plugin-first: surviving Rig dry-run succeeds",
+    "status": "passed",
+    "evidence": "integrations/codex-plugin-first"
+  },
+  {
+    "scenario": "Synthetic offline: desktop: layout and color tokens",
+    "status": "passed",
+    "evidence": "offline/result.json",
+    "note": "C-R1"
+  },
+  {
+    "scenario": "Synthetic offline: desktop: label and live status",
+    "status": "passed",
+    "evidence": "offline/result.json",
+    "note": "C-R3"
+  },
+  {
+    "scenario": "Synthetic offline: desktop: independent SVG solid-color samples",
+    "status": "passed",
+    "evidence": "offline/result.json",
+    "note": "C-R1"
+  },
+  {
+    "scenario": "Synthetic offline: desktop: invalid submission rejected",
+    "status": "passed",
+    "evidence": "offline/result.json",
+    "note": "C-R2"
+  },
+  {
+    "scenario": "Synthetic offline: desktop: valid subscription confirmation",
+    "status": "passed",
+    "evidence": "offline/result.json",
+    "note": "C-R2"
+  },
+  {
+    "scenario": "Synthetic offline: desktop: deliberate token regression detected",
+    "status": "passed",
+    "evidence": "offline/result.json",
+    "note": "C-R1"
+  },
+  {
+    "scenario": "Synthetic offline: mobile: layout and color tokens",
+    "status": "passed",
+    "evidence": "offline/result.json",
+    "note": "C-R1"
+  },
+  {
+    "scenario": "Synthetic offline: mobile: label and live status",
+    "status": "passed",
+    "evidence": "offline/result.json",
+    "note": "C-R3"
+  },
+  {
+    "scenario": "Synthetic offline: mobile: independent SVG solid-color samples",
+    "status": "passed",
+    "evidence": "offline/result.json",
+    "note": "C-R1"
+  },
+  {
+    "scenario": "Synthetic offline: mobile: invalid submission rejected",
+    "status": "passed",
+    "evidence": "offline/result.json",
+    "note": "C-R2"
+  },
+  {
+    "scenario": "Synthetic offline: mobile: valid subscription confirmation",
+    "status": "passed",
+    "evidence": "offline/result.json",
+    "note": "C-R2"
+  },
+  {
+    "scenario": "Synthetic offline: mobile: deliberate token regression detected",
+    "status": "passed",
+    "evidence": "offline/result.json",
+    "note": "C-R1"
+  },
+  {
+    "scenario": "Synthetic offline: No external network requests",
+    "status": "passed",
+    "evidence": "offline/result.json",
+    "note": "C-R2"
+  },
+  {
+    "scenario": "Unauthenticated endpoint classified as needs-auth",
+    "status": "passed",
+    "evidence": "integrations/connection.json",
+    "note": "This is a blocked live connection, not successful Figma retrieval."
+  },
+  {
+    "scenario": "Live Figma design context retrieval",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Live Figma screenshot retrieval",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Live Figma tokens/components/assets retrieval",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Actual Claude session to Codex session handoff",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Native Rig removal with Figma plugin surviving",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Remote server implementation version pin",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Figma bundle redistribution license clearance",
+    "status": "unverified",
+    "evidence": "report.md"
+  },
+  {
+    "scenario": "Cold offline remote MCP operation",
+    "status": "unverified",
+    "evidence": "report.md"
+  }
+]

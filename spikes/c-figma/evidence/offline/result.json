@@ -1,0 +1,353 @@
+{
+  "provenance": "Synthetic local design only; no Figma retrieval or two-provider session executed.",
+  "designId": "SYN-C-001",
+  "playwrightVersion": "1.63.0",
+  "platform": "linux",
+  "startedAt": "2026-09-14T10:09:32.942Z",
+  "tests": [
+    {
+      "name": "desktop: layout and color tokens",
+      "requirement": "C-R1",
+      "passed": true
+    },
+    {
+      "name": "desktop: label and live status",
+      "requirement": "C-R3",
+      "passed": true
+    },
+    {
+      "name": "desktop: independent SVG solid-color samples",
+      "requirement": "C-R1",
+      "passed": true
+    },
+    {
+      "name": "desktop: invalid submission rejected",
+      "requirement": "C-R2",
+      "passed": true
+    },
+    {
+      "name": "desktop: valid subscription confirmation",
+      "requirement": "C-R2",
+      "passed": true
+    },
+    {
+      "name": "desktop: deliberate token regression detected",
+      "requirement": "C-R1",
+      "passed": true
+    },
+    {
+      "name": "mobile: layout and color tokens",
+      "requirement": "C-R1",
+      "passed": true
+    },
+    {
+      "name": "mobile: label and live status",
+      "requirement": "C-R3",
+      "passed": true
+    },
+    {
+      "name": "mobile: independent SVG solid-color samples",
+      "requirement": "C-R1",
+      "passed": true
+    },
+    {
+      "name": "mobile: invalid submission rejected",
+      "requirement": "C-R2",
+      "passed": true
+    },
+    {
+      "name": "mobile: valid subscription confirmation",
+      "requirement": "C-R2",
+      "passed": true
+    },
+    {
+      "name": "mobile: deliberate token regression detected",
+      "requirement": "C-R1",
+      "passed": true
+    },
+    {
+      "name": "No external network requests",
+      "requirement": "C-R2",
+      "passed": true
+    }
+  ],
+  "screenshots": {
+    "desktop": {
+      "implementation": {
+        "file": "desktop-implementation.png",
+        "sha256": "5302a34aed9bdf95127cc1afd1f481af17b9d767adc6777f712448c4fcdafc9c"
+      },
+      "reference": {
+        "file": "desktop-reference.png",
+        "sha256": "c4a68bfc537f37e5e3f23fab4a4b4f2750755ca3dd9ceb7ee5a7c92e88dd97a3"
+      },
+      "measurement": {
+        "card": {
+          "x": 120,
+          "y": 72,
+          "width": 400,
+          "height": 289,
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(22, 34, 56)",
+          "borderRadius": "12px"
+        },
+        "button": {
+          "x": 144,
+          "y": 263,
+          "width": 352,
+          "height": 44,
+          "background": "rgb(36, 87, 214)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "6px"
+        },
+        "input": {
+          "x": 144,
+          "y": 203,
+          "width": 352,
+          "height": 44,
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(22, 34, 56)",
+          "borderRadius": "6px"
+        },
+        "canvas": "rgb(244, 246, 250)",
+        "label": "Email",
+        "statusRole": "status",
+        "horizontalOverflow": false
+      },
+      "samples": [
+        [
+          10,
+          10
+        ],
+        [
+          136,
+          90
+        ],
+        [
+          150,
+          270
+        ],
+        [
+          150,
+          240
+        ],
+        [
+          630,
+          470
+        ]
+      ],
+      "pixels": {
+        "actual": [
+          [
+            244,
+            246,
+            250,
+            255
+          ],
+          [
+            255,
+            255,
+            255,
+            255
+          ],
+          [
+            36,
+            87,
+            214,
+            255
+          ],
+          [
+            255,
+            255,
+            255,
+            255
+          ],
+          [
+            244,
+            246,
+            250,
+            255
+          ]
+        ],
+        "reference": [
+          [
+            244,
+            246,
+            250,
+            255
+          ],
+          [
+            255,
+            255,
+            255,
+            255
+          ],
+          [
+            36,
+            87,
+            214,
+            255
+          ],
+          [
+            255,
+            255,
+            255,
+            255
+          ],
+          [
+            244,
+            246,
+            250,
+            255
+          ]
+        ]
+      },
+      "limitation": "Solid-color samples and DOM geometry are checked; typography and complete pixel equivalence require human review."
+    },
+    "mobile": {
+      "implementation": {
+        "file": "mobile-implementation.png",
+        "sha256": "ed441bf3886b68d31fd577103f4accd6af8aea4b3d39c316d92374cbb0aca450"
+      },
+      "reference": {
+        "file": "mobile-reference.png",
+        "sha256": "55af1664f7401ec238dce8b42c81929eafbcc7be13537b9304912979c413e241"
+      },
+      "measurement": {
+        "card": {
+          "x": 24,
+          "y": 72,
+          "width": 342,
+          "height": 289,
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(22, 34, 56)",
+          "borderRadius": "12px"
+        },
+        "button": {
+          "x": 48,
+          "y": 263,
+          "width": 294,
+          "height": 44,
+          "background": "rgb(36, 87, 214)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "6px"
+        },
+        "input": {
+          "x": 48,
+          "y": 203,
+          "width": 294,
+          "height": 44,
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(22, 34, 56)",
+          "borderRadius": "6px"
+        },
+        "canvas": "rgb(244, 246, 250)",
+        "label": "Email",
+        "statusRole": "status",
+        "horizontalOverflow": false
+      },
+      "samples": [
+        [
+          10,
+          10
+        ],
+        [
+          40,
+          90
+        ],
+        [
+          54,
+          270
+        ],
+        [
+          54,
+          240
+        ],
+        [
+          380,
+          630
+        ]
+      ],
+      "pixels": {
+        "actual": [
+          [
+            244,
+            246,
+            250,
+            255
+          ],
+          [
+            255,
+            255,
+            255,
+            255
+          ],
+          [
+            36,
+            87,
+            214,
+            255
+          ],
+          [
+            255,
+            255,
+            255,
+            255
+          ],
+          [
+            244,
+            246,
+            250,
+            255
+          ]
+        ],
+        "reference": [
+          [
+            244,
+            246,
+            250,
+            255
+          ],
+          [
+            255,
+            255,
+            255,
+            255
+          ],
+          [
+            36,
+            87,
+            214,
+            255
+          ],
+          [
+            255,
+            255,
+            255,
+            255
+          ],
+          [
+            244,
+            246,
+            250,
+            255
+          ]
+        ]
+      },
+      "limitation": "Solid-color samples and DOM geometry are checked; typography and complete pixel equivalence require human review."
+    }
+  },
+  "networkRequests": [],
+  "browserVersion": "153.0.8010.12",
+  "status": "passed",
+  "finishedAt": "2026-09-14T10:09:34.889Z",
+  "fixtureHashes": {
+    "design-context.json": "7c8d14ac2235fc04724dcaa3e35be39be18dab169aa904067eab1b759eb8e628",
+    "implementation-spec.md": "8e8d796b1dcfecccda89cb9d9eb0b20d1d3db309c272efeb7147cb34126b5985",
+    "index.html": "433ccd5cdbe8859f1de5dc2089dfd998cd85209cab779b4c5adbe895bf34afb0",
+    "style.css": "d4f520e23bd766af8bd4d60380f743e5144a43ce83fd2f41e28842797b373d78",
+    "app.js": "402b0deaad01a1140863c019fd8bebb0478122d7265e97fcd42d011e4a2f447c",
+    "reference-desktop.svg": "c5ff69f0c420834cb7e954e756536792c9c8972a8c20a48c82f66da18a1d78dd",
+    "reference-mobile.svg": "c4ea52b3be26aa9445034d943640fcceb50454473389ce4cf3afac7c6b7a722e"
+  }
+}
