@@ -95,6 +95,11 @@ const after=snapshot(cwd,dir+'/after.json');
 const specOwned=Object.keys(before.files).filter(p=>!(p in manifest.files)&&p!=='.claude/.rig-manifest.json');
 assert(specOwned.length>0);assert(specOwned.every(p=>before.files[p].sha256===after.files[p]?.sha256));
 const status=run(specify,['integration','status','--json'],cwd,dir+'/surviving-spec-status.json');assert.equal(status.exitCode,0);
+const python=path.join(root,'.lab-runs/spec-kit-env',process.platform==='win32'?'Scripts/python.exe':'bin/python');
+const featureScript=path.join(cwd,'.specify/scripts/python/create_new_feature.py');
+const featureHelp=run(python,[featureScript,'--help'],cwd,dir+'/survivor-feature-help.json');assert.equal(featureHelp.exitCode,0);assert(featureHelp.stdout.includes('--json'));
+const feature=run(python,[featureScript,'--json','Synthetic survivor feature'],cwd,dir+'/survivor-feature.json');assert.equal(feature.exitCode,0);assert(JSON.parse(feature.stdout).SPEC_FILE);
+snapshot(cwd,dir+'/after-survivor-feature.json');
 results.push({scenario:'bounded-rig-uninstall',native:false,removed:removal.remove.length,specFilesPreserved:specOwned.length,specCliStatusExit:status.exitCode,modifiedWiringRejected:true,limitation:'CLI status and owned bytes verified; no paid harness execution. Empty directories retained.'});
 }
 json(out+(individualOnly?'/individual-results.json':'/results.json'),results);console.log(JSON.stringify(results,null,2));

@@ -29,9 +29,12 @@ for(const order of ['rig-first','spec-first']) {
   const ownership={};
   for(const [p,f] of Object.entries(combined.files)) ownership[p]={sha256:f.sha256,owner:p in rigManifest.files || p==='.claude/.rig-manifest.json'?'rig':'spec-kit',firstComponentOwned:p in firstFiles,changedBySecond:p in firstFiles && f.sha256!==firstFiles[p].sha256};
   json(evidence+'/ownership.json',ownership);
-  spec('codex-install',['integration','install','codex']);
+  assert.equal(spec('codex-install',['integration','install','codex']).exitCode,0);
+  const dual=snap('dual-provider');
+  for(const [p,f] of Object.entries(dual.files)) if(!(p in ownership)) ownership[p]={sha256:f.sha256,owner:'spec-kit',createdBy:'codex-integration'};
+  json(evidence+'/ownership.json',ownership);
   const rigRepeat=rig('rig-repeat-init',['init']);
-  init();
+  assert.equal(rigRepeat.exitCode,1);assert.equal(init().exitCode,0);
   const beforeDry=snap('before-dry'); const dry=rig('rig-dry',['upgrade','--dry-run']); const afterDry=snap('after-dry');
   const dryReadOnly=JSON.stringify(beforeDry.files)===JSON.stringify(afterDry.files);
   run('git',['add','.'],cwd);run('git',['-c','user.name=Lab Fixture','-c','user.email=lab@example.invalid','commit','-m','both installed'],cwd);
@@ -49,15 +52,17 @@ for(const order of ['rig-first','spec-first']) {
   // Restore only the synthetic edit to let independent missing-file behavior run.
   const skillText=readFileSync(path.join(cwd,specSkill),'utf8').replace('\nSynthetic Spec Kit customization.\n','');writeFileSync(path.join(cwd,specSkill),skillText);
   const specDeleted=Object.keys(combined.files).find(p=>p.startsWith('.claude/skills/speckit-')&&p.endsWith('/SKILL.md')&&p!==specSkill);assert(specDeleted);unlinkSync(path.join(cwd,specDeleted));snap('spec-delete');
-  spec('spec-upgrade-missing',['integration','upgrade','claude']);
+  assert.equal(spec('spec-upgrade-missing',['integration','upgrade','claude']).exitCode,0);
   const specDeletedStaysRemoved=!existsSync(path.join(cwd,specDeleted));
   appendFileSync(path.join(cwd,specSkill),'\nSynthetic Spec Kit customization.\n');
   const beforeRemove=snap('before-spec-uninstall');
   const remove=spec('spec-uninstall-claude',['integration','uninstall','claude']);
   const afterRemove=snap('after-spec-uninstall');
   const rigSurvives=Object.keys(rigManifest.files).filter(p=>beforeRemove.files[p]).every(p=>beforeRemove.files[p].sha256===afterRemove.files[p]?.sha256);
-  spec('surviving-codex-status',['integration','status','--json']);
-  rig('surviving-rig-dry',['upgrade','--dry-run']);
+  assert.equal(spec('surviving-codex-status',['integration','status','--json']).exitCode,0);
+  assert.equal(rig('surviving-rig-dry',['upgrade','--dry-run']).exitCode,0);
+  const finalFiles=snap('final-ownership').files;
+  json(evidence+'/final-ownership.json',Object.fromEntries(Object.entries(finalFiles).map(([p,f])=>[p,{...f,owner:p in rigManifest.files || p==='.claude/.rig-manifest.json'?'rig':p==='.specify/memory/constitution.md'?'project':'spec-kit',note:p===specSkill?'user-edited former Spec Kit skill retained after uninstall':undefined}])));
   // Minimal co-ownership prototype: no second manifest for Spec Kit internals.
   // Rig removal must fail closed if shared wiring was edited; deleting hooks then would strand references.
   const wiring=['.claude/settings.json','.codex/hooks.json'];
@@ -68,4 +73,4 @@ for(const order of ['rig-first','spec-first']) {
   results.push({order,firstExit:first.exitCode,secondExit:second.exitCode,rigRepeatInitExit:rigRepeat.exitCode,rigDryExit:dry.exitCode,dryReadOnly,rigUpgradeExit:up.exitCode,specEditedUpgradeExit:specUp.exitCode,editsPreserved,deletedStaysRemoved,specDeletedStaysRemoved,specUninstallExit:remove.exitCode,rigSurvivesSpecUninstall:rigSurvives,editedSpecSkillSurvives:existsSync(path.join(cwd,specSkill)),rigUninstallBlockedOnModifiedWiring:removalPlan.blocked,naturalSecondComponentOverwrites:Object.entries(ownership).filter(([p,v])=>v.changedBySecond).map(([p])=>p)});
 }
 json(out+'/results.json',results); console.log(JSON.stringify(results,null,2));
-assert(results.every(r=>r.dryReadOnly&&r.editsPreserved&&r.deletedStaysRemoved&&r.rigSurvivesSpecUninstall));
+assert(results.every(r=>r.rigDryExit===0&&r.rigUpgradeExit===0&&r.specEditedUpgradeExit===1&&r.specUninstallExit===0&&r.dryReadOnly&&r.editsPreserved&&r.deletedStaysRemoved&&r.rigSurvivesSpecUninstall));

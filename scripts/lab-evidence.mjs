@@ -18,6 +18,7 @@ export function snapshot(cwd, output) {
   const files = {};
   function walk(dir) { for(const n of readdirSync(dir)) { if(['.git','node_modules','.venv','__pycache__'].includes(n)) continue; const p=path.join(dir,n),s=statSync(p); if(s.isDirectory()) walk(p); else {const b=readFileSync(p); files[path.relative(cwd,p).replaceAll('\\','/')]={size:b.length,sha256:sha(b)};} } }
   walk(cwd);
-  const data={files, count:Object.keys(files).length,bytes:Object.values(files).reduce((n,f)=>n+f.size,0),status:run('git',['status','--short','--untracked-files=all'],cwd).stdout,diff:run('git',['diff','--no-ext-diff','HEAD'],cwd).stdout};
+  const gitStatus=run('git',['status','--short','--untracked-files=all'],cwd),gitDiff=run('git',['diff','--no-ext-diff','HEAD'],cwd);
+  const data={files, count:Object.keys(files).length,bytes:Object.values(files).reduce((n,f)=>n+f.size,0),status:gitStatus.stdout,diff:gitDiff.stdout,gitStatus,gitDiff};
   json(output,data); return data;
 }

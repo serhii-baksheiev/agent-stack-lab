@@ -1,0 +1,32 @@
+name: Spike A Windows wiring
+on:
+  push:
+    branches: [spike/a-spec-kit-manifest]
+    paths: ['scripts/spike-a-windows-wiring.mjs', '.github/workflows/spike-a-windows.yml']
+  workflow_dispatch:
+jobs:
+  wiring:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: .github/workflows/spike-a-windows.yml
+      - run: node scripts/baseline.mjs
+      - run: |
+          python -m venv .lab-runs/spec-kit-env
+          .lab-runs/spec-kit-env/Scripts/pip.exe install 'git+https://github.com/github/spec-kit.git@96c9bd657bfd5de0d651a6165084932b7304ac99'
+      - run: node scripts/spike-a-windows-wiring.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: spike-a-windows-evidence
+          path: spikes/a-spec-kit-manifest/evidence/

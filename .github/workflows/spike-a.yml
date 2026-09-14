@@ -8,7 +8,7 @@ on:
       runner:
         type: string
         default: ubuntu-latest
-        description: Hosted OS or optional existing self-hosted label
+        description: Linux hosted or existing Linux self-hosted label; requires sudo unshare
 jobs:
   baseline:
     runs-on: ${{ inputs.runner || 'ubuntu-latest' }}
@@ -24,6 +24,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: pip
+          cache-dependency-path: .github/workflows/spike-a.yml
       - name: Install pinned Spec Kit into isolated environment
         shell: bash
         run: |
