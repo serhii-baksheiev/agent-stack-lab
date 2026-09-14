@@ -1,0 +1,46 @@
+name: Spike E local memory
+on:
+  push:
+    branches: [spike/e-memory]
+    paths: ['scripts/spike-e*.mjs', 'scripts/lab-mcp-probe.mjs', 'fixtures/e-memory/**', '.github/workflows/spike-e.yml']
+  workflow_dispatch:
+    inputs:
+      runner:
+        description: 'Optional existing Linux self-hosted label'
+        default: ubuntu-latest
+        type: string
+jobs:
+  memory:
+    runs-on: ${{ inputs.runner || 'ubuntu-latest' }}
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: fixtures/f-native/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare isolated installer and native CLIs
+        run: |
+          mkdir -p .lab-runs/e-bootstrap .lab-runs/f-tools
+          python -m venv .lab-runs/e-bootstrap/venv
+          .lab-runs/e-bootstrap/venv/bin/pip install 'uv==0.12.5'
+          echo "$PWD/.lab-runs/e-bootstrap/venv/bin" >> "$GITHUB_PATH"
+          cp fixtures/f-native/toolchain.json .lab-runs/f-tools/package.json
+          cp fixtures/f-native/package-lock.json .lab-runs/f-tools/package-lock.json
+          npm ci --prefix "$PWD/.lab-runs/f-tools" --no-audit --no-fund
+      - run: node scripts/spike-e-prepare-basic.mjs
+      - run: node scripts/spike-e-basic.mjs
+      - run: node scripts/spike-e-basic-upgrade.mjs
+      - run: node scripts/spike-e-reference-memory.mjs
+      - run: node scripts/spike-e-native-wiring.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: spike-e-evidence
+          path: spikes/e-memory/evidence/
