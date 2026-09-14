@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-tools/venv/bin/bm",
+    "project",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T11:38:22.248Z",
+  "durationMs": 1441,
+  "exitCode": 0,
+  "stdout": "                                                                                \n Usage: bm project [OPTIONS] COMMAND [ARGS]...                                  \n                                                                                \n Manage multiple Basic Memory projects                                          \n                                                                                \n╭─ Options ────────────────────────────────────────────────────────────────────╮\n│ --help          Show this message and exit.                                  │\n╰──────────────────────────────────────────────────────────────────────────────╯\n╭─ Commands ───────────────────────────────────────────────────────────────────╮\n│ list       List Basic Memory projects from local and (when available) cloud. │\n│ add        Add a new project.                                                │\n│ remove     Remove a project.                                                 │\n│ default    Set the default project used as fallback when no project is       │\n│            specified.                                                        │\n│ move       Move a local project to a new filesystem location.                │\n│ set-cloud  Set a project to cloud mode (route through cloud API).            │\n│ set-local  Revert a project to local mode (use in-process ASGI transport).   │\n│ ls         List files in a project.                                          │\n│ info       Display detailed information and statistics about the current     │\n│            project.                                                          │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n",
+  "stderr": ""
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-tools/venv/bin/bm",
+    "--version"
+  ],
+  "cwd": ".lab-runs/e-native-wiring-1789386025736/codex-mcp-first/repo",
+  "startedAt": "2026-09-14T11:41:11.542Z",
+  "durationMs": 337,
+  "exitCode": 0,
+  "stdout": "Basic Memory version: 0.23.2\n",
+  "stderr": ""
+}

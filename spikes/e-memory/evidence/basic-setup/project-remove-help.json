@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-tools/venv/bin/bm",
+    "project",
+    "remove",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T11:38:28.623Z",
+  "durationMs": 803,
+  "exitCode": 0,
+  "stdout": "                                                                                \n Usage: bm project remove [OPTIONS] {name}                                      \n                                                                                \n Remove a project.                                                              \n                                                                                \n Use --local to force local routing when cloud mode is enabled.                 \n Use --cloud to force cloud routing when cloud mode is disabled.                \n                                                                                \n╭─ Arguments ──────────────────────────────────────────────────────────────────╮\n│ *    name      <str>  Name of the project to remove [required]               │\n╰──────────────────────────────────────────────────────────────────────────────╯\n╭─ Options ────────────────────────────────────────────────────────────────────╮\n│ --delete-notes          Delete project files from disk                       │\n│ --local                 Force local API routing (ignore cloud mode)          │\n│ --cloud                 Force cloud API routing                              │\n│ --help                  Show this message and exit.                          │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n",
+  "stderr": ""
+}

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "npm",
+    "uninstall",
+    "--prefix",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-reference-1789386017392/packages",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund",
+    "@modelcontextprotocol/server-memory"
+  ],
+  "cwd": ".lab-runs/e-reference-1789386017392/packages",
+  "startedAt": "2026-09-14T11:40:25.402Z",
+  "durationMs": 292,
+  "exitCode": 0,
+  "stdout": "\nremoved 95 packages in 247ms\n",
+  "stderr": ""
+}

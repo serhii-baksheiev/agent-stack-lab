@@ -1,0 +1,18 @@
+{
+  "command": [
+    "git",
+    "worktree",
+    "add",
+    "-q",
+    "-b",
+    "synthetic-a",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-1789385912752/checkout-a",
+    "HEAD"
+  ],
+  "cwd": ".lab-runs/e-basic-1789385912752",
+  "startedAt": "2026-09-14T11:38:43.659Z",
+  "durationMs": 10,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "mcp",
+    "remove",
+    "--help"
+  ],
+  "cwd": ".lab-runs/e-native-wiring-1789386025736/claude-rig-first/repo",
+  "startedAt": "2026-09-14T11:40:26.167Z",
+  "durationMs": 109,
+  "exitCode": 0,
+  "stdout": "Usage: claude mcp remove [options] <name>\n\nRemove an MCP server\n\nOptions:\n  -h, --help           Display help for command\n  -s, --scope <scope>  Configuration scope (local, user, or project) - if not\n                       specified, removes from whichever scope it exists in\n",
+  "stderr": ""
+}

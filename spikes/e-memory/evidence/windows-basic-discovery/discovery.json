@@ -1,0 +1,26 @@
+{
+  "base": ".lab-runs\\e-basic-1789383754836",
+  "tools": [
+    "basic_memory_diagnostics",
+    "delete_note",
+    "read_content",
+    "build_context",
+    "recent_activity",
+    "search_notes",
+    "read_note",
+    "view_note",
+    "write_note",
+    "list_directory",
+    "edit_note",
+    "move_note",
+    "list_workspaces",
+    "list_memory_projects",
+    "create_memory_project",
+    "delete_project",
+    "search",
+    "fetch",
+    "schema_validate",
+    "schema_infer",
+    "schema_diff"
+  ]
+}

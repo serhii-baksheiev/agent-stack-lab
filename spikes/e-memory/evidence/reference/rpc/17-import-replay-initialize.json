@@ -1,0 +1,34 @@
+{
+  "label": "import-replay",
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2025-03-26",
+    "capabilities": {},
+    "clientInfo": {
+      "name": "synthetic-memory-lab",
+      "version": "1.0.0"
+    }
+  },
+  "response": {
+    "result": {
+      "protocolVersion": "2025-03-26",
+      "capabilities": {
+        "tools": {
+          "listChanged": true
+        },
+        "resources": {
+          "listChanged": true,
+          "subscribe": true
+        }
+      },
+      "serverInfo": {
+        "name": "memory-server",
+        "version": "0.6.3"
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "durationMs": 112,
+  "responseBytes": 218
+}

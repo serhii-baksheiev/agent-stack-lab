@@ -1,0 +1,39 @@
+{
+  "label": "default-a",
+  "method": "tools/call",
+  "params": {
+    "name": "create_entities",
+    "arguments": {
+      "entities": [
+        {
+          "name": "default-path-canary",
+          "entityType": "test",
+          "observations": []
+        }
+      ]
+    }
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[\n  {\n    \"name\": \"default-path-canary\",\n    \"entityType\": \"test\",\n    \"observations\": []\n  }\n]"
+        }
+      ],
+      "structuredContent": {
+        "entities": [
+          {
+            "name": "default-path-canary",
+            "entityType": "test",
+            "observations": []
+          }
+        ]
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 2
+  },
+  "durationMs": 22,
+  "responseBytes": 288
+}

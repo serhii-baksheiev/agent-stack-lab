@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-09-14T11:40:25.936Z",
+  "rig": {
+    "version": "0.9.0",
+    "dist": {
+      "shasum": "4fae16bb6e6914264af34ba51631ff7432f31394",
+      "tarball": "https://registry.npmjs.org/create-agent-rig/-/create-agent-rig-0.9.0.tgz",
+      "fileCount": 270,
+      "integrity": "sha512-yqWpUwdpVKR7unoQy9Bh5UF3+ArCxXSxWaKS3YIuMsiIY+E2u91HeaaCdi8D9bv+Dp5+NSl+5L6uJRd91oHLQQ==",
+      "signatures": [
+        {
+          "sig": "MEYCIQCkVWfsY+dTRV7Nb2GGzXvlWOxOS1a9aWvsUfiTpX9mlwIhAPuRvaaFl8Ba/Dt8uiP4KnkPjBANr3PQTn4m+8vWwK7s",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIQCaigu2Msd0WUVlahHOng/QtEbWEMmQeuB9xGKtBNiWAwIgba+r4pks/kXXeOMrsBCdC7ZUO6Spv5ktIFwFdBbEb04=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 1894623
+    },
+    "integrityVerified": true
+  },
+  "basicMemory": "0.23.2 (pre-provisioned exact pin; actual CLI version recorded below)",
+  "native": {
+    "codex": "0.154.0",
+    "claude": "2.1.270"
+  },
+  "platform": "linux",
+  "node": "v24.20.0",
+  "scenarioSha": "79c251fb55d0fdded2ee2307dfe0856dbfe08870",
+  "scriptSha256": "25899111c7770855e2596b4690fa116699c35d972f202612b89373f0a8d15ba4",
+  "claimBoundary": "Native MCP registration metadata plus separate direct stdio liveness; no model recall or automatic harness discovery claim."
+}

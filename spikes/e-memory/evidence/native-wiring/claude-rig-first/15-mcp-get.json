@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "mcp",
+    "get",
+    "synthetic-basic"
+  ],
+  "cwd": ".lab-runs/e-native-wiring-1789386025736/claude-rig-first/repo",
+  "startedAt": "2026-09-14T11:40:32.833Z",
+  "durationMs": 148,
+  "exitCode": 0,
+  "stdout": "synthetic-basic:\n  Scope: Project config (shared via .mcp.json)\n  Status: ⏸ Pending approval (run `claude` to approve)\n  Type: stdio\n  Command: <LAB>/.lab-runs/e-basic-tools/venv/bin/bm\n  Args: mcp --project alpha\n  Environment:\n    BASIC_MEMORY_CONFIG_DIR=<LAB>/.lab-runs/e-native-wiring-1789386025736/claude-rig-first/basic-config\n    BASIC_MEMORY_HOME=<LAB>/.lab-runs/e-native-wiring-1789386025736/claude-rig-first/notes/default\n    BASIC_MEMORY_AUTO_UPDATE=false\n    BASIC_MEMORY_FORCE_LOCAL=true\n    BASIC_MEMORY_SEMANTIC_SEARCH_ENABLED=false\n    BASIC_MEMORY_LOGFIRE_SEND_TO_LOGFIRE=false\n    BASIC_MEMORY_LOG_LEVEL=ERROR\n    PYTHONUTF8=1\n    PYTHONIOENCODING=utf-8\n    HF_HUB_OFFLINE=1\n\nTo remove this server, run: claude mcp remove synthetic-basic -s project\n",
+  "stderr": ""
+}

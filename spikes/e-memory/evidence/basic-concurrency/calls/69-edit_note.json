@@ -1,0 +1,36 @@
+{
+  "name": "edit_note",
+  "args": {
+    "project": "alpha",
+    "identifier": "alpha/same-note/concurrent-round-6",
+    "operation": "append",
+    "content": "\nSYNTHETIC_ROUND_6_WRITER_A_END\n",
+    "output_format": "json"
+  },
+  "response": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "text": "{\"title\":null,\"permalink\":null,\"file_path\":null,\"checksum\":null,\"operation\":\"append\",\"fileCreated\":false,\"error\":\"Note content changed repeatedly while indexing same-note/Concurrent round 6.md\"}",
+        "type": "text"
+      }
+    ],
+    "isError": false,
+    "structuredContent": {
+      "result": {
+        "title": null,
+        "permalink": null,
+        "file_path": null,
+        "checksum": null,
+        "operation": "append",
+        "fileCreated": false,
+        "error": "Note content changed repeatedly while indexing same-note/Concurrent round 6.md"
+      }
+    }
+  },
+  "durationMs": 467
+}

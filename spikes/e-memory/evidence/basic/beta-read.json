@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "---\ntitle: Orchid deploy\ntype: note\npermalink: beta/notes/orchid-deploy\n---\n\nORCHID_BETA_PRIVATE: use port 9109.",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": "---\ntitle: Orchid deploy\ntype: note\npermalink: beta/notes/orchid-deploy\n---\n\nORCHID_BETA_PRIVATE: use port 9109."
+  }
+}

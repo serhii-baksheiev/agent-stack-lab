@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-tools/venv/bin/bm",
+    "mcp",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T11:38:24.501Z",
+  "durationMs": 811,
+  "exitCode": 0,
+  "stdout": "                                                                                \n Usage: bm mcp [OPTIONS]                                                        \n                                                                                \n Run the MCP server with configurable transport options.                        \n                                                                                \n This command starts an MCP server using one of three transport options:        \n                                                                                \n - stdio: Standard I/O (good for local usage)                                   \n - streamable-http: Recommended for web deployments                             \n - sse: Server-Sent Events (for compatibility with existing clients)            \n                                                                                \n Initialization, file indexing, and cleanup are handled by the MCP server's     \n lifespan.                                                                      \n                                                                                \n Note: This command is available regardless of cloud mode setting.              \n Users who have cloud mode enabled can still use local MCP for Claude Code      \n and Claude Desktop while using cloud MCP for web and mobile access.            \n                                                                                \n╭─ Options ────────────────────────────────────────────────────────────────────╮\n│ --transport        <str>  Transport type: stdio, streamable-http, or sse     │\n│                           [default: stdio]                                   │\n│ --host             <str>  Host for HTTP transports (use 0.0.0.0 to allow     │\n│                           external connections)                              │\n│                           [default: 0.0.0.0]                                 │\n│ --port             <int>  Port for HTTP transports [default: 8000]           │\n│ --path             <str>  Path prefix for streamable-http transport          │\n│                           [default: /mcp]                                    │\n│ --project          <str>  Restrict MCP server to single project              │\n│ --help                    Show this message and exit.                        │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "---\ntitle: Synthetic canary\ntype: note\npermalink: alpha/notes/synthetic-canary\n---\n\nSYNTHETIC_NOT_A_CREDENTIAL_12345",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": "---\ntitle: Synthetic canary\ntype: note\npermalink: alpha/notes/synthetic-canary\n---\n\nSYNTHETIC_NOT_A_CREDENTIAL_12345"
+  }
+}

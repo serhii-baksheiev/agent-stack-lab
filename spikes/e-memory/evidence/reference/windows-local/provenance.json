@@ -1,0 +1,46 @@
+{
+  "version": "2026.8.31",
+  "commit": "a40bc270fb5ece62673f8a1196f57116d885c5eb",
+  "license": "SEE LICENSE IN LICENSE",
+  "licenseFilePackaged": false,
+  "upstreamLicenseUrl": "https://raw.githubusercontent.com/modelcontextprotocol/servers/a40bc270fb5ece62673f8a1196f57116d885c5eb/LICENSE",
+  "upstreamLicenseSha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a",
+  "upstreamLicenseNotice": [
+    "The MCP project is undergoing a licensing transition from the MIT License to the Apache License, Version 2.0 (\"Apache-2.0\"). All new code and specification contributions to the project are licensed under Apache-2.0. Documentation contributions (excluding specifications) are licensed under CC-BY-4.0.",
+    "",
+    "Contributions for which relicensing consent has been obtained are licensed under Apache-2.0. Contributions made by authors who originally licensed their work under the MIT License and who have not yet granted explicit permission to relicense remain licensed under the MIT License.",
+    ""
+  ],
+  "dist": {
+    "integrity": "sha512-ljj/3S4aGjxdNSQWw6gucKKGnTLdBPWxzapyY/MT2tOVyZwvxChvevXSLPwx59nKJAlVpUVW+cOlnVRXRwiqMQ==",
+    "shasum": "809f9f4c7e30e5c4e0b34ad0a3781c40664c0bfa",
+    "tarball": "https://registry.npmjs.org/@modelcontextprotocol/server-memory/-/server-memory-2026.8.31.tgz",
+    "fileCount": 3,
+    "unpackedSize": 31899,
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@modelcontextprotocol%2fserver-memory@2026.8.31",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "signatures": [
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEUCIQCJf22DbvE43u4HCsHl82ULhdPfwpaTWoAtT8p8G3imaQIgB6S34IP0ZXwES9POgq6rILEynldeYRYKFXuo3E4yR6M="
+      }
+    ]
+  },
+  "integrityVerified": true,
+  "publishedAt": "2026-08-31T20:23:48.078Z",
+  "latest": "2026.8.31",
+  "upstream": {
+    "status": 200,
+    "sha": "a40bc270fb5ece62673f8a1196f57116d885c5eb",
+    "date": "2026-08-31T18:37:07Z"
+  },
+  "node": "v24.18.0",
+  "platform": "win32",
+  "scriptSha256": "0a22e34ce859c68fc2cac8b3d782d66f00be6bd859ef42913b0d8845caa6742e",
+  "serverSourceSha256": "e6a04d5457d2d7d3a8ba33bc8da891b212358dfe2f43548a5afec4ff259c4729",
+  "scenarioSha": "610c860dc05b7407e0fa8b67a820e8b0275955e8"
+}

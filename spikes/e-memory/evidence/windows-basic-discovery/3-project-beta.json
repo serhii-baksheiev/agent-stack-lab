@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\e-basic-tools\\venv\\Scripts\\bm.exe",
+    "project",
+    "add",
+    "beta",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\e-basic-1789383754836\\notes\\beta",
+    "--local"
+  ],
+  "cwd": ".lab-runs/e-basic-1789383754836",
+  "startedAt": "2026-09-14T11:03:23.853Z",
+  "durationMs": 20936,
+  "exitCode": 0,
+  "stdout": "Project 'beta' added successfully\r\n",
+  "stderr": ""
+}

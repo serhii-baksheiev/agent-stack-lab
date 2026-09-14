@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "\n# Note Not Found in alpha: \"notes/garden\"\n\nI couldn't find any notes matching \"notes/garden\". Here are some suggestions:\n\n## Check Identifier Type\n- If you provided a title, try using the exact permalink instead\n- If you provided a permalink, check for typos or try a broader search\n\n## Search Instead\nTry searching for related content:\n```\nsearch_notes(project=\"alpha\", query=\"notes/garden\")\n```\n\n## Recent Activity\nCheck recently modified notes:\n```\nrecent_activity(timeframe=\"7d\")\n```\n\n## Create New Note\nThis might be a good opportunity to create a new note on this topic:\n```\nwrite_note(\n    project=\"alpha\",\n    title=\"Notes/garden\",\n    content='''\n    # Notes/garden\n\n    ## Overview\n    [Your content here]\n\n    ## Observations\n    - [category] [Observation about notes/garden]\n\n    ## Relations\n    - relates_to [[Related Topic]]\n    ''',\n    folder=\"notes\"\n)\n```\n",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": "\n# Note Not Found in alpha: \"notes/garden\"\n\nI couldn't find any notes matching \"notes/garden\". Here are some suggestions:\n\n## Check Identifier Type\n- If you provided a title, try using the exact permalink instead\n- If you provided a permalink, check for typos or try a broader search\n\n## Search Instead\nTry searching for related content:\n```\nsearch_notes(project=\"alpha\", query=\"notes/garden\")\n```\n\n## Recent Activity\nCheck recently modified notes:\n```\nrecent_activity(timeframe=\"7d\")\n```\n\n## Create New Note\nThis might be a good opportunity to create a new note on this topic:\n```\nwrite_note(\n    project=\"alpha\",\n    title=\"Notes/garden\",\n    content='''\n    # Notes/garden\n\n    ## Overview\n    [Your content here]\n\n    ## Observations\n    - [category] [Observation about notes/garden]\n\n    ## Relations\n    - relates_to [[Related Topic]]\n    ''',\n    folder=\"notes\"\n)\n```\n"
+  }
+}

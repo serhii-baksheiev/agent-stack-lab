@@ -1,0 +1,15 @@
+{
+  "command": [
+    "uv",
+    "venv",
+    "--python",
+    "3.12",
+    "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\e-basic-tools\\venv"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T10:56:31.386Z",
+  "durationMs": 25693,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": "Downloading cpython-3.12.14-windows-x86_64-none (download) (21.0MiB)\n Downloaded cpython-3.12.14-windows-x86_64-none (download)\nUsing CPython 3.12.14\nCreating virtual environment at: .lab-runs\\e-basic-tools\\venv\nActivate with: .lab-runs\\e-basic-tools\\venv\\Scripts\\activate\n"
+}

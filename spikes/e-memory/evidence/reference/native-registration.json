@@ -1,0 +1,8 @@
+{
+  "codex": "0.154.0",
+  "claude": "2.1.270",
+  "registrationAndRemovalPassed": true,
+  "syntheticDataUnchanged": true,
+  "modelRecall": "unverified: no inference",
+  "rigInstallationOrder": "not tested by this reference collector; registration files are separate native ownership surfaces"
+}

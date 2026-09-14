@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "{\"title\":\"Garden\",\"permalink\":\"alpha/notes/garden\",\"file_path\":\"notes/Garden.md\",\"checksum\":null,\"action\":\"created\"}",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": {
+      "title": "Garden",
+      "permalink": "alpha/notes/garden",
+      "file_path": "notes/Garden.md",
+      "checksum": null,
+      "action": "created"
+    }
+  }
+}

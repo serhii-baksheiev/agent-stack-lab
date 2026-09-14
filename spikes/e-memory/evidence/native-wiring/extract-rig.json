@@ -1,0 +1,15 @@
+{
+  "command": [
+    "tar",
+    "-xzf",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-native-wiring-1789386025736/rig/rig.tgz",
+    "-C",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-native-wiring-1789386025736/rig"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T11:40:25.918Z",
+  "durationMs": 18,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": ""
+}

@@ -1,0 +1,174 @@
+[
+  {
+    "provider": "claude",
+    "order": "rig-first",
+    "secondChangedExisting": [],
+    "nativeConfigLocation": "repo/.mcp.json",
+    "nativeConfigInitialSha256": "6ee6472c5060502a35f632b40cd66ed162f6ee038a4b0ee70e681e2176288c8e",
+    "nativeConfigPreservedByRig": true,
+    "handshake": {
+      "protocolVersion": "2025-06-18",
+      "capabilities": {
+        "logging": {},
+        "prompts": {
+          "listChanged": false
+        },
+        "resources": {
+          "subscribe": false,
+          "listChanged": false
+        },
+        "tools": {
+          "listChanged": true
+        }
+      },
+      "serverInfo": {
+        "name": "Basic Memory",
+        "version": "4.0.0b1"
+      },
+      "instructions": "Basic Memory is the user's personal knowledge base: Markdown notes that persist across conversations and that both the user and their AI assistants can read and write.\n\nAt the start of a session, call `recent_activity` to orient yourself in the user's notes before answering from memory. If the knowledge base is empty, briefly explain that Basic Memory gives them persistent notes shared between the user and their AI, and offer to save something useful from this conversation as their first note with `write_note` — then wait for them to agree before writing anything. Do not create notes unprompted.\n\nFor a fuller guide, read the `memory://ai_assistant_guide` resource. If you have a web or fetch tool and need current documentation, fetch `https://docs.basicmemory.com/llms.txt` first, then fetch only the relevant linked `/raw/...md` page."
+    },
+    "toolCount": 21,
+    "repeatRigExit": 1,
+    "rigDryExit": 0,
+    "dryReadOnly": true,
+    "rigUpgradeExit": 0,
+    "sharedEditsPreserved": true,
+    "deletedRigFilePreserved": true,
+    "nativeGetAfterRigExit": 0,
+    "nativeRemovalExit": 0,
+    "getAfterRemovalExit": 1,
+    "rigFilesChangedByNativeRemoval": [],
+    "survivingRigExit": 0,
+    "dataSurvivesNativeRemoval": true,
+    "nativeModelRecall": "unverified"
+  },
+  {
+    "provider": "claude",
+    "order": "mcp-first",
+    "secondChangedExisting": [],
+    "nativeConfigLocation": "repo/.mcp.json",
+    "nativeConfigInitialSha256": "2b2e67553ee06a93cb2bea416eb4a8427a368d7a2da44b43e7dd51bd38e221c6",
+    "nativeConfigPreservedByRig": true,
+    "handshake": {
+      "protocolVersion": "2025-06-18",
+      "capabilities": {
+        "logging": {},
+        "prompts": {
+          "listChanged": false
+        },
+        "resources": {
+          "subscribe": false,
+          "listChanged": false
+        },
+        "tools": {
+          "listChanged": true
+        }
+      },
+      "serverInfo": {
+        "name": "Basic Memory",
+        "version": "4.0.0b1"
+      },
+      "instructions": "Basic Memory is the user's personal knowledge base: Markdown notes that persist across conversations and that both the user and their AI assistants can read and write.\n\nAt the start of a session, call `recent_activity` to orient yourself in the user's notes before answering from memory. If the knowledge base is empty, briefly explain that Basic Memory gives them persistent notes shared between the user and their AI, and offer to save something useful from this conversation as their first note with `write_note` — then wait for them to agree before writing anything. Do not create notes unprompted.\n\nFor a fuller guide, read the `memory://ai_assistant_guide` resource. If you have a web or fetch tool and need current documentation, fetch `https://docs.basicmemory.com/llms.txt` first, then fetch only the relevant linked `/raw/...md` page."
+    },
+    "toolCount": 21,
+    "repeatRigExit": 1,
+    "rigDryExit": 0,
+    "dryReadOnly": true,
+    "rigUpgradeExit": 0,
+    "sharedEditsPreserved": true,
+    "deletedRigFilePreserved": true,
+    "nativeGetAfterRigExit": 0,
+    "nativeRemovalExit": 0,
+    "getAfterRemovalExit": 1,
+    "rigFilesChangedByNativeRemoval": [],
+    "survivingRigExit": 0,
+    "dataSurvivesNativeRemoval": true,
+    "nativeModelRecall": "unverified"
+  },
+  {
+    "provider": "codex",
+    "order": "rig-first",
+    "secondChangedExisting": [],
+    "nativeConfigLocation": "home/.codex/config.toml",
+    "nativeConfigInitialSha256": "3eeed085e7bf03a0db41e167f55e60567160abdda38e3bcf5dd65aeb087cf43b",
+    "nativeConfigPreservedByRig": true,
+    "handshake": {
+      "protocolVersion": "2025-06-18",
+      "capabilities": {
+        "logging": {},
+        "prompts": {
+          "listChanged": false
+        },
+        "resources": {
+          "subscribe": false,
+          "listChanged": false
+        },
+        "tools": {
+          "listChanged": true
+        }
+      },
+      "serverInfo": {
+        "name": "Basic Memory",
+        "version": "4.0.0b1"
+      },
+      "instructions": "Basic Memory is the user's personal knowledge base: Markdown notes that persist across conversations and that both the user and their AI assistants can read and write.\n\nAt the start of a session, call `recent_activity` to orient yourself in the user's notes before answering from memory. If the knowledge base is empty, briefly explain that Basic Memory gives them persistent notes shared between the user and their AI, and offer to save something useful from this conversation as their first note with `write_note` — then wait for them to agree before writing anything. Do not create notes unprompted.\n\nFor a fuller guide, read the `memory://ai_assistant_guide` resource. If you have a web or fetch tool and need current documentation, fetch `https://docs.basicmemory.com/llms.txt` first, then fetch only the relevant linked `/raw/...md` page."
+    },
+    "toolCount": 21,
+    "repeatRigExit": 1,
+    "rigDryExit": 0,
+    "dryReadOnly": true,
+    "rigUpgradeExit": 0,
+    "sharedEditsPreserved": true,
+    "deletedRigFilePreserved": true,
+    "nativeGetAfterRigExit": 0,
+    "nativeRemovalExit": 0,
+    "getAfterRemovalExit": 1,
+    "rigFilesChangedByNativeRemoval": [],
+    "survivingRigExit": 0,
+    "dataSurvivesNativeRemoval": true,
+    "nativeModelRecall": "unverified"
+  },
+  {
+    "provider": "codex",
+    "order": "mcp-first",
+    "secondChangedExisting": [],
+    "nativeConfigLocation": "home/.codex/config.toml",
+    "nativeConfigInitialSha256": "67f375230bde78f23c7168c84feea8bab0e525c6d4d0f5630196160c799e27ac",
+    "nativeConfigPreservedByRig": true,
+    "handshake": {
+      "protocolVersion": "2025-06-18",
+      "capabilities": {
+        "logging": {},
+        "prompts": {
+          "listChanged": false
+        },
+        "resources": {
+          "subscribe": false,
+          "listChanged": false
+        },
+        "tools": {
+          "listChanged": true
+        }
+      },
+      "serverInfo": {
+        "name": "Basic Memory",
+        "version": "4.0.0b1"
+      },
+      "instructions": "Basic Memory is the user's personal knowledge base: Markdown notes that persist across conversations and that both the user and their AI assistants can read and write.\n\nAt the start of a session, call `recent_activity` to orient yourself in the user's notes before answering from memory. If the knowledge base is empty, briefly explain that Basic Memory gives them persistent notes shared between the user and their AI, and offer to save something useful from this conversation as their first note with `write_note` — then wait for them to agree before writing anything. Do not create notes unprompted.\n\nFor a fuller guide, read the `memory://ai_assistant_guide` resource. If you have a web or fetch tool and need current documentation, fetch `https://docs.basicmemory.com/llms.txt` first, then fetch only the relevant linked `/raw/...md` page."
+    },
+    "toolCount": 21,
+    "repeatRigExit": 1,
+    "rigDryExit": 0,
+    "dryReadOnly": true,
+    "rigUpgradeExit": 0,
+    "sharedEditsPreserved": true,
+    "deletedRigFilePreserved": true,
+    "nativeGetAfterRigExit": 0,
+    "nativeRemovalExit": 0,
+    "getAfterRemovalExit": 1,
+    "rigFilesChangedByNativeRemoval": [],
+    "survivingRigExit": 0,
+    "dataSurvivesNativeRemoval": true,
+    "nativeModelRecall": "unverified"
+  }
+]

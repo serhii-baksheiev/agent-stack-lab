@@ -1,0 +1,371 @@
+{
+  "checkedAt": "2026-09-14",
+  "scale": "0 worst, 10 best; high cost/lock-in scores mean lower cost/lock-in. Zero with unverified status is a numeric placeholder, not measured inferiority; do not average.",
+  "basis": "Engineering judgments in this bounded synthetic scope; not measured product quality.",
+  "candidates": [
+    {
+      "candidate": "Basic Memory 0.23.2",
+      "confidence": "medium",
+      "dimensions": {
+        "userUtility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "maturity": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "maintainability": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "upstreamActivity": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "claudeCompatibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "codexCompatibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "reproducibility": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "upgradeUninstall": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "absenceOfFileConflicts": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "teamwork": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "boardIntegration": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "security": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "offlineLocalFirst": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "integrationCost": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "annualMaintenanceCost": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "lowVendorLockIn": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        },
+        "licenseSuitability": {
+          "score": 4,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/storage/lifecycle and both Rig orders; native inference unverified; AGPL distribution conditional."
+        }
+      }
+    },
+    {
+      "candidate": "Reference memory 2026.8.31",
+      "confidence": "medium",
+      "dimensions": {
+        "userUtility": {
+          "score": 4,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "maturity": {
+          "score": 5,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "maintainability": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "upstreamActivity": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "claudeCompatibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "codexCompatibility": {
+          "score": 7,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "reproducibility": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "upgradeUninstall": {
+          "score": 3,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "absenceOfFileConflicts": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "teamwork": {
+          "score": 1,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "boardIntegration": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "security": {
+          "score": 3,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "offlineLocalFirst": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "integrationCost": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "annualMaintenanceCost": {
+          "score": 6,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "lowVendorLockIn": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        },
+        "licenseSuitability": {
+          "score": 3,
+          "status": "engineering-judgment",
+          "evidence": "Actual MCP/native registration; lost concurrent updates, default package-local data loss; cross-version upgrade and licensing clearance unverified."
+        }
+      }
+    },
+    {
+      "candidate": "Native Claude/Codex memory",
+      "confidence": "medium",
+      "dimensions": {
+        "userUtility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "maturity": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "maintainability": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "upstreamActivity": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "claudeCompatibility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "codexCompatibility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "reproducibility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "upgradeUninstall": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "absenceOfFileConflicts": {
+          "score": 8,
+          "status": "engineering-judgment",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "teamwork": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "boardIntegration": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "security": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "offlineLocalFirst": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "integrationCost": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "annualMaintenanceCost": {
+          "score": 9,
+          "status": "engineering-judgment",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "lowVendorLockIn": {
+          "score": 3,
+          "status": "engineering-judgment",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        },
+        "licenseSuitability": {
+          "score": 5,
+          "status": "engineering-judgment",
+          "evidence": "Documented native memory and feature metadata only; recall not measured. Default is a simplicity policy, not benchmark superiority."
+        }
+      }
+    },
+    {
+      "candidate": "Custom Memory public contract",
+      "confidence": "medium",
+      "dimensions": {
+        "userUtility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "maturity": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "maintainability": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "upstreamActivity": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "claudeCompatibility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "codexCompatibility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "reproducibility": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "upgradeUninstall": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "absenceOfFileConflicts": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "teamwork": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "boardIntegration": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "security": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "offlineLocalFirst": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "integrationCost": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "annualMaintenanceCost": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "lowVendorLockIn": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        },
+        "licenseSuitability": {
+          "score": 0,
+          "status": "unverified",
+          "evidence": "No implementation or public contract beyond requested scenarios available; no measured advantage."
+        }
+      }
+    }
+  ]
+}

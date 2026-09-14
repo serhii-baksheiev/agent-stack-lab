@@ -1,0 +1,28 @@
+{
+  "label": "a-initial",
+  "method": "tools/call",
+  "params": {
+    "name": "search_nodes",
+    "arguments": {
+      "query": "nonexistent synthetic fact"
+    }
+  },
+  "response": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"entities\": [],\n  \"relations\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "entities": [],
+        "relations": []
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 11
+  },
+  "durationMs": 1,
+  "responseBytes": 171
+}

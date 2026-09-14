@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-tools/venv/bin/bm",
+    "project",
+    "add",
+    "alpha",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-concurrency-1789385975824/alpha",
+    "--local"
+  ],
+  "cwd": ".lab-runs/e-basic-concurrency-1789385975824",
+  "startedAt": "2026-09-14T11:39:36.951Z",
+  "durationMs": 3860,
+  "exitCode": 0,
+  "stdout": "Project 'alpha' added successfully\n",
+  "stderr": ""
+}

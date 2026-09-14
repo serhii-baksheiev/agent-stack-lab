@@ -1,0 +1,208 @@
+{
+  "files": {
+    "backup/alpha/concurrent/Concurrent 0.md": {
+      "size": 93,
+      "sha256": "1555c6abe029ecd87dc3957fdaf9d8b4a71d37d3b42d0c4fc29951f2a0eec9ec"
+    },
+    "backup/alpha/concurrent/Concurrent 1.md": {
+      "size": 93,
+      "sha256": "841835bb1baf725c5cf089ad3217f79e6b0889b3bbc68039cc56ad6d01098392"
+    },
+    "backup/alpha/concurrent/Concurrent 2.md": {
+      "size": 93,
+      "sha256": "ac4bfe6b8fabce9af61bd804a96a8f9632d0c37072bbed5edf988cc32d884bc3"
+    },
+    "backup/alpha/concurrent/Concurrent 3.md": {
+      "size": 93,
+      "sha256": "cf002156d066f3dd0383394cb8cae44d081213dc4fdb647bc619a27b75e1ea33"
+    },
+    "backup/alpha/concurrent/Concurrent 4.md": {
+      "size": 93,
+      "sha256": "e187e46dc81ce74751662aa4f03d9b34dc2a29ab2780cd404dcd9738444cbff1"
+    },
+    "backup/alpha/concurrent/Concurrent 5.md": {
+      "size": 93,
+      "sha256": "62d111755bd0ed7e1b72335b39d2f3f5e6869b7feacdd8583627aee0e5dbc239"
+    },
+    "backup/alpha/concurrent/Concurrent 6.md": {
+      "size": 93,
+      "sha256": "160be5e7f0520a1d0ca5332714273b6dc0c6b64107347360a65f6e00574d8ce3"
+    },
+    "backup/alpha/concurrent/Concurrent 7.md": {
+      "size": 93,
+      "sha256": "e47117a6a38e82098e209e739a8d707542895822966bed6823d8ef6e77088a13"
+    },
+    "backup/alpha/notes/Garden.md": {
+      "size": 97,
+      "sha256": "2c09c78199209773b0018d2633c7d9376e19ecec2b0205bb45c16f92f28c7fb9"
+    },
+    "backup/alpha/notes/Orchid deploy.md": {
+      "size": 131,
+      "sha256": "fd97b8110d28662a11da01909f26cb8b8ff8315deb9852e64dd9418a3f10603f"
+    },
+    "backup/alpha/notes/Orchid tests.md": {
+      "size": 116,
+      "sha256": "15b2061143ad6dc700b5c7c249e0c646dde6eafcfac833ff5f1aaeb6a7de3003"
+    },
+    "backup/alpha/notes/Shared append.md": {
+      "size": 100,
+      "sha256": "d255cedea617939f0cacd9c7a7396bdecfe1337e2d96c6ef773535d3b2b1dec1"
+    },
+    "backup/alpha/notes/Synthetic canary.md": {
+      "size": 116,
+      "sha256": "f4dc784f0fa0972cab59ecb4b86923f2058f89581c86eabdcceecc59494c55d3"
+    },
+    "backup/beta/notes/Orchid deploy.md": {
+      "size": 112,
+      "sha256": "ccea6d089942a2f2ff6e861c16e4a10243ef002adc146bf770b20b2a7d408b0c"
+    },
+    "config/.bmignore": {
+      "size": 659,
+      "sha256": "7d5ef84be40723dbb569d94225784f6480062a1598f29c008811b32bab72271b"
+    },
+    "config/basic-memory.log": {
+      "size": 11067,
+      "sha256": "32e114581ba66180ddd023241b536fd22b0593c97de45ffeb0654022bb803970"
+    },
+    "config/config.json": {
+      "size": 4161,
+      "sha256": "cb322407d7a01252ee3703bfdbe74c2d8b411da3aea4a212f63b1cacf1c6efaa"
+    },
+    "config/memory.db": {
+      "size": 323584,
+      "sha256": "b66fda11dbd743988a61fbebce1ca2095adc43d117b7df96613a5364540c85a0"
+    },
+    "config/watch-status.json": {
+      "size": 191,
+      "sha256": "3fdb0324636324c33b9a6a24462220a64f4e354b6adbffc3b60aecc1db1a8971"
+    },
+    "config-backup/.bmignore": {
+      "size": 659,
+      "sha256": "7d5ef84be40723dbb569d94225784f6480062a1598f29c008811b32bab72271b"
+    },
+    "config-backup/basic-memory.log": {
+      "size": 11067,
+      "sha256": "32e114581ba66180ddd023241b536fd22b0593c97de45ffeb0654022bb803970"
+    },
+    "config-backup/config.json": {
+      "size": 4161,
+      "sha256": "cb322407d7a01252ee3703bfdbe74c2d8b411da3aea4a212f63b1cacf1c6efaa"
+    },
+    "config-backup/memory.db": {
+      "size": 323584,
+      "sha256": "3e32afcc89d32e8404146010f7823393a7ed50070ba0df7e8bdde66e087b989a"
+    },
+    "config-backup/watch-status.json": {
+      "size": 191,
+      "sha256": "361809e95409402fe42d96d2999b518cb769f0536ba197b6529ea9f8ba74f9b3"
+    },
+    "corrupt-config/.bmignore": {
+      "size": 659,
+      "sha256": "7d5ef84be40723dbb569d94225784f6480062a1598f29c008811b32bab72271b"
+    },
+    "corrupt-config/basic-memory.log": {
+      "size": 11619,
+      "sha256": "122722dbee306b602083d15d0e2611c9e781e91f972beea22723930d57714e2c"
+    },
+    "corrupt-config/config.json": {
+      "size": 4161,
+      "sha256": "cb322407d7a01252ee3703bfdbe74c2d8b411da3aea4a212f63b1cacf1c6efaa"
+    },
+    "corrupt-config/memory.db": {
+      "size": 24,
+      "sha256": "3e17140d5031179beea394f863c88715577b01fe7b9ff51ef38570fe1d2e7e1a"
+    },
+    "corrupt-config/watch-status.json": {
+      "size": 191,
+      "sha256": "361809e95409402fe42d96d2999b518cb769f0536ba197b6529ea9f8ba74f9b3"
+    },
+    "home/.local/share/fastmcp/version_cache.json": {
+      "size": 60,
+      "sha256": "49cae7de3b91bd4ec611434a495f3d1785188ba75e1e256198e5fb56866fd774"
+    },
+    "notes/alpha/concurrent/Concurrent 0.md": {
+      "size": 93,
+      "sha256": "1555c6abe029ecd87dc3957fdaf9d8b4a71d37d3b42d0c4fc29951f2a0eec9ec"
+    },
+    "notes/alpha/concurrent/Concurrent 1.md": {
+      "size": 93,
+      "sha256": "841835bb1baf725c5cf089ad3217f79e6b0889b3bbc68039cc56ad6d01098392"
+    },
+    "notes/alpha/concurrent/Concurrent 2.md": {
+      "size": 93,
+      "sha256": "ac4bfe6b8fabce9af61bd804a96a8f9632d0c37072bbed5edf988cc32d884bc3"
+    },
+    "notes/alpha/concurrent/Concurrent 3.md": {
+      "size": 93,
+      "sha256": "cf002156d066f3dd0383394cb8cae44d081213dc4fdb647bc619a27b75e1ea33"
+    },
+    "notes/alpha/concurrent/Concurrent 4.md": {
+      "size": 93,
+      "sha256": "e187e46dc81ce74751662aa4f03d9b34dc2a29ab2780cd404dcd9738444cbff1"
+    },
+    "notes/alpha/concurrent/Concurrent 5.md": {
+      "size": 93,
+      "sha256": "62d111755bd0ed7e1b72335b39d2f3f5e6869b7feacdd8583627aee0e5dbc239"
+    },
+    "notes/alpha/concurrent/Concurrent 6.md": {
+      "size": 93,
+      "sha256": "160be5e7f0520a1d0ca5332714273b6dc0c6b64107347360a65f6e00574d8ce3"
+    },
+    "notes/alpha/concurrent/Concurrent 7.md": {
+      "size": 93,
+      "sha256": "e47117a6a38e82098e209e739a8d707542895822966bed6823d8ef6e77088a13"
+    },
+    "notes/alpha/notes/Orchid deploy.md": {
+      "size": 113,
+      "sha256": "c57dbef75d042fe6de5437a99113a23783f37157d4666129b19919d83401b5d8"
+    },
+    "notes/alpha/notes/Orchid tests.md": {
+      "size": 116,
+      "sha256": "15b2061143ad6dc700b5c7c249e0c646dde6eafcfac833ff5f1aaeb6a7de3003"
+    },
+    "notes/alpha/notes/Shared append.md": {
+      "size": 100,
+      "sha256": "d255cedea617939f0cacd9c7a7396bdecfe1337e2d96c6ef773535d3b2b1dec1"
+    },
+    "notes/alpha/notes/Synthetic canary.md": {
+      "size": 116,
+      "sha256": "f4dc784f0fa0972cab59ecb4b86923f2058f89581c86eabdcceecc59494c55d3"
+    },
+    "notes/beta/notes/Orchid deploy.md": {
+      "size": 112,
+      "sha256": "ccea6d089942a2f2ff6e861c16e4a10243ef002adc146bf770b20b2a7d408b0c"
+    }
+  },
+  "count": 43,
+  "bytes": 698755,
+  "status": "?? \"backup/alpha/concurrent/Concurrent 0.md\"\n?? \"backup/alpha/concurrent/Concurrent 1.md\"\n?? \"backup/alpha/concurrent/Concurrent 2.md\"\n?? \"backup/alpha/concurrent/Concurrent 3.md\"\n?? \"backup/alpha/concurrent/Concurrent 4.md\"\n?? \"backup/alpha/concurrent/Concurrent 5.md\"\n?? \"backup/alpha/concurrent/Concurrent 6.md\"\n?? \"backup/alpha/concurrent/Concurrent 7.md\"\n?? backup/alpha/notes/Garden.md\n?? \"backup/alpha/notes/Orchid deploy.md\"\n?? \"backup/alpha/notes/Orchid tests.md\"\n?? \"backup/alpha/notes/Shared append.md\"\n?? \"backup/alpha/notes/Synthetic canary.md\"\n?? \"backup/beta/notes/Orchid deploy.md\"\n?? checkout-a/\n?? checkout-b/\n?? config-backup/.bmignore\n?? config-backup/basic-memory.log\n?? config-backup/config.json\n?? config-backup/memory.db\n?? config-backup/watch-status.json\n?? config/.bmignore\n?? config/basic-memory.log\n?? config/config.json\n?? config/memory.db\n?? config/watch-status.json\n?? corrupt-config/.bmignore\n?? corrupt-config/basic-memory.log\n?? corrupt-config/config.json\n?? corrupt-config/memory.db\n?? corrupt-config/watch-status.json\n?? home/.local/share/fastmcp/version_cache.json\n?? \"notes/alpha/concurrent/Concurrent 0.md\"\n?? \"notes/alpha/concurrent/Concurrent 1.md\"\n?? \"notes/alpha/concurrent/Concurrent 2.md\"\n?? \"notes/alpha/concurrent/Concurrent 3.md\"\n?? \"notes/alpha/concurrent/Concurrent 4.md\"\n?? \"notes/alpha/concurrent/Concurrent 5.md\"\n?? \"notes/alpha/concurrent/Concurrent 6.md\"\n?? \"notes/alpha/concurrent/Concurrent 7.md\"\n?? \"notes/alpha/notes/Orchid deploy.md\"\n?? \"notes/alpha/notes/Orchid tests.md\"\n?? \"notes/alpha/notes/Shared append.md\"\n?? \"notes/alpha/notes/Synthetic canary.md\"\n?? \"notes/beta/notes/Orchid deploy.md\"\n",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/e-basic-1789385912752",
+    "startedAt": "2026-09-14T11:39:35.763Z",
+    "durationMs": 3,
+    "exitCode": 0,
+    "stdout": "?? \"backup/alpha/concurrent/Concurrent 0.md\"\n?? \"backup/alpha/concurrent/Concurrent 1.md\"\n?? \"backup/alpha/concurrent/Concurrent 2.md\"\n?? \"backup/alpha/concurrent/Concurrent 3.md\"\n?? \"backup/alpha/concurrent/Concurrent 4.md\"\n?? \"backup/alpha/concurrent/Concurrent 5.md\"\n?? \"backup/alpha/concurrent/Concurrent 6.md\"\n?? \"backup/alpha/concurrent/Concurrent 7.md\"\n?? backup/alpha/notes/Garden.md\n?? \"backup/alpha/notes/Orchid deploy.md\"\n?? \"backup/alpha/notes/Orchid tests.md\"\n?? \"backup/alpha/notes/Shared append.md\"\n?? \"backup/alpha/notes/Synthetic canary.md\"\n?? \"backup/beta/notes/Orchid deploy.md\"\n?? checkout-a/\n?? checkout-b/\n?? config-backup/.bmignore\n?? config-backup/basic-memory.log\n?? config-backup/config.json\n?? config-backup/memory.db\n?? config-backup/watch-status.json\n?? config/.bmignore\n?? config/basic-memory.log\n?? config/config.json\n?? config/memory.db\n?? config/watch-status.json\n?? corrupt-config/.bmignore\n?? corrupt-config/basic-memory.log\n?? corrupt-config/config.json\n?? corrupt-config/memory.db\n?? corrupt-config/watch-status.json\n?? home/.local/share/fastmcp/version_cache.json\n?? \"notes/alpha/concurrent/Concurrent 0.md\"\n?? \"notes/alpha/concurrent/Concurrent 1.md\"\n?? \"notes/alpha/concurrent/Concurrent 2.md\"\n?? \"notes/alpha/concurrent/Concurrent 3.md\"\n?? \"notes/alpha/concurrent/Concurrent 4.md\"\n?? \"notes/alpha/concurrent/Concurrent 5.md\"\n?? \"notes/alpha/concurrent/Concurrent 6.md\"\n?? \"notes/alpha/concurrent/Concurrent 7.md\"\n?? \"notes/alpha/notes/Orchid deploy.md\"\n?? \"notes/alpha/notes/Orchid tests.md\"\n?? \"notes/alpha/notes/Shared append.md\"\n?? \"notes/alpha/notes/Synthetic canary.md\"\n?? \"notes/beta/notes/Orchid deploy.md\"\n",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/e-basic-1789385912752",
+    "startedAt": "2026-09-14T11:39:35.766Z",
+    "durationMs": 3,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

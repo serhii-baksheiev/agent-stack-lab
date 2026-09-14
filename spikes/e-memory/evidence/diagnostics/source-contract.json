@@ -1,0 +1,48 @@
+{
+  "package": "basic-memory",
+  "version": "0.23.2",
+  "commit": "c0bd87c6d5a4a58034b1d6c8c5018e443b0bd048",
+  "sources": [
+    {
+      "file": "redaction.py",
+      "url": "https://raw.githubusercontent.com/basicmachines-co/basic-memory/c0bd87c6d5a4a58034b1d6c8c5018e443b0bd048/src/basic_memory/redaction.py",
+      "sha256": "b58a2535e45074e7dc10b0fdb06b7341b079752de874ff4f027ce2a6a98c97a3",
+      "installedSha256": "b58a2535e45074e7dc10b0fdb06b7341b079752de874ff4f027ce2a6a98c97a3",
+      "installedMatchesPinnedSource": true,
+      "lines": [
+        12,
+        16,
+        112,
+        115,
+        125,
+        127
+      ]
+    },
+    {
+      "file": "mcp/tools/basic_memory_diagnostics.py",
+      "url": "https://raw.githubusercontent.com/basicmachines-co/basic-memory/c0bd87c6d5a4a58034b1d6c8c5018e443b0bd048/src/basic_memory/mcp/tools/basic_memory_diagnostics.py",
+      "sha256": "9ac51d3c34a6a72f48b1c205bbe7385fae9c5cb37bbbe31e1287b2c27064baed",
+      "installedSha256": "9ac51d3c34a6a72f48b1c205bbe7385fae9c5cb37bbbe31e1287b2c27064baed",
+      "installedMatchesPinnedSource": true,
+      "lines": [
+        10,
+        54,
+        56,
+        60,
+        61,
+        62
+      ]
+    }
+  ],
+  "canonicalRun": "34839170081",
+  "rawEvidence": "../basic/native-diagnostics.json",
+  "rawSha256": "a4658bcc81d9703173ccf520c71a5c8394d8231781dc9925e94811bd827c66ba",
+  "observation": {
+    "isError": false,
+    "containsConfigKey": false,
+    "containsSyntheticCanary": false,
+    "reportsVersion": true
+  },
+  "contract": "Native diagnostics reads the raw JSON file at invocation; redact_config removes secret fields entirely, including reranker_api_key. The lab predicate incorrectly required that key to remain.",
+  "qualification": "No canary exposure was observed. There is no separate input-byte snapshot at the actual diagnostic read to exclude concurrent rewrites; exact loaded-canary redaction remains unverified. Raw false predicate retained; no rerun or fabricated successful redaction claim."
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "# Error\n\nDirectory path '../../escape' is not allowed - paths must stay within project boundaries",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": "# Error\n\nDirectory path '../../escape' is not allowed - paths must stay within project boundaries"
+  }
+}

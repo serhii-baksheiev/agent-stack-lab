@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/f-tools/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+    "--version"
+  ],
+  "cwd": ".lab-runs/e-native-wiring-1789386025736/claude-rig-first/repo",
+  "startedAt": "2026-09-14T11:40:25.951Z",
+  "durationMs": 11,
+  "exitCode": 0,
+  "stdout": "2.1.270 (Claude Code)\n",
+  "stderr": ""
+}

@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "{\"title\":\"Orchid tests\",\"permalink\":\"alpha/notes/orchid-tests\",\"file_path\":\"notes/Orchid tests.md\",\"checksum\":null,\"action\":\"created\"}",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": {
+      "title": "Orchid tests",
+      "permalink": "alpha/notes/orchid-tests",
+      "file_path": "notes/Orchid tests.md",
+      "checksum": null,
+      "action": "created"
+    }
+  }
+}

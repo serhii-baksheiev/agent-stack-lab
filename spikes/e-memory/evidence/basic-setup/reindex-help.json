@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-tools/venv/bin/bm",
+    "reindex",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T11:38:26.128Z",
+  "durationMs": 798,
+  "exitCode": 0,
+  "stdout": "                                                                                \n Usage: bm reindex [OPTIONS]                                                    \n                                                                                \n Rebuild search indexes and/or vector embeddings without dropping the database. \n                                                                                \n By default runs the project-index coordinator + embeddings (if semantic search \n is enabled).                                                                   \n Use --full to request a full project-index run and re-embed all eligible       \n notes.                                                                         \n Use --search or --embeddings to rebuild only one side.                         \n                                                                                \n Examples:                                                                      \n     bm reindex                  # Project index + embeddings                   \n     bm reindex --full           # Full project index + full re-embed           \n     bm reindex --embeddings     # Only rebuild vector embeddings               \n     bm reindex --search         # Only run project index                       \n     bm reindex --full --search  # Full project index only                      \n     bm reindex --full --embeddings  # Full re-embed only                       \n     bm reindex -p claw --full   # Full reindex for only the 'claw' project     \n                                                                                \n╭─ Options ────────────────────────────────────────────────────────────────────╮\n│ --embeddings  -e             Rebuild vector embeddings (requires semantic    │\n│                              search)                                         │\n│ --search      -s             Rebuild full-text search index                  │\n│ --full                       Request a full project-index run instead of the │\n│                              default project-index pass                      │\n│ --project     -p      <str>  Reindex a specific project (default: all)       │\n│ --help                       Show this message and exit.                     │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n",
+  "stderr": ""
+}

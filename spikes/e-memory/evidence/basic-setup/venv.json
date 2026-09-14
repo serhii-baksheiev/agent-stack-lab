@@ -1,0 +1,15 @@
+{
+  "command": [
+    "uv",
+    "venv",
+    "--python",
+    "3.12",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-tools/venv"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T11:38:07.939Z",
+  "durationMs": 1074,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": "Using CPython 3.12.14 interpreter at: /opt/hostedtoolcache/Python/3.12.14/x64/bin/python3.12\nCreating virtual environment at: .lab-runs/e-basic-tools/venv\nActivate with: .lab-runs/e-basic-tools/venv/bin/activate\n"
+}

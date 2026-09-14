@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-tools/venv/bin/bm",
+    "project",
+    "add",
+    "alpha",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-native-wiring-1789386025736/codex-rig-first/notes/alpha",
+    "--local"
+  ],
+  "cwd": ".lab-runs/e-native-wiring-1789386025736/codex-rig-first/repo",
+  "startedAt": "2026-09-14T11:40:58.140Z",
+  "durationMs": 4125,
+  "exitCode": 0,
+  "stdout": "Project 'alpha' added successfully\n",
+  "stderr": ""
+}

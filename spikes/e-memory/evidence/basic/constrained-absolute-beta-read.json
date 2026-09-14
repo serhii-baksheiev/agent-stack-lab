@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "text": "# Error\n\nIdentifier '/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-1789385912752/notes/beta/notes/Orchid deploy.md' is not allowed - paths must stay within project boundaries",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "result": "# Error\n\nIdentifier '/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/e-basic-1789385912752/notes/beta/notes/Orchid deploy.md' is not allowed - paths must stay within project boundaries"
+  }
+}

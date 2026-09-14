@@ -1,0 +1,14 @@
+{
+  "sourceUrl": "https://api.github.com/repos/basicmachines-co/basic-memory/commits/c0bd87c6d5a4a58034b1d6c8c5018e443b0bd048",
+  "status": 200,
+  "sha": "c0bd87c6d5a4a58034b1d6c8c5018e443b0bd048",
+  "date": "2026-08-25T20:43:45Z",
+  "licenseUrl": "https://raw.githubusercontent.com/basicmachines-co/basic-memory/c0bd87c6d5a4a58034b1d6c8c5018e443b0bd048/LICENSE",
+  "licenseSha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+  "licenseHeading": [
+    "                    GNU AFFERO GENERAL PUBLIC LICENSE",
+    "                       Version 3, 19 November 2007",
+    ""
+  ],
+  "interpretation": "Source identity and license; not a reproducible-build attestation for PyPI wheel."
+}
