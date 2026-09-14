@@ -1,0 +1,8 @@
+{
+  "name": "agent-stack-lab-native-toolchain",
+  "private": true,
+  "dependencies": {
+    "@openai/codex": "0.154.0",
+    "@anthropic-ai/claude-code": "2.1.270"
+  }
+}

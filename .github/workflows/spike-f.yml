@@ -1,0 +1,37 @@
+name: Spike F native lifecycle
+on:
+  push:
+    branches: [spike/f-native-projection]
+    paths: ['scripts/spike-f*.mjs', 'fixtures/f-native/**', '.github/workflows/spike-f.yml']
+  workflow_dispatch:
+jobs:
+  native:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: fixtures/f-native/package-lock.json
+      - name: Install pinned native CLIs in isolated tool directory
+        run: |
+          mkdir -p .lab-runs/f-tools
+          cp fixtures/f-native/toolchain.json .lab-runs/f-tools/package.json
+          cp fixtures/f-native/package-lock.json .lab-runs/f-tools/package-lock.json
+          cd .lab-runs/f-tools
+          npm ci --no-audit --no-fund
+      - run: node scripts/spike-f-ruler.mjs
+      - run: node scripts/spike-f-ruler-upgrade.mjs
+      - run: node scripts/spike-f-import.mjs
+      - run: node scripts/spike-f-import.mjs --rig-order rig-first
+      - run: node scripts/spike-f-import.mjs --rig-order import-first
+      - run: node scripts/spike-f-native.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: spike-f-evidence
+          path: spikes/f-native-projection/evidence/
