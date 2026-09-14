@@ -1,4 +1,4 @@
-import { mkdirSync, readFileSync, copyFileSync } from 'node:fs';
+import { mkdirSync, readFileSync, copyFileSync, existsSync, writeFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import os from 'node:os';
 import path from 'node:path';
@@ -10,7 +10,9 @@ mkdirSync(out,{recursive:true}); mkdirSync(cwd,{recursive:true});
 const metadata=run('npm',['view','create-agent-rig@0.9.0','name','version','dist','--json'],cwd,out+'/registry-command.json');
 assert.equal(metadata.exitCode,0);
 const pkg=JSON.parse(metadata.stdout);
-const tar=readFileSync(path.join(root,'.lab-runs/registry-090/create-agent-rig-0.9.0.tgz'));
+const tarPath=path.join(root,'.lab-runs/registry-090/create-agent-rig-0.9.0.tgz');
+if(!existsSync(tarPath)) { mkdirSync(path.dirname(tarPath),{recursive:true}); const r=await fetch(pkg.dist.tarball); assert(r.ok); writeFileSync(tarPath,Buffer.from(await r.arrayBuffer())); }
+const tar=readFileSync(tarPath);
 assert.equal('sha512-'+createHash('sha512').update(tar).digest('base64'),pkg.dist.integrity);
 json(out+'/provenance.json',{package:pkg,verifiedIntegrity:pkg.dist.integrity,node:process.version,npm:run('npm',['--version'],cwd).stdout.trim(),os:{platform:os.platform(),release:os.release(),arch:os.arch()},scenarioSha:run('git',['rev-parse','HEAD'],root).stdout.trim(),scenarioScriptSha256:createHash('sha256').update(readFileSync(import.meta.filename)).digest('hex'),checkedAt:new Date().toISOString()});
 for(const [name,args] of [['version',['--version']],['help',['--help']],['init-help',['init','--help']],['upgrade-help',['upgrade','--help']],['handshake',['--version','--json']]]) run('npx',['--yes','create-agent-rig@0.9.0',...args],cwd,out+'/'+name+'.json');
