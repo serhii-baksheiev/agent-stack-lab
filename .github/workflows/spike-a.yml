@@ -2,7 +2,7 @@ name: Spike A experiments
 on:
   push:
     branches: [spike/a-spec-kit-manifest]
-    paths: ['scripts/baseline.mjs', 'scripts/lab-evidence.mjs', '.github/workflows/spike-a.yml']
+    paths: ['scripts/baseline.mjs', 'scripts/spike-a.mjs', 'scripts/lab-evidence.mjs', '.github/workflows/spike-a.yml']
   workflow_dispatch:
     inputs:
       runner:
@@ -21,6 +21,16 @@ jobs:
         with:
           node-version: '24'
       - run: node scripts/baseline.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install pinned Spec Kit into isolated environment
+        shell: bash
+        run: |
+          python -m venv .lab-runs/spec-kit-env
+          .lab-runs/spec-kit-env/bin/pip install 'git+https://github.com/github/spec-kit.git@96c9bd657bfd5de0d651a6165084932b7304ac99'
+          .lab-runs/spec-kit-env/bin/pip freeze > .lab-runs/python-resolved.txt
+      - run: node scripts/spike-a.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
