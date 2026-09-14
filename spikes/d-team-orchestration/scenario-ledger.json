@@ -198,11 +198,11 @@
     "evidence": "report.md"
   },
   {
-    "scenario": "Native Claude-to-Codex implementation continuation",
+    "scenario": "Scripted live Claude Code to Codex implementation continuation",
     "status": "passed",
     "evidence": "live-handoff/result.json",
     "note": {
-      "mode": "Claude Code 2.1.270 print mode implemented Issue #18 in worktree A; Codex 0.154.0 exec read the Issue-comment handoff in worktree B, added codex.test.mjs and REVIEW.md; sequencing scripted by the lab collector under one operator account. Not autonomous task selection, not independent identities, not native compaction."
+      "mode": "Claude Code 2.1.270 print mode implemented Issue #18 in worktree A; Codex 0.154.0 exec read the collector-persisted Issue-comment handoff in worktree B, added codex.test.mjs and REVIEW.md; sequencing scripted by the lab collector under one operator account. Not autonomous task selection, not independent identities, not native compaction."
     }
   },
   {

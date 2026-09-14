@@ -20,7 +20,7 @@ The following source-label limitations are now explicitly qualified in the repor
 - Duplicate-event evidence reads/equates the current canonical event; it does not exercise a duplicate-delivery executor or historical exactly-once replay.
 - Crash is modeled as no renewal after the claim subprocess ends, followed by real TTL expiry; no active model owner is killed.
 - The COMMENT review uses the same authorized lab account. Corrective code and a fresh-process acceptance test are real; independent-account approval is not claimed.
-- The handoff is synthetic persisted state read by a new process; it does not establish Claude-to-Codex model continuation or native compaction recovery.
+- The handoff is synthetic persisted state read by a new process; in the board run it does not establish Claude-to-Codex model continuation or native compaction recovery; the later scripted live handoff (below) is a separate, bounded observation.
 
 No unresolved board source-level finding blocks acceptance of these bounded observations. Production distributed claims, stale-worker publication prevention and end-to-end autonomous selection remain unverified.
 
