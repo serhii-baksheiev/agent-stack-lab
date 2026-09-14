@@ -1,0 +1,40 @@
+{
+  "files": {
+    "CLAUDE.md": {
+      "size": 52,
+      "sha256": "aaa86ebb61556fd19585718779b1ae0d6098b39666d5651d2d6b0a9a4625a4a8"
+    }
+  },
+  "count": 1,
+  "bytes": 52,
+  "status": "?? CLAUDE.md\n",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/a-collision-rig-individual-1",
+    "startedAt": "2026-09-14T09:19:09.658Z",
+    "durationMs": 2,
+    "exitCode": 0,
+    "stdout": "?? CLAUDE.md\n",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/a-collision-rig-individual-1",
+    "startedAt": "2026-09-14T09:19:09.660Z",
+    "durationMs": 3,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

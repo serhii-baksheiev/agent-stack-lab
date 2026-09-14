@@ -1,0 +1,35 @@
+{
+  "package": {
+    "name": "create-agent-rig",
+    "version": "0.9.0",
+    "license": "MIT",
+    "dist": {
+      "shasum": "4fae16bb6e6914264af34ba51631ff7432f31394",
+      "tarball": "https://registry.npmjs.org/create-agent-rig/-/create-agent-rig-0.9.0.tgz",
+      "fileCount": 270,
+      "integrity": "sha512-yqWpUwdpVKR7unoQy9Bh5UF3+ArCxXSxWaKS3YIuMsiIY+E2u91HeaaCdi8D9bv+Dp5+NSl+5L6uJRd91oHLQQ==",
+      "signatures": [
+        {
+          "sig": "MEYCIQCkVWfsY+dTRV7Nb2GGzXvlWOxOS1a9aWvsUfiTpX9mlwIhAPuRvaaFl8Ba/Dt8uiP4KnkPjBANr3PQTn4m+8vWwK7s",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIQCaigu2Msd0WUVlahHOng/QtEbWEMmQeuB9xGKtBNiWAwIgba+r4pks/kXXeOMrsBCdC7ZUO6Spv5ktIFwFdBbEb04="
+        }
+      ],
+      "unpackedSize": 1894623
+    }
+  },
+  "verifiedIntegrity": "sha512-yqWpUwdpVKR7unoQy9Bh5UF3+ArCxXSxWaKS3YIuMsiIY+E2u91HeaaCdi8D9bv+Dp5+NSl+5L6uJRd91oHLQQ==",
+  "node": "v24.20.0",
+  "npm": "11.19.0",
+  "os": {
+    "platform": "linux",
+    "release": "6.17.0-1022-azure",
+    "arch": "x64"
+  },
+  "scenarioSha": "864107f0fa87aa4c58ac337f8ac770c6a3cfde8e",
+  "scenarioScriptSha256": "8e7265f5dd437ad31bf19f6cb4747bc0cef0989a171b38de0e06cd81a94b709a",
+  "checkedAt": "2026-09-14T09:18:24.763Z"
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "npx",
+    "--yes",
+    "create-agent-rig@0.9.0",
+    "upgrade",
+    "--dry-run"
+  ],
+  "cwd": ".lab-runs/a-rig-first",
+  "startedAt": "2026-09-14T09:18:57.563Z",
+  "durationMs": 511,
+  "exitCode": 0,
+  "stdout": "agent-rig upgrade — init rig in <LAB>/.lab-runs/a-rig-first\n  installed by 0.9.0\n  upgrading to 0.9.0\n\n\n  0 to replace, 0 new, 0 yours (kept), 83 already current\n\nDry run — nothing written.\n",
+  "stderr": ""
+}

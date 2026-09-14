@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/spec-kit-env/bin/python",
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/a-collision-uninstall/.specify/scripts/python/create_new_feature.py",
+    "--json",
+    "Synthetic survivor feature"
+  ],
+  "cwd": ".lab-runs/a-collision-uninstall",
+  "startedAt": "2026-09-14T09:19:13.817Z",
+  "durationMs": 40,
+  "exitCode": 0,
+  "stdout": "{\"BRANCH_NAME\":\"001-synthetic-survivor-feature\",\"SPEC_FILE\":\"<LAB>/.lab-runs/a-collision-uninstall/specs/001-synthetic-survivor-feature/spec.md\",\"FEATURE_NUM\":\"001\"}\n",
+  "stderr": "# To persist: export SPECIFY_FEATURE=001-synthetic-survivor-feature\n#              export SPECIFY_FEATURE_DIRECTORY=<LAB>/.lab-runs/a-collision-uninstall/specs/001-synthetic-survivor-feature\n"
+}

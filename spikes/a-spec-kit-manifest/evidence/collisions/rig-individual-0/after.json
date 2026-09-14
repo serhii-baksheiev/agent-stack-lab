@@ -1,0 +1,40 @@
+{
+  "files": {
+    "AGENTS.md": {
+      "size": 52,
+      "sha256": "b5e2f6a956e3b2fb52e8ad8687cdac737582f426330a06d7534720a122c8e57b"
+    }
+  },
+  "count": 1,
+  "bytes": 52,
+  "status": "?? AGENTS.md\n",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/a-collision-rig-individual-0",
+    "startedAt": "2026-09-14T09:19:09.570Z",
+    "durationMs": 4,
+    "exitCode": 0,
+    "stdout": "?? AGENTS.md\n",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/a-collision-rig-individual-0",
+    "startedAt": "2026-09-14T09:19:09.574Z",
+    "durationMs": 2,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

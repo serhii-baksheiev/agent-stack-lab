@@ -1,0 +1,12 @@
+{
+  "command": [
+    "git",
+    "init"
+  ],
+  "cwd": ".lab-runs/baseline-090",
+  "startedAt": "2026-09-14T09:15:14.901Z",
+  "durationMs": 54,
+  "exitCode": 0,
+  "stdout": "Initialized empty Git repository in D:/a/agent-stack-lab/agent-stack-lab/.lab-runs/baseline-090/.git/\n",
+  "stderr": ""
+}

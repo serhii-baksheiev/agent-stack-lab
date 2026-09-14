@@ -1,0 +1,15 @@
+{
+  "command": [
+    "npx",
+    "--yes",
+    "create-agent-rig@0.9.0",
+    "--version",
+    "--json"
+  ],
+  "cwd": ".lab-runs/baseline-090",
+  "startedAt": "2026-09-14T09:18:27.320Z",
+  "durationMs": 469,
+  "exitCode": 0,
+  "stdout": "{\"schemaVersion\":1,\"name\":\"create-agent-rig\",\"version\":\"0.9.0\",\"contractVersion\":\"1.0\"}\n",
+  "stderr": ""
+}

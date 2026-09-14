@@ -1,0 +1,15 @@
+{
+  "networkIsolation": "Linux unshare -n; empty route table",
+  "rigSource": "npm cache populated by verified 0.9.0 baseline",
+  "specSource": "installed 1.0.6 bundled templates",
+  "fileCounts": [
+    120,
+    120
+  ],
+  "differentFiles": [
+    ".specify/integrations/claude.manifest.json",
+    ".specify/integrations/speckit.manifest.json",
+    ".specify/workflows/workflow-registry.json"
+  ],
+  "byteIdentical": false
+}

@@ -1,0 +1,24 @@
+{
+  "scope": "Spec Kit 1.0.6 core lifecycle from Spike A; scores are engineering judgments, not benchmarks. Null means no defensible measurement yet.",
+  "scale": "0 worst, 10 best; low cost/lock-in score higher",
+  "candidate": "GitHub Spec Kit",
+  "dimensions": {
+    "userUtility": {"score": 7, "evidence": "Install, multi-provider skills and actual feature-script survivor check; end-to-end quality deferred to B."},
+    "maturity": {"score": 7, "evidence": "Real 1.0.5 to 1.0.6 upgrade, manifests and conservative modified-file handling; Windows wiring regression."},
+    "maintainability": {"score": 8, "evidence": "Core assets and integration lifecycle delegated to upstream; no vendored implementation."},
+    "upstreamActivity": {"score": 9, "evidence": "Release 2026-09-10, repository push 2026-09-12, checked 2026-09-14."},
+    "claudeCompatibility": {"score": 6, "evidence": "Skills install; Linux lifecycle works; Windows foreign settings rewrite; live harness unverified."},
+    "codexCompatibility": {"score": 6, "evidence": "Codex installs alongside Claude; native upgrade path retains registration, repeat force-init then Claude uninstall loses it. Live harness unverified."},
+    "reproducibility": {"score": 6, "evidence": "Exact source commit, bundled assets and offline repeat; metadata differs and dependency closure is not hash-locked."},
+    "upgradeUninstall": {"score": 7, "evidence": "Upgrade blocks edited skills; uninstall retains edits. Deletions restored, shared project infrastructure retained."},
+    "absenceOfFileConflicts": {"score": 5, "evidence": "No natural Linux core overwrite; explicit force overwrites preexisting own-named skill; Windows settings LF/CRLF conflict."},
+    "teamwork": {"score": null, "evidence": "Task collaboration is outside lifecycle test; D pending."},
+    "boardIntegration": {"score": null, "evidence": "No board export executed in A; B/D pending."},
+    "security": {"score": 6, "evidence": "Synthetic fixtures, source pin, conservative edited-file removal observed. No full upstream security audit."},
+    "offlineLocalFirst": {"score": 8, "evidence": "Two successful installs with network namespace isolation after cache preparation."},
+    "integrationCost": {"score": 8, "evidence": "Estimate 2–4 days for bounded composition; no workflow engine."},
+    "annualMaintenanceCost": {"score": 8, "evidence": "Estimate 2–4 days/year for this integration only; not a measured annual budget."},
+    "lowVendorLockIn": {"score": 9, "evidence": "MIT source, local Markdown artifacts, Claude and Codex integration paths tested."},
+    "licenseSuitability": {"score": 9, "evidence": "MIT per official repository; no license incompatibility identified for this lab integration."}
+  }
+}

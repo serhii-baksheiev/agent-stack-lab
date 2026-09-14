@@ -1,0 +1,184 @@
+{
+  "files": {
+    ".claude/hooks/guard-bash.mjs": {
+      "size": 31,
+      "sha256": "065434de23c5a7c6809dc2085bf4d4bc2a53ea1b7e13dedb09e22321f237364b"
+    },
+    ".claude/skills/speckit-analyze/SKILL.md": {
+      "size": 12149,
+      "sha256": "db75986daa4e4d7e2599022410fa924701579998aa2b9522cf1f765e7eccab2f"
+    },
+    ".claude/skills/speckit-checklist/SKILL.md": {
+      "size": 22771,
+      "sha256": "e63af118b3a7669ba67219d977b7e259467195ce0f090958c22b03fd8d16f06d"
+    },
+    ".claude/skills/speckit-clarify/SKILL.md": {
+      "size": 19706,
+      "sha256": "649c9530475bb8eb0d029c404c7a343c1c6dfa4b8facc71ce227901c8ff24b7b"
+    },
+    ".claude/skills/speckit-constitution/SKILL.md": {
+      "size": 10644,
+      "sha256": "f345c3280b13a5a8f87c02d2129290f9666ae73a1e3d5a9051c919081f89a8e5"
+    },
+    ".claude/skills/speckit-converge/SKILL.md": {
+      "size": 13095,
+      "sha256": "8208dcf48e0c716e1b7cb24c9c2b702da6f77d07e21572131bcb9edd82b4277e"
+    },
+    ".claude/skills/speckit-implement/SKILL.md": {
+      "size": 13209,
+      "sha256": "6b43eb3581e285fc6a5e79f1b134f65bba86a680824421a47f07ecc7ee8d3585"
+    },
+    ".claude/skills/speckit-plan/SKILL.md": {
+      "size": 8354,
+      "sha256": "4b9763a432e8ea3a35f0a40a4b4e444ce98b8f1978cbf14ab6ea7f81b08db861"
+    },
+    ".claude/skills/speckit-specify/SKILL.md": {
+      "size": 18749,
+      "sha256": "d4d93f2444355136e78bb533988aa2dd560dc4b258f4923f67b1a437e7de38f8"
+    },
+    ".claude/skills/speckit-tasks/SKILL.md": {
+      "size": 11693,
+      "sha256": "cf218d1b747cedffb3868aab8c0781f2513c291316b2077141d7dbc46229e215"
+    },
+    ".claude/skills/speckit-taskstoissues/SKILL.md": {
+      "size": 8187,
+      "sha256": "7fa06b001257e5d33f41c69b1cebb3d2ef7c21af4fa6f92af891f0bab67aa761"
+    },
+    ".specify/.gitignore": {
+      "size": 384,
+      "sha256": "8c908410d177a1ef3d0dee16d7ad55f2ac3333df3104c4d4adee1c9b82f1dbc1"
+    },
+    ".specify/init-options.json": {
+      "size": 170,
+      "sha256": "c44da2931d5868cc701093a661b2168b561fd5958f4b703b05e59a5e54c4d581"
+    },
+    ".specify/integration.json": {
+      "size": 275,
+      "sha256": "8961a2bb532bec13047f186c3fcd494e6e9938956c526d6b93b485c3b8996204"
+    },
+    ".specify/integrations/claude.manifest.json": {
+      "size": 1284,
+      "sha256": "e6db4990e94bea8f8a0164bd251e6eed2ad741e30795a158c538501119adc7f1"
+    },
+    ".specify/integrations/speckit.manifest.json": {
+      "size": 2172,
+      "sha256": "6b17c5d445c80b2908a964f13e0810c21747b7e98ec75b65f508c1f5d954f33b"
+    },
+    ".specify/memory/.constitution-template.json": {
+      "size": 103,
+      "sha256": "8fc4b39294bae0c10d59547ad7d415b6f0e890d656cbf7171dd567f4e9054711"
+    },
+    ".specify/memory/constitution.md": {
+      "size": 2346,
+      "sha256": "ce7549540fa45543cca797a150201d868e64495fdff39dc38246fb17bd4024b3"
+    },
+    ".specify/scripts/bash/check-prerequisites.sh": {
+      "size": 8193,
+      "sha256": "daa377146db4fb69912f42611a7b91c5d55873b3e3e27ed33bd8d67505826344"
+    },
+    ".specify/scripts/bash/common.sh": {
+      "size": 38444,
+      "sha256": "170e91ece502b88d83c715e427473843e0b358f550e86e3ff524546df405a9ca"
+    },
+    ".specify/scripts/bash/create-new-feature.sh": {
+      "size": 16466,
+      "sha256": "9f7a741d9766a6c1c5d5e44368f2c6bea6026b399ff6f0055870f760afdb8726"
+    },
+    ".specify/scripts/bash/resolve-template.sh": {
+      "size": 1547,
+      "sha256": "829e227096abc8bf0889889ec9f792f503ca5d395b7836a8a7eb739ee75214e7"
+    },
+    ".specify/scripts/bash/setup-plan.sh": {
+      "size": 2540,
+      "sha256": "d0bd298c026446f3c63167130d65e49e4aa4485de6bef18bcdfd57b19aa0de96"
+    },
+    ".specify/scripts/bash/setup-tasks.sh": {
+      "size": 3549,
+      "sha256": "4a33dd1e6c32ddc7d570f4b538572c54069192573eed0ec654d9fb826e31a4fe"
+    },
+    ".specify/scripts/python/check_prerequisites.py": {
+      "size": 9311,
+      "sha256": "368e364d1e08e67ae7c19b46b4e41a35596d6a9468ca7cb391c23e7bf0ae1b88"
+    },
+    ".specify/scripts/python/common.py": {
+      "size": 20002,
+      "sha256": "403e1db103336f471deec193cd6276f33550e14b686cd41295dba9b307a14ea2"
+    },
+    ".specify/scripts/python/create_new_feature.py": {
+      "size": 15081,
+      "sha256": "89ecff00e1db79a15547aa6480dc37f6bce977f79cc9d8ab7174ae1086d1a64e"
+    },
+    ".specify/scripts/python/resolve_template.py": {
+      "size": 1686,
+      "sha256": "2e80e872519609b21480e16f1b1ad7620e4469b4faf88af1ecefa8f778c768a0"
+    },
+    ".specify/scripts/python/setup_plan.py": {
+      "size": 3101,
+      "sha256": "4371353b509ff352da27846e6e68d495fce2f9eeda87c28a39f8dc9d5354e438"
+    },
+    ".specify/scripts/python/setup_tasks.py": {
+      "size": 5874,
+      "sha256": "9133333ba0971723d165d5575493404b43ec8d227e96ddbd3a9f63ad2cf174fe"
+    },
+    ".specify/templates/checklist-template.md": {
+      "size": 2033,
+      "sha256": "856532b3cb66171c662cc16f16b31a5856e4655a8666aad1e545bbfc7f603ca1"
+    },
+    ".specify/templates/constitution-template.md": {
+      "size": 2346,
+      "sha256": "ce7549540fa45543cca797a150201d868e64495fdff39dc38246fb17bd4024b3"
+    },
+    ".specify/templates/plan-template.md": {
+      "size": 3682,
+      "sha256": "7e637502d41eccf0ca672496636365691fdca62ef37b27ec07fcb412dbfa90d4"
+    },
+    ".specify/templates/spec-template.md": {
+      "size": 4556,
+      "sha256": "3945437fc35cd30a5b2bf7beea680337c3516826d3efa5a6b92c4a7eca1ba28e"
+    },
+    ".specify/templates/tasks-template.md": {
+      "size": 9171,
+      "sha256": "fc29a233f6f5a27ca31f1aa46b596af6500c627441c6e62b2bc4a1d721525842"
+    },
+    ".specify/workflows/speckit/workflow.yml": {
+      "size": 2118,
+      "sha256": "177761c5e7df28126beea043b5cb45aeaf7958090c022dc11ac71399422fcfbc"
+    },
+    ".specify/workflows/workflow-registry.json": {
+      "size": 369,
+      "sha256": "ddf9964bba1d75dfad5537fb0cc24e2d3d16eff6956fd397c401fe39e39ddc5a"
+    }
+  },
+  "count": 37,
+  "bytes": 295391,
+  "status": "?? .claude/hooks/guard-bash.mjs\n?? .claude/skills/speckit-analyze/SKILL.md\n?? .claude/skills/speckit-checklist/SKILL.md\n?? .claude/skills/speckit-clarify/SKILL.md\n?? .claude/skills/speckit-constitution/SKILL.md\n?? .claude/skills/speckit-converge/SKILL.md\n?? .claude/skills/speckit-implement/SKILL.md\n?? .claude/skills/speckit-plan/SKILL.md\n?? .claude/skills/speckit-specify/SKILL.md\n?? .claude/skills/speckit-tasks/SKILL.md\n?? .claude/skills/speckit-taskstoissues/SKILL.md\n?? .specify/.gitignore\n?? .specify/init-options.json\n?? .specify/integration.json\n?? .specify/integrations/claude.manifest.json\n?? .specify/integrations/speckit.manifest.json\n?? .specify/memory/.constitution-template.json\n?? .specify/memory/constitution.md\n?? .specify/scripts/bash/check-prerequisites.sh\n?? .specify/scripts/bash/common.sh\n?? .specify/scripts/bash/create-new-feature.sh\n?? .specify/scripts/bash/resolve-template.sh\n?? .specify/scripts/bash/setup-plan.sh\n?? .specify/scripts/bash/setup-tasks.sh\n?? .specify/scripts/python/check_prerequisites.py\n?? .specify/scripts/python/common.py\n?? .specify/scripts/python/create_new_feature.py\n?? .specify/scripts/python/resolve_template.py\n?? .specify/scripts/python/setup_plan.py\n?? .specify/scripts/python/setup_tasks.py\n?? .specify/templates/checklist-template.md\n?? .specify/templates/constitution-template.md\n?? .specify/templates/plan-template.md\n?? .specify/templates/spec-template.md\n?? .specify/templates/tasks-template.md\n?? .specify/workflows/speckit/workflow.yml\n?? .specify/workflows/workflow-registry.json\n",
+  "diff": "",
+  "gitStatus": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "cwd": ".lab-runs/a-collision-spec-kit-individual-5",
+    "startedAt": "2026-09-14T09:19:12.447Z",
+    "durationMs": 4,
+    "exitCode": 0,
+    "stdout": "?? .claude/hooks/guard-bash.mjs\n?? .claude/skills/speckit-analyze/SKILL.md\n?? .claude/skills/speckit-checklist/SKILL.md\n?? .claude/skills/speckit-clarify/SKILL.md\n?? .claude/skills/speckit-constitution/SKILL.md\n?? .claude/skills/speckit-converge/SKILL.md\n?? .claude/skills/speckit-implement/SKILL.md\n?? .claude/skills/speckit-plan/SKILL.md\n?? .claude/skills/speckit-specify/SKILL.md\n?? .claude/skills/speckit-tasks/SKILL.md\n?? .claude/skills/speckit-taskstoissues/SKILL.md\n?? .specify/.gitignore\n?? .specify/init-options.json\n?? .specify/integration.json\n?? .specify/integrations/claude.manifest.json\n?? .specify/integrations/speckit.manifest.json\n?? .specify/memory/.constitution-template.json\n?? .specify/memory/constitution.md\n?? .specify/scripts/bash/check-prerequisites.sh\n?? .specify/scripts/bash/common.sh\n?? .specify/scripts/bash/create-new-feature.sh\n?? .specify/scripts/bash/resolve-template.sh\n?? .specify/scripts/bash/setup-plan.sh\n?? .specify/scripts/bash/setup-tasks.sh\n?? .specify/scripts/python/check_prerequisites.py\n?? .specify/scripts/python/common.py\n?? .specify/scripts/python/create_new_feature.py\n?? .specify/scripts/python/resolve_template.py\n?? .specify/scripts/python/setup_plan.py\n?? .specify/scripts/python/setup_tasks.py\n?? .specify/templates/checklist-template.md\n?? .specify/templates/constitution-template.md\n?? .specify/templates/plan-template.md\n?? .specify/templates/spec-template.md\n?? .specify/templates/tasks-template.md\n?? .specify/workflows/speckit/workflow.yml\n?? .specify/workflows/workflow-registry.json\n",
+    "stderr": ""
+  },
+  "gitDiff": {
+    "command": [
+      "git",
+      "diff",
+      "--no-ext-diff",
+      "HEAD"
+    ],
+    "cwd": ".lab-runs/a-collision-spec-kit-individual-5",
+    "startedAt": "2026-09-14T09:19:12.451Z",
+    "durationMs": 2,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

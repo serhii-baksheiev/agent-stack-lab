@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/spec-kit-env/bin/specify",
+    "version",
+    "--features",
+    "--json"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T09:18:55.321Z",
+  "durationMs": 218,
+  "exitCode": 0,
+  "stdout": "{\n  \"version\": \"1.0.6\",\n  \"features\": {\n    \"controlled_multi_install_integrations\": true,\n    \"integration_use_command\": true,\n    \"multi_install_safe_registry_metadata\": true,\n    \"integration_upgrade_command\": true,\n    \"self_check_command\": true,\n    \"workflow_catalog\": true,\n    \"bundled_templates\": true\n  }\n}\n",
+  "stderr": ""
+}

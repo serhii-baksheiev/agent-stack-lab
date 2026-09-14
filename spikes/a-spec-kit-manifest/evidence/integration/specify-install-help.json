@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/runner/work/agent-stack-lab/agent-stack-lab/.lab-runs/spec-kit-env/bin/specify",
+    "integration",
+    "install",
+    "--help"
+  ],
+  "cwd": "",
+  "startedAt": "2026-09-14T09:18:54.242Z",
+  "durationMs": 306,
+  "exitCode": 0,
+  "stdout": "                                                                                \n Usage: specify integration install [OPTIONS] {key}                             \n                                                                                \n Install an integration into an existing project.                               \n                                                                                \n╭─ Arguments ──────────────────────────────────────────────────────────────────╮\n│ *    key      <str>  Integration key to install (e.g. claude, copilot)       │\n│                      [required]                                              │\n╰──────────────────────────────────────────────────────────────────────────────╯\n╭─ Options ────────────────────────────────────────────────────────────────────╮\n│ --script                     <str>  Script type: sh, ps, or py (default:     │\n│                                     from init-options.json or platform       │\n│                                     default)                                 │\n│ --force                             Allow multi-install when integrations    │\n│                                     are not declared safe                    │\n│ --integration-options        <str>  Options for the integration (e.g.        │\n│                                     --integration-options=\"--commands-dir    │\n│                                     .myagent/cmds\")                          │\n│ --help                              Show this message and exit.              │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n",
+  "stderr": ""
+}

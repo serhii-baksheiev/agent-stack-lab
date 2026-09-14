@@ -1,0 +1,23 @@
+[
+    {
+        "fixture":  "baseline-090",
+        "actual":  "a13952579f1752862133a5746f2c0e8696b9548c2c18eb6ff0bb6a54772cea3c",
+        "expected":  "a13952579f1752862133a5746f2c0e8696b9548c2c18eb6ff0bb6a54772cea3c",
+        "bytes":  1703,
+        "tail":  "        ]\n      }\n    ]\n  }\n}\n"
+    },
+    {
+        "fixture":  "a-rig-first",
+        "actual":  "7c6c9cab62ca3864593cff14a881767e5ff593e32bac3286819e36e1de9079d4",
+        "expected":  "a13952579f1752862133a5746f2c0e8696b9548c2c18eb6ff0bb6a54772cea3c",
+        "bytes":  1735,
+        "tail":  "labSyntheticOverride\": true\n}\n"
+    },
+    {
+        "fixture":  "a-collision-uninstall",
+        "actual":  "fd66ac82ddbeca9e647eada23cb5854d90a68fbf912ce07a0fdd461a0d5b9b47",
+        "expected":  "a13952579f1752862133a5746f2c0e8696b9548c2c18eb6ff0bb6a54772cea3c",
+        "bytes":  1772,
+        "tail":  "   ]\r\n      }\r\n    ]\r\n  }\r\n}\r\n"
+    }
+]

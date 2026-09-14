@@ -1,0 +1,9 @@
+{
+  "initExitCode": 0,
+  "installationMs": 1917,
+  "payloadFiles": 84,
+  "payloadBytes": 1111187,
+  "manifestPaths": [
+    ".claude/.rig-manifest.json"
+  ]
+}
