@@ -18,3 +18,5 @@ if (existsSync('spikes/f-native-projection/result.json')) await import('./valida
 if (existsSync('spikes/c-figma/result.json')) await import('./validate-c-evidence.mjs');
 if (existsSync('spikes/b-spec-workflows/result.json')) await import('./validate-b-evidence.mjs');
 if (existsSync('spikes/e-memory/result.json')) await import('./validate-e-evidence.mjs');
+
+if (existsSync('docs/history-cleanup/evidence-reference-index.json')) await import('./validate-history-cleanup.mjs');
