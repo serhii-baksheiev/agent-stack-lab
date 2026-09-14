@@ -1,0 +1,7 @@
+{
+  "at": "2026-09-14T12:50:39.600Z",
+  "branch": "spike/b-spec-workflows",
+  "filteredSourceSha": "7168fe3edbf2725a5d84dfa3dcd239a6d8c071de",
+  "normalization": "Commit references including scenarioSha and URLs are translated to cleaned identities. Original source execution timestamps/results remain historical, not reruns. Original bytes remain only in retained private local backup. Do not attribute pre-cleanup workflow runs to rewritten SHA.",
+  "files": []
+}

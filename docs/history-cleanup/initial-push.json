@@ -1,0 +1,90 @@
+{
+  "at": "2026-09-14T12:44:50.595Z",
+  "backup": "C:\\Users\\SerhiiBaksheiev\\Documents\\agent-stack-lab\\.lab-runs\\history-backup-authorized-20260914.git",
+  "refs": [
+    {
+      "ref": "refs/heads/lab/d-claim-1789386678212",
+      "old": "4245eed7f8c1bce669da91134d7244b9037b38eb",
+      "new": "13d06668e415b34fc44124453da17e5dffaed8b9",
+      "githubWritable": true
+    },
+    {
+      "ref": "refs/heads/master",
+      "old": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+      "new": "3cf6d819289cd621d6fa7811a53a74d22fba4f79",
+      "githubWritable": true
+    },
+    {
+      "ref": "refs/heads/spike/b-spec-workflows",
+      "old": "1c5d1cb85c23b6d4582e69ea985ef0d6860dda64",
+      "new": "7168fe3edbf2725a5d84dfa3dcd239a6d8c071de",
+      "githubWritable": true
+    },
+    {
+      "ref": "refs/heads/spike/d-team-orchestration",
+      "old": "dc06b081a7eecf62d26fc63433d07acc3c853668",
+      "new": "3f1e4fb13ed074adf4e01be86dd6230e6eb06799",
+      "githubWritable": true
+    },
+    {
+      "ref": "refs/heads/spike/e-memory",
+      "old": "2f3c3166b3dc45b3526626a06aa9dd2589e98001",
+      "new": "57d2cd62be4a479cae724e0c96f67f9b8b48f4cd",
+      "githubWritable": true
+    }
+  ],
+  "before": {
+    "HEAD": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+    "refs/heads/lab/d-claim-1789386678212": "4245eed7f8c1bce669da91134d7244b9037b38eb",
+    "refs/heads/lab/d-fixture-1789386678212": "336f6ff13f8f874d79e947effbb148bad86b587b",
+    "refs/heads/lab/d-work-a-1789386678212": "dfe30721c86e9bcd3e450f8b60a470e02f9c7b26",
+    "refs/heads/lab/d-work-b-1789386678212": "91819b59656ab6f0eba5fc20359e108737769566",
+    "refs/heads/lab/d-work-external-1789386678212": "0d5a6158ada48a6a3dd051a89b7b2ca6419134bd",
+    "refs/heads/master": "c30f2de2b9ac847978bcd1dce863998e583f9d7a",
+    "refs/heads/spike/a-spec-kit-manifest": "8df0a5cfc45169870883faa72ae133bc55667fe9",
+    "refs/heads/spike/b-spec-workflows": "1c5d1cb85c23b6d4582e69ea985ef0d6860dda64",
+    "refs/heads/spike/c-figma": "628bdeeb6109ff063fd14c7af00748f4064bb170",
+    "refs/heads/spike/d-team-orchestration": "dc06b081a7eecf62d26fc63433d07acc3c853668",
+    "refs/heads/spike/e-memory": "2f3c3166b3dc45b3526626a06aa9dd2589e98001",
+    "refs/heads/spike/f-native-projection": "0d6c655be9306e87f83a2c01030e066108b88c2e",
+    "refs/pull/1/head": "e2e99f05787291be463b51cfec85d944c122c707",
+    "refs/pull/10/head": "2f3c3166b3dc45b3526626a06aa9dd2589e98001",
+    "refs/pull/11/head": "dc06b081a7eecf62d26fc63433d07acc3c853668",
+    "refs/pull/11/merge": "b0601b34efd5af69d41d12e480d4bbcb0b89585e",
+    "refs/pull/15/head": "dfe30721c86e9bcd3e450f8b60a470e02f9c7b26",
+    "refs/pull/16/head": "91819b59656ab6f0eba5fc20359e108737769566",
+    "refs/pull/17/head": "0d5a6158ada48a6a3dd051a89b7b2ca6419134bd",
+    "refs/pull/2/head": "8df0a5cfc45169870883faa72ae133bc55667fe9",
+    "refs/pull/3/head": "0d6c655be9306e87f83a2c01030e066108b88c2e",
+    "refs/pull/4/head": "628bdeeb6109ff063fd14c7af00748f4064bb170",
+    "refs/pull/9/head": "1c5d1cb85c23b6d4582e69ea985ef0d6860dda64"
+  },
+  "after": {
+    "HEAD": "3cf6d819289cd621d6fa7811a53a74d22fba4f79",
+    "refs/heads/lab/d-claim-1789386678212": "13d06668e415b34fc44124453da17e5dffaed8b9",
+    "refs/heads/lab/d-fixture-1789386678212": "336f6ff13f8f874d79e947effbb148bad86b587b",
+    "refs/heads/lab/d-work-a-1789386678212": "dfe30721c86e9bcd3e450f8b60a470e02f9c7b26",
+    "refs/heads/lab/d-work-b-1789386678212": "91819b59656ab6f0eba5fc20359e108737769566",
+    "refs/heads/lab/d-work-external-1789386678212": "0d5a6158ada48a6a3dd051a89b7b2ca6419134bd",
+    "refs/heads/master": "3cf6d819289cd621d6fa7811a53a74d22fba4f79",
+    "refs/heads/spike/a-spec-kit-manifest": "8df0a5cfc45169870883faa72ae133bc55667fe9",
+    "refs/heads/spike/b-spec-workflows": "7168fe3edbf2725a5d84dfa3dcd239a6d8c071de",
+    "refs/heads/spike/c-figma": "628bdeeb6109ff063fd14c7af00748f4064bb170",
+    "refs/heads/spike/d-team-orchestration": "3f1e4fb13ed074adf4e01be86dd6230e6eb06799",
+    "refs/heads/spike/e-memory": "57d2cd62be4a479cae724e0c96f67f9b8b48f4cd",
+    "refs/heads/spike/f-native-projection": "0d6c655be9306e87f83a2c01030e066108b88c2e",
+    "refs/pull/1/head": "e2e99f05787291be463b51cfec85d944c122c707",
+    "refs/pull/10/head": "2f3c3166b3dc45b3526626a06aa9dd2589e98001",
+    "refs/pull/11/head": "3f1e4fb13ed074adf4e01be86dd6230e6eb06799",
+    "refs/pull/11/merge": "b0601b34efd5af69d41d12e480d4bbcb0b89585e",
+    "refs/pull/15/head": "dfe30721c86e9bcd3e450f8b60a470e02f9c7b26",
+    "refs/pull/16/head": "91819b59656ab6f0eba5fc20359e108737769566",
+    "refs/pull/17/head": "0d5a6158ada48a6a3dd051a89b7b2ca6419134bd",
+    "refs/pull/2/head": "8df0a5cfc45169870883faa72ae133bc55667fe9",
+    "refs/pull/3/head": "0d6c655be9306e87f83a2c01030e066108b88c2e",
+    "refs/pull/4/head": "628bdeeb6109ff063fd14c7af00748f4064bb170",
+    "refs/pull/9/head": "1c5d1cb85c23b6d4582e69ea985ef0d6860dda64"
+  },
+  "atomic": true,
+  "leaseChecked": true
+}
